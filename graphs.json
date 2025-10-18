@@ -1,0 +1,548 @@
+[
+  {
+    "key": "modern-minimalist",
+    "en": "Modern Minimalist",
+    "id": "Minimalis Modern",
+    "ms": "Minimalis Moden",
+    "prompt": "Clean, minimalist graphic design with ample white space and elegant typography. Simple geometric shapes and subtle gradients. Professional color palette with 2-3 complementary colors. Sophisticated and contemporary aesthetic suitable for corporate branding and high-end products. Vector-based design with sharp edges and perfect alignment."
+  },
+  {
+    "key": "vintage-retro",
+    "en": "Vintage Retro",
+    "id": "Vintage Retro",
+    "ms": "Vintage Retro",
+    "prompt": "Nostalgic retro design inspired by 1950s-1970s aesthetics. Distressed textures, warm color palettes with sepia tones, classic typography with serifs. Film grain effects and light leaks for authentic vintage feel. Perfect for heritage brands and timeless messaging. aged paper texture with subtle wear and tear."
+  },
+  {
+    "key": "bold-typography",
+    "en": "Bold Typography",
+    "id": "Tipografi Berani",
+    "ms": "Tipografi Berani",
+    "prompt": "Typography-focused design with bold, striking fonts as the main element. High contrast between text and background. Dynamic text layouts with varying sizes and weights. Minimal supporting graphics to let text shine. Perfect for powerful statements and headlines. Modern sans-serif fonts with clean, impactful presentation."
+  },
+  {
+    "key": "watercolor-artistic",
+    "en": "Watercolor Artistic",
+    "id": "Akuarel Artistik",
+    "ms": "Art Warna Air",
+    "prompt": "Soft, flowing watercolor effects with delicate brush strokes. Gentle color transitions and organic shapes. Hand-painted aesthetic with transparent layers. Elegant and artistic feel suitable for creative services, beauty products, and artistic events. Subtle paper texture visible through the paint."
+  },
+  {
+    "key": "geometric-patterns",
+    "en": "Geometric Patterns",
+    "id": "Pola Geometris",
+    "ms": "Pola Geometri",
+    "prompt": "Contemporary design featuring repeating geometric patterns and shapes. Clean lines, symmetrical layouts, and modern color combinations. Triangular, circular, and hexagonal elements creating visual rhythm. Professional and technical appearance suitable for tech companies and modern services. Vector precision with perfect mathematical proportions."
+  },
+  {
+    "key": "gradient-mesh",
+    "en": "Gradient Mesh",
+    "id": "Gradien Mesh",
+    "ms": "Grid Gradien",
+    "prompt": "Smooth, flowing gradient transitions creating depth and dimension. Multiple color harmonies blending seamlessly. Modern gradient overlays with transparency effects. Dynamic and energetic feel perfect for tech startups and innovative brands. Professional gradient mapping with rich color depth."
+  },
+  {
+    "key": "hand-drawn-sketch",
+    "en": "Hand-drawn Sketch",
+    "id": "Sketsa Tangan",
+    "ms": "Lakaran Tangan",
+    "prompt": "Authentic hand-drawn illustration style with pencil and ink textures. Organic lines and imperfect shapes adding personality. Sketchbook aesthetic with rough paper texture. Creative and approachable feel suitable for artistic services and personal brands. Natural pencil shading and cross-hatching techniques."
+  },
+  {
+    "key": "corporate-professional",
+    "en": "Corporate Professional",
+    "id": "Korporat Profesional",
+    "ms": "Korporat Profesional",
+    "prompt": "Clean, structured corporate design with grid-based layouts. Professional blue and gray color palette with strategic accent colors. Crisp typography and consistent spacing. Formal and trustworthy appearance suitable for business services and financial institutions. Precise alignment and corporate brand standards."
+  },
+  {
+    "key": "neon-cyberpunk",
+    "en": "Neon Cyberpunk",
+    "id": "Neon Cyberpunk",
+    "ms": "Neon Siberpunk",
+    "prompt": "Futuristic cyberpunk aesthetic with vibrant neon colors on dark backgrounds. Glowing effects, holographic elements, and digital glitch textures. Bold, tech-inspired typography with electric blue, pink, and purple hues. Cutting-edge feel perfect for tech events and digital products. High contrast with luminous glow effects."
+  },
+  {
+    "key": "nature-organic",
+    "en": "Nature Organic",
+    "id": "Alami Organik",
+    "ms": "Alam Organik",
+    "prompt": "Natural, earthy design inspired by organic forms and textures. Warm, muted color palette with greens, browns, and soft neutrals. Leaf patterns, wood textures, and natural elements. Eco-friendly and sustainable feel perfect for organic products and environmental causes. Handmade paper texture with subtle grain."
+  },
+  {
+    "key": "art-deco-elegant",
+    "en": "Art Deco Elegant",
+    "id": "Art Deco Elegan",
+    "ms": "Art Deco Anggun",
+    "prompt": "Luxurious Art Deco style with geometric patterns and gold accents. Rich color palette featuring deep blues, emeralds, and metallic golds. Symmetrical designs with ornate details and decorative borders. Sophisticated and glamorous feel perfect for luxury brands and special events. Metallic foil effects and intricate patterns."
+  },
+  {
+    "key": "pop-art-vibrant",
+    "en": "Pop Art Vibrant",
+    "id": "Pop Art Ceria",
+    "ms": "Seni Pop Ceria",
+    "prompt": "Bold, colorful pop art style with high contrast and vibrant hues. Comic book aesthetics, Ben-Day dots, and dynamic composition. Bright primary colors with black outlines for emphasis. Fun and energetic feel perfect for youth brands and entertainment. Halftone patterns and comic book speech bubbles."
+  },
+  {
+    "key": "duotone-modern",
+    "en": "Duotone Modern",
+    "id": "Dueton Modern",
+    "ms": "Dua Warna Moden",
+    "prompt": "Contemporary duotone design using two complementary colors throughout. High contrast between light and dark areas for dramatic effect. Modern and stylish appearance with clean typography integration. Trendy feel perfect for fashion brands and creative agencies. Gradient duotone effects with smooth color transitions."
+  },
+  {
+    "key": "paper-craft",
+    "en": "Paper Craft",
+    "id": "Kertas Kerajinan",
+    "ms": "Kraf Kertas",
+    "prompt": "Charming paper-cut design with layered paper elements. Subtle shadows creating depth and dimension. Handcrafted feel with visible texture and grain. Playful and creative aesthetic suitable for children's products and craft services. Realistic paper texture with delicate cutting edges."
+  },
+  {
+    "key": "industrial-grunge",
+    "en": "Industrial Grunge",
+    "id": "Industrial Grunge",
+    "ms": "Perusahaan Grunge",
+    "prompt": "Edgy industrial design with concrete textures and metal elements. Distressed surfaces, bold typography, and monochromatic color scheme. Raw and authentic feel perfect for urban brands and alternative events. Spray paint effects and stencil designs with rough textures."
+  },
+  {
+    "key": "celestial-cosmic",
+    "en": "Celestial Cosmic",
+    "id": "Langit Antariksa",
+    "ms": "Angkasa Langit",
+    "prompt": "Mystical design featuring stars, galaxies, and cosmic elements. Deep space backgrounds with nebula effects and glowing stars. Purple, blue, and gold color palette with shimmer effects. Magical and awe-inspiring feel perfect for spiritual events and imaginative themes. Glowing particle effects and cosmic dust."
+  },
+  {
+    "key": "botanical-floral",
+    "en": "Botanical Floral",
+    "id": "Botanis Bunga",
+    "ms": "Botani Bunga",
+    "prompt": "Delicate botanical design with hand-drawn flowers and leaves. Soft watercolor effects and elegant line work. Fresh, natural color palette with greens and pastels. Romantic and organic feel perfect for beauty products and wedding services. Detailed botanical illustrations with scientific accuracy."
+  },
+  {
+    "key": "sport-dynamic",
+    "en": "Sport Dynamic",
+    "id": "Olahraga Dinamis",
+    "ms": "Sukan Dinamik",
+    "prompt": "High-energy sports design with dynamic lines and motion effects. Bold, action-oriented typography with speed lines. Vibrant team colors and athletic imagery. Powerful and motivating feel perfect for fitness brands and sporting events. Motion blur effects and dynamic action poses."
+  },
+  {
+    "key": "food-appetizing",
+    "en": "Food Appetizing",
+    "id": "Makanan Menggugah",
+    "ms": "Makanan Menyelerakan",
+    "prompt": "Delicious food photography style with warm, appetizing colors. Soft lighting highlighting textures and details. Fresh ingredients and cooking elements artfully arranged. Mouth-watering presentation perfect for restaurants and food brands. Steam effects and detailed food textures."
+  },
+  {
+    "key": "tech-futuristic",
+    "en": "Tech Futuristic",
+    "id": "Teknologi Futuristik",
+    "ms": "Tek Masa Depan",
+    "prompt": "Cutting-edge tech design with digital interfaces and data visualizations. Clean, minimalist layouts with holographic elements. Blue and white color scheme with neon accents. Innovative and forward-thinking feel perfect for tech companies and digital services. Circuit board patterns and data flow graphics."
+  },
+  {
+    "key": "travel-adventure",
+    "en": "Travel Adventure",
+    "id": "Perjalanan Petualangan",
+    "ms": "Pengembaraan Kembara",
+    "prompt": "Adventure-inspired design with travel elements and maps. Vintage compass, airplane icons, and passport stamps. Earthy color palette with blues representing sky and water. Wanderlust and exploration feel perfect for travel agencies and adventure brands. Distressed map textures with travel icons."
+  },
+  {
+    "key": "luxury-gold",
+    "en": "Luxury Gold",
+    "id": "Mewah Emas",
+    "ms": "Mewah Emas",
+    "prompt": "Ultra-luxurious design with gold foil effects and elegant typography. Rich black backgrounds with metallic gold accents. Sophisticated serif fonts and ornate decorative elements. Premium and exclusive feel perfect for high-end products and luxury services. Metallic shimmer effects with embossed textures."
+  },
+  {
+    "key": "pastel-soft",
+    "en": "Pastel Soft",
+    "id": "Pastel Lembut",
+    "ms": "Pastel Lembut",
+    "prompt": "Gentle pastel design with soft, dreamy colors. Light and airy composition with delicate typography. Cotton candy pinks, baby blues, and mint greens. Sweet and charming feel perfect for baby products and delicate services. Soft gradient effects with cloud-like textures."
+  },
+  {
+    "key": "medical-clean",
+    "en": "Medical Clean",
+    "id": "Medis Bersih",
+    "ms": "Perubatan Bersih",
+    "prompt": "Clinical and clean medical design with professional aesthetics. White backgrounds with blue and green accent colors. Medical icons and clean sans-serif typography. Trustworthy and hygienic feel perfect for healthcare services and medical products. Sterile environment with professional medical imagery."
+  },
+  {
+    "key": "education-academic",
+    "en": "Education Academic",
+    "id": "Pendidikan Akademik",
+    "ms": "Pendidikan Akademik",
+    "prompt": "Scholarly academic design with books, graduation caps, and diplomas. Traditional blue and white color scheme with gold accents. Classic typography with formal layout elements. Intellectual and inspiring feel perfect for educational institutions and courses. Library aesthetics with knowledge symbols."
+  },
+  {
+    "key": "music-rhythm",
+    "en": "Music Rhythm",
+    "id": "Musik Ritme",
+    "ms": "Muzik Rentak",
+    "prompt": "Dynamic music design with sound waves and musical notes. Vibrant colors representing energy and rhythm. Musical instrument silhouettes and equalizer bars. Energetic and creative feel perfect for music events and entertainment services. Sound wave visualizations with musical symbols."
+  },
+  {
+    "key": "fashion-chic",
+    "en": "Fashion Chic",
+    "id": "Mode Chic",
+    "ms": "Fesyen Chic",
+    "prompt": "High-fashion design with elegant models and runway aesthetics. Monochromatic color scheme with bold accent colors. Stylish typography and fashion photography elements. Sophisticated and trendy feel perfect for fashion brands and beauty services. Magazine-style layout with fashion photography."
+  },
+  {
+    "key": "gaming-anime",
+    "en": "Gaming Anime",
+    "id": "Gaming Anime",
+    "ms": "Gaming Anime",
+    "prompt": "Energetic gaming design with anime-inspired characters and elements. Bright, saturated colors and dynamic action poses. Gaming controller icons and digital effects. Exciting and immersive feel perfect for gaming tournaments and anime events. Japanese animation style with digital glitch effects."
+  },
+  {
+    "key": "wedding-romantic",
+    "en": "Wedding Romantic",
+    "id": "Pernikahan Romantis",
+    "ms": "Perkahwinan Romantik",
+    "prompt": "Romantic wedding design with floral elements and lace patterns. Soft color palette featuring blush pinks, creams, and golds. Elegant calligraphy typography and heart motifs. Dreamy and elegant feel perfect for wedding services and romantic events. Soft focus effects with delicate flower petals."
+  },
+  {
+    "key": "coffee-cozy",
+    "en": "Coffee Cozy",
+    "id": "Kopi Nyaman",
+    "ms": "Kopi Selesa",
+    "prompt": "Warm coffee shop design with coffee beans and steam effects. Rich brown color palette with cream accents. Coffee cup illustrations and cozy atmosphere elements. Comforting and aromatic feel perfect for cafés and coffee brands. Steam effects with coffee bean textures."
+  },
+  {
+    "key": "fitness-strong",
+    "en": "Fitness Strong",
+    "id": "Fitness Kuat",
+    "ms": "Kecergasan Kuat",
+    "prompt": "Powerful fitness design with muscular figures and exercise equipment. Bold, energetic colors like red and black. Dynamic action poses and strength training elements. Motivating and intense feel perfect for gyms and fitness programs. Muscle definition with sweat effects and dynamic movement."
+  },
+  {
+    "key": "pet-friendly",
+    "en": "Pet Friendly",
+    "id": "Ramah Hewan",
+    "ms": "Mesra Haiwan",
+    "prompt": "Adorable pet design with playful animals and paw prints. Warm, friendly colors with cute cartoon elements. Pet accessories and happy animal poses. Loving and caring feel perfect for pet services and animal shelters. Soft fur textures with playful pet expressions."
+  },
+  {
+    "key": "real-estate-premium",
+    "en": "Real Estate Premium",
+    "id": "Properti Premium",
+    "ms": "Hartanah Premium",
+    "prompt": "Luxurious real estate design with elegant home illustrations. Sophisticated color palette with navy blue and gold. Architectural elements and modern interior aesthetics. High-end and professional feel perfect for property listings and real estate services. Clean architectural lines with luxury home imagery."
+  },
+  {
+    "key": "automotive-sleek",
+    "en": "Automotive Sleek",
+    "id": "Otomotif Mewah",
+    "ms": "Automotif Bergaya",
+    "prompt": "Sleek automotive design with dynamic car silhouettes. Metallic colors with chrome effects and speed lines. Modern typography and technical specifications. High-performance feel perfect for car dealerships and automotive services. Glossy car finishes with motion blur effects."
+  },
+  {
+    "key": "beauty-glamour",
+    "en": "Beauty Glamour",
+    "id": "Kecantikan Glamour",
+    "ms": "Kecantikan Bergaya",
+    "prompt": "Glamorous beauty design with makeup and skincare elements. Soft pink and gold color palette with elegant typography. Cosmetic product illustrations and beauty tools. Luxurious and sophisticated feel perfect for beauty salons and cosmetic brands. Shimmer effects with product photography."
+  },
+  {
+    "key": "sports-action",
+    "en": "Sports Action",
+    "id": "Olahraga Aksi",
+    "ms": "Sukan Aksi",
+    "prompt": "Dynamic sports design with athletic action poses. Bold team colors and energetic typography. Sports equipment and movement lines. High-energy feel perfect for sporting events and athletic brands. Motion effects with dynamic action photography."
+  },
+  {
+    "key": "kids-playful",
+    "en": "Kids Playful",
+    "id": "Anak Bermain",
+    "ms": "Kanak-Kanak Gembira",
+    "prompt": "Playful kids design with bright colors and fun illustrations. Cartoon characters, toys, and educational elements. Rainbow colors and rounded shapes. Joyful and cheerful feel perfect for children's products and educational services. Hand-drawn cartoon style with playful elements."
+  },
+  {
+    "key": "holiday-festive",
+    "en": "Holiday Festive",
+    "id": "Liburan Festif",
+    "ms": "Cuti Perayaan",
+    "prompt": "Festive holiday design with seasonal decorations and symbols. Traditional holiday colors with sparkling effects. Celebration elements like confetti and ribbons. Joyful and celebratory feel perfect for holiday promotions and seasonal events. Glitter effects with festive decoration elements."
+  },
+  {
+    "key": "business-professional",
+    "en": "Business Professional",
+    "id": "Bisnis Profesional",
+    "ms": "Perniagaan Profesional",
+    "prompt": "Professional business design with corporate elements. Conservative blue and gray color palette with clean typography. Office elements and business icons. Serious and trustworthy feel perfect for B2B services and corporate events. Clean corporate design with professional business imagery."
+  },
+  {
+    "key": "creative-abstract",
+    "en": "Creative Abstract",
+    "id": "Kreatif Abstrak",
+    "ms": "Kreatif Abstrak",
+    "prompt": "Artistic abstract design with creative shapes and colors. Bold color combinations and artistic compositions. Fluid shapes and contemporary typography. Innovative and expressive feel perfect for creative agencies and artistic services. Modern art style with abstract expressionism."
+  },
+  {
+    "key": "vintage-photography",
+    "en": "Vintage Photography",
+    "id": "Foto Vintage",
+    "ms": "Foto Vintage",
+    "prompt": "Classic photography style with vintage camera elements. Sepia tones and aged paper textures. Retro photography equipment and classic frames. Nostalgic feel perfect for photography services and vintage-themed events. Film grain effects with vintage camera illustrations."
+  },
+  {
+    "key": "eco-green",
+    "en": "Eco Green",
+    "id": "Eko Hijau",
+    "ms": "Eko Hijau",
+    "prompt": "Environmentally friendly design with green and earth tones. Leaf patterns and recycling symbols. Natural textures and organic shapes. Sustainable feel perfect for eco-friendly products and environmental causes. Recycled paper texture with green leaf patterns."
+  },
+  {
+    "key": "nightlife-glow",
+    "en": "Nightlife Glow",
+    "id": "Kehidupan Malam Bersinar",
+    "ms": "Kehidupan Malam Bersinar",
+    "prompt": "Vibrant nightlife design with neon glow effects. Dark backgrounds with bright neon colors. DJ elements and musical notes. Energetic feel perfect for clubs and nightlife events. Neon light effects with dark urban atmosphere."
+  },
+  {
+    "key": "spa-relaxation",
+    "en": "Spa Relaxation",
+    "id": "Spa Relaksasi",
+    "ms": "Spa Relaksasi",
+    "prompt": "Calming spa design with zen elements and soft colors. Lavender and green color palette with water effects. Relaxation symbols and natural elements. Tranquil feel perfect for spa services and wellness centers. Soft focus effects with water ripple textures."
+  },
+  {
+    "key": "technology-digital",
+    "en": "Technology Digital",
+    "id": "Teknologi Digital",
+    "ms": "Teknologi Digital",
+    "prompt": "Modern digital design with tech elements and circuits. Blue and white color scheme with digital patterns. Computer icons and binary code effects. High-tech feel perfect for IT services and digital products. Circuit board patterns with digital glitch effects."
+  },
+  {
+    "key": "culinary-gourmet",
+    "en": "Culinary Gourmet",
+    "id": "Kuliner Gourmet",
+    "ms": "Masakan Gourmet",
+    "prompt": "Gourmet culinary design with elegant food presentation. Rich colors and sophisticated typography. Chef elements and fine dining imagery. Premium feel perfect for restaurants and gourmet food services. Professional food photography with elegant presentation."
+  },
+  {
+    "key": "outdoor-adventure",
+    "en": "Outdoor Adventure",
+    "id": "Petualangan Luar",
+    "ms": "Pengembaraan Luar",
+    "prompt": "Adventure design with mountain and nature elements. Earth tones with vibrant accent colors. Outdoor equipment and natural landscapes. Adventurous feel perfect for outdoor gear and adventure tourism. Mountain silhouettes with forest textures."
+  },
+  {
+    "key": "artistic-impressionism",
+    "en": "Artistic Impressionism",
+    "id": "Artistik Impresionisme",
+    "ms": "Artistik Impresionisme",
+    "prompt": "Impressionistic art style with soft brush strokes. Dreamy color transitions and artistic textures. Museum-quality aesthetic with painterly effects. Sophisticated feel perfect for art galleries and creative events. Oil painting textures with soft focus effects."
+  },
+  {
+    "key": "urban-street",
+    "en": "Urban Street",
+    "id": "Perkotaan Jalanan",
+    "ms": "Bandar Jalanan",
+    "prompt": "Urban street design with graffiti and city elements. Bold colors with spray paint effects. City skyline and street art motifs. Edgy feel perfect for urban brands and street culture events. Graffiti textures with urban city backgrounds."
+  },
+  {
+    "key": "minimalist-elegant",
+    "en": "Minimalist Elegant",
+    "id": "Minimalis Elegan",
+    "ms": "Minimalis Anggun",
+    "prompt": "Simple elegant design with clean lines and subtle colors. Plenty of white space with thoughtful typography. Understated sophistication with minimal elements. Refined feel perfect for luxury minimal brands and professional services. Clean geometry with subtle color accents."
+  },
+  {
+    "key": "fantasy-magical",
+    "en": "Fantasy Magical",
+    "id": "Fantasi Magis",
+    "ms": "Fantasi Magik",
+    "prompt": "Magical fantasy design with mythical creatures and elements. Mystical colors with glowing effects. Fantasy symbols and enchanted objects. Whimsical feel perfect for fantasy events and creative storytelling. Magical glow effects with fantasy illustrations."
+  },
+  {
+    "key": "professional-clean",
+    "en": "Professional Clean",
+    "id": "Profesional Bersih",
+    "ms": "Profesional Bersih",
+    "prompt": "Clean professional design with structured layout. Corporate colors with clear typography. Business elements and professional icons. Trustworthy feel perfect for corporate services and professional development. Clean layout with professional business imagery."
+  },
+  {
+    "key": "vibrant-colors",
+    "en": "Vibrant Colors",
+    "id": "Warna Ceria",
+    "ms": "Warna Ceria",
+    "prompt": "Energetic design with vibrant color combinations. Bold contrasting colors creating visual impact. Dynamic shapes and modern typography. Exciting feel perfect for youth brands and energetic events. Rainbow effects with bright color transitions."
+  },
+  {
+    "key": "handwritten-personal",
+    "en": "Handwritten Personal",
+    "id": "Tulis Tangan Pribadi",
+    "ms": "Tulisan Tangan Peribadi",
+    "prompt": "Personal handwritten design with custom lettering. Intimate color palette with personal touches. Hand-drawn elements and authentic textures. Personal feel perfect for personal brands and intimate events. Authentic handwriting with personal paper texture."
+  },
+  {
+    "key": "modern-tech",
+    "en": "Modern Tech",
+    "id": "Teknologi Modern",
+    "ms": "Teknologi Moden",
+    "prompt": "Contemporary tech design with futuristic elements. Sleek gradients and modern typography. Digital patterns and innovative graphics. Forward-thinking feel perfect for tech startups and digital innovation. Holographic effects with modern tech aesthetics."
+  },
+  {
+    "key": "cultural-traditional",
+    "en": "Cultural Traditional",
+    "id": "Budaya Tradisional",
+    "ms": "Budaya Tradisional",
+    "prompt": "Traditional cultural design with heritage elements. Rich cultural colors and traditional patterns. Cultural symbols and authentic textures. Authentic feel perfect for cultural events and traditional services. Traditional patterns with cultural symbolism."
+  },
+  {
+    "key": "bold-graphic",
+    "en": "Bold Graphic",
+    "id": "Grafis Berani",
+    "ms": "Grafik Berani",
+    "prompt": "Bold graphic design with strong visual impact. High contrast colors and geometric shapes. Modern typography with graphic elements. Striking feel perfect for statement pieces and attention-grabbing designs. Bold geometric patterns with high contrast."
+  },
+  {
+    "key": "soft-pastel",
+    "en": "Soft Pastel",
+    "id": "Pastel Lembut",
+    "ms": "Pastel Lembut",
+    "prompt": "Gentle pastel design with soft color palette. Dreamy atmosphere with delicate elements. Subtle textures and elegant typography. Tender feel perfect for gentle services and soft brands. Soft gradient effects with pastel harmony."
+  },
+  {
+    "key": "dynamic-motion",
+    "en": "Dynamic Motion",
+    "id": "Gerakan Dinamis",
+    "ms": "Pergerakan Dinamik",
+    "prompt": "Dynamic design with motion and energy effects. Action lines and kinetic elements. Bold colors suggesting movement and speed. Energetic feel perfect for active brands and sports events. Motion blur effects with dynamic action elements."
+  },
+  {
+    "key": "luxury-elegant",
+    "en": "Luxury Elegant",
+    "id": "Mewah Elegan",
+    "ms": "Mewah Anggun",
+    "prompt": "Elegant luxury design with premium elements. Sophisticated color palette with metallic accents. Ornate typography and decorative elements. Exclusive feel perfect for luxury brands and premium services. Gold foil effects with elegant textures."
+  },
+  {
+    "key": "playful-fun",
+    "en": "Playful Fun",
+    "id": "Bermain Menyenangkan",
+    "ms": "Bermain-Gembira",
+    "prompt": "Fun playful design with cheerful elements. Bright colors and cartoon illustrations. Rounded shapes and happy typography. Joyful feel perfect for entertainment and children's brands. Playful illustrations with bright cheerful colors."
+  },
+  {
+    "key": "sophisticated-chic",
+    "en": "Sophisticated Chic",
+    "id": "Sophisticated Chic",
+    "ms": "Canggih Chic",
+    "prompt": "Chic sophisticated design with fashion elements. Elegant color palette with modern typography. Fashionable graphics and stylish layouts. Trendy feel perfect for fashion brands and lifestyle services. Magazine-style layout with fashion-forward design."
+  },
+  {
+    "key": "natural-earthy",
+    "en": "Natural Earthy",
+    "id": "Alami Alami",
+    "ms": "Semula Jadi Berbumi",
+    "prompt": "Natural earthy design with organic elements. Earth tone colors with natural textures. Leaf patterns and wood grains. Grounded feel perfect for organic products and natural services. Organic textures with natural color harmony."
+  },
+  {
+    "key": "bold-modern",
+    "en": "Bold Modern",
+    "id": "Berani Modern",
+    "ms": "Berani Moden",
+    "prompt": "Bold modern design with contemporary elements. Strong color combinations and geometric shapes. Clean typography with modern graphics. Confident feel perfect for modern brands and contemporary services. Bold geometric patterns with modern aesthetics."
+  },
+  {
+    "key": "dreamy-ethereal",
+    "en": "Dreamy Ethereal",
+    "id": "Mimpi Halus",
+    "ms": "Bermimpi Halus",
+    "prompt": "Dreamy ethereal design with fantasy elements. Soft color palette with glowing effects. Magical illustrations and whimsical typography. Enchanting feel perfect for fantasy brands and imaginative services. Soft glow effects with dreamy textures."
+  },
+  {
+    "key": "industrial-chic",
+    "en": "Industrial Chic",
+    "id": "Industrial Chic",
+    "ms": "Perusahaan Chic",
+    "prompt": "Industrial chic design with raw elements. Concrete textures with metal accents. Bold typography and structural graphics. Edgy feel perfect for urban brands and modern industrial services. Raw materials with industrial aesthetics."
+  },
+  {
+    "key": "vintage-charm",
+    "en": "Vintage Charm",
+    "id": "Pesona Vintage",
+    "ms": "Pesona Vintage",
+    "prompt": "Charming vintage design with nostalgic elements. Sepia tones with distressed textures. Classic typography with retro illustrations. Nostalgic feel perfect for heritage brands and vintage services. Aged paper effects with vintage charm."
+  },
+  {
+    "key": "contemporary-art",
+    "en": "Contemporary Art",
+    "id": "Seni Kontemporer",
+    "ms": "Seni Kontemporari",
+    "prompt": "Contemporary art design with modern elements. Bold artistic expressions and creative layouts. Modern color combinations with artistic typography. Creative feel perfect for art galleries and creative services. Modern art style with contemporary aesthetics."
+  },
+  {
+    "key": "elegant-minimal",
+    "en": "Elegant Minimal",
+    "id": "Elegan Minimal",
+    "ms": "Anggun Minimal",
+    "prompt": "Elegant minimal design with refined elements. Sophisticated color palette with clean typography. Subtle textures with thoughtful composition. Refined feel perfect for luxury minimal brands and premium services. Clean design with elegant simplicity."
+  },
+  {
+    "key": "energetic-bright",
+    "en": "Energetic Bright",
+    "id": "Energetik Cerah",
+    "ms": "Energetik Cerah",
+    "prompt": "Energetic bright design with vibrant elements. Bold colors creating excitement and energy. Dynamic typography with active graphics. Exciting feel perfect for energetic brands and active events. Bright color explosions with dynamic energy."
+  },
+  {
+    "key": "romantic-soft",
+    "en": "Romantic Soft",
+    "id": "Romantis Lembut",
+    "ms": "Romantis Lembut",
+    "prompt": "Romantic soft design with delicate elements. Soft color palette with gentle textures. Elegant typography with romantic graphics. Tender feel perfect for romantic services and intimate events. Soft focus effects with romantic atmosphere."
+  },
+  {
+    "key": "professional-corporate",
+    "en": "Professional Corporate",
+    "id": "Profesional Korporat",
+    "ms": "Profesional Korporat",
+    "prompt": "Professional corporate design with business elements. Conservative colors with structured layout. Clean typography with corporate graphics. Business-ready feel perfect for corporate services and professional development. Structured layout with corporate professionalism."
+  },
+  {
+    "key": "creative-expression",
+    "en": "Creative Expression",
+    "id": "Ekspresi Kreatif",
+    "ms": "Ekspresi Kreatif",
+    "prompt": "Creative expression design with artistic elements. Bold artistic choices and expressive graphics. Creative color combinations with artistic typography. Expressive feel perfect for creative agencies and artistic services. Artistic expression with creative freedom."
+  },
+  {
+    "key": "modern-sleek",
+    "en": "Modern Sleek",
+    "id": "Modern Mewah",
+    "ms": "Moden Licin",
+    "prompt": "Modern sleek design with smooth elements. Clean gradients with polished typography. Minimal graphics with sophisticated layout. Streamlined feel perfect for modern brands and contemporary services. Sleek design with modern sophistication."
+  },
+  {
+    "key": "vibrant-energetic",
+    "en": "Vibrant Energetic",
+    "id": "Ceria Energetik",
+    "ms": "Cergas Bertenaga",
+    "prompt": "Vibrant energetic design with dynamic elements. Bold colors creating excitement and movement. Active typography with energetic graphics. Lively feel perfect for energetic brands and dynamic events. Vibrant energy with dynamic excitement."
+  },
+  {
+    "key": "classic-timeless",
+    "en": "Classic Timeless",
+    "id": "Klasik Abadi",
+    "ms": "Klasik Masa",
+    "prompt": "Classic timeless design with traditional elements. Elegant color palette with sophisticated typography. Timeless graphics with enduring appeal. Enduring feel perfect for established brands and classic services. Timeless design with classic elegance."
+  },
+  {
+    "key": "artistic-creative",
+    "en": "Artistic Creative",
+    "id": "Artistik Kreatif",
+    "ms": "Artistik Kreatif",
+    "prompt": "Artistic creative design with expressive elements. Bold artistic choices and creative graphics. Unique color combinations with artistic typography. Creative feel perfect for artistic brands and creative services. Artistic creativity with unique expression."
+  },
+  {
+    "key": "modern-contemporary",
+    "en": "Modern Contemporary",
+    "id": "Modern Kontemporer",
+    "ms": "Moden Kontemporari",
+    "prompt": "Modern contemporary design with current elements. Fresh color palette with clean typography. Current graphics with modern layout. Current feel perfect for contemporary brands and modern services. Modern design with contemporary relevance."
+  }
+]

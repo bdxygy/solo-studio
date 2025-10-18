@@ -1,0 +1,1038 @@
+[
+    {
+        "key": "dynamic-splash",
+        "en": "Dynamic Splash",
+        "id": "Percikan Dinamis",
+        "ms": "Percikan Dinamik",
+        "prompt": "Professional product photography, cinematic action shot of the subject captured with a high-speed camera. Surrounded by energetic, thematic splashes of colored liquid, frozen in time. Epic, clean studio background. Dramatic, volumetric studio lighting with sharp rim lights creating a powerful mood. Hyper-detailed, photorealistic, 8K resolution, professional color grading."
+    },
+    {
+        "key": "minimalist-concrete",
+        "en": "Minimalist Concrete",
+        "id": "Beton Minimalis",
+        "ms": "Konkrit Minimalis",
+        "prompt": "Elegant minimalist product shot on a clean, polished concrete slab. Soft, diffused light from a single large source creates gentle, long shadows. Composition is perfectly balanced, evoking a sense of calm and sophistication. The mood is modern, clean, and serene. Shot with a prime lens for ultimate sharpness, hyper-detailed, photorealistic."
+    },
+    {
+        "key": "lush-nature",
+        "en": "Lush Nature",
+        "id": "Alam Rimbun",
+        "ms": "Alam Subur",
+        "prompt": "The product is artfully placed amongst lush, damp moss, fresh green leaves with dew drops, and smooth river stones. The scene is illuminated by soft, dappled sunlight filtering through a forest canopy. The mood is tranquil, fresh, and pure. Shot with a macro lens, extremely shallow depth of field, hyper-realistic textures, 8K resolution."
+    },
+    {
+        "key": "luxe-velvet",
+        "en": "Luxe Velvet",
+        "id": "Beludru Mewah",
+        "ms": "Baldu Mewah",
+        "prompt": "Luxurious product shot resting on a rich, deep-colored velvet fabric with elegant folds. The lighting is soft and directional, highlighting the texture of the velvet and the product details. The mood is opulent, premium, and sophisticated. Macro details, shallow depth of field, professional studio lighting, photorealistic."
+    },
+    {
+        "key": "geometric-balance",
+        "en": "Geometric Balance",
+        "id": "Keseimbangan Geometris",
+        "ms": "Keseimbangan Geometri",
+        "prompt": "A modern, abstract composition featuring the product balanced with bold, solid-colored geometric shapes and platforms. Lighting is hard and architectural, creating sharp, defined shadows that are part of the composition. The color palette is minimalist and complementary. The mood is contemporary and stylish. 3D rendering style, ray tracing, photorealistic."
+    },
+    {
+        "key": "lifestyle-sun-drenched",
+        "en": "Sun-Drenched Lifestyle",
+        "id": "Gaya Hidup Cerah",
+        "ms": "Gaya Hidup Bermandi Cahaya",
+        "prompt": "A bright, airy lifestyle shot of the product in a realistic, beautifully decorated home interior next to a large window. Warm, natural sunlight streams in, creating a hazy, golden hour feel. The mood is authentic, warm, and aspirational. Shot with a wide aperture, beautiful bokeh background, photorealistic, 8K."
+    },
+    {
+        "key": "studio-white-cyc",
+        "en": "Studio White Cyc",
+        "id": "Studio Putih Cyc",
+        "ms": "Studio Putih Cyc",
+        "prompt": "Classic e-commerce shot of the product on a seamless white cyclorama background. The lighting is perfectly even, bright, and shadowless, ensuring the product is the sole focus. The mood is clean, professional, and commercial. Professional studio setup with multiple softboxes, focus stacking for infinite sharpness, hyper-detailed, 8K."
+    },
+    {
+        "key": "dramatic-noir",
+        "en": "Dramatic Noir",
+        "id": "Noir Dramatis",
+        "ms": "Noir Dramatik",
+        "prompt": "A dramatic, black and white film noir scene. The product is partially obscured in shadow, with hard, low-key lighting from a single source like light through window blinds (chiaroscuro). The atmosphere is tense and mysterious. High contrast, deep blacks, visible film grain, classic Hollywood feel, photorealistic."
+    },
+    {
+        "key": "sleek-tech",
+        "en": "Sleek Tech",
+        "id": "Teknologi Ramping",
+        "ms": "Teknologi Ramping",
+        "prompt": "The product is placed on a dark, sleek, reflective surface. The background features clean lines and subtle, futuristic glowing elements in a single accent color (e.g., blue or orange). Lighting is precise and clean, creating crisp reflections. The mood is modern, innovative, and high-tech. Photorealistic 3D render, studio lighting, 8K."
+    },
+    {
+        "key": "warm-cozy",
+        "en": "Warm & Cozy",
+        "id": "Hangat & Nyaman",
+        "ms": "Hangat & Selesa",
+        "prompt": "Product in a cozy, rustic setting, resting on a knitted blanket next to a steaming mug and a good book. The lighting is warm and inviting, from a nearby fireplace or a warm lamp. The mood is comfortable, relaxing, and secure. Shallow depth of field, warm color temperature, photorealistic."
+    },
+    {
+        "key": "top-down-flat-lay",
+        "en": "Top-Down Flat Lay",
+        "id": "Flat Lay Atas-Bawah",
+        "ms": "Flat Lay Atas-Bawah",
+        "prompt": "A meticulously styled top-down flat lay. The product is the centerpiece, surrounded by complementary, thematic objects and textures on a clean background. The composition is perfectly balanced. Lighting is even and shadowless. The mood is organized, creative, and narrative. Professional studio lighting, hyper-detailed, 8K."
+    },
+    {
+        "key": "levitating-wonder",
+        "en": "Levitating Wonder",
+        "id": "Keajaiban Melayang",
+        "ms": "Keajaiban Terapung",
+        "prompt": "A magical shot of the product floating or levitating gracefully in the center of the frame against a clean, minimalist studio background. Soft, ethereal lighting from below adds to the magical effect. A few subtle particles or dust motes are frozen in the air. The mood is wondrous and premium. High-speed photography, composite image, photorealistic."
+    },
+    {
+        "key": "industrial-edge",
+        "en": "Industrial Edge",
+        "id": "Sisi Industri",
+        "ms": "Sisi Industri",
+        "prompt": "Product placed on a rough, textured surface like cracked concrete or brushed metal in a gritty, industrial setting. Hard, dramatic lighting from a single source creates high contrast and deep shadows, emphasizing texture. The mood is raw, strong, and edgy. Desaturated color palette, sharp focus, hyper-detailed, 8K."
+    },
+    {
+        "key": "reflective-elegance",
+        "en": "Reflective Elegance",
+        "id": "Keanggunan Reflektif",
+        "ms": "Keanggunan Reflektif",
+        "prompt": "The product is shot on a highly reflective black or white surface, creating a perfect, mirror-like reflection. The composition is simple and symmetrical. Lighting is clean and minimal, designed to create beautiful gradients on the product and its reflection. The mood is elegant, sophisticated, and clean. Professional studio shot, long exposure, photorealistic."
+    },
+    {
+        "key": "powder-burst",
+        "en": "Powder Burst",
+        "id": "Ledakan Bubuk",
+        "ms": "Letupan Serbuk",
+        "prompt": "A dynamic, high-speed shot capturing the moment the product is hit with a cloud of colorful, non-toxic holi powder. The powder particles are frozen mid-air, creating a vibrant, energetic explosion. The background is a solid, contrasting color. The mood is joyful, dynamic, and impactful. Studio lighting, flash photography, hyper-detailed particle effects, 8K."
+    },
+    {
+        "key": "macro-detail",
+        "en": "Macro Detail",
+        "id": "Detail Makro",
+        "ms": "Perincian Makro",
+        "prompt": "An extreme close-up, macro shot focusing on a specific, interesting detail or texture of the product. The lighting is designed to emphasize the micro-textures, water droplets, or material grain. The rest of the product falls away into a soft blur. The mood is intimate and detailed. Extreme shallow depth of field (bokeh), focus stacking for sharpness, photorealistic."
+    },
+    {
+        "key": "on-the-rocks",
+        "en": "On the Rocks",
+        "id": "Di Atas Bebatuan",
+        "ms": "Di Atas Batu",
+        "prompt": "Product displayed on wet, dark, jagged slate rocks. A fine mist or spray adds atmosphere and water droplets to the scene. The lighting is moody and dramatic, similar to a coastal morning. The mood is strong, natural, and premium. High texture detail, professional lighting, photorealistic, 8K."
+    },
+    {
+        "key": "architectural-pedestal",
+        "en": "Architectural Pedestal",
+        "id": "Panggung Arsitektural",
+        "ms": "Kaki Seni Bina",
+        "prompt": "The product is presented like a museum piece on a minimalist architectural pedestal (marble, concrete, or wood). The background is a clean, modern interior with interesting architectural lines. The lighting is soft and directional, as if from a gallery spotlight. The mood is artistic, sophisticated, and timeless. Photorealistic 3D render, sharp focus, 8K."
+    },
+    {
+        "key": "water-ripple",
+        "en": "Water Ripple",
+        "id": "Riak Air",
+        "ms": "Riak Air",
+        "prompt": "A serene top-down shot of the product resting just below the surface of crystal-clear water. A single drop hits the surface, creating perfect, concentric ripples that emanate outwards. The lighting from above creates beautiful caustics on the bottom. The mood is calm, pure, and mesmerizing. High-speed photography, minimalist composition, photorealistic."
+    },
+    {
+        "key": "golden-hour-glow",
+        "en": "Golden Hour Glow",
+        "id": "Kilau Senja Emas",
+        "ms": "Seri Senja Keemasan",
+        "prompt": "Product shot outdoors during the golden hour. The low, warm sun creates a beautiful, soft glow and long, dramatic shadows. The product is backlit, creating a beautiful rim light or halo effect. The background is a pleasingly blurred natural landscape. The mood is warm, beautiful, and serene. Wide aperture lens, beautiful bokeh, photorealistic."
+    },
+    {
+        "key": "crystal-clear",
+        "en": "Crystal Clear",
+        "id": "Kristal Jernih",
+        "ms": "Kristal Jelas",
+        "prompt": "Product suspended in crystal-clear ice, with light refracting through the frozen surface creating prismatic effects. The background is a clean, minimalist studio setup with soft, diffused lighting. The mood is pristine, refreshing, and premium. Macro photography with focus stacking, hyper-detailed ice textures, 8K resolution."
+    },
+    {
+        "key": "smoky-mystique",
+        "en": "Smoky Mystique",
+        "id": "Misteri Berkabut",
+        "ms": "Misteri Berkabus",
+        "prompt": "Product emerging from dramatic, swirling smoke in a dark studio environment. Selective lighting cuts through the smoke, highlighting the product while creating mysterious shadows. The mood is enigmatic, sophisticated, and intriguing. Professional studio lighting with smoke machines, high contrast, photorealistic, 8K."
+    },
+    {
+        "key": "neon-lights",
+        "en": "Neon Lights",
+        "id": "Cahaya Neon",
+        "ms": "Cahaya Neon",
+        "prompt": "Product displayed against a dark urban wall with vibrant neon signs reflecting off its surface. The neon lights create colorful glows and reflections. The mood is edgy, modern, and urban. Night photography style, long exposure, vibrant color contrasts, hyper-detailed, 8K."
+    },
+    {
+        "key": "rain-drops",
+        "en": "Rain Drops",
+        "id": "Tetesan Hujan",
+        "ms": "Titisan Hujan",
+        "prompt": "Product with water droplets glistening on its surface, as if just caught in a refreshing rain. The background is softly blurred with rain-streaked glass effects. The lighting is soft and natural. The mood is refreshing, pure, and natural. Macro photography, shallow depth of field, high-speed water effects, photorealistic."
+    },
+    {
+        "key": "fire-embers",
+        "en": "Fire Embers",
+        "id": "Bara Api",
+        "ms": "Bara Api",
+        "prompt": "Product surrounded by glowing embers and gentle flames in a controlled fire setting. The warm, flickering light creates dramatic highlights and shadows. The mood is warm, powerful, and elemental. Low-light photography with fire lighting, rich warm tones, high contrast, photorealistic, 8K."
+    },
+    {
+        "key": "snow-covered",
+        "en": "Snow Covered",
+        "id": "Tertutup Salju",
+        "ms": "Ditutupi Salji",
+        "prompt": "Product partially buried in fresh, pristine snow with delicate frost patterns. Cold, blue-toned lighting enhances the winter atmosphere. The mood is crisp, clean, and serene. Winter photography, detailed snow textures, cool color temperature, hyper-detailed, 8K."
+    },
+    {
+        "key": "autumn-leaves",
+        "en": "Autumn Leaves",
+        "id": "Daun Musim Gugur",
+        "ms": "Daun Musim Luruh",
+        "prompt": "Product nestled among colorful autumn leaves with warm, golden lighting filtering through trees. The mood is nostalgic, warm, and natural. Outdoor photography with shallow depth of field, warm color grading, detailed leaf textures, photorealistic."
+    },
+    {
+        "key": "desert-sands",
+        "en": "Desert Sands",
+        "id": "Pasir Gurun",
+        "ms": "Pasir Gurun",
+        "prompt": "Product on smooth, windswept desert sand with subtle dune formations. Harsh, direct sunlight creates strong shadows. The mood is rugged, natural, and adventurous. Golden hour lighting, detailed sand textures, warm color palette, hyper-detailed, 8K."
+    },
+    {
+        "key": "tropical-paradise",
+        "en": "Tropical Paradise",
+        "id": "Surga Tropis",
+        "ms": "Syurga Tropika",
+        "prompt": "Product on a pristine white sand beach with crystal-clear turquoise water and tropical vegetation. Bright, natural sunlight creates a vibrant, energetic feel. The mood is exotic, refreshing, and luxurious. Tropical photography, vibrant colors, detailed water effects, photorealistic, 8K."
+    },
+    {
+        "key": "urban-graffiti",
+        "en": "Urban Graffiti",
+        "id": "Grafiti Urban",
+        "ms": "Grafiti Bandar",
+        "prompt": "Product against a vibrant graffiti wall in an urban setting. Natural daylight mixed with artificial city lights creates an edgy, contemporary mood. The mood is urban, artistic, and rebellious. Street photography style, vibrant colors, textured surfaces, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-film",
+        "en": "Vintage Film",
+        "id": "Film Vintage",
+        "ms": "Filem Vintage",
+        "prompt": "Product shot with a vintage film aesthetic, including light leaks, film grain, and slightly desaturated colors. The lighting is soft and nostalgic. The mood is nostalgic, authentic, and timeless. Analog film emulation, subtle color shifts, film grain texture, photorealistic."
+    },
+    {
+        "key": "steampunk-mechanics",
+        "en": "Steampunk Mechanics",
+        "id": "Mekanik Steampunk",
+        "ms": "Mekanik Steampunk",
+        "prompt": "Product surrounded by brass gears, vintage mechanical parts, and Victorian-era industrial elements. Warm, metallic lighting with oil lamp effects. The mood is intricate, vintage, and imaginative. Detailed mechanical textures, warm metallic tones, shallow depth of field, photorealistic."
+    },
+    {
+        "key": "cosmic-stars",
+        "en": "Cosmic Stars",
+        "id": "Bintang-bintang Kosmik",
+        "ms": "Bintang Kosmik",
+        "prompt": "Product floating against a backdrop of stars, nebulae, and cosmic phenomena. Ethereal, multi-colored lighting creates a mysterious, otherworldly atmosphere. The mood is cosmic, mysterious, and infinite. Astrophotography style, star field effects, cosmic lighting, hyper-detailed, 8K."
+    },
+    {
+        "key": "mirror-reflection",
+        "en": "Mirror Reflection",
+        "id": "Refleksi Cermin",
+        "ms": "Refleksi Cermin",
+        "prompt": "Product on a perfectly mirrored surface creating a flawless, symmetrical reflection. Clean, minimalist lighting emphasizes the clean lines and perfect reflection. The mood is elegant, precise, and modern. Studio photography with perfect reflections, minimalist composition, sharp focus, photorealistic."
+    },
+    {
+        "key": "glass-prism",
+        "en": "Glass Prism",
+        "id": "Prisma Kaca",
+        "ms": "Prisma Kaca",
+        "prompt": "Product viewed through or interacting with a glass prism, splitting light into rainbow spectrums. Controlled studio lighting creates dramatic prismatic effects. The mood is scientific, colorful, and mesmerizing. Optical effects photography, rainbow light refraction, precise focus stacking, hyper-detailed, 8K."
+    },
+    {
+        "key": "flower-petals",
+        "en": "Flower Petals",
+        "id": "Kelopak Bunga",
+        "ms": "Kelopak Bunga",
+        "prompt": "Product surrounded by delicate flower petals in a romantic, soft-focused arrangement. Soft, diffused lighting creates a gentle, dreamy atmosphere. The mood is romantic, delicate, and natural. Macro photography with soft focus, detailed petal textures, pastel color palette, photorealistic."
+    },
+    {
+        "key": "coffee-beans",
+        "en": "Coffee Beans",
+        "id": "Biji Kopi",
+        "ms": "Biji Kopi",
+        "prompt": "Product nestled among rich, dark coffee beans with some ground coffee dust. Warm, earthy lighting enhances the coffee theme. The mood is rich, aromatic, and comforting. Detailed texture photography, warm brown tones, shallow depth of field, hyper-detailed, 8K."
+    },
+    {
+        "key": "spice-market",
+        "en": "Spice Market",
+        "id": "Pasar Rempah",
+        "ms": "Pasar Rempah",
+        "prompt": "Product among colorful, aromatic spices with rich textures and vibrant colors. Warm, market lighting creates an exotic, authentic atmosphere. The mood is exotic, rich, and sensory. Detailed texture photography, vibrant colors, shallow depth of field, photorealistic."
+    },
+    {
+        "key": "ocean-waves",
+        "en": "Ocean Waves",
+        "id": "Gelombang Lautan",
+        "ms": "Gelombang Lautan",
+        "prompt": "Product with ocean waves crashing around it, captured mid-splash. Bright, coastal lighting with water droplets frozen in time. The mood is powerful, refreshing, and dynamic. High-speed photography, detailed water effects, bright coastal lighting, hyper-detailed, 8K."
+    },
+    {
+        "key": "mountain-peak",
+        "en": "Mountain Peak",
+        "id": "Puncak Gunung",
+        "ms": "Puncak Gunung",
+        "prompt": "Product on a mountain peak with dramatic clouds and vast landscape. Crisp, high-altitude lighting creates a majestic, awe-inspiring scene. The mood is majestic, adventurous, and limitless. Wide-angle landscape photography, dramatic clouds, crisp lighting, hyper-detailed, 8K."
+    },
+    {
+        "key": "chocolate-drizzle",
+        "en": "Chocolate Drizzle",
+        "id": "Siraman Cokelat",
+        "ms": "Siraman Coklat",
+        "prompt": "Product with luxurious chocolate drizzle creating artistic patterns. Rich, warm lighting enhances the chocolate's glossy texture. The mood is indulgent, decadent, and delicious. Macro photography, detailed texture, rich brown tones, hyper-detailed, 8K."
+    },
+    {
+        "key": "confetti-explosion",
+        "en": "Confetti Explosion",
+        "id": "Ledakan Konfeti",
+        "ms": "Letupan Konfeti",
+        "prompt": "Product at the center of a frozen confetti explosion with colorful paper pieces suspended in air. Bright, festive lighting creates a celebratory atmosphere. The mood is festive, joyful, and energetic. High-speed photography, vibrant colors, detailed particle effects, hyper-detailed, 8K."
+    },
+    {
+        "key": "frost-patterns",
+        "en": "Frost Patterns",
+        "id": "Pola Es",
+        "ms": "Pola Ais",
+        "prompt": "Product with intricate frost patterns forming on its surface. Cool, blue-toned lighting enhances the crystalline ice structures. The mood is crisp, delicate, and magical. Macro photography, detailed ice crystals, cool color temperature, hyper-detailed, 8K."
+    },
+    {
+        "key": "neon-powder",
+        "en": "Neon Powder",
+        "id": "Bubuk Neon",
+        "ms": "Serbuk Neon",
+        "prompt": "Product surrounded by floating, glowing neon powder particles in a dark environment. Black lighting creates intense, vibrant colors that seem to float in mid-air. The mood is electric, futuristic, and mesmerizing. Studio photography with UV lighting, vibrant neon colors, detailed particle effects, hyper-detailed, 8K."
+    },
+    {
+        "key": "wood-grain",
+        "en": "Wood Grain",
+        "id": "Serat Kayu",
+        "ms": "Urat Kayu",
+        "prompt": "Product on a surface with distinctive, rich wood grain patterns. Warm, directional lighting highlights the texture and character of the wood. The mood is natural, warm, and authentic. Detailed texture photography, warm tones, shallow depth of field, photorealistic."
+    },
+    {
+        "key": "marble-veins",
+        "en": "Marble Veins",
+        "id": "Urat Marmer",
+        "ms": "Urab Marmer",
+        "prompt": "Product on luxurious marble with distinctive veining patterns. Soft, elegant lighting emphasizes the marble's sophisticated patterns. The mood is luxurious, elegant, and timeless. Detailed texture photography, sophisticated patterns, elegant lighting, photorealistic, 8K."
+    },
+    {
+        "key": "silk-fabric",
+        "en": "Silk Fabric",
+        "id": "Kain Sutra",
+        "ms": "Kain Sutera",
+        "prompt": "Product resting on luxurious silk fabric with elegant folds and creases. Soft, directional lighting highlights the sheen and texture of the silk. The mood is elegant, premium, and sophisticated. Macro photography with shallow depth of field, detailed fabric texture, photorealistic, 8K."
+    },
+    {
+        "key": "metallic-sparkle",
+        "en": "Metallic Sparkle",
+        "id": "Kilau Metalik",
+        "ms": "Kilau Logam",
+        "prompt": "Product surrounded by metallic glitter and sparkles that catch and reflect light. Dramatic studio lighting creates intense sparkle effects. The mood is glamorous, celebratory, and eye-catching. Studio photography with controlled lighting, detailed sparkle effects, vibrant reflections, hyper-detailed, 8K."
+    },
+    {
+        "key": "bamboo-forest",
+        "en": "Bamboo Forest",
+        "id": "Hutan Bambu",
+        "ms": "Hutan Buluh",
+        "prompt": "Product in a serene bamboo forest with dappled sunlight filtering through the stalks. Natural, green-toned lighting creates a peaceful, organic atmosphere. The mood is natural, peaceful, and zen. Nature photography with soft focus, detailed bamboo textures, green color palette, photorealistic."
+    },
+    {
+        "key": "city-lights",
+        "en": "City Lights",
+        "id": "Cahaya Kota",
+        "ms": "Cahaya Bandar",
+        "prompt": "Product against a backdrop of blurred city lights at night. The product is selectively lit while the background creates beautiful bokeh. The mood is urban, sophisticated, and vibrant. Night photography with beautiful bokeh, selective lighting, vibrant city glow, photorealistic, 8K."
+    },
+    {
+        "key": "morning-dew",
+        "en": "Morning Dew",
+        "id": "Embas Pagi",
+        "ms": "Embun Pagi",
+        "prompt": "Product covered in delicate morning dew drops with soft, early morning lighting. Each dew drop acts as a tiny lens, refracting light. The mood is fresh, pure, and natural. Macro photography with extreme detail, shallow depth of field, soft natural lighting, hyper-detailed, 8K."
+    },
+    {
+        "key": "sunset-silhouette",
+        "en": "Sunset Silhouette",
+        "id": "Siluet Senja",
+        "ms": "Siluet Senja",
+        "prompt": "Product in silhouette against a vibrant sunset sky with dramatic colors. Backlighting creates a strong, recognizable shape. The mood is dramatic, beautiful, and awe-inspiring. Sunset photography with strong backlighting, vibrant sky colors, dramatic silhouette effect, photorealistic."
+    },
+    {
+        "key": "feather-light",
+        "en": "Feather Light",
+        "id": "Ringan Bulu",
+        "ms": "Ringan Bulu",
+        "prompt": "Product surrounded by gently floating feathers in a soft, airy environment. Delicate lighting creates a weightless, dreamy atmosphere. The mood is light, delicate, and ethereal. Studio photography with floating elements, soft focus lighting, detailed feather textures, photorealistic."
+    },
+    {
+        "key": "cracked-earth",
+        "en": "Cracked Earth",
+        "id": "Tanah Retak",
+        "ms": "Tanah Pecah",
+        "prompt": "Product on cracked, dry earth with dramatic texture and patterns. Harsh, direct sunlight creates strong shadows. The mood is dramatic, natural, and elemental. Outdoor photography with detailed texture, strong shadows, earthy color palette, hyper-detailed, 8K."
+    },
+    {
+        "key": "northern-lights",
+        "en": "Northern Lights",
+        "id": "Cahaya Utara",
+        "ms": "Cahaya Utara",
+        "prompt": "Product against the magical backdrop of northern lights (aurora borealis). The ethereal green and blue lights dance across the sky. The mood is magical, rare, and awe-inspiring. Night photography with aurora effects, natural lighting, vibrant colors, hyper-detailed, 8K."
+    },
+    {
+        "key": "candy-colors",
+        "en": "Candy Colors",
+        "id": "Warna Permen",
+        "ms": "Warna Gula-gula",
+        "prompt": "Product surrounded by colorful, glossy candies with bright, playful lighting. The vibrant colors create a cheerful, fun atmosphere. The mood is playful, sweet, and vibrant. Studio photography with vibrant colors, detailed candy textures, bright lighting, photorealistic."
+    },
+    {
+        "key": "antique-bronze",
+        "en": "Antique Bronze",
+        "id": "Perunggu Antik",
+        "ms": "Gangsa Antik",
+        "prompt": "Product on an antique bronze surface with patina and aged character. Warm, metallic lighting emphasizes the bronze's aged beauty. The mood is vintage, sophisticated, and timeless. Detailed texture photography, warm metallic tones, aged surface details, photorealistic."
+    },
+    {
+        "key": "bubble-bath",
+        "en": "Bubble Bath",
+        "id": "Mandi Busa",
+        "ms": "Mandi Gelembung",
+        "prompt": "Product among luxurious soap bubbles with iridescent colors. Soft, diffused lighting creates a playful, clean atmosphere. The mood is clean, playful, and luxurious. Macro photography with detailed bubble textures, iridescent colors, soft lighting, hyper-detailed, 8K."
+    },
+    {
+        "key": "rustic-barn",
+        "en": "Rustic Barn",
+        "id": "Gudang Pedesaan",
+        "ms": "Barn Kampung",
+        "prompt": "Product in a rustic barn setting with weathered wood and farm elements. Natural light streaming through barn windows creates authenticity. The mood is rustic, authentic, and charming. Rural photography with weathered textures, natural lighting, rustic color palette, photorealistic."
+    },
+    {
+        "key": "crystal-cave",
+        "en": "Crystal Cave",
+        "id": "Gua Kristal",
+        "ms": "Gua Kristal",
+        "prompt": "Product in a magical crystal cave with formations that catch and refract light. Ethereal, multi-colored lighting creates a mystical atmosphere. The mood is magical, rare, and enchanting. Fantasy photography with crystal formations, refracted light effects, mystical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "neon-signs",
+        "en": "Neon Signs",
+        "id": "Tanda Neon",
+        "ms": "Papan Tanda Neon",
+        "prompt": "Product against a wall of neon signs with vibrant, glowing colors. The neon lights create colorful reflections and glows. The mood is urban, vibrant, and energetic. Night photography with neon lighting, vibrant colors, urban atmosphere, photorealistic."
+    },
+    {
+        "key": "cherry-blossoms",
+        "en": "Cherry Blossoms",
+        "id": "Bunga Sakura",
+        "ms": "Bunga Sakura",
+        "prompt": "Product surrounded by delicate cherry blossom petals in soft spring lighting. The pink petals create a romantic, dreamy atmosphere. The mood is romantic, delicate, and seasonal. Nature photography with soft focus, detailed petal textures, pink color palette, photorealistic."
+    },
+    {
+        "key": "volcanic-rock",
+        "en": "Volcanic Rock",
+        "id": "Batu Vulkanik",
+        "ms": "Batu Gunung Berapi",
+        "prompt": "Product on dark, volcanic rock with dramatic texture and formations. Dramatic lighting emphasizes the rock's rugged character. The mood is powerful, dramatic, and primal. Outdoor photography with detailed texture, dramatic lighting, dark color palette, hyper-detailed, 8K."
+    },
+    {
+        "key": "underwater-coral",
+        "en": "Underwater Coral",
+        "id": "Terumbu Karang Bawah Laut",
+        "ms": "Terumbu Karang Bawah Air",
+        "prompt": "Product among colorful coral formations with underwater lighting effects. Blue-toned light filtering through water creates an aquatic atmosphere. The mood is aquatic, colorful, and exotic. Underwater photography with coral details, aquatic lighting, blue color palette, photorealistic."
+    },
+    {
+        "key": "autumn-harvest",
+        "en": "Autumn Harvest",
+        "id": "Panen Musim Gugur",
+        "ms": "Tuai Musim Luruh",
+        "prompt": "Product among autumn harvest elements like pumpkins, wheat, and fallen leaves. Warm, golden lighting enhances the harvest theme. The mood is abundant, warm, and seasonal. Outdoor photography with harvest elements, warm lighting, autumn color palette, photorealistic."
+    },
+    {
+        "key": "glacier-ice",
+        "en": "Glacier Ice",
+        "id": "Es Gletser",
+        "ms": "Ais Glasier",
+        "prompt": "Product on ancient glacier ice with deep blue crevasses and crystalline formations. Cold, blue-toned lighting enhances the ice's natural beauty. The mood is pristine, ancient, and majestic. Polar photography with ice details, cold lighting, blue color palette, hyper-detailed, 8K."
+    },
+    {
+        "key": "sahara-dunes",
+        "en": "Sahara Dunes",
+        "id": "Gurun Sahara",
+        "ms": "Bukit Pasir Sahara",
+        "prompt": "Product on sweeping Sahara dunes with dramatic wind patterns in the sand. Golden hour lighting creates long, dramatic shadows. The mood is vast, exotic, and timeless. Desert photography with sand patterns, golden light, vast landscape, hyper-detailed, 8K."
+    },
+    {
+        "key": "tropical-rain",
+        "en": "Tropical Rain",
+        "id": "Hujan Tropis",
+        "ms": "Hujan Tropika",
+        "prompt": "Product with tropical rain creating water droplets and reflections. Lush greenery in the background with rain-streaked lighting. The mood is refreshing, tropical, and vibrant. Rain photography with water effects, tropical foliage, vibrant colors, photorealistic."
+    },
+    {
+        "key": "medieval-castle",
+        "en": "Medieval Castle",
+        "id": "Kastil Abad Pertengahan",
+        "ms": "Kastil Zaman Pertengahan",
+        "prompt": "Product in a medieval castle setting with stone walls and ancient architecture. Dramatic torch lighting creates historical atmosphere. The mood is historic, dramatic, and timeless. Historical photography with stone textures, torch lighting, ancient atmosphere, photorealistic."
+    },
+    {
+        "key": "space-station",
+        "en": "Space Station",
+        "id": "Stasiun Luar Angkasa",
+        "ms": "Stesen Angkasa",
+        "prompt": "Product in a futuristic space station with Earth visible through a window. High-tech interior lighting with space elements. The mood is futuristic, advanced, and otherworldly. Sci-fi photography with space elements, high-tech lighting, futuristic atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-bookstore",
+        "en": "Vintage Bookstore",
+        "id": "Toko Buku Vintage",
+        "ms": "Kedai Buku Vintage",
+        "prompt": "Product in a cozy vintage bookstore surrounded by old books and warm lighting. Soft, warm light creates an intellectual, comfortable atmosphere. The mood is intellectual, cozy, and nostalgic. Indoor photography with book details, warm lighting, cozy atmosphere, photorealistic."
+    },
+    {
+        "key": "jungle-canopy",
+        "en": "Jungle Canopy",
+        "id": "Tajuk Hutan Hujan",
+        "ms": "Kanopi Hutan",
+        "prompt": "Product in a jungle canopy with dappled sunlight filtering through leaves. Lush green surroundings with natural lighting. The mood is wild, natural, and adventurous. Jungle photography with foliage details, dappled light, green color palette, photorealistic."
+    },
+    {
+        "key": "cyberpunk-city",
+        "en": "Cyberpunk City",
+        "id": "Kota Cyberpunk",
+        "ms": "Bandar Cyberpunk",
+        "prompt": "Product in a neon-lit cyberpunk cityscape with holographic advertisements and flying vehicles. Dramatic blue and magenta lighting creates a futuristic atmosphere. The mood is futuristic, edgy, and high-tech. Sci-fi photography with neon lighting, holographic effects, futuristic elements, hyper-detailed, 8K."
+    },
+    {
+        "key": "zen-garden",
+        "en": "Zen Garden",
+        "id": "Taman Zen",
+        "ms": "Taman Zen",
+        "prompt": "Product in a tranquil zen garden with raked sand, stones, and minimal vegetation. Soft, natural lighting creates a peaceful, meditative atmosphere. The mood is peaceful, minimalist, and contemplative. Garden photography with zen elements, natural lighting, minimalist composition, photorealistic."
+    },
+    {
+        "key": "carnival-lights",
+        "en": "Carnival Lights",
+        "id": "Cahaya Karnaval",
+        "ms": "Cahaya Karnaval",
+        "prompt": "Product surrounded by colorful carnival lights and festive decorations. Bright, vibrant lighting creates a joyful, celebratory atmosphere. The mood is festive, joyful, and energetic. Night photography with carnival lighting, vibrant colors, festive atmosphere, photorealistic."
+    },
+    {
+        "key": "ancient-ruins",
+        "en": "Ancient Ruins",
+        "id": "Reruntuhan Kuno",
+        "ms": "Runtuhan Purba",
+        "prompt": "Product among ancient stone ruins with moss and weathered textures. Soft, natural lighting creates a historic, mysterious atmosphere. The mood is historic, mysterious, and timeless. Archaeological photography with stone details, natural lighting, ancient atmosphere, photorealistic."
+    },
+    {
+        "key": "fashion-runway",
+        "en": "Fashion Runway",
+        "id": "Landasan Mode",
+        "ms": "Landasan Fesyen",
+        "prompt": "Product on a fashion runway with dramatic stage lighting and elegant atmosphere. Professional fashion lighting creates a high-style, glamorous mood. The mood is glamorous, fashionable, and sophisticated. Fashion photography with runway lighting, elegant composition, glamorous atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "sahara-oasis",
+        "en": "Sahara Oasis",
+        "id": "Oasis Sahara",
+        "ms": "Oasis Sahara",
+        "prompt": "Product at a desert oasis with palm trees and crystal-clear water. Bright, natural sunlight creates a refreshing, exotic atmosphere. The mood is exotic, refreshing, and serene. Desert photography with oasis elements, bright sunlight, exotic atmosphere, photorealistic."
+    },
+    {
+        "key": "science-lab",
+        "en": "Science Lab",
+        "id": "Lab Sains",
+        "ms": "Makmal Sains",
+        "prompt": "Product in a modern science laboratory with glass equipment and subtle blue lighting. Clean, clinical lighting creates a scientific, precise atmosphere. The mood is scientific, precise, and modern. Laboratory photography with scientific elements, clinical lighting, precise atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-car",
+        "en": "Vintage Car",
+        "id": "Mobil Vintage",
+        "ms": "Kereta Vintage",
+        "prompt": "Product on the hood of a vintage car with classic design and chrome details. Warm, nostalgic lighting creates a retro, stylish atmosphere. The mood is retro, stylish, and nostalgic. Automotive photography with vintage details, warm lighting, nostalgic atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-islands",
+        "en": "Floating Islands",
+        "id": "Pulau Mengambang",
+        "ms": "Pulau Terapung",
+        "prompt": "Product on magical floating islands with waterfalls and fantasy elements. Ethereal, magical lighting creates an otherworldly atmosphere. The mood is magical, otherworldly, and fantastical. Fantasy photography with floating elements, magical lighting, fantastical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "midnight-garden",
+        "en": "Midnight Garden",
+        "id": "Tengah Malam di Taman",
+        "ms": "Tengah Malam di Taman",
+        "prompt": "Product in a moonlit garden with night-blooming flowers and subtle lighting. Soft, blue-toned moonlight creates a magical, mysterious atmosphere. The mood is magical, mysterious, and romantic. Night garden photography with moonlight, subtle lighting, mysterious atmosphere, photorealistic."
+    },
+    {
+        "key": "artisan-workshop",
+        "en": "Artisan Workshop",
+        "id": "Bengkel Pengrajin",
+        "ms": "Bengkel Artisan",
+        "prompt": "Product in an artisan workshop with hand tools and creative materials. Warm, workshop lighting creates a creative, authentic atmosphere. The mood is creative, authentic, and artisanal. Workshop photography with tool details, warm lighting, creative atmosphere, photorealistic."
+    },
+    {
+        "key": "submarine-deep",
+        "en": "Submarine Deep",
+        "id": "Kedalaman Kapal Selam",
+        "ms": "Dalam Kapal Selam",
+        "prompt": "Product inside a submarine with portholes showing deep ocean views. Blue, submarine lighting creates an underwater, mysterious atmosphere. The mood is mysterious, deep, and adventurous. Submarine photography with ocean views, blue lighting, mysterious atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "rooftop-garden",
+        "en": "Rooftop Garden",
+        "id": "Taman Atap",
+        "ms": "Taman Bumbung",
+        "prompt": "Product on a modern rooftop garden with city skyline in background. Golden hour lighting creates an urban, sophisticated atmosphere. The mood is urban, sophisticated, and modern. Urban garden photography with skyline views, golden light, sophisticated atmosphere, photorealistic."
+    },
+    {
+        "key": "ice-cave",
+        "en": "Ice Cave",
+        "id": "Gua Es",
+        "ms": "Gua Ais",
+        "prompt": "Product in a magical ice cave with blue ice formations and crystalline structures. Cool, blue lighting creates a frozen, magical atmosphere. The mood is magical, frozen, and enchanting. Ice cave photography with crystalline details, blue lighting, magical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-train",
+        "en": "Vintage Train",
+        "id": "Kereta Api Vintage",
+        "ms": "Kereta Api Vintage",
+        "prompt": "Product in a vintage train compartment with elegant details and window views. Warm, nostalgic lighting creates a romantic, journey atmosphere. The mood is romantic, nostalgic, and journey-like. Train photography with vintage details, warm lighting, nostalgic atmosphere, photorealistic."
+    },
+    {
+        "key": "botanical-garden",
+        "en": "Botanical Garden",
+        "id": "Kebun Botani",
+        "ms": "Taman Botani",
+        "prompt": "Product in a lush botanical garden with exotic plants and greenhouse structure. Natural, filtered lighting creates a tropical, serene atmosphere. The mood is tropical, serene, and natural. Botanical photography with plant details, natural lighting, tropical atmosphere, photorealistic."
+    },
+    {
+        "key": "medieval-market",
+        "en": "Medieval Market",
+        "id": "Pasar Abad Pertengahan",
+        "ms": "Pasar Zaman Pertengahan",
+        "prompt": "Product in a bustling medieval market with vendors and historical atmosphere. Warm, torch lighting creates a historic, lively atmosphere. The mood is historic, lively, and authentic. Historical photography with market details, torch lighting, authentic atmosphere, photorealistic."
+    },
+    {
+        "key": "space-observatory",
+        "en": "Space Observatory",
+        "id": "Observatorium Luar Angkasa",
+        "ms": "Balai Cerap Angkasa",
+        "prompt": "Product in a space observatory with telescope and star views. Dim, technical lighting creates a scientific, cosmic atmosphere. The mood is scientific, cosmic, and educational. Observatory photography with space views, technical lighting, scientific atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-cafe",
+        "en": "Vintage Cafe",
+        "id": "Kafe Vintage",
+        "ms": "Kafe Vintage",
+        "prompt": "Product in a cozy vintage cafe with retro decor and warm lighting. Soft, warm lighting creates a comfortable, nostalgic atmosphere. The mood is comfortable, nostalgic, and cozy. Cafe photography with vintage details, warm lighting, cozy atmosphere, photorealistic."
+    },
+    {
+        "key": "fairy-forest",
+        "en": "Fairy Forest",
+        "id": "Hutan Peri",
+        "ms": "Hutan Peri",
+        "prompt": "Product in an enchanted forest with magical lighting and fantasy elements. Ethereal, colorful lighting creates a fairy-tale atmosphere. The mood is magical, enchanting, and whimsical. Fantasy forest photography with magical elements, ethereal lighting, whimsical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "lighthouse-storm",
+        "en": "Lighthouse Storm",
+        "id": "Rumah Mercusuar Badai",
+        "ms": "Rumah Api Ribut",
+        "prompt": "Product in a lighthouse during a storm with dramatic waves and lighting. Dramatic, storm lighting creates a powerful, moody atmosphere. The mood is powerful, dramatic, and moody. Storm photography with wave details, dramatic lighting, powerful atmosphere, photorealistic."
+    },
+    {
+        "key": "art-gallery",
+        "en": "Art Gallery",
+        "id": "Galeri Seni",
+        "ms": "Galeri Seni",
+        "prompt": "Product in a modern art gallery with minimalist design and spot lighting. Clean, gallery lighting creates an artistic, sophisticated atmosphere. The mood is artistic, sophisticated, and cultural. Gallery photography with art details, clean lighting, sophisticated atmosphere, photorealistic."
+    },
+    {
+        "key": "pirate-treasure",
+        "en": "Pirate Treasure",
+        "id": "Harta Karun Bajak Laut",
+        "ms": "Harta Karun Lanun",
+        "prompt": "Product among pirate treasure with gold coins and ancient artifacts. Dramatic, cave lighting creates an adventurous, mysterious atmosphere. The mood is adventurous, mysterious, and valuable. Treasure photography with gold details, cave lighting, adventurous atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-cinema",
+        "en": "Vintage Cinema",
+        "id": "Bioskop Vintage",
+        "ms": "Wayang Gambar Vintage",
+        "prompt": "Product in a vintage cinema with velvet curtains and projector light. Dim, cinematic lighting creates a nostalgic, theatrical atmosphere. The mood is nostalgic, theatrical, and cinematic. Cinema photography with vintage details, dim lighting, theatrical atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-market",
+        "en": "Floating Market",
+        "id": "Pasar Mengambang",
+        "ms": "Pasar Terapung",
+        "prompt": "Product at a vibrant floating market with colorful boats and tropical setting. Bright, natural lighting creates a lively, exotic atmosphere. The mood is lively, exotic, and colorful. Market photography with boat details, bright lighting, exotic atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-mine",
+        "en": "Crystal Mine",
+        "id": "Tambang Kristal",
+        "ms": "Lombong Kristal",
+        "prompt": "Product in a crystal mine with glowing gemstones and mineral formations. Magical, colored lighting creates a precious, mystical atmosphere. The mood is precious, mystical, and valuable. Mine photography with crystal details, colored lighting, mystical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "neon-jungle",
+        "en": "Neon Jungle",
+        "id": "Hutan Neon",
+        "ms": "Hutan Neon",
+        "prompt": "Product in a futuristic jungle with neon-lit plants and bioluminescent elements. Vibrant, colorful lighting creates a surreal, exotic atmosphere. The mood is futuristic, exotic, and surreal. Sci-fi photography with neon plants, bioluminescent effects, vibrant colors, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-gas-station",
+        "en": "Vintage Gas Station",
+        "id": "Pom Bensin Vintage",
+        "ms": "Stesen Minyak Vintage",
+        "prompt": "Product at a retro gas station with classic pumps and neon signs. Warm, nostalgic lighting creates a classic, American atmosphere. The mood is nostalgic, classic, and retro. Retro photography with vintage details, warm lighting, nostalgic atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-lake",
+        "en": "Crystal Lake",
+        "id": "Danau Kristal",
+        "ms": "Tasik Kristal",
+        "prompt": "Product by a crystal-clear lake with perfect reflections and surrounding mountains. Bright, natural lighting creates a pristine, peaceful atmosphere. The mood is pristine, peaceful, and natural. Lake photography with perfect reflections, natural lighting, peaceful atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-telephone",
+        "en": "Vintage Telephone",
+        "id": "Telepon Vintage",
+        "ms": "Telefon Vintage",
+        "prompt": "Product with a vintage rotary telephone and retro office setting. Warm, nostalgic lighting creates a communication, retro atmosphere. The mood is nostalgic, communicative, and retro. Vintage photography with retro details, warm lighting, nostalgic atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-lanterns",
+        "en": "Floating Lanterns",
+        "id": "Lentera Mengambang",
+        "ms": "Lentera Terapung",
+        "prompt": "Product surrounded by floating paper lanterns in a night sky. Warm, lantern lighting creates a magical, celebratory atmosphere. The mood is magical, celebratory, and peaceful. Night photography with lantern details, warm lighting, magical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-camera",
+        "en": "Vintage Camera",
+        "id": "Kamera Vintage",
+        "ms": "Kamera Vintage",
+        "prompt": "Product with vintage cameras and photography equipment. Warm, studio lighting creates a photographic, nostalgic atmosphere. The mood is photographic, nostalgic, and artistic. Studio photography with vintage camera details, warm lighting, artistic atmosphere, photorealistic."
+    },
+    {
+        "key": "bamboo-forest-mist",
+        "en": "Bamboo Forest Mist",
+        "id": "Kabut Hutan Bambu",
+        "ms": "Kabut Hutan Buluh",
+        "prompt": "Product in a bamboo forest with morning mist filtering through stalks. Soft, misty lighting creates a serene, mysterious atmosphere. The mood is serene, mysterious, and zen. Misty forest photography with bamboo details, soft lighting, mysterious atmosphere, photorealistic."
+    },
+    {
+        "key": "underwater-ruins",
+        "en": "Underwater Ruins",
+        "id": "Reruntuhan Bawah Laut",
+        "ms": "Runtuhan Bawah Air",
+        "prompt": "Product among underwater ancient ruins with marine life. Blue, underwater lighting creates a mysterious, aquatic atmosphere. The mood is mysterious, aquatic, and historical. Underwater photography with ruin details, blue lighting, mysterious atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-typewriter",
+        "en": "Vintage Typewriter",
+        "id": "Mesin Ketik Vintage",
+        "ms": "Mesin Taip Vintage",
+        "prompt": "Product with a vintage typewriter and old letters. Warm, desk lighting creates a literary, nostalgic atmosphere. The mood is literary, nostalgic, and creative. Vintage photography with typewriter details, warm lighting, literary atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-clock",
+        "en": "Vintage Clock",
+        "id": "Jam Vintage",
+        "ms": "Jam Vintage",
+        "prompt": "Product with vintage clocks and timepieces. Warm, nostalgic lighting creates a timeless, retro atmosphere. The mood is timeless, nostalgic, and classic. Vintage photography with clock details, warm lighting, timeless atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-islands-sunset",
+        "en": "Floating Islands Sunset",
+        "id": "Pulau Mengambang Senja",
+        "ms": "Pulau Terapung Senja",
+        "prompt": "Product on floating islands during a spectacular sunset. Golden, magical lighting creates a fantastical, beautiful atmosphere. The mood is fantastical, beautiful, and magical. Fantasy photography with floating elements, golden lighting, magical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-radio",
+        "en": "Vintage Radio",
+        "id": "Radio Vintage",
+        "ms": "Radio Vintage",
+        "prompt": "Product with a vintage radio and retro broadcasting equipment. Warm, nostalgic lighting creates a communication, retro atmosphere. The mood is communicative, nostalgic, and retro. Vintage photography with radio details, warm lighting, nostalgic atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-geode",
+        "en": "Crystal Geode",
+        "id": "Geoda Kristal",
+        "ms": "Geod Kristal",
+        "prompt": "Product with an open crystal geode revealing sparkling interior. Dramatic, colored lighting creates a precious, magical atmosphere. The mood is precious, magical, and geological. Macro photography with crystal details, colored lighting, precious atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-television",
+        "en": "Vintage Television",
+        "id": "Televisi Vintage",
+        "ms": "Televisyen Vintage",
+        "prompt": "Product with a vintage television showing retro programs. Warm, nostalgic lighting creates a retro, entertainment atmosphere. The mood is retro, entertaining, and nostalgic. Vintage photography with TV details, warm lighting, nostalgic atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-market-sunset",
+        "en": "Floating Market Sunset",
+        "id": "Pasar Mengambang Senja",
+        "ms": "Pasar Terapung Senja",
+        "prompt": "Product at a floating market during golden hour sunset. Warm, golden lighting creates an exotic, beautiful atmosphere. The mood is exotic, beautiful, and cultural. Sunset photography with market details, golden lighting, exotic atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-compass",
+        "en": "Vintage Compass",
+        "id": "Kompas Vintage",
+        "ms": "Kompas Vintage",
+        "prompt": "Product with vintage compasses and navigation tools. Warm, adventurous lighting creates an exploration, nostalgic atmosphere. The mood is adventurous, nostalgic, and exploratory. Vintage photography with compass details, warm lighting, adventurous atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-formation",
+        "en": "Crystal Formation",
+        "id": "Formasi Kristal",
+        "ms": "Formasi Kristal",
+        "prompt": "Product with natural crystal formations and mineral specimens. Dramatic, colored lighting creates a geological, magical atmosphere. The mood is geological, magical, and natural. Macro photography with crystal details, colored lighting, geological atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-binoculars",
+        "en": "Vintage Binoculars",
+        "id": "Teropong Vintage",
+        "ms": "Binokular Vintage",
+        "prompt": "Product with vintage binoculars and exploration equipment. Warm, adventurous lighting creates an exploration, nostalgic atmosphere. The mood is adventurous, nostalgic, and observational. Vintage photography with binocular details, warm lighting, adventurous atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-garden",
+        "en": "Floating Garden",
+        "id": "Taman Mengambang",
+        "ms": "Taman Terapung",
+        "prompt": "Product in a magical floating garden with exotic plants and flowers. Soft, magical lighting creates a fantastical, beautiful atmosphere. The mood is fantastical, beautiful, and magical. Fantasy photography with floating elements, magical lighting, beautiful atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-microscope",
+        "en": "Vintage Microscope",
+        "id": "Mikroskop Vintage",
+        "ms": "Mikroskop Vintage",
+        "prompt": "Product with vintage microscopes and scientific equipment. Warm, scientific lighting creates a research, nostalgic atmosphere. The mood is scientific, nostalgic, and educational. Vintage photography with microscope details, warm lighting, scientific atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-cavern",
+        "en": "Crystal Cavern",
+        "id": "Gua Kristal",
+        "ms": "Gua Kristal",
+        "prompt": "Product in a crystal cavern with glowing formations and underground stream. Magical, blue lighting creates a mysterious, underground atmosphere. The mood is mysterious, underground, and magical. Cave photography with crystal details, blue lighting, mysterious atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-telescope",
+        "en": "Vintage Telescope",
+        "id": "Teleskop Vintage",
+        "ms": "Teleskop Vintage",
+        "prompt": "Product with vintage telescopes and astronomy equipment. Dim, astronomical lighting creates a cosmic, nostalgic atmosphere. The mood is cosmic, nostalgic, and astronomical. Vintage photography with telescope details, dim lighting, cosmic atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-globe",
+        "en": "Vintage Globe",
+        "id": "Globe Vintage",
+        "ms": "Glob Vintage",
+        "prompt": "Product with vintage globes and world maps. Warm, nostalgic lighting creates an exploration, educational atmosphere. The mood is explorational, educational, and nostalgic. Vintage photography with globe details, warm lighting, educational atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-palace",
+        "en": "Crystal Palace",
+        "id": "Istana Kristal",
+        "ms": "Istana Kristal",
+        "prompt": "Product in a crystal palace with light refracting through transparent walls. Colorful, magical lighting creates a royal, fantastical atmosphere. The mood is royal, fantastical, and magical. Palace photography with crystal details, colorful lighting, royal atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-ship-wheel",
+        "en": "Vintage Ship Wheel",
+        "id": "Kemudi Kapal Vintage",
+        "ms": "Roda Kapal Vintage",
+        "prompt": "Product with vintage ship wheels and nautical equipment. Warm, nautical lighting creates a maritime, nostalgic atmosphere. The mood is maritime, nostalgic, and adventurous. Vintage photography with nautical details, warm lighting, maritime atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-perfume",
+        "en": "Vintage Perfume",
+        "id": "Parfum Vintage",
+        "ms": "Parfum Vintage",
+        "prompt": "Product with vintage perfume bottles and elegant vanity. Soft, romantic lighting creates a luxurious, nostalgic atmosphere. The mood is luxurious, nostalgic, and romantic. Vintage photography with perfume details, soft lighting, luxurious atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-waterfall",
+        "en": "Crystal Waterfall",
+        "id": "Air Terjun Kristal",
+        "ms": "Air Terjun Kristal",
+        "prompt": "Product by a crystal waterfall with rainbow effects and mist. Bright, natural lighting creates a refreshing, magical atmosphere. The mood is refreshing, magical, and natural. Waterfall photography with rainbow details, bright lighting, refreshing atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-pocket-watch",
+        "en": "Vintage Pocket Watch",
+        "id": "Jam Saku Vintage",
+        "ms": "Jam Saku Vintage",
+        "prompt": "Product with vintage pocket watches and timekeeping elements. Warm, nostalgic lighting creates a timeless, elegant atmosphere. The mood is timeless, elegant, and nostalgic. Vintage photography with watch details, warm lighting, elegant atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-village",
+        "en": "Floating Village",
+        "id": "Desa Mengambang",
+        "ms": "Kampung Terapung",
+        "prompt": "Product at a traditional floating village with stilt houses and boats. Natural, cultural lighting creates an authentic, peaceful atmosphere. The mood is authentic, peaceful, and cultural. Cultural photography with village details, natural lighting, authentic atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-fountain-pen",
+        "en": "Vintage Fountain Pen",
+        "id": "Pena Air Vintage",
+        "ms": "Pen Air Vintage",
+        "prompt": "Product with vintage fountain pens and elegant stationery. Warm, sophisticated lighting creates a literary, elegant atmosphere. The mood is literary, elegant, and sophisticated. Vintage photography with pen details, warm lighting, elegant atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-bridge",
+        "en": "Crystal Bridge",
+        "id": "Jembatan Kristal",
+        "ms": "Jambatan Kristal",
+        "prompt": "Product on a crystal bridge with light refracting through transparent structure. Colorful, magical lighting creates a fantastical, architectural atmosphere. The mood is fantastical, architectural, and magical. Bridge photography with crystal details, colorful lighting, architectural atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "floating-library",
+        "en": "Floating Library",
+        "id": "Perpustakaan Mengambang",
+        "ms": "Perpustakaan Terapung",
+        "prompt": "Product in a magical floating library with books and knowledge elements. Soft, magical lighting creates an intellectual, fantastical atmosphere. The mood is intellectual, fantastical, and magical. Library photography with floating elements, magical lighting, intellectual atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-cameo",
+        "en": "Vintage Cameo",
+        "id": "Kameo Vintage",
+        "ms": "Kameo Vintage",
+        "prompt": "Product with vintage cameo jewelry and elegant vintage elements. Soft, romantic lighting creates a nostalgic, elegant atmosphere. The mood is nostalgic, elegant, and romantic. Vintage photography with cameo details, soft lighting, elegant atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-dome",
+        "en": "Crystal Dome",
+        "id": "Kubah Kristal",
+        "ms": "Kubah Kristal",
+        "prompt": "Product in a crystal dome with light creating rainbow patterns. Colorful, architectural lighting creates a futuristic, magical atmosphere. The mood is futuristic, magical, and architectural. Dome photography with crystal details, colorful lighting, architectural atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-locket",
+        "en": "Vintage Locket",
+        "id": "Kalung Liontin Vintage",
+        "ms": "Rantai Leher Vintage",
+        "prompt": "Product with vintage lockets and sentimental jewelry. Warm, romantic lighting creates a nostalgic, sentimental atmosphere. The mood is nostalgic, sentimental, and romantic. Vintage photography with locket details, warm lighting, sentimental atmosphere, photorealistic."
+    },
+    {
+        "key": "vintage-fan",
+        "en": "Vintage Fan",
+        "id": "Kipas Vintage",
+        "ms": "Kipas Vintage",
+        "prompt": "Product with vintage hand fans and elegant accessories. Soft, elegant lighting creates a graceful, nostalgic atmosphere. The mood is graceful, nostalgic, and elegant. Vintage photography with fan details, soft lighting, elegant atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-labyrinth",
+        "en": "Crystal Labyrinth",
+        "id": "Labirin Kristal",
+        "ms": "Labirin Kristal",
+        "prompt": "Product in a crystal labyrinth with light refracting through walls. Colorful, mysterious lighting creates a puzzling, magical atmosphere. The mood is puzzling, magical, and mysterious. Labyrinth photography with crystal details, colorful lighting, mysterious atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-cameo-brooch",
+        "en": "Vintage Cameo Brooch",
+        "id": "Bros Kameo Vintage",
+        "ms": "Brosh Kameo Vintage",
+        "prompt": "Product with vintage cameo brooches and elegant accessories. Soft, sophisticated lighting creates a nostalgic, elegant atmosphere. The mood is nostalgic, elegant, and sophisticated. Vintage photography with brooch details, soft lighting, elegant atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-castle",
+        "en": "Floating Castle",
+        "id": "Kastil Mengambang",
+        "ms": "Kastil Terapung",
+        "prompt": "Product at a floating castle with medieval architecture and clouds. Dramatic, magical lighting creates a fantastical, royal atmosphere. The mood is fantastical, royal, and magical. Castle photography with floating elements, dramatic lighting, royal atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-spectacles",
+        "en": "Vintage Spectacles",
+        "id": "Kacamata Vintage",
+        "ms": "Spektakel Vintage",
+        "prompt": "Product with vintage spectacles and elegant reading accessories. Warm, intellectual lighting creates a scholarly, nostalgic atmosphere. The mood is scholarly, nostalgic, and intellectual. Vintage photography with spectacles details, warm lighting, intellectual atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-tower",
+        "en": "Crystal Tower",
+        "id": "Menara Kristal",
+        "ms": "Menara Kristal",
+        "prompt": "Product in a crystal tower with light creating prism effects. Colorful, architectural lighting creates a futuristic, magical atmosphere. The mood is futuristic, magical, and architectural. Tower photography with crystal details, colorful lighting, architectural atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-cufflinks",
+        "en": "Vintage Cufflinks",
+        "id": "Kancing Manset Vintage",
+        "ms": "Butang Cufflinks Vintage",
+        "prompt": "Product with vintage cufflinks and formal accessories. Sophisticated, elegant lighting creates a refined, nostalgic atmosphere. The mood is refined, nostalgic, and sophisticated. Vintage photography with cufflink details, elegant lighting, sophisticated atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-garden-moon",
+        "en": "Floating Garden Moon",
+        "id": "Taman Mengambang Bulan",
+        "ms": "Taman Terapung Bulan",
+        "prompt": "Product in a moonlit floating garden with bioluminescent plants. Soft, moonlight lighting creates a magical, serene atmosphere. The mood is magical, serene, and otherworldly. Moonlight photography with floating elements, magical lighting, serene atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-tie-pin",
+        "en": "Vintage Tie Pin",
+        "id": "Peniti Dasi Vintage",
+        "ms": "Pin Dasi Vintage",
+        "prompt": "Product with vintage tie pins and formal accessories. Sophisticated, warm lighting creates a refined, nostalgic atmosphere. The mood is refined, nostalgic, and sophisticated. Vintage photography with tie pin details, warm lighting, sophisticated atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-maze",
+        "en": "Crystal Maze",
+        "id": "Labirin Kristal",
+        "ms": "Labirin Kristal",
+        "prompt": "Product in a crystal maze with light creating complex patterns. Colorful, confusing lighting creates a puzzling, magical atmosphere. The mood is puzzling, magical, and complex. Maze photography with crystal details, colorful lighting, confusing atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-pocket-knife",
+        "en": "Vintage Pocket Knife",
+        "id": "Pisau Saku Vintage",
+        "ms": "Pisau Saku Vintage",
+        "prompt": "Product with vintage pocket knives and utility tools. Warm, rugged lighting creates a practical, nostalgic atmosphere. The mood is practical, nostalgic, and rugged. Vintage photography with knife details, warm lighting, practical atmosphere, photorealistic."
+    },
+    {
+        "key": "floating-observatory",
+        "en": "Floating Observatory",
+        "id": "Observatorium Mengambang",
+        "ms": "Balai Cerap Terapung",
+        "prompt": "Product in a floating observatory with telescopes and cosmic views. Dim, cosmic lighting creates an astronomical, magical atmosphere. The mood is astronomical, magical, and cosmic. Observatory photography with floating elements, cosmic lighting, astronomical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-key",
+        "en": "Vintage Key",
+        "id": "Kunci Vintage",
+        "ms": "Kunci Vintage",
+        "prompt": "Product with vintage keys and mysterious locks. Warm, mysterious lighting creates an enigmatic, nostalgic atmosphere. The mood is enigmatic, nostalgic, and mysterious. Vintage photography with key details, warm lighting, mysterious atmosphere, photorealistic."
+    },
+    {
+        "key": "crystal-pyramid",
+        "en": "Crystal Pyramid",
+        "id": "Piramida Kristal",
+        "ms": "Piramid Kristal",
+        "prompt": "Product in a crystal pyramid with light creating mystical effects. Colorful, mystical lighting creates an ancient, magical atmosphere. The mood is ancient, magical, and mystical. Pyramid photography with crystal details, colorful lighting, mystical atmosphere, hyper-detailed, 8K."
+    },
+    {
+        "key": "vintage-cameo-ring",
+        "en": "Vintage Cameo Ring",
+        "id": "Cincin Kameo Vintage",
+        "ms": "Cincin Kameo Vintage",
+        "prompt": "Product with vintage cameo rings and elegant jewelry. Soft, romantic lighting creates a nostalgic, elegant atmosphere. The mood is nostalgic, elegant, and romantic. Vintage photography with ring details, soft lighting, elegant atmosphere, photorealistic."
+    }
+]

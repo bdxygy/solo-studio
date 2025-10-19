@@ -1,0 +1,2585 @@
+[
+  {
+    "key": "flat-lay-basic",
+    "en": "Flat Lay Basic",
+    "id": "Datar Dasar",
+    "ms": "Rata Dasar",
+    "prompt": "Clean flat lay clothing mockup on neutral background. Garment laid perfectly flat with smooth edges and natural folds. Professional top-down lighting with soft shadows. Minimalist presentation focusing on the clothing design. Suitable for e-commerce and catalog displays. Plain backdrop with consistent lighting."
+  },
+  {
+    "key": "hanging-hanger",
+    "en": "Hanging Hanger",
+    "id": "Gantungan Baju",
+    "ms": "Gantung Penyangkut",
+    "prompt": "Clothing mockup hanging on premium wooden hanger. Garment hangs naturally with realistic draping and weight distribution. Soft side lighting creating gentle shadows and highlights. Clean, professional appearance suitable for retail displays. Minimal background with focus on fabric texture and fit."
+  },
+  {
+    "key": "mannequin-standing-front",
+    "en": "Mannequin Standing Front",
+    "id": "Maneken Depan Berdiri",
+    "ms": "Manekin Depan Berdiri",
+    "prompt": "Front view clothing mockup on faceless mannequin standing pose. Professional posture with proper shoulder positioning and fit visualization. Even studio lighting showing accurate color and fabric details. Full-length view suitable for online stores and fashion catalogs. Clean background with professional studio setup."
+  },
+  {
+    "key": "mannequin-standing-side",
+    "en": "Mannequin Standing Side",
+    "id": "Maneken Samping Berdiri",
+    "ms": "Manekin Sisi Berdiri",
+    "prompt": "Side profile clothing mockup on faceless mannequin standing pose. Profile view showing garment shape and silhouette details. Professional body contours with realistic fabric draping. Studio lighting with subtle shadows creating depth. Professional pose suitable for showing fit and style from different angles."
+  },
+  {
+    "key": "mannequin-sitting-casual",
+    "en": "Mannequin Sitting Casual",
+    "id": "Maneken Duduk Santai",
+    "ms": "Manekin Duduk Santai",
+    "prompt": "Casual sitting pose clothing mockup on faceless mannequin. Professional sitting position with comfortable fabric positioning. Lifestyle setting with soft, ambient lighting. Relaxed atmosphere suitable for casual wear and everyday fashion. Professional appearance showing how garment looks when seated."
+  },
+  {
+    "key": "folded-neat",
+    "en": "Folded Neat",
+    "id": "Lipat Rapi",
+    "ms": "Lipat Kemas",
+    "prompt": "Neatly folded clothing mockup with clean edges and precise folds. Retail-style folding presentation showing garment details. Soft lighting highlighting fabric texture and design elements. Professional appearance suitable for packaging and gift displays. Consistent folding technique with attention to detail."
+  },
+  {
+    "key": "draped-mannequin",
+    "en": "Draped Mannequin",
+    "id": "Maneken Bertekuk",
+    "ms": "Manekin Bertekuk",
+    "prompt": "Clothing mockup draped on professional faceless mannequin torso. Perfect fit presentation showing garment structure and shape. Even studio lighting with no harsh shadows. Focus on silhouette and design details. Clean background suitable for wholesale and B2B presentations."
+  },
+  {
+    "key": "mannequin-walking-dynamic",
+    "en": "Mannequin Walking Dynamic",
+    "id": "Maneken Jalan Dinamis",
+    "ms": "Manekin Berjalan Dinamik",
+    "prompt": "Dynamic walking pose clothing mockup on poseable faceless mannequin. Professional movement showing how garment flows and drapes in motion. Action photography with motion blur effects. Studio environment with controlled lighting. Professional presentation suitable for active wear and fashion campaigns."
+  },
+  {
+    "key": "mannequin-over-shoulder",
+    "en": "Mannequin Over Shoulder",
+    "id": "Maneken Di Atas Bahu",
+    "ms": "Manekin Di Atas Bahu",
+    "prompt": "Over-the-shoulder view clothing mockup on faceless mannequin. Three-quarter perspective showing garment fit and back details. Professional pose with proper shoulder positioning and head turn. Studio lighting with subtle shadows. Professional presentation suitable for detailed garment viewing."
+  },
+  {
+    "key": "close-up-detail",
+    "en": "Close Up Detail",
+    "id": "Detail Dekat",
+    "ms": "Perincian Dekat",
+    "prompt": "Close-up clothing mockup focusing on fabric texture and design details. Macro photography showing stitching, patterns, and material quality. Controlled lighting highlighting specific garment features. Detailed presentation suitable for premium brands and quality showcases."
+  },
+  {
+    "key": "mannequin-arms-crossed",
+    "en": "Mannequin Arms Crossed",
+    "id": "Maneken Lengan Silang",
+    "ms": "Manekin Lengan Bersilang",
+    "prompt": "Arms crossed pose clothing mockup on faceless mannequin. Professional posture showing upper garment fit and style. Studio lighting with even illumination. Confident appearance suitable for business and formal wear. Clean background focusing on garment structure."
+  },
+  {
+    "key": "on-closet-hanger",
+    "en": "On Closet Hanger",
+    "id": "Di Lemari Gantungan",
+    "ms": "Di Dalam Almari",
+    "prompt": "Clothing mockup on closet-style hanger with natural folds. Realistic home environment with soft lighting. Casual presentation showing everyday storage and organization. Lifestyle feel suitable for personal wardrobe and fashion blogs. Natural shadows and home setting ambiance."
+  },
+  {
+    "key": "mannequin-leaning-wall",
+    "en": "Mannequin Leaning Wall",
+    "id": "Maneken Bersandar Tembok",
+    "ms": "Manekin Bersandar Dinding",
+    "prompt": "Professional leaning pose clothing mockup of faceless mannequin against textured wall. Confident posture with natural fabric draping. Urban or studio setting with creative lighting. Professional appearance suitable for streetwear and casual fashion. Authentic atmosphere with textured background elements."
+  },
+  {
+    "key": "hanging-outdoor",
+    "en": "Hanging Outdoor",
+    "id": "Gantungan Luar",
+    "ms": "Gantung Luar",
+    "prompt": "Outdoor clothing mockup hanging in natural environment. Natural sunlight with soft shadows creating realistic appearance. Garden, balcony, or patio setting. Fresh atmosphere suitable for sustainable and outdoor brands. Natural background elements with authentic lighting."
+  },
+  {
+    "key": "mannequin-hands-pocket",
+    "en": "Mannequin Hands Pocket",
+    "id": "Maneken Tangan Saku",
+    "ms": "Manekin Tangan Sakub",
+    "prompt": "Professional hands-in-pockets pose clothing mockup on faceless mannequin. Natural stance showing garment fit and style details. Studio setting with controlled lighting. Professional appearance suitable for casual wear and everyday fashion. Authentic pose with comfortable posture."
+  },
+  {
+    "key": "folded-retail-display",
+    "en": "Folded Retail Display",
+    "id": "Lipat Display Ritel",
+    "ms": "Lipat Paparan Runcit",
+    "prompt": "Retail-style folded clothing mockup with premium presentation. Professional folding techniques showing brand attention to detail. Store lighting with bright, even illumination. Commercial appearance suitable for retail displays and shop presentations. Clean, organized presentation."
+  },
+  {
+    "key": "mannequin-walking-back",
+    "en": "Mannequin Walking Back",
+    "id": "Maneken Jalan Belakang",
+    "ms": "Manekin Berjalan Belakang",
+    "prompt": "Back view walking pose clothing mockup on faceless mannequin. Professional movement showing garment back design and fit. Dynamic photography with motion elements. Studio setting with action feel. Comprehensive view suitable for complete garment presentation."
+  },
+  {
+    "key": "on-dress-form",
+    "en": "On Dress Form",
+    "id": "Di Bentuk Gaun",
+    "ms": "Di Atas Bentuk",
+    "prompt": "Professional dress form clothing mockup with perfect fit. Tailor's presentation showing garment construction and silhouette. Even lighting with focus on design details. Technical appearance suitable for designers and manufacturers. Precise fit demonstration with professional presentation."
+  },
+  {
+    "key": "mannequin-sitting-chair",
+    "en": "Mannequin Sitting Chair",
+    "id": "Maneken Duduk Kursi",
+    "ms": "Manekin Duduk Kerusi",
+    "prompt": "Elegant sitting pose clothing mockup on faceless mannequin in chair or bench. Refined posture showing garment draping when seated. Studio setting with controlled lighting. Sophisticated appearance suitable for formal wear and elegant fashion. Professional pose with attention to detail."
+  },
+  {
+    "key": "hanging-branch-natural",
+    "en": "Hanging Branch Natural",
+    "id": "Gantungan Cabang Alami",
+    "ms": "Gantung Dahan Asli",
+    "prompt": "Natural branch hanging clothing mockup in outdoor setting. Organic elements with tree branches and natural lighting. Eco-friendly atmosphere suitable for sustainable brands. Rustic appearance with earthy tones and natural textures. Environmental presentation with authentic outdoor setting."
+  },
+  {
+    "key": "mannequin-twirling-dynamic",
+    "en": "Mannequin Twirling Dynamic",
+    "id": "Maneken Berputar Dinamis",
+    "ms": "Manekin Berpusing Dinamik",
+    "prompt": "Dynamic twirling pose clothing mockup on poseable faceless mannequin showing movement. Professional action photography capturing garment flow and drape. Studio lighting with motion effects. Energetic presentation suitable for dresses and flowing garments. Dynamic movement with professional photography."
+  },
+  {
+    "key": "flat-lay-styled",
+    "en": "Flat Lay Styled",
+    "id": "Datar Bergaya",
+    "ms": "Rata Bergaya",
+    "prompt": "Styled flat lay clothing mockup with accessories and props. Creative arrangement with complementary elements. Natural lighting with soft shadows. Editorial appearance suitable for fashion magazines and social media. Artistic composition with thoughtful styling elements."
+  },
+  {
+    "key": "mannequin-lifting-hem",
+    "en": "Mannequin Lifting Hem",
+    "id": "Maneken Angkat Ujung",
+    "ms": "Manekin Angkat Hem",
+    "prompt": "Hem lifting pose clothing mockup on faceless mannequin showing garment length and flow. Professional movement with elegant posture. Studio lighting highlighting fabric texture and movement. Graceful appearance suitable for dresses and skirts. Professional pose with detailed presentation."
+  },
+  {
+    "key": "on-clothing-rack",
+    "en": "On Clothing Rack",
+    "id": "Di Rak Baju",
+    "ms": "Di Rak Pakaian",
+    "prompt": "Clothing rack mockup with garment among other items. Retail environment with store-like presentation. Bright commercial lighting with professional appearance. Shopping atmosphere suitable for retail displays and online stores. Realistic store setting with organized presentation."
+  },
+  {
+    "key": "mannequin-hands-hips",
+    "en": "Mannequin Hands Hips",
+    "id": "Maneken Tangan Pinggul",
+    "ms": "Manekin Tangan Pinggang",
+    "prompt": "Hands-on-hips pose clothing mockup on faceless mannequin. Powerful stance showing garment fit and structure. Studio lighting with dramatic shadows. Confident appearance suitable for power dressing and formal wear. Strong posture with professional presentation."
+  },
+  {
+    "key": "draped-chair-back",
+    "en": "Draped Chair Back",
+    "id": "Draping Belakang Kursi",
+    "ms": "Drapi Belakang Kerusi",
+    "prompt": "Casual chair back draping clothing mockup. Relaxed positioning with natural fabric folds. Home or office setting with ambient lighting. Lifestyle appearance suitable for everyday wear and casual fashion. Authentic home environment with natural draping."
+  },
+  {
+    "key": "mannequin-reaching-up",
+    "en": "Mannequin Reaching Up",
+    "id": "Maneken Mencapai Atas",
+    "ms": "Manekin Mencapai Atas",
+    "prompt": "Reaching up pose clothing mockup on faceless mannequin showing garment stretch and fit. Professional upward movement with elongated posture. Studio setting with controlled lighting. Active appearance suitable for sportswear and casual wear. Professional pose with natural movement."
+  },
+  {
+    "key": "on-bed-folded",
+    "en": "On Bed Folded",
+    "id": "Di Lipat Tempat Tidur",
+    "ms": "Di Lipat Katil",
+    "prompt": "Bed folded clothing mockup with relaxed presentation. Casual bedroom setting with soft lighting. Comfortable atmosphere suitable for loungewear and sleepwear. Natural appearance with bedroom ambiance. Home setting with authentic folding style."
+  },
+  {
+    "key": "mannequin-walking-side",
+    "en": "Mannequin Walking Side",
+    "id": "Maneken Jalan Samping",
+    "ms": "Manekin Berjalan Sisi",
+    "prompt": "Side walking pose clothing mockup on poseable faceless mannequin showing garment movement. Professional walking motion with fabric flow dynamics. Studio setting with action photography. Dynamic appearance suitable for active wear and casual fashion. Professional movement capture with controlled photography."
+  },
+  {
+    "key": "hanging-vintage-hook",
+    "en": "Hanging Vintage Hook",
+    "id": "Gantungan Kait Antik",
+    "ms": "Gantung Cangkuk Antik",
+    "prompt": "Vintage hook hanging clothing mockup with retro style. Antique or rustic hook with aged metal finish. Warm lighting with nostalgic atmosphere. Heritage appearance suitable for vintage and retro brands. Old-world charm with authentic vintage elements."
+  },
+  {
+    "key": "mannequin-sitting-floor",
+    "en": "Mannequin Sitting Floor",
+    "id": "Maneken Duduk Lantai",
+    "ms": "Manekin Duduk Lantai",
+    "prompt": "Professional floor sitting pose clothing mockup on faceless mannequin. Confident posture showing casual garment draping. Studio setting with controlled lighting. Professional appearance suitable for relaxed wear and comfortable fashion. Authentic pose with relaxed atmosphere."
+  },
+  {
+    "key": "on-ironing-board",
+    "en": "On Ironing Board",
+    "id": "Di Meja Setrika",
+    "ms": "Di Papan Setrika",
+    "prompt": "Ironing board clothing mockup with ready-to-wear presentation. Clean, pressed appearance with smooth fabric surface. Home setting with natural lighting. Practical appearance suitable for everyday wear and household fashion. Realistic home environment with authentic setting."
+  },
+  {
+    "key": "mannequin-arms-outstretched",
+    "en": "Mannequin Arms Outstretched",
+    "id": "Maneken Langan Terentang",
+    "ms": "Manekin Lengan Terentang",
+    "prompt": "Arms outstretched pose clothing mockup on faceless mannequin showing garment width and fit. Open posture displaying full garment structure. Studio lighting with even illumination. Comprehensive view suitable for detailed garment presentation. Confident pose with professional appearance."
+  },
+  {
+    "key": "hanging-closet-rod",
+    "en": "Hanging Closet Rod",
+    "id": "Gantungan Tiang Lemari",
+    "ms": "Gantung Rod Almari",
+    "prompt": "Closet rod hanging clothing mockup with organized presentation. Multiple hangers with neat arrangement. Home closet lighting with natural ambiance. Organized appearance suitable for wardrobe organization and storage solutions. Realistic closet setting with authentic presentation."
+  },
+  {
+    "key": "mannequin-leaning-forward",
+    "en": "Mannequin Leaning Forward",
+    "id": "Maneken Condong Maju",
+    "ms": "Manekin Condong Ke Depan",
+    "prompt": "Forward leaning pose clothing mockup on faceless mannequin showing garment drape and movement. Professional posture with relaxed upper body. Studio lighting with gentle shadows. Engaging appearance suitable for fashion presentations. Professional pose with controlled photography."
+  },
+  {
+    "key": "on-drying-rack",
+    "en": "On Drying Rack",
+    "id": "Di Rak Pengering",
+    "ms": "Di Rak Pengering",
+    "prompt": "Drying rack clothing mockup with fresh laundry appearance. Natural air-drying presentation with realistic folds. Outdoor or indoor setting with natural lighting. Fresh appearance suitable for casual wear and everyday fashion. Authentic laundry environment with natural presentation."
+  },
+  {
+    "key": "mannequin-hands-behind-back",
+    "en": "Mannequin Hands Behind Back",
+    "id": "Maneken Tangan Belakang",
+    "ms": "Manekin Tangan Belakang",
+    "prompt": "Hands behind back pose clothing mockup on faceless mannequin with elegant posture. Confident stance showing garment front details. Studio lighting with professional illumination. Refined appearance suitable for formal wear and elegant fashion. Sophisticated pose with attention to detail."
+  },
+  {
+    "key": "flat-lay-overlapped",
+    "en": "Flat Lay Overlapped",
+    "id": "Datar Tumpang Tindih",
+    "ms": "Rata Bertindih",
+    "prompt": "Overlapped flat lay clothing mockup with creative arrangement. Multiple garments or layers artfully arranged. Studio lighting with soft shadows. Editorial appearance suitable for fashion collections and coordinated outfits. Creative composition with artistic presentation."
+  },
+  {
+    "key": "mannequin-one-hand-pocket",
+    "en": "Mannequin One Hand Pocket",
+    "id": "Maneken Satu Tangan Saku",
+    "ms": "Manekin Satu Tangan Saku",
+    "prompt": "One hand in pocket pose clothing mockup on faceless mannequin with professional confidence. Confident posture showing natural garment fit. Studio setting with controlled lighting. Professional appearance suitable for casual wear and everyday fashion. Authentic pose with relaxed confidence."
+  },
+  {
+    "key": "hanging-pegboard",
+    "en": "Hanging Pegboard",
+    "id": "Gantungan Papan",
+    "ms": "Gantung Papan Lubang",
+    "prompt": "Pegboard hanging clothing mockup with organized display. Retail or home organization setting. Bright lighting with clean presentation. Functional appearance suitable for storage solutions and organized displays. Practical setup with efficient organization."
+  },
+  {
+    "key": "mannequin-kneeling-pose",
+    "en": "Mannequin Kneeling Pose",
+    "id": "Maneken Jongkok Pose",
+    "ms": "Manekin Bersimpuh",
+    "prompt": "Professional kneeling pose clothing mockup on faceless mannequin showing garment fit from different angle. Confident posture with relaxed upper body. Studio setting with controlled lighting. Professional appearance suitable for various garment types and styles. Confident pose with professional presentation."
+  },
+  {
+    "key": "on-luggage-rack",
+    "en": "On Luggage Rack",
+    "id": "Di Rak Koper",
+    "ms": "Di Rak Bagasi",
+    "prompt": "Luggage rack clothing mockup with travel-ready presentation. Hotel or travel setting with ambient lighting. Travel-themed appearance suitable for vacation wear and travel fashion. Authentic travel environment with practical presentation."
+  },
+  {
+    "key": "mannequin-looking-over-shoulder",
+    "en": "Mannequin Looking Over Shoulder",
+    "id": "Maneken Menoleh",
+    "ms": "Manekin Melihat Ke Bahu",
+    "prompt": "Looking over shoulder pose clothing mockup on faceless mannequin with professional posture. Confident stance showing garment back and side details. Studio lighting with flattering shadows. Engaging appearance suitable for fashion presentations. Professional pose with controlled photography."
+  },
+  {
+    "key": "hanging-door-knob",
+    "en": "Hanging Door Knob",
+    "id": "Gantungan Pegangan Pintu",
+    "ms": "Gantung Pegang Pintu",
+    "prompt": "Door knob hanging clothing mockup with casual presentation. Home setting with natural lighting and authentic environment. Everyday appearance suitable for casual wear and household fashion. Realistic home setting with natural presentation."
+  },
+  {
+    "key": "mannequin-sitting-cross-legged",
+    "en": "Mannequin Sitting Cross Legged",
+    "id": "Maneken Duduk Sila",
+    "ms": "Manekin Duduk Bersilang",
+    "prompt": "Professional cross-legged sitting pose clothing mockup on faceless mannequin. Confident posture with comfortable atmosphere. Studio setting with controlled lighting. Professional appearance suitable for casual and comfortable fashion. Authentic pose with relaxed comfort."
+  },
+  {
+    "key": "on-valet-stand",
+    "en": "On Valet Stand",
+    "id": "Di Stand Valet",
+    "ms": "Di Atas Stand Valet",
+    "prompt": "Valet stand clothing mockup with luxury presentation. Elegant stand with refined appearance. Sophisticated lighting with premium ambiance. Luxury appearance suitable for formal wear and high-end fashion. Upscale presentation with attention to detail."
+  },
+  {
+    "key": "mannequin-walking-away",
+    "en": "Mannequin Walking Away",
+    "id": "Maneken Jalan Pergi",
+    "ms": "Manekin Berjalan Pergi",
+    "prompt": "Walking away pose clothing mockup on poseable faceless mannequin showing garment back design. Professional movement with confident posture. Studio setting with dynamic lighting. Comprehensive view suitable for complete garment presentation. Professional pose with controlled photography."
+  },
+  {
+    "key": "hanging-ladder-back",
+    "en": "Hanging Ladder Back",
+    "id": "Gantungan Tangga Belakang",
+    "ms": "Gantung Tangga Belakang",
+    "prompt": "Ladder back hanging clothing mockup with rustic charm. Ladder or towel rack with natural wood finish. Rustic setting with warm lighting. Country-style appearance suitable for casual and rustic fashion. Authentic rural environment with natural presentation."
+  },
+  {
+    "key": "mannequin-stretching-arms",
+    "en": "Mannequin Stretching Arms",
+    "id": "Maneken Peregangan Lengan",
+    "ms": "Manekin Regang Lengan",
+    "prompt": "Arm stretching pose clothing mockup on poseable faceless mannequin showing garment flexibility and fit. Professional movement with extended posture. Studio lighting with even illumination. Active appearance suitable for sportswear and performance wear. Professional pose with natural movement."
+  },
+  {
+    "key": "on-dresser-top",
+    "en": "On Dresser Top",
+    "id": "Di Atas Meja Rias",
+    "ms": "Di Atas Meja Rias",
+    "prompt": "Dresser top clothing mockup with bedroom setting. Folded or arranged with personal care items nearby. Soft bedroom lighting with intimate atmosphere. Personal appearance suitable for intimate wear and bedroom fashion. Authentic bedroom environment with natural presentation."
+  },
+  {
+    "key": "mannequin-one-hand-hip",
+    "en": "Mannequin One Hand Hip",
+    "id": "Maneken Satu Tangan Pinggul",
+    "ms": "Manekin Satu Tangan Pinggang",
+    "prompt": "One hand on hip pose clothing mockup on faceless mannequin with confident stance. Professional posture showing garment fit and style. Studio setting with controlled lighting. Confident appearance suitable for casual and professional fashion. Professional pose with professional presentation."
+  },
+  {
+    "key": "hanging-bathroom-hook",
+    "en": "Hanging Bathroom Hook",
+    "id": "Gantungan Kait Kamar Mandi",
+    "ms": "Gantung Cangkuk Bilik Mandi",
+    "prompt": "Bathroom hook hanging clothing mockup with fresh environment. Bathroom setting with humidity and steam effects. Fresh appearance suitable for post-shower wear and bathroom fashion. Authentic bathroom environment with natural presentation."
+  },
+  {
+    "key": "mannequin-action-running",
+    "en": "Mannequin Action Running",
+    "id": "Maneken Aksi Berlari",
+    "ms": "Manekin Aksi Berlari",
+    "prompt": "Dynamic running pose clothing mockup on poseable faceless mannequin. Professional action pose showing garment movement during athletic activity. Studio lighting with motion blur effects. Active appearance suitable for sportswear and performance wear. Professional athletic pose with controlled photography."
+  },
+  {
+    "key": "mannequin-yoga-pose",
+    "en": "Mannequin Yoga Pose",
+    "id": "Maneken Pose Yoga",
+    "ms": "Manekin Pose Yoga",
+    "prompt": "Yoga pose clothing mockup on flexible faceless mannequin. Professional posture showing garment stretch and flexibility. Serene studio setting with soft natural lighting. Zen appearance suitable for activewear and yoga clothing. Professional pose with mindful presentation."
+  },
+  {
+    "key": "mannequin-dancing-pose",
+    "en": "Mannequin Dancing Pose",
+    "id": "Maneken Pose Menari",
+    "ms": "Manekin Pose Menari",
+    "prompt": "Elegant dancing pose clothing mockup on poseable faceless mannequin. Graceful movement showing garment flow and drape. Studio lighting with dramatic shadows. Artistic appearance suitable for dancewear and performance costumes. Professional dance pose with artistic presentation."
+  },
+  {
+    "key": "mannequin-casual-leaning",
+    "en": "Mannequin Casual Leaning",
+    "id": "Maneken Sandar Santai",
+    "ms": "Manekin Condong Santai",
+    "prompt": "Casual leaning pose clothing mockup on relaxed faceless mannequin. Natural posture showing comfortable garment fit. Lifestyle setting with ambient lighting. Relaxed appearance suitable for casual wear and everyday fashion. Professional pose with comfortable presentation."
+  },
+  {
+    "key": "mannequin-formal-standing",
+    "en": "Mannequin Formal Standing",
+    "id": "Maneken Berdiri Formal",
+    "ms": "Manekin Berdiri Formal",
+    "prompt": "Formal standing pose clothing mockup on professional faceless mannequin. Elegant posture showing formal garment fit and structure. Studio lighting with sophisticated illumination. Formal appearance suitable for business wear and formal attire. Professional pose with elegant presentation."
+  },
+  {
+    "key": "mannequin-sport-action",
+    "en": "Mannequin Sport Action",
+    "id": "Maneken Aksi Olahraga",
+    "ms": "Manekin Aksi Sukan",
+    "prompt": "Sport action pose clothing mockup on athletic faceless mannequin. Dynamic movement showing sportswear performance and fit. Action studio lighting with motion effects. Athletic appearance suitable for sports teams and fitness wear. Professional athletic pose with dynamic presentation."
+  },
+  {
+    "key": "mannequin-relaxed-sitting",
+    "en": "Mannequin Relaxed Sitting",
+    "id": "Maneken Duduk Santai",
+    "ms": "Manekin Duduk Santai",
+    "prompt": "Relaxed sitting pose clothing mockup on comfortable faceless mannequin. Natural posture showing comfortable garment draping. Cozy setting with warm lighting. Comfortable appearance suitable for loungewear and relaxed fashion. Professional pose with comfortable presentation."
+  },
+  {
+    "key": "mannequin-elegant-posing",
+    "en": "Mannequin Elegant Posing",
+    "id": "Maneken Pose Elegan",
+    "ms": "Manekin Pose Anggun",
+    "prompt": "Elegant posing clothing mockup on sophisticated faceless mannequin. Graceful posture showing garment elegance and style. Studio lighting with soft, flattering illumination. Elegant appearance suitable for formal wear and special occasions. Professional pose with graceful presentation."
+  },
+  {
+    "key": "mannequin-casual-walking",
+    "en": "Mannequin Casual Walking",
+    "id": "Maneken Jalan Santai",
+    "ms": "Manekin Berjalan Santai",
+    "prompt": "Casual walking pose clothing mockup on poseable faceless mannequin. Natural movement showing everyday garment fit. Lifestyle setting with natural lighting. Casual appearance suitable for daily wear and casual fashion. Professional pose with natural movement."
+  },
+  {
+    "key": "mannequin-urban-style",
+    "en": "Mannequin Urban Style",
+    "id": "Maneken Gaya Urban",
+    "ms": "Manekin Gaya Bandar",
+    "prompt": "Urban style pose clothing mockup on trendy faceless mannequin. Street-inspired posture showing urban garment fit. City setting with edgy lighting. Urban appearance suitable for streetwear and contemporary fashion. Professional pose with urban attitude."
+  },
+  {
+    "key": "mannequin-vintage-posing",
+    "en": "Mannequin Vintage Posing",
+    "id": "Maneken Pose Vintage",
+    "ms": "Manekin Pose Vintage",
+    "prompt": "Vintage-inspired pose clothing mockup on classic faceless mannequin. Retro posture showing vintage garment style. Warm nostalgic lighting with aged effects. Vintage appearance suitable for retro clothing and heritage brands. Professional pose with nostalgic charm."
+  },
+  {
+    "key": "mannequin-beach-relaxed",
+    "en": "Mannequin Beach Relaxed",
+    "id": "Maneken Santai Pantai",
+    "ms": "Manekin Santai Pantai",
+    "prompt": "Beach relaxed pose clothing mockup on faceless mannequin. Casual posture showing beachwear and resort clothing. Natural sunlight with ocean backdrop. Beachy appearance suitable for swimwear and resort wear. Professional pose with tropical atmosphere."
+  },
+  {
+    "key": "mannequin-business-professional",
+    "en": "Mannequin Business Professional",
+    "id": "Maneken Bisnis Profesional",
+    "ms": "Manekin Perniagaan Profesional",
+    "prompt": "Business professional pose clothing mockup on corporate faceless mannequin. Confident posture showing business garment fit and structure. Office setting with professional lighting. Corporate appearance suitable for business attire and professional wear. Professional pose with business confidence."
+  },
+  {
+    "key": "mannequin-artistic-expression",
+    "en": "Mannequin Artistic Expression",
+    "id": "Maneken Ekspresi Artistik",
+    "ms": "Manekin Ekspresi Artistik",
+    "prompt": "Artistic expression pose clothing mockup on creative faceless mannequin. Dynamic posture showing artistic garment style. Creative studio lighting with dramatic effects. Artistic appearance suitable for avant-garde fashion and creative wear. Professional pose with artistic flair."
+  },
+  {
+    "key": "mannequin-minimalist-style",
+    "en": "Mannequin Minimalist Style",
+    "id": "Maneken Gaya Minimalis",
+    "ms": "Manekin Gaya Minimalis",
+    "prompt": "Minimalist style pose clothing mockup on clean faceless mannequin. Simple posture showing minimalist garment design. Clean studio lighting with minimal shadows. Minimalist appearance suitable for simple clothing and modern fashion. Professional pose with clean aesthetic."
+  },
+  {
+    "key": "mannequin-bohemian-style",
+    "en": "Mannequin Bohemian Style",
+    "id": "Maneken Gaya Bohemian",
+    "ms": "Manekin Gaya Bohemia",
+    "prompt": "Bohemian style pose clothing mockup on free-spirited faceless mannequin. Relaxed posture showing bohemian garment flow. Natural lighting with earthy tones. Bohemian appearance suitable for festival wear and free-spirited fashion. Professional pose with boho charm."
+  },
+  {
+    "key": "mannequin-preppy-style",
+    "en": "Mannequin Preppy Style",
+    "id": "Maneken Gaya Preppy",
+    "ms": "Manekin Gaya Preppy",
+    "prompt": "Preppy style pose clothing mockup on polished faceless mannequin. Proper posture showing preppy garment fit and structure. Bright studio lighting with clean background. Preppy appearance suitable for collegiate wear and classic fashion. Professional pose with polished presentation."
+  },
+  {
+    "key": "mannequin-gothic-style",
+    "en": "Mannequin Gothic Style",
+    "id": "Maneken Gaya Gothic",
+    "ms": "Manekin Gaya Gothik",
+    "prompt": "Gothic style pose clothing mockup on dramatic faceless mannequin. Bold posture showing gothic garment style. Dark studio lighting with dramatic shadows. Gothic appearance suitable for alternative fashion and edgy wear. Professional pose with dark aesthetic."
+  },
+  {
+    "key": "mannequin-romantic-style",
+    "en": "Mannequin Romantic Style",
+    "id": "Maneken Gaya Romantis",
+    "ms": "Manekin Gaya Romantik",
+    "prompt": "Romantic style pose clothing mockup on graceful faceless mannequin. Soft posture showing romantic garment flow. Dreamy lighting with soft focus effects. Romantic appearance suitable for feminine wear and special occasions. Professional pose with romantic charm."
+  },
+  {
+    "key": "mannequin-military-style",
+    "en": "Mannequin Military Style",
+    "id": "Maneken Gaya Militer",
+    "ms": "Manekin Gaya Tentera",
+    "prompt": "Military style pose clothing mockup on disciplined faceless mannequin. Strong posture showing military garment structure. Rigid studio lighting with sharp shadows. Military appearance suitable for tactical wear and uniform fashion. Professional pose with military precision."
+  },
+  {
+    "key": "mannequin-nautical-style",
+    "en": "Mannequin Nautical Style",
+    "id": "Maneken Gaya Nautika",
+    "ms": "Manekin Gaya Laut",
+    "prompt": "Nautical style pose clothing mockup on maritime faceless mannequin. Confident posture showing nautical garment fit. Blue-toned lighting with oceanic atmosphere. Nautical appearance suitable for sailing wear and maritime fashion. Professional pose with seafaring charm."
+  },
+  {
+    "key": "mannequin-western-style",
+    "en": "Mannequin Western Style",
+    "id": "Maneken Gaya Barat",
+    "ms": "Manekin Gaya Barat",
+    "prompt": "Western style pose clothing mockup on rugged faceless mannequin. Sturdy posture showing western garment durability. Warm desert lighting with rustic elements. Western appearance suitable for cowboy wear and rustic fashion. Professional pose with frontier spirit."
+  },
+  {
+    "key": "mannequin-royal-style",
+    "en": "Mannequin Royal Style",
+    "id": "Maneken Gaya Kerajaan",
+    "ms": "Manekin Gaya Diraja",
+    "prompt": "Royal style pose clothing mockup on regal faceless mannequin. Majestic posture showing royal garment elegance. Opulent lighting with golden accents. Royal appearance suitable for formal wear and luxury fashion. Professional pose with royal dignity."
+  },
+  {
+    "key": "mannequin-casual-friday",
+    "en": "Mannequin Casual Friday",
+    "id": "Maneken Jumat Santai",
+    "ms": "Manekin Jumaat Santai",
+    "prompt": "Casual Friday pose clothing mockup on relaxed faceless mannequin. Comfortable posture showing business casual garment fit. Office setting with relaxed lighting. Business casual appearance suitable for work wear and professional fashion. Professional pose with relaxed confidence."
+  },
+  {
+    "key": "mannequin-cocktail-party",
+    "en": "Mannequin Cocktail Party",
+    "id": "Maneken Pesta Koktail",
+    "ms": "Manekin Parti Koktel",
+    "prompt": "Cocktail party pose clothing mockup on elegant faceless mannequin. Social posture showing cocktail garment elegance. Festive lighting with party atmosphere. Cocktail appearance suitable for party wear and special occasions. Professional pose with social grace."
+  },
+  {
+    "key": "mannequin-street-style",
+    "en": "Mannequin Street Style",
+    "id": "Maneken Gaya Jalanan",
+    "ms": "Manekin Gaya Jalanan",
+    "prompt": "Street style pose clothing mockup on urban faceless mannequin. Confident posture showing street garment authenticity. Urban setting with graffiti lighting. Street appearance suitable for urban wear and contemporary fashion. Professional pose with street credibility."
+  },
+  {
+    "key": "mannequin-garden-party",
+    "en": "Mannequin Garden Party",
+    "id": "Maneken Pesta Taman",
+    "ms": "Manekin Parti Taman",
+    "prompt": "Garden party pose clothing mockup on graceful faceless mannequin. Elegant posture showing garden party garment flow. Natural garden lighting with floral backdrop. Garden appearance suitable for outdoor events and spring fashion. Professional pose with garden elegance."
+  },
+  {
+    "key": "mannequin-sports-casual",
+    "en": "Mannequin Sports Casual",
+    "id": "Maneken Olahraga Santai",
+    "ms": "Manekin Sukan Santai",
+    "prompt": "Sports casual pose clothing mockup on athletic faceless mannequin. Active posture showing sports casual garment comfort. Gym setting with energetic lighting. Sports casual appearance suitable for athleisure wear and fitness fashion. Professional pose with athletic comfort."
+  },
+  {
+    "key": "mannequin-winter-cozy",
+    "en": "Mannequin Winter Cozy",
+    "id": "Maneken Hangat Musim Dingin",
+    "ms": "Manekin Sejuk Musim Sejuk",
+    "prompt": "Winter cozy pose clothing mockup on warm faceless mannequin. Comfortable posture showing winter garment layers. Cozy cabin lighting with warm ambiance. Winter appearance suitable for cold weather wear and cozy fashion. Professional pose with winter comfort."
+  },
+  {
+    "key": "mannequin-summer-breeze",
+    "en": "Mannequin Summer Breeze",
+    "id": "Maneken Bayu Musim Panas",
+    "ms": "Manekin Bayu Musim Panas",
+    "prompt": "Summer breeze pose clothing mockup on breezy faceless mannequin. Light posture showing summer garment flow. Bright sunny lighting with beach atmosphere. Summer appearance suitable for warm weather wear and beach fashion. Professional pose with summer lightness."
+  },
+  {
+    "key": "mannequin-autumn-elegant",
+    "en": "Mannequin Autumn Elegant",
+    "id": "Maneken Elegan Musim Gugur",
+    "ms": "Manekin Elegan Musim Luruh",
+    "prompt": "Autumn elegant pose clothing mockup on sophisticated faceless mannequin. Refined posture showing autumn garment layering. Warm golden lighting with fall backdrop. Autumn appearance suitable for transitional wear and elegant fashion. Professional pose with autumn sophistication."
+  },
+  {
+    "key": "mannequin-spring-fresh",
+    "en": "Mannequin Spring Fresh",
+    "id": "Maneken Segar Musim Semi",
+    "ms": "Manekin Segar Musim Bunga",
+    "prompt": "Spring fresh pose clothing mockup on fresh faceless mannequin. Light posture showing spring garment brightness. Fresh morning lighting with floral backdrop. Spring appearance suitable for seasonal wear and fresh fashion. Professional pose with spring vitality."
+  },
+  {
+    "key": "mannequin-festival-fun",
+    "en": "Mannequin Festival Fun",
+    "id": "Maneken Seru Festival",
+    "ms": "Manekin Seru Festival",
+    "prompt": "Festival fun pose clothing mockup on festive faceless mannequin. Energetic posture showing festival garment style. Colorful stage lighting with party atmosphere. Festival appearance suitable for music events and festival wear. Professional pose with festival energy."
+  },
+  {
+    "key": "mannequin-coffee-shop",
+    "en": "Mannequin Coffee Shop",
+    "id": "Maneken Kedai Kopi",
+    "ms": "Manekin Kedai Kopi",
+    "prompt": "Coffee shop pose clothing mockup on relaxed faceless mannequin. Comfortable posture showing café garment comfort. Warm café lighting with cozy atmosphere. Coffee shop appearance suitable for casual wear and lifestyle fashion. Professional pose with coffee shop comfort."
+  },
+  {
+    "key": "mannequin-art-gallery",
+    "en": "Mannequin Art Gallery",
+    "id": "Maneken Galeri Seni",
+    "ms": "Manekin Galeri Seni",
+    "prompt": "Art gallery pose clothing mockup on cultured faceless mannequin. Sophisticated posture showing gallery garment elegance. Gallery lighting with artistic ambiance. Art gallery appearance suitable for cultural events and sophisticated fashion. Professional pose with artistic sophistication."
+  },
+  {
+    "key": "mannequin-library-study",
+    "en": "Mannequin Library Study",
+    "id": "Maneken Perpustakaan Belajar",
+    "ms": "Manekin Perpustakaan Belajar",
+    "prompt": "Library study pose clothing mockup on intellectual faceless mannequin. Scholarly posture showing academic garment style. Quiet library lighting with studious atmosphere. Library appearance suitable for intellectual wear and academic fashion. Professional pose with scholarly dignity."
+  },
+  {
+    "key": "mannequin-park-picnic",
+    "en": "Mannequin Park Picnic",
+    "id": "Maneken Piknik Taman",
+    "ms": "Manekin Picaman Taman",
+    "prompt": "Park picnic pose clothing mockup on relaxed faceless mannequin. Casual posture showing outdoor garment comfort. Natural park lighting with sunny atmosphere. Park appearance suitable for outdoor activities and casual fashion. Professional pose with outdoor relaxation."
+  },
+  {
+    "key": "mannequin-museum-visit",
+    "en": "Mannequin Museum Visit",
+    "id": "Maneken Kunjungan Museum",
+    "ms": "Manekin Kunjungan Muzium",
+    "prompt": "Museum visit pose clothing mockup on cultured faceless mannequin. Respectful posture showing museum garment appropriateness. Gallery lighting with cultural atmosphere. Museum appearance suitable for cultural events and refined fashion. Professional pose with cultural appreciation."
+  },
+  {
+    "key": "mannequin-shopping-mall",
+    "en": "Mannequin Shopping Mall",
+    "id": "Maneken Mal Perbelanjaan",
+    "ms": "Manekin Pusat Beli-Belah",
+    "prompt": "Shopping mall pose clothing mockup on fashionable faceless mannequin. Trendy posture showing shopping garment style. Bright mall lighting with retail atmosphere. Mall appearance suitable for shopping wear and contemporary fashion. Professional pose with retail confidence."
+  },
+  {
+    "key": "mannequin-rooftop-party",
+    "en": "Mannequin Rooftop Party",
+    "id": "Maneken Pesta Atap",
+    "ms": "Manekin Parti Bumbung",
+    "prompt": "Rooftop party pose clothing mockup on social faceless mannequin. Celebratory posture showing party garment style. City night lighting with urban atmosphere. Rooftop appearance suitable for evening events and urban fashion. Professional pose with party sophistication."
+  },
+  {
+    "key": "mannequin-brunch-meeting",
+    "en": "Mannequin Brunch Meeting",
+    "id": "Maneken Pertemuan Brunch",
+    "ms": "Manekin Mesyuarat Brunch",
+    "prompt": "Brunch meeting pose clothing mockup on professional faceless mannequin. Business posture showing brunch garment appropriateness. Bright restaurant lighting with social atmosphere. Brunch appearance suitable for business casual wear and social fashion. Professional pose with business social balance."
+  },
+  {
+    "key": "mannequin-concert-venue",
+    "en": "Mannequin Concert Venue",
+    "id": "Maneken Venue Konser",
+    "ms": "Manekin Venue Konsert",
+    "prompt": "Concert venue pose clothing mockup on energetic faceless mannequin. Enthusiastic posture showing concert garment style. Stage lighting with musical atmosphere. Concert appearance suitable for music events and performance wear. Professional pose with musical energy."
+  },
+  {
+    "key": "mannequin-bookstore-browsing",
+    "en": "Mannequin Bookstore Browsing",
+    "id": "Maneken Jelajah Toko Buku",
+    "ms": "Manekin Layar Kedai Buku",
+    "prompt": "Bookstore browsing pose clothing mockup on intellectual faceless mannequin. Casual posture showing bookstore garment comfort. Cozy bookstore lighting with literary atmosphere. Bookstore appearance suitable for casual wear and intellectual fashion. Professional pose with literary charm."
+  },
+  {
+    "key": "mannequin-farmers-market",
+    "en": "Mannequin Farmers Market",
+    "id": "Maneken Pasar Petani",
+    "ms": "Manekin Pasar Petani",
+    "prompt": "Farmers market pose clothing mockup on earthy faceless mannequin. Natural posture showing market garment practicality. Outdoor market lighting with rustic atmosphere. Market appearance suitable for casual wear and sustainable fashion. Professional pose with natural authenticity."
+  },
+  {
+    "key": "mannequin-wedding-guest",
+    "en": "Mannequin Wedding Guest",
+    "id": "Maneken Tamu Pernikahan",
+    "ms": "Manekin Tetamu Kahwin",
+    "prompt": "Wedding guest pose clothing mockup on elegant faceless mannequin. Refined posture showing wedding guest garment appropriateness. Wedding venue lighting with celebratory atmosphere. Wedding appearance suitable for formal events and celebratory fashion. Professional pose with wedding elegance."
+  },
+  {
+    "key": "mannequin-interview-professional",
+    "en": "Mannequin Interview Professional",
+    "id": "Maneken Profesional Wawancara",
+    "ms": "Manekin Profesional Temu Duga",
+    "prompt": "Interview professional pose clothing mockup on confident faceless mannequin. Professional posture showing interview garment appropriateness. Office lighting with formal atmosphere. Interview appearance suitable for professional wear and career fashion. Professional pose with interview confidence."
+  },
+  {
+    "key": "mannequin-date-night",
+    "en": "Mannequin Date Night",
+    "id": "Maneken Malam Kencan",
+    "ms": "Manekin Malam Tarikh",
+    "prompt": "Date night pose clothing mockup on romantic faceless mannequin. Charming posture showing date night garment style. Restaurant lighting with romantic atmosphere. Date night appearance suitable for romantic wear and evening fashion. Professional pose with romantic charm."
+  },
+  {
+    "key": "mannequin-gym-workout",
+    "en": "Mannequin Gym Workout",
+    "id": "Maneken Latihan Gym",
+    "ms": "Manekin Senaman Gym",
+    "prompt": "Gym workout pose clothing mockup on athletic faceless mannequin. Active posture showing workout garment functionality. Gym lighting with energetic atmosphere. Workout appearance suitable for fitness wear and athletic fashion. Professional pose with athletic performance."
+  },
+  {
+    "key": "mannequin-yoga-studio",
+    "en": "Mannequin Yoga Studio",
+    "id": "Maneken Studio Yoga",
+    "ms": "Manekin Studio Yoga",
+    "prompt": "Yoga studio pose clothing mockup on serene faceless mannequin. Peaceful posture showing yoga garment comfort. Studio lighting with zen atmosphere. Yoga appearance suitable for activewear and wellness fashion. Professional pose with yoga tranquility."
+  },
+  {
+    "key": "mannequin-hiking-adventure",
+    "en": "Mannequin Hiking Adventure",
+    "id": "Maneken Petualangan Mendaki",
+    "ms": "Manekin Pengembaraan Mendaki",
+    "prompt": "Hiking adventure pose clothing mockup on rugged faceless mannequin. Adventurous posture showing hiking garment durability. Mountain lighting with outdoor atmosphere. Hiking appearance suitable for outdoor wear and adventure fashion. Professional pose with outdoor readiness."
+  },
+  {
+    "key": "mannequin-cycling-commute",
+    "en": "Mannequin Cycling Commute",
+    "id": "Maneken Bersepeda Komuter",
+    "ms": "Manekin Berbasikal Komuter",
+    "prompt": "Cycling commute pose clothing mockup on active faceless mannequin. Dynamic posture showing cycling garment practicality. Urban lighting with commuting atmosphere. Cycling appearance suitable for activewear and urban fashion. Professional pose with cycling efficiency."
+  },
+  {
+    "key": "mannequin-ski-slope",
+    "en": "Mannequin Ski Slope",
+    "id": "Maneken Lereng Ski",
+    "ms": "Manekin Cerun Ski",
+    "prompt": "Ski slope pose clothing mockup on sporty faceless mannequin. Athletic posture showing ski garment functionality. Snow lighting with mountain atmosphere. Ski appearance suitable for winter sports wear and alpine fashion. Professional pose with skiing confidence."
+  },
+  {
+    "key": "mannequin-tennis-court",
+    "en": "Mannequin Tennis Court",
+    "id": "Maneken Lapangan Tenis",
+    "ms": "Manekin Gelanggang Tenis",
+    "prompt": "Tennis court pose clothing mockup on athletic faceless mannequin. Sporty posture showing tennis garment performance. Court lighting with sporty atmosphere. Tennis appearance suitable for sportswear and athletic fashion. Professional pose with tennis readiness."
+  },
+  {
+    "key": "mannequin-golf-course",
+    "en": "Mannequin Golf Course",
+    "id": "Maneken Lapangan Golf",
+    "ms": "Manekin Padang Golf",
+    "prompt": "Golf course pose clothing mockup on refined faceless mannequin. Polished posture showing golf garment style. Course lighting with leisure atmosphere. Golf appearance suitable for sportswear and leisure fashion. Professional pose with golf elegance."
+  },
+  {
+    "key": "mannequin-pool-side",
+    "en": "Mannequin Pool Side",
+    "id": "Maneken Samping Kolam",
+    "ms": "Manekin Tepi Kolam",
+    "prompt": "Pool side pose clothing mockup on relaxed faceless mannequin. Leisurely posture showing pool garment comfort. Pool lighting with resort atmosphere. Pool appearance suitable for swimwear and resort fashion. Professional pose with poolside relaxation."
+  },
+  {
+    "key": "mannequin-spa-retreat",
+    "en": "Mannequin Spa Retreat",
+    "id": "Manehen Retret Spa",
+    "ms": "Manekin Retret Spa",
+    "prompt": "Spa retreat pose clothing mockup on serene faceless mannequin. Peaceful posture showing spa garment comfort. Spa lighting with tranquil atmosphere. Spa appearance suitable for loungewear and wellness fashion. Professional pose with spa serenity."
+  },
+  {
+    "key": "mannequin-casual-friday-office",
+    "en": "Mannequin Casual Friday Office",
+    "id": "Maneken Jumat Santai Kantor",
+    "ms": "Manekin Jumaat Santai Pejabat",
+    "prompt": "Casual Friday office pose clothing mockup on professional faceless mannequin. Business casual posture showing office garment appropriateness. Office lighting with relaxed professional atmosphere. Casual Friday appearance suitable for business wear and office fashion. Professional pose with office casual confidence."
+  },
+  {
+    "key": "mannequin-weekend-brunch",
+    "en": "Mannequin Weekend Brunch",
+    "id": "Maneken Brunch Akhir Pekan",
+    "ms": "Manekin Brunch Hujung Minggu",
+    "prompt": "Weekend brunch pose clothing mockup on relaxed faceless mannequin. Comfortable posture showing weekend garment style. Brunch lighting with social atmosphere. Weekend appearance suitable for casual wear and social fashion. Professional pose with weekend relaxation."
+  },
+  {
+    "key": "mannequin-movie-theater",
+    "en": "Mannequin Movie Theater",
+    "id": "Maneken Bioskop",
+    "ms": "Manekin Panggung Wayang",
+    "prompt": "Movie theater pose clothing mockup on comfortable faceless mannequin. Relaxed posture showing theater garment comfort. Theater lighting with cinematic atmosphere. Movie appearance suitable for casual wear and entertainment fashion. Professional pose with cinematic comfort."
+  },
+  {
+    "key": "mannequin-game-night",
+    "en": "Mannequin Game Night",
+    "id": "Maneken Malam Permainan",
+    "ms": "Manekin Malam Permainan",
+    "prompt": "Game night pose clothing mockup on fun faceless mannequin. Playful posture showing gaming garment comfort. Home lighting with entertainment atmosphere. Game night appearance suitable for casual wear and gaming fashion. Professional pose with gaming comfort."
+  },
+  {
+    "key": "mannequin-study-session",
+    "en": "Mannequin Study Session",
+    "id": "Maneken Sesi Belajar",
+    "ms": "Manekin Sesi Belajar",
+    "prompt": "Study session pose clothing mockup on focused faceless mannequin. Concentrated posture showing study garment comfort. Study lighting with academic atmosphere. Study appearance suitable for casual wear and academic fashion. Professional pose with scholarly focus."
+  },
+  {
+    "key": "mannequin-vintage-diner",
+    "en": "Mannequin Vintage Diner",
+    "id": "Maneken Diner Vintage",
+    "ms": "Manekin Diner Vintage",
+    "prompt": "Vintage diner pose clothing mockup on retro faceless mannequin. Classic posture showing diner garment style. Retro lighting with nostalgic atmosphere. Diner appearance suitable for retro wear and vintage fashion. Professional pose with nostalgic charm."
+  },
+  {
+    "key": "mannequin-modern-cafe",
+    "en": "Mannequin Modern Cafe",
+    "id": "Manenen Kafe Modern",
+    "ms": "Manekin Kafe Moden",
+    "prompt": "Modern cafe pose clothing mockup on trendy faceless mannequin. Contemporary posture showing cafe garment style. Modern lighting with chic atmosphere. Cafe appearance suitable for contemporary wear and modern fashion. Professional pose with cafe sophistication."
+  },
+  {
+    "key": "mannequin-city-park",
+    "en": "Mannequin City Park",
+    "id": "Maneken Taman Kota",
+    "ms": "Manekin Taman Bandar",
+    "prompt": "City park pose clothing mockup on relaxed faceless mannequin. Natural posture showing park garment comfort. Park lighting with urban nature atmosphere. City park appearance suitable for casual wear and urban fashion. Professional pose with park relaxation."
+  },
+  {
+    "key": "mannequin-rooftop-lounge",
+    "en": "Mannequin Rooftop Lounge",
+    "id": "Maneken Lounge Atap",
+    "ms": "Manekin Lounge Bumbung",
+    "prompt": "Rooftop lounge pose clothing mockup on sophisticated faceless mannequin. Elegant posture showing lounge garment style. Rooftop lighting with urban sophistication. Lounge appearance suitable for evening wear and sophisticated fashion. Professional pose with rooftop elegance."
+  },
+  {
+    "key": "mannequin-beach-sunset",
+    "en": "Mannequin Beach Sunset",
+    "id": "Maneken Pantai Matahari Terbenam",
+    "ms": "Manekin Pantai Matahari Terbenam",
+    "prompt": "Beach sunset pose clothing mockup on relaxed faceless mannequin. Serene posture showing beach garment flow. Sunset lighting with romantic atmosphere. Beach appearance suitable for resort wear and vacation fashion. Professional pose with sunset romance."
+  },
+  {
+    "key": "mannequin-mountain-view",
+    "en": "Mannequin Mountain View",
+    "id": "Maneken Pemandangan Gunung",
+    "ms": "Manekin Pemandangan Gunung",
+    "prompt": "Mountain view pose clothing mockup on adventurous faceless mannequin. Confident posture showing mountain garment durability. Mountain lighting with outdoor atmosphere. Mountain appearance suitable for outdoor wear and adventure fashion. Professional pose with mountain confidence."
+  },
+  {
+    "key": "mannequin-lakeside-relax",
+    "en": "Mannequin Lakeside Relax",
+    "id": "Maneken Santai Danau",
+    "ms": "Manekin Santai Tasik",
+    "prompt": "Lakeside relax pose clothing mockup on peaceful faceless mannequin. Tranquil posture showing lakeside garment comfort. Lakeside lighting with serene atmosphere. Lakeside appearance suitable for casual wear and nature fashion. Professional pose with lakeside tranquility."
+  },
+  {
+    "key": "mannequin-forest-hike",
+    "en": "Mannequin Forest Hike",
+    "id": "Maneken Pendakian Hutan",
+    "ms": "Manekin Pendakian Hutan",
+    "prompt": "Forest hike pose clothing mockup on rugged faceless mannequin. Adventurous posture showing forest garment practicality. Forest lighting with natural atmosphere. Forest appearance suitable for outdoor wear and nature fashion. Professional pose with forest readiness."
+  },
+  {
+    "key": "mannequin-desert-safari",
+    "en": "Mannequin Desert Safari",
+    "id": "Maneken Safari Gurun",
+    "ms": "Manekin Safari Gurun",
+    "prompt": "Desert safari pose clothing mockup on adventurous faceless mannequin. Bold posture showing desert garment protection. Desert lighting with arid atmosphere. Safari appearance suitable for adventure wear and desert fashion. Professional pose with desert confidence."
+  },
+  {
+    "key": "mannequin-tropical-paradise",
+    "en": "Mannequin Tropical Paradise",
+    "id": "Maneken Surga Tropis",
+    "ms": "Manekin Syurga Tropika",
+    "prompt": "Tropical paradise pose clothing mockup on relaxed faceless mannequin. Carefree posture showing tropical garment comfort. Tropical lighting with paradise atmosphere. Paradise appearance suitable for resort wear and vacation fashion. Professional pose with tropical relaxation."
+  },
+  {
+    "key": "mannequin-snow-mountain",
+    "en": "Mannequin Snow Mountain",
+    "id": "Maneken Gunung Salju",
+    "ms": "Manekin Gunung Salji",
+    "prompt": "Snow mountain pose clothing mockup on adventurous faceless mannequin. Bold posture showing snow garment warmth. Mountain lighting with winter atmosphere. Snow appearance suitable for winter wear and mountain fashion. Professional pose with snow confidence."
+  },
+  {
+    "key": "mannequin-coastal-drive",
+    "en": "Mannequin Coastal Drive",
+    "id": "Maneken Perjalanan Pesisir",
+    "ms": "Manekin Pemandu Pantai",
+    "prompt": "Coastal drive pose clothing mockup on stylish faceless mannequin. Confident posture showing coastal garment style. Coastal lighting with ocean atmosphere. Drive appearance suitable for casual wear and coastal fashion. Professional pose with coastal style."
+  },
+  {
+    "key": "mannequin-countryside-cycling",
+    "en": "Mannequin Countryside Cycling",
+    "id": "Maneken Bersepeda Pedesaan",
+    "ms": "Manekin Berbasikal Desa",
+    "prompt": "Countryside cycling pose clothing mockup on active faceless mannequin. Dynamic posture showing cycling garment comfort. Countryside lighting with rural atmosphere. Cycling appearance suitable for activewear and rural fashion. Professional pose with countryside freedom."
+  },
+  {
+    "key": "mannequin-urban-explorer",
+    "en": "Mannequin Urban Explorer",
+    "id": "Maneken Penjelajah Urban",
+    "ms": "Manekin Penjelajah Bandar",
+    "prompt": "Urban explorer pose clothing mockup on adventurous faceless mannequin. Curious posture showing urban garment practicality. City lighting with exploration atmosphere. Explorer appearance suitable for urban wear and adventure fashion. Professional pose with urban curiosity."
+  },
+  {
+    "key": "mannequin-lake-house",
+    "en": "Mannequin Lake House",
+    "id": "Manenen Rumah Danau",
+    "ms": "Manekin Rumah Tasik",
+    "prompt": "Lake house pose clothing mockup on relaxed faceless mannequin. Comfortable posture showing lake house garment style. Lake lighting with peaceful atmosphere. Lake house appearance suitable for casual wear and vacation fashion. Professional pose with lakeside comfort."
+  },
+  {
+    "key": "mannequin-mountain-cabin",
+    "en": "Mannequin Mountain Cabin",
+    "id": "Maneken Kabin Gunung",
+    "ms": "Manekin Kabin Gunung",
+    "prompt": "Mountain cabin pose clothing mockup on cozy faceless mannequin. Warm posture showing cabin garment comfort. Cabin lighting with cozy atmosphere. Cabin appearance suitable for winter wear and mountain fashion. Professional pose with cabin comfort."
+  },
+  {
+    "key": "mannequin-beach-house",
+    "en": "Mannequin Beach House",
+    "id": "Maneken Rumah Pantai",
+    "ms": "Manekin Rumah Pantai",
+    "prompt": "Beach house pose clothing mockup on relaxed faceless mannequin. Casual posture showing beach house garment style. Beach lighting with coastal atmosphere. Beach house appearance suitable for resort wear and coastal fashion. Professional pose with beach comfort."
+  },
+  {
+    "key": "mannequin-city-apartment",
+    "en": "Mannequin City Apartment",
+    "id": "Manenen Apartemen Kota",
+    "ms": "Manekin Pangsapuri Bandar",
+    "prompt": "City apartment pose clothing mockup on sophisticated faceless mannequin. Urban posture showing apartment garment style. City lighting with metropolitan atmosphere. Apartment appearance suitable for urban wear and city fashion. Professional pose with apartment sophistication."
+  },
+  {
+    "key": "mannequin-suburban-home",
+    "en": "Mannequin Suburban Home",
+    "id": "Maneken Rumah Suburban",
+    "ms": "Manekin Rumah Suburban",
+    "prompt": "Suburban home pose clothing mockup on comfortable faceless mannequin. Relaxed posture showing suburban garment comfort. Home lighting with residential atmosphere. Suburban appearance suitable for casual wear and family fashion. Professional pose with suburban comfort."
+  },
+  {
+    "key": "mannequin-loft-living",
+    "en": "Mannequin Loft Living",
+    "id": "Manenen Hunian Loteng",
+    "ms": "Manekin Loteng Kediaman",
+    "prompt": "Loft living pose clothing mockup on trendy faceless mannequin. Stylish posture showing loft garment style. Loft lighting with industrial atmosphere. Loft appearance suitable for contemporary wear and modern fashion. Professional pose with loft sophistication."
+  },
+  {
+    "key": "mannequin-studio-apartment",
+    "en": "Mannequin Studio Apartment",
+    "id": "Manenen Apartemen Studio",
+    "ms": "Manekin Apartemen Studio",
+    "prompt": "Studio apartment pose clothing mockup on minimalist faceless mannequin. Simple posture showing studio garment style. Studio lighting with minimalist atmosphere. Apartment appearance suitable for minimalist wear and modern fashion. Professional pose with studio simplicity."
+  },
+  {
+    "key": "mannequin-penthouse-suite",
+    "en": "Mannequin Penthouse Suite",
+    "id": "Manenen Suite Penthouse",
+    "ms": "Manekin Suite Penthouse",
+    "prompt": "Penthouse suite pose clothing mockup on luxurious faceless mannequin. Elegant posture showing penthouse garment style. Penthouse lighting with luxury atmosphere. Suite appearance suitable for luxury wear and high-end fashion. Professional pose with penthouse luxury."
+  },
+  {
+    "key": "mannequin-garden-terrace",
+    "en": "Mannequin Garden Terrace",
+    "id": "Manenen Teras Taman",
+    "ms": "Manekin Taman Teres",
+    "prompt": "Garden terrace pose clothing mockup on graceful faceless mannequin. Elegant posture showing terrace garment style. Garden lighting with natural atmosphere. Terrace appearance suitable for garden wear and outdoor fashion. Professional pose with garden elegance."
+  },
+  {
+    "key": "mannequin-rooftop-garden",
+    "en": "Mannequin Rooftop Garden",
+    "id": "Manenen Taman Atap",
+    "ms": "Manekin Taman Bumbung",
+    "prompt": "Rooftop garden pose clothing mockup on urban faceless mannequin. Natural posture showing garden garment comfort. Rooftop lighting with urban nature atmosphere. Garden appearance suitable for urban wear and nature fashion. Professional pose with rooftop tranquility."
+  },
+  {
+    "key": "mannequin-balcony-relax",
+    "en": "Mannequin Balcony Relax",
+    "id": "Manenen Santai Balkon",
+    "ms": "Manekin Santai Balkoni",
+    "prompt": "Balcony relax pose clothing mockup on comfortable faceless mannequin. Relaxed posture showing balcony garment comfort. Balcony lighting with outdoor atmosphere. Balcony appearance suitable for casual wear and relaxation fashion. Professional pose with balcony comfort."
+  },
+  {
+    "key": "mannequin-patio-dining",
+    "en": "Mannequin Patio Dining",
+    "id": "Manenen Makan Patio",
+    "ms": "Manekin Makan Patio",
+    "prompt": "Patio dining pose clothing mockup on elegant faceless mannequin. Sophisticated posture showing patio garment style. Patio lighting with dining atmosphere. Dining appearance suitable for formal wear and entertaining fashion. Professional pose with patio elegance."
+  },
+  {
+    "key": "mannequin-deck-lounging",
+    "en": "Mannequin Deck Lounging",
+    "id": "Manenen Bersantai Dek",
+    "ms": "Manekin Bersantai Dek",
+    "prompt": "Deck lounging pose clothing mockup on relaxed faceless mannequin. Casual posture showing deck garment comfort. Deck lighting with outdoor atmosphere. Deck appearance suitable for resort wear and vacation fashion. Professional pose with deck relaxation."
+  },
+  {
+    "key": "mannequin-veranda-morning",
+    "en": "Mannequin Veranda Morning",
+    "id": "Manenen Pagi Veranda",
+    "ms": "Manekin Pagi Veranda",
+    "prompt": "Veranda morning pose clothing mockup on peaceful faceless mannequin. Serene posture showing morning garment comfort. Morning lighting with tranquil atmosphere. Veranda appearance suitable for casual wear and morning fashion. Professional pose with morning serenity."
+  },
+  {
+    "key": "mannequin-sunroom-reading",
+    "en": "Mannequin Sunroom Reading",
+    "id": "Manenen Membaca Ruang Matahari",
+    "ms": "Manekin Membaca Bilik Matahari",
+    "prompt": "Sunroom reading pose clothing mockup on cozy faceless mannequin. Comfortable posture showing sunroom garment comfort. Sunroom lighting with bright atmosphere. Reading appearance suitable for casual wear and relaxing fashion. Professional pose with reading comfort."
+  },
+  {
+    "key": "mannequin-conservatory-tea",
+    "en": "Mannequin Conservatory Tea",
+    "id": "Manenen Teh Konservatori",
+    "ms": "Manekin Teh Konservatori",
+    "prompt": "Conservatory tea pose clothing mockup on elegant faceless mannequin. Refined posture showing conservatory garment style. Conservatory lighting with garden atmosphere. Tea appearance suitable for formal wear and elegant fashion. Professional pose with conservatory refinement."
+  },
+  {
+    "key": "mannequin-winter-garden",
+    "en": "Mannequin Winter Garden",
+    "id": "Manenen Taman Musim Dingin",
+    "ms": "Manekin Taman Musim Sejuk",
+    "prompt": "Winter garden pose clothing mockup on cozy faceless mannequin. Warm posture showing winter garden garment comfort. Garden lighting with winter atmosphere. Winter garden appearance suitable for winter wear and cozy fashion. Professional pose with winter garden comfort."
+  },
+  {
+    "key": "mannequin-spring-blooming",
+    "en": "Mannequin Spring Blooming",
+    "id": "Manenen Mekar Musim Semi",
+    "ms": "Manekin Musim Semi Mekar",
+    "prompt": "Spring blooming pose clothing mockup on fresh faceless mannequin. Light posture showing spring garment brightness. Spring lighting with blooming atmosphere. Blooming appearance suitable for spring wear and fresh fashion. Professional pose with spring vitality."
+  },
+  {
+    "key": "mannequin-summer-veranda",
+    "en": "Mannequin Summer Veranda",
+    "id": "Manenen Veranda Musim Panas",
+    "ms": "Manekin Veranda Musim Panas",
+    "prompt": "Summer veranda pose clothing mockup on breezy faceless mannequin. Light posture showing summer garment comfort. Summer lighting with bright atmosphere. Veranda appearance suitable for summer wear and breezy fashion. Professional pose with summer relaxation."
+  },
+  {
+    "key": "mannequin-autumn-harvest",
+    "en": "Mannequin Autumn Harvest",
+    "id": "Manenen Panen Musim Gugur",
+    "ms": "Manekin Tuai Musim Luruh",
+    "prompt": "Autumn harvest pose clothing mockup on earthy faceless mannequin. Natural posture showing autumn garment warmth. Autumn lighting with harvest atmosphere. Harvest appearance suitable for autumn wear and cozy fashion. Professional pose with autumn abundance."
+  },
+  {
+    "key": "mannequin-holiday-celebration",
+    "en": "Mannequin Holiday Celebration",
+    "id": "Manenen Perayaan Liburan",
+    "ms": "Manekin Sambutan Cuti",
+    "prompt": "Holiday celebration pose clothing mockup on festive faceless mannequin. Joyful posture showing holiday garment style. Holiday lighting with celebratory atmosphere. Celebration appearance suitable for festive wear and holiday fashion. Professional pose with holiday joy."
+  },
+  {
+    "key": "mannequin-festive-party",
+    "en": "Mannequin Festive Party",
+    "id": "Manenen Pesta Festif",
+    "ms": "Manekin Parti Perayaan",
+    "prompt": "Festive party pose clothing mockup on celebratory faceless mannequin. Energetic posture showing party garment style. Party lighting with festive atmosphere. Festive appearance suitable for party wear and celebration fashion. Professional pose with party energy."
+  },
+  {
+    "key": "mannequin-formal-gala",
+    "en": "Mannequin Formal Gala",
+    "id": "Manenen Gala Formal",
+    "ms": "Manekin Gala Formal",
+    "prompt": "Formal gala pose clothing mockup on elegant faceless mannequin. Regal posture showing gala garment sophistication. Gala lighting with luxurious atmosphere. Gala appearance suitable for formal wear and luxury fashion. Professional pose with gala elegance."
+  },
+  {
+    "key": "mannequin-black-tie-event",
+    "en": "Mannequin Black Tie Event",
+    "id": "Manenen Acara Black Tie",
+    "ms": "Manekin Acara Black Tie",
+    "prompt": "Black tie event pose clothing mockup on sophisticated faceless mannequin. Refined posture showing black tie garment formality. Event lighting with elegant atmosphere. Black tie appearance suitable for formal wear and sophisticated fashion. Professional pose with black tie refinement."
+  },
+  {
+    "key": "mannequin-cocktail-reception",
+    "en": "Mannequin Cocktail Reception",
+    "id": "Manenen Resepsi Koktail",
+    "ms": "Manekin Resepsi Koktel",
+    "prompt": "Cocktail reception pose clothing mockup on social faceless mannequin. Graceful posture showing cocktail garment style. Reception lighting with social atmosphere. Reception appearance suitable for evening wear and social fashion. Professional pose with cocktail sophistication."
+  },
+  {
+    "key": "mannequin-charity-ball",
+    "en": "Mannequin Charity Ball",
+    "id": "Manenen Ba Amal",
+    "ms": "Manekin Ball Amal",
+    "prompt": "Charity ball pose clothing mockup on noble faceless mannequin. Elegant posture showing ball garment grace. Ball lighting with charitable atmosphere. Charity appearance suitable for formal wear and charitable fashion. Professional pose with ball elegance."
+  },
+  {
+    "key": "mannequin-award-ceremony",
+    "en": "Mannequin Award Ceremony",
+    "id": "Manenen Upacara Penghargaan",
+    "ms": "Manekin Upacara Anugerah",
+    "prompt": "Award ceremony pose clothing mockup on distinguished faceless mannequin. Honorable posture showing ceremony garment formality. Ceremony lighting with prestigious atmosphere. Award appearance suitable for formal wear and distinguished fashion. Professional pose with ceremony dignity."
+  },
+  {
+    "key": "mannequin-red-carpet",
+    "en": "Mannequin Red Carpet",
+    "id": "Manenen Karpet Merah",
+    "ms": "Manekin Karpet Merah",
+    "prompt": "Red carpet pose clothing mockup on glamorous faceless mannequin. Striking posture showing carpet garment glamour. Carpet lighting with celebrity atmosphere. Red carpet appearance suitable for evening wear and celebrity fashion. Professional pose with red carpet glamour."
+  },
+  {
+    "key": "mannequin-premiere-event",
+    "en": "Mannequin Premiere Event",
+    "id": "Manenen Acara Premiere",
+    "ms": "Manekin Acara Perdana",
+    "prompt": "Premiere event pose clothing mockup on star faceless mannequin. Confident posture showing premiere garment style. Premiere lighting with celebrity atmosphere. Premiere appearance suitable for evening wear and celebrity fashion. Professional pose with premiere confidence."
+  },
+  {
+    "key": "mannequin-fashion-show",
+    "en": "Mannequin Fashion Show",
+    "id": "Manenen Peragaan Busana",
+    "ms": "Manekin Pertunjukan Fesyen",
+    "prompt": "Fashion show pose clothing mockup on runway faceless mannequin. Dramatic posture showing show garment impact. Show lighting with fashion atmosphere. Fashion show appearance suitable for runway wear and fashion-forward style. Professional pose with fashion confidence."
+  },
+  {
+    "key": "mannequin-designer-launch",
+    "en": "Mannequin Designer Launch",
+    "id": "Manenen Peluncuran Desainer",
+    "ms": "Manekin Pelancaran Pereka",
+    "prompt": "Designer launch pose clothing mockup on exclusive faceless mannequin. Couture posture showing launch garment exclusivity. Launch lighting with designer atmosphere. Launch appearance suitable for designer wear and exclusive fashion. Professional pose with launch exclusivity."
+  },
+  {
+    "key": "mannequin-vip-lounge",
+    "en": "Mannequin VIP Lounge",
+    "id": "Manenen Lounge VIP",
+    "ms": "Manekin Lounge VIP",
+    "prompt": "VIP lounge pose clothing mockup on elite faceless mannequin. Prestigious posture showing lounge garment luxury. Lounge lighting with exclusive atmosphere. VIP appearance suitable for luxury wear and exclusive fashion. Professional pose with VIP sophistication."
+  },
+  {
+    "key": "mannequin-exclusive-party",
+    "en": "Mannequin Exclusive Party",
+    "id": "Manenen Pesta Eksklusif",
+    "ms": "Manekin Parti Eksklusif",
+    "prompt": "Exclusive party pose clothing mockup on elite faceless mannequin. Select posture showing party garment exclusivity. Party lighting with exclusive atmosphere. Exclusive appearance suitable for designer wear and elite fashion. Professional pose with party exclusivity."
+  },
+  {
+    "key": "mannequin-private-club",
+    "en": "Mannequin Private Club",
+    "id": "Manenen Klub Pribadi",
+    "ms": "Manekin Kelab Persendirian",
+    "prompt": "Private club pose clothing mockup on distinguished faceless mannequin. Refined posture showing club garment sophistication. Club lighting with exclusive atmosphere. Club appearance suitable for formal wear and exclusive fashion. Professional pose with club elegance."
+  },
+  {
+    "key": "mannequin-members-only",
+    "en": "Mannequin Members Only",
+    "id": "Manenen Hanya Anggota",
+    "ms": "Manekin Ahli Sahaja",
+    "prompt": "Members only pose clothing mockup on exclusive faceless mannequin. Privileged posture showing members garment style. Members lighting with exclusive atmosphere. Members appearance suitable for exclusive wear and private fashion. Professional pose with members exclusivity."
+  },
+  {
+    "key": "mannequin-celebrity-event",
+    "en": "Mannequin Celebrity Event",
+    "id": "Manenen Acara Selebriti",
+    "ms": "Manekin Acara Selebriti",
+    "prompt": "Celebrity event pose clothing mockup on star faceless mannequin. Glamorous posture showing celebrity garment style. Event lighting with celebrity atmosphere. Celebrity appearance suitable for designer wear and star fashion. Professional pose with celebrity glamour."
+  },
+  {
+    "key": "mannequin-press-conference",
+    "en": "Mannequin Press Conference",
+    "id": "Manenen Konferensi Pers",
+    "ms": "Manekin Sidang Media",
+    "prompt": "Press conference pose clothing mockup on professional faceless mannequin. Authoritative posture showing conference garment professionalism. Conference lighting with media atmosphere. Press appearance suitable for business wear and professional fashion. Professional pose with conference authority."
+  },
+  {
+    "key": "mannequin-product-launch",
+    "en": "Mannequin Product Launch",
+    "id": "Manenen Peluncuran Produk",
+    "ms": "Manekin Pelancaran Produk",
+    "prompt": "Product launch pose clothing mockup on innovative faceless mannequin. Modern posture showing launch garment style. Launch lighting with innovative atmosphere. Product appearance suitable for contemporary wear and modern fashion. Professional pose with launch innovation."
+  },
+  {
+    "key": "mannequin-trade-show",
+    "en": "Mannequin Trade Show",
+    "id": "Manenen Pameran Dagang",
+    "ms": "Manekin Pameran Dagang",
+    "prompt": "Trade show pose clothing mockup on professional faceless mannequin. Business posture showing trade garment appropriateness. Show lighting with commercial atmosphere. Trade appearance suitable for business wear and commercial fashion. Professional pose with trade professionalism."
+  },
+  {
+    "key": "mannequin-exhibition-display",
+    "en": "Mannequin Exhibition Display",
+    "id": "Manenen Pameran Display",
+    "ms": "Manekin Pameran Paparan",
+    "prompt": "Exhibition display pose clothing mockup on artistic faceless mannequin. Creative posture showing exhibition garment style. Exhibition lighting with artistic atmosphere. Display appearance suitable for artistic wear and creative fashion. Professional pose with exhibition creativity."
+  },
+  {
+    "key": "mannequin-gallery-opening",
+    "en": "Mannequin Gallery Opening",
+    "id": "Manenen Pembukaan Galeri",
+    "ms": "Manekin Pembukaan Galeri",
+    "prompt": "Gallery opening pose clothing mockup on cultured faceless mannequin. Sophisticated posture showing gallery garment elegance. Gallery lighting with artistic atmosphere. Opening appearance suitable for cultured wear and artistic fashion. Professional pose with gallery sophistication."
+  },
+  {
+    "key": "mannequin-art-exhibition",
+    "en": "Mannequin Art Exhibition",
+    "id": "Manenen Pameran Seni",
+    "ms": "Manekin Pameran Seni",
+    "prompt": "Art exhibition pose clothing mockup on artistic faceless mannequin. Creative posture showing exhibition garment style. Art lighting with creative atmosphere. Exhibition appearance suitable for artistic wear and creative fashion. Professional pose with art creativity."
+  },
+  {
+    "key": "mannequin-cultural-event",
+    "en": "Mannequin Cultural Event",
+    "id": "Manenen Acara Budaya",
+    "ms": "Manekin Acara Budaya",
+    "prompt": "Cultural event pose clothing mockup on refined faceless mannequin. Cultured posture showing cultural garment appropriateness. Cultural lighting with traditional atmosphere. Event appearance suitable for cultural wear and traditional fashion. Professional pose with cultural refinement."
+  },
+  {
+    "key": "mannequin-heritage-celebration",
+    "en": "Mannequin Heritage Celebration",
+    "id": "Manenen Perayaan Warisan",
+    "ms": "Manekin Sambutan Warisan",
+    "prompt": "Heritage celebration pose clothing mockup on traditional faceless mannequin. Classic posture showing heritage garment authenticity. Heritage lighting with traditional atmosphere. Celebration appearance suitable for traditional wear and heritage fashion. Professional pose with heritage pride."
+  },
+  {
+    "key": "mannequin-traditional-ceremony",
+    "en": "Mannequin Traditional Ceremony",
+    "id": "Manenen Upacara Tradisional",
+    "ms": "Manekin Upacara Tradisional",
+    "prompt": "Traditional ceremony pose clothing mockup on ceremonial faceless mannequin. Respectful posture showing ceremony garment formality. Ceremony lighting with traditional atmosphere. Traditional appearance suitable for ceremonial wear and traditional fashion. Professional pose with ceremony dignity."
+  },
+  {
+    "key": "mannequin-religious-service",
+    "en": "Mannequin Religious Service",
+    "id": "Manenen Ibadah Agama",
+    "ms": "Manekin Khidmat Agama",
+    "prompt": "Religious service pose clothing mockup on reverent faceless mannequin. Devotional posture showing service garment modesty. Service lighting with spiritual atmosphere. Religious appearance suitable for modest wear and spiritual fashion. Professional pose with religious reverence."
+  },
+  {
+    "key": "mannequin-spiritual-retreat",
+    "en": "Mannequin Spiritual Retreat",
+    "id": "Manenen Retret Spiritual",
+    "ms": "Manekin Retret Kerohanian",
+    "prompt": "Spiritual retreat pose clothing mockup on serene faceless mannequin. Peaceful posture showing retreat garment comfort. Retreat lighting with spiritual atmosphere. Spiritual appearance suitable for meditation wear and spiritual fashion. Professional pose with retreat serenity."
+  },
+  {
+    "key": "mannequin-meditation-session",
+    "en": "Mannequin Meditation Session",
+    "id": "Manenen Sesi Meditasi",
+    "ms": "Manekin Sesi Meditasi",
+    "prompt": "Meditation session pose clothing mockup on peaceful faceless mannequin. Tranquil posture showing meditation garment comfort. Session lighting with zen atmosphere. Meditation appearance suitable for wellness wear and spiritual fashion. Professional pose with meditation tranquility."
+  },
+  {
+    "key": "mannequin-wellness-center",
+    "en": "Mannequin Wellness Center",
+    "id": "Manenen Pusat Kesehatan",
+    "ms": "Manekin Pusat Kesejahteraan",
+    "prompt": "Wellness center pose clothing mockup on healthy faceless mannequin. Balanced posture showing wellness garment comfort. Center lighting with healing atmosphere. Wellness appearance suitable for activewear and health fashion. Professional pose with wellness balance."
+  },
+  {
+    "key": "mannequin-fitness-studio",
+    "en": "Mannequin Fitness Studio",
+    "id": "Manenen Studio Fitness",
+    "ms": "Manekin Studio Kecergasan",
+    "prompt": "Fitness studio pose clothing mockup on athletic faceless mannequin. Energetic posture showing fitness garment performance. Studio lighting with energetic atmosphere. Fitness appearance suitable for workout wear and athletic fashion. Professional pose with fitness energy."
+  },
+  {
+    "key": "mannequin-health-club",
+    "en": "Mannequin Health Club",
+    "id": "Manenen Klub Kesehatan",
+    "ms": "Manekin Kelab Kesihatan",
+    "prompt": "Health club pose clothing mockup on fit faceless mannequin. Active posture showing health garment functionality. Club lighting with fitness atmosphere. Health appearance suitable for activewear and fitness fashion. Professional pose with health confidence."
+  },
+  {
+    "key": "mannequin-sports-complex",
+    "en": "Mannequin Sports Complex",
+    "id": "Manenen Kompleks Olahraga",
+    "ms": "Manekin Kompleks Sukan",
+    "prompt": "Sports complex pose clothing mockup on athletic faceless mannequin. Sporty posture showing sports garment performance. Complex lighting with athletic atmosphere. Sports appearance suitable for sportswear and athletic fashion. Professional pose with sports confidence."
+  },
+  {
+    "key": "mannequin-training-facility",
+    "en": "Mannequin Training Facility",
+    "id": "Manenen Fasilitas Pelatihan",
+    "ms": "Manekin Kemudahan Latihan",
+    "prompt": "Training facility pose clothing mockup on disciplined faceless mannequin. Focused posture showing training garment durability. Facility lighting with professional atmosphere. Training appearance suitable for performance wear and training fashion. Professional pose with training discipline."
+  },
+  {
+    "key": "mannequin-competition-venue",
+    "en": "Mannequin Competition Venue",
+    "id": "Manenen Venue Kompetisi",
+    "ms": "Manekin Venue Pertandingan",
+    "prompt": "Competition venue pose clothing mockup on competitive faceless mannequin. Determined posture showing competition garment performance. Venue lighting with competitive atmosphere. Competition appearance suitable for competitive wear and sports fashion. Professional pose with competitive spirit."
+  },
+  {
+    "key": "mannequin-tournament-event",
+    "en": "Mannequin Tournament Event",
+    "id": "Manenen Acara Turnamen",
+    "ms": "Manekin Acara Kejohanan",
+    "prompt": "Tournament event pose clothing mockup on champion faceless mannequin. Victorious posture showing tournament garment excellence. Event lighting with tournament atmosphere. Tournament appearance suitable for championship wear and competitive fashion. Professional pose with tournament confidence."
+  },
+  {
+    "key": "mannequin-championship-final",
+    "en": "Mannequin Championship Final",
+    "id": "Manenen Final Kejuaraan",
+    "ms": "Manekin Akhir Kejohanan",
+    "prompt": "Championship final pose clothing mockup on elite faceless mannequin. Champion posture showing final garment performance. Final lighting with championship atmosphere. Championship appearance suitable for elite wear and champion fashion. Professional pose with championship excellence."
+  },
+  {
+    "key": "mannequin-victory-celebration",
+    "en": "Mannequin Victory Celebration",
+    "id": "Manenen Perayaan Kemenangan",
+    "ms": "Manekin Sambutan Kemenangan",
+    "prompt": "Victory celebration pose clothing mockup on triumphant faceless mannequin. Victorious posture showing celebration garment style. Celebration lighting with triumph atmosphere. Victory appearance suitable for celebratory wear and champion fashion. Professional pose with victory confidence."
+  },
+  {
+    "key": "mannequin-award-reception",
+    "en": "Mannequin Award Reception",
+    "id": "Manenen Resepsi Penghargaan",
+    "ms": "Manekin Resepsi Anugerah",
+    "prompt": "Award reception pose clothing mockup on honored faceless mannequin. Distinguished posture showing award garment formality. Reception lighting with prestigious atmosphere. Award appearance suitable for formal wear and honored fashion. Professional pose with award dignity."
+  },
+  {
+    "key": "mannequin-graduation-ceremony",
+    "en": "Mannequin Graduation Ceremony",
+    "id": "Manenen Upacara Kelulusan",
+    "ms": "Manekan Upacara Tamat Pengajian",
+    "prompt": "Graduation ceremony pose clothing mockup on academic faceless mannequin. Scholarly posture showing graduation garment tradition. Ceremony lighting with academic atmosphere. Graduation appearance suitable for academic wear and ceremonial fashion. Professional pose with graduation achievement."
+  },
+  {
+    "key": "mannequin-commencement-event",
+    "en": "Mannequin Commencement Event",
+    "id": "Manenen Acara Peresmian",
+    "ms": "Manekan Acara Permulaan",
+    "prompt": "Commencement event pose clothing mockup on graduating faceless mannequin. Accomplished posture showing commencement garment formality. Event lighting with academic atmosphere. Commencement appearance suitable for academic wear and achievement fashion. Professional pose with commencement pride."
+  },
+  {
+    "key": "mannequin-alumni-reunion",
+    "en": "Mannequin Alumni Reunion",
+    "id": "Manenen Reuni Alumni",
+    "ms": "Manekan Reuni Alumni",
+    "prompt": "Alumni reunion pose clothing mockup on nostalgic faceless mannequin. Reunion posture showing alumni garment style. Reunion lighting with nostalgic atmosphere. Alumni appearance suitable for classic wear and reunion fashion. Professional pose with alumni pride."
+  },
+  {
+    "key": "mannequin-class-reunion",
+    "en": "Mannequin Class Reunion",
+    "id": "Manenen Reuni Kelas",
+    "ms": "Manekan Reuni Kelas",
+    "prompt": "Class reunion pose clothing mockup on memorable faceless mannequin. Reunited posture showing class garment style. Reunion lighting with nostalgic atmosphere. Class appearance suitable for casual wear and reunion fashion. Professional pose with class nostalgia."
+  },
+  {
+    "key": "mannequin-family-gathering",
+    "en": "Mannequin Family Gathering",
+    "id": "Manenen Pertemuan Keluarga",
+    "ms": "Manekan Perjumpaan Keluarga",
+    "prompt": "Family gathering pose clothing mockup on warm faceless mannequin. Gathering posture showing family garment comfort. Gathering lighting with family atmosphere. Family appearance suitable for casual wear and family fashion. Professional pose with family warmth."
+  },
+  {
+    "key": "mannequin-reunion-dinner",
+    "en": "Mannequin Reunion Dinner",
+    "id": "Manenen Makan Malam Reuni",
+    "ms": "Manekan Makan Malam Reuni",
+    "prompt": "Reunion dinner pose clothing mockup on social faceless mannequin. Dinner posture showing reunion garment style. Dinner lighting with social atmosphere. Reunion appearance suitable for formal wear and social fashion. Professional pose with reunion elegance."
+  },
+  {
+    "key": "mannequin-celebration-banquet",
+    "en": "Mannequin Celebration Banquet",
+    "id": "Manenen Jamuan Perayaan",
+    "ms": "Manekan Jamuan Sambutan",
+    "prompt": "Celebration banquet pose clothing mockup on festive faceless mannequin. Banquet posture showing celebration garment formality. Banquet lighting with celebratory atmosphere. Celebration appearance suitable for formal wear and celebratory fashion. Professional pose with banquet elegance."
+  },
+  {
+    "key": "mannequin-festive-dinner",
+    "en": "Mannequin Festive Dinner",
+    "id": "Manenen Makan Malam Festif",
+    "ms": "Manekan Makan Malam Perayaan",
+    "prompt": "Festive dinner pose clothing mockup on joyful faceless mannequin. Celebration posture showing festive garment style. Dinner lighting with festive atmosphere. Festive appearance suitable for holiday wear and celebratory fashion. Professional pose with festive joy."
+  },
+  {
+    "key": "mannequin-holiday-gathering",
+    "en": "Mannequin Holiday Gathering",
+    "id": "Manenen Pertemuan Liburan",
+    "ms": "Manekan Perjumpaan Cuti",
+    "prompt": "Holiday gathering pose clothing mockup on festive faceless mannequin. Cheerful posture showing holiday garment style. Gathering lighting with holiday atmosphere. Holiday appearance suitable for festive wear and celebration fashion. Professional pose with holiday cheer."
+  },
+  {
+    "key": "mannequin-seasonal-celebration",
+    "en": "Mannequin Seasonal Celebration",
+    "id": "Manenen Perayaan Musiman",
+    "ms": "Manekan Sambutan Musim",
+    "prompt": "Seasonal celebration pose clothing mockup on festive faceless mannequin. Seasonal posture showing celebration garment appropriateness. Celebration lighting with seasonal atmosphere. Seasonal appearance suitable for festive wear and seasonal fashion. Professional pose with seasonal spirit."
+  },
+  {
+    "key": "mannequin-annual-event",
+    "en": "Mannequin Annual Event",
+    "id": "Manenen Acara Tahunan",
+    "ms": "Manekan Acara Tahunan",
+    "prompt": "Annual event pose clothing mockup on traditional faceless mannequin. Annual posture showing event garment tradition. Event lighting with annual atmosphere. Annual appearance suitable for traditional wear and commemorative fashion. Professional pose with annual tradition."
+  },
+  {
+    "key": "mannequin-milestone-celebration",
+    "en": "Mannequin Milestone Celebration",
+    "id": "Manenen Perayaan Tonggak Sejarah",
+    "ms": "Manekan Sambutan Milestone",
+    "prompt": "Milestone celebration pose clothing mockup on commemorative faceless mannequin. Achievement posture showing celebration garment significance. Celebration lighting with milestone atmosphere. Milestone appearance suitable for formal wear and achievement fashion. Professional pose with milestone pride."
+  },
+  {
+    "key": "mannequin-anniversary-party",
+    "en": "Mannequin Anniversary Party",
+    "id": "Manenen Pesta Ulang Tahun",
+    "ms": "Manekan Parti Jubli",
+    "prompt": "Anniversary party pose clothing mockup on celebratory faceless mannequin. Commemorative posture showing anniversary garment style. Party lighting with anniversary atmosphere. Anniversary appearance suitable for festive wear and celebration fashion. Professional pose with anniversary joy."
+  },
+  {
+    "key": "mannequin-birthday-celebration",
+    "en": "Mannequin Birthday Celebration",
+    "id": "Manenen Perayaan Ulang Tahun",
+    "ms": "Manekan Sambutan Hari Jadi",
+    "prompt": "Birthday celebration pose clothing mockup on festive faceless mannequin. Joyful posture showing birthday garment festivity. Celebration lighting with birthday atmosphere. Birthday appearance suitable for party wear and celebratory fashion. Professional pose with birthday happiness."
+  },
+  {
+    "key": "mannequin-special-occasion",
+    "en": "Mannequin Special Occasion",
+    "id": "Manenen Acara Khusus",
+    "ms": "Manekan Acara Istimewa",
+    "prompt": "Special occasion pose clothing mockup on elegant faceless mannequin. Refined posture showing occasion garment appropriateness. Occasion lighting with special atmosphere. Special appearance suitable for formal wear and occasion fashion. Professional pose with special elegance."
+  },
+  {
+    "key": "mannequin-memorable-moment",
+    "en": "Mannequin Memorable Moment",
+    "id": "Manenen Momen Tak Terlupakan",
+    "ms": "Manekan Momen Kenangan",
+    "prompt": "Memorable moment pose clothing mockup on significant faceless mannequin. Meaningful posture showing moment garment significance. Moment lighting with memorable atmosphere. Memorable appearance suitable for special wear and momentous fashion. Professional pose with memorable significance."
+  },
+  {
+    "key": "professional-studio-flat",
+    "en": "Professional Studio Flat",
+    "id": "Studio Datar Profesional",
+    "ms": "Studio Rata Profesional",
+    "prompt": "Professional studio flat lay photography with seamless paper background. Garment artfully arranged with precise folds and strategic lighting. Multiple light sources creating depth and dimension. Commercial photography style suitable for e-commerce and catalog presentations. Clean, minimalist aesthetic with expert color grading."
+  },
+  {
+    "key": "macro-detail-shot",
+    "en": "Macro Detail Shot",
+    "id": "Tembakan Detail Makro",
+    "ms": "Tembakan Perincian Makro",
+    "prompt": "Extreme close-up macro photography focusing on fabric texture and construction details. Specialized macro lens capturing thread count, stitching patterns, and material weave. Controlled studio lighting with softboxes highlighting surface details. Professional product photography suitable for quality assurance and luxury brand presentations."
+  },
+  {
+    "key": "creative-suspension",
+    "en": "Creative Suspension",
+    "id": "Suspensi Kreatif",
+    "ms": "Gantungan Kreatif",
+    "prompt": "Innovative suspension photography with garment floating in mid-air. Invisible fishing line or magnetic supports creating weightless effect. Dramatic studio lighting from multiple angles creating sculptural shadows. Contemporary art photography style suitable for fashion campaigns and creative marketing."
+  },
+  {
+    "key": "shadow-play-technique",
+    "en": "Shadow Play Technique",
+    "id": "Teknik Bermain Bayangan",
+    "ms": "Teknik Main Bayang",
+    "prompt": "Artistic shadow photography using garment to create intricate shadow patterns. Backlighting through fabric creating dramatic silhouettes and texture shadows. Dark studio background with focused lighting effects. Fine art photography approach suitable for designer collections and artistic presentations."
+  },
+  {
+    "key": "underwater-ethereal",
+    "en": "Underwater Ethereal",
+    "id": "Bawah Air Halus",
+    "ms": "Bawah Air Halus",
+    "prompt": "Ethereal underwater photography with garment floating in clear water tank. Weightless fabric movement creating flowing, dreamlike effects. Specialized underwater lighting equipment with color correction. Surreal photography style suitable for high-fashion editorials and luxury brand campaigns."
+  },
+  {
+    "key": "motion-blur-artistry",
+    "en": "Motion Blur Artistry",
+    "id": "Seni Blur Gerakan",
+    "ms": "Seni Blur Gerakan",
+    "prompt": "Artistic motion blur photography capturing garment in dynamic movement. Long exposure techniques creating flowing fabric trails and energy lines. Controlled studio environment with professional lighting rigs. Creative photography suitable for active wear and performance fashion presentations."
+  },
+  {
+    "key": "crystal-reflection",
+    "en": "Crystal Reflection",
+    "id": "Refleksi Kristal",
+    "ms": "Refleksi Kristal",
+    "prompt": "Sophisticated reflection photography using crystal surfaces and mirrors. Garment positioned to create symmetrical reflections and light refractions. Multiple crystal elements creating prism effects and rainbow highlights. Luxury photography style suitable for premium brands and elegant presentations."
+  },
+  {
+    "key": "industrial-chic",
+    "en": "Industrial Chic",
+    "id": "Industrial Chic",
+    "ms": "Industrial Chic",
+    "prompt": "Urban industrial photography with concrete and metal backgrounds. Garment contrasted against raw textures like rusted metal and weathered wood. Mixed lighting combining natural light with industrial fixtures. Edgy photography style suitable for streetwear and contemporary fashion brands."
+  },
+  {
+    "key": "minimalist-elevation",
+    "en": "Minimalist Elevation",
+    "id": "Elevasi Minimalis",
+    "ms": "Ketinggian Minimalis",
+    "prompt": "Clean elevation photography with garment floating against seamless background. Precision lighting creating shadowless presentation and perfect color accuracy. Technical photography approach suitable for technical specifications and detailed product documentation. Professional commercial studio standards."
+  },
+  {
+    "key": "geometric-composition",
+    "en": "Geometric Composition",
+    "id": "Komposisi Geometris",
+    "ms": "Komposisi Geometri",
+    "prompt": "Architectural photography using geometric shapes and structured compositions. Garment integrated with geometric forms and mathematical precision. Bold lighting creating strong shadows and defined lines. Contemporary art direction suitable for modern fashion and design-forward brands."
+  },
+  {
+    "key": "transparency-layering",
+    "en": "Transparency Layering",
+    "id": "Pelapisan Transparansi",
+    "ms": "Lapisan Lutsinar",
+    "prompt": "Layered transparency photography using acrylic sheets and glass panels. Garment positioned between transparent layers creating depth and dimension. Backlighting through layers creating ethereal glow effects. Sophisticated technique suitable for luxury fashion and artistic presentations."
+  },
+  {
+    "key": "texture-contrast",
+    "en": "Texture Contrast",
+    "id": "Kontras Tekstur",
+    "ms": "Kontras Tekstur",
+    "prompt": "High-contrast texture photography emphasizing fabric surface details. Extreme lighting highlighting weave patterns, material textures, and surface variations. Macro and wide-angle combinations showing overall design and minute details. Professional textile photography suitable for fabric manufacturers and designers."
+  },
+  {
+    "key": "sculptural-form",
+    "en": "Sculptural Form",
+    "id": "Bentuk Pahatan",
+    "ms": "Bentuk Ukiran",
+    "prompt": "Sculptural photography treating garment as three-dimensional art form. Dramatic lighting creating highlights and shadows like museum sculpture display. Multiple angles and perspectives showing shape and structure. Fine art photography approach suitable for couture and designer fashion presentations."
+  },
+  {
+    "key": "light-painting-effect",
+    "en": "Light Painting Effect",
+    "id": "Efek Melukis Cahaya",
+    "ms": "Kesan Lukisan Cahaya",
+    "prompt": "Creative light painting photography using handheld light sources. Long exposure techniques with light brushes creating glowing patterns around garment. Dark studio environment with controlled light movement. Experimental photography style suitable for artistic fashion and creative campaigns."
+  },
+  {
+    "key": "elemental-interaction",
+    "en": "Elemental Interaction",
+    "id": "Interaksi Elemental",
+    "ms": "Interaksi Unsur",
+    "prompt": "Elemental photography featuring interactions with natural elements. Garment combined with water, fire, earth, or air effects. Specialized equipment and safety protocols for elemental photography. Dramatic conceptual style suitable for high-impact fashion editorials."
+  },
+  {
+    "key": "kaleidoscope-pattern",
+    "en": "Kaleidoscope Pattern",
+    "id": "Pola Kalidoskop",
+    "ms": "Corak Kalidoskop",
+    "prompt": "Kaleidoscopic photography creating symmetrical patterns and reflections. Multiple mirrors and angled surfaces creating repeating garment images. Precision alignment and lighting for perfect pattern formation. Psychedelic art style suitable for creative fashion and alternative brand presentations."
+  },
+  {
+    "key": "architectural-integration",
+    "en": "Architectural Integration",
+    "id": "Integrasi Arsitektur",
+    "ms": "Integrasi Senibina",
+    "prompt": "Architectural photography integrating garment with built environments. Garment positioned within architectural elements like columns, arches, and staircases. Natural and artificial lighting combining to emphasize structure and design. High-end real estate photography style suitable for luxury fashion presentations."
+  },
+  {
+    "key": "color-explosion",
+    "en": "Color Explosion",
+    "id": "Ledakan Warna",
+    "ms": "Letupan Warna",
+    "prompt": "Vibrant color photography using powder pigments and color explosions. Dynamic capture of pigment clouds surrounding garment. High-speed photography techniques freezing color particles in motion. Energetic photography style suitable for youth fashion and dynamic brand presentations."
+  },
+  {
+    "key": "floating-gravity",
+    "en": "Floating Gravity",
+    "id": "Mengapung Gravitasi",
+    "ms": "Terapung Graviti",
+    "prompt": "Anti-gravity photography with garment appearing to float weightlessly. Specially designed rigs and invisible supports creating floating effects. Studio lighting eliminating shadows for pure floating illusion. Futuristic photography style suitable for sci-fi fashion and innovative brand presentations."
+  },
+  {
+    "key": "crystal-ball-refraction",
+    "en": "Crystal Ball Refraction",
+    "id": "Refraksi Bola Kristal",
+    "ms": "Pecahan Bola Kristal",
+    "prompt": "Crystal ball refraction photography using glass spheres. Garment visible through distorted crystal ball creating surreal effects. Careful positioning and lighting for optimal refraction results. Magical photography style suitable for fantasy fashion and whimsical brand presentations."
+  },
+  {
+    "key": "liquid-nitrogen-effect",
+    "en": "Liquid Nitrogen Effect",
+    "id": "Efek Nitrogen Cair",
+    "ms": "Kesan Nitrogen Cecair",
+    "prompt": "Cryogenic photography using liquid nitrogen for ice crystal effects. Frozen mist and ice crystals creating ethereal atmosphere around garment. Specialized cold-weather photography equipment and safety measures. Scientific photography style suitable for experimental fashion and avant-garde presentations."
+  },
+  {
+    "key": "prism-light-spectrum",
+    "en": "Prism Light Spectrum",
+    "id": "Spektrum Cahaya Prisma",
+    "ms": "Spektrum Cahaya Prisma",
+    "prompt": "Prismatic photography using optical prisms to split light. Rainbow spectrum effects surrounding garment with multiple color refractions. Precision prism placement and controlled lighting sources. Colorful photography style suitable for vibrant fashion and creative brand presentations."
+  },
+  {
+    "key": "holographic-projection",
+    "en": "Holographic Projection",
+    "id": "Proyeksi Holografik",
+    "ms": "Projeksi Holografik",
+    "prompt": "Futuristic holographic photography with projected light patterns. Garment combined with holographic elements and laser light shows. Specialized projection equipment and dark studio environment. Science fiction photography style suitable for tech fashion and futuristic brand presentations."
+  },
+  {
+    "key": "mirror-infinity",
+    "en": "Mirror Infinity",
+    "id": "Cermin Tak Terbatas",
+    "ms": "Cerma Tak Terhingga",
+    "prompt": "Infinity mirror photography creating endless reflections. Garment positioned between parallel mirrors creating infinite repetition effects. Precise mirror alignment and controlled lighting for infinity effect. Psychedelic photography style suitable for creative fashion and mind-bending presentations."
+  },
+  {
+    "key": "smoke-bomb-atmosphere",
+    "en": "Smoke Bomb Atmosphere",
+    "id": "Atmosfer Bom Asap",
+    "ms": "Atmosfera Bom Asap",
+    "prompt": "Atmospheric smoke photography using colored smoke bombs. Garment emerging from colored smoke creating mysterious and dramatic effects. Outdoor or large studio space with ventilation systems. Moody photography style suitable for edgy fashion and alternative brand presentations."
+  },
+  {
+    "key": "neon-sign-backdrop",
+    "en": "Neon Sign Backdrop",
+    "id": "Latar Belakang Neon",
+    "ms": "Latar Belakang Neon",
+    "prompt": "Urban neon photography with vintage and modern neon signs. Garment illuminated by colorful neon lighting creating city atmosphere. Night photography techniques with long exposure and light painting. Gritty urban style suitable for streetwear and contemporary fashion presentations."
+  },
+  {
+    "key": "projection-mapping",
+    "en": "Projection Mapping",
+    "id": "Pemetaan Proyeksi",
+    "ms": "Pemetaan Unjuran",
+    "prompt": "Advanced projection mapping photography with animated projections. Dynamic visual content projected onto garment surface creating living texture effects. Synchronized projection systems and precise timing photography. Cutting-edge technology style suitable for innovative fashion and digital brand presentations."
+  },
+  {
+    "key": "glass-refraction-study",
+    "en": "Glass Refraction Study",
+    "id": "Studi Refraksi Kaca",
+    "ms": "Kajian Pembiasan Kaca",
+    "prompt": "Optical photography studying light refraction through glass. Multiple glass elements creating complex light patterns around garment. Scientific approach to artistic photography with controlled variables. Educational photography style suitable for technical fashion and design presentations."
+  },
+  {
+    "key": "metallic-surface-reflection",
+    "en": "Metallic Surface Reflection",
+    "id": "Refleksi Permukaan Metalik",
+    "ms": "Refleksi Permukaan Logam",
+    "prompt": "Metallic reflection photography using chrome and polished metals. Garment reflected in curved metal surfaces creating distorted imagery. Industrial studio setting with precision lighting equipment. Modern photography style suitable for futuristic fashion and industrial design presentations."
+  },
+  {
+    "key": "water-droplet-macro",
+    "en": "Water Droplet Macro",
+    "id": "Makro Tetesan Air",
+    "ms": "Makro Titik Air",
+    "prompt": "Extreme macro photography of water droplets on fabric surface. Specialized macro lenses capturing surface tension and light refraction through droplets. Controlled environment with precise droplet placement. Scientific photography style suitable for technical textile and luxury fabric presentations."
+  },
+  {
+    "key": "ice-sculpture-setting",
+    "en": "Ice Sculpture Setting",
+    "id": "Latar Patung Es",
+    "ms": "Latar Patung Ais",
+    "prompt": "Frozen photography with garment integrated into ice sculptures. Clear ice blocks and carved ice creating crystalline environment. Cold studio conditions with specialized lighting through ice. Elemental photography style suitable for winter fashion and dramatic brand presentations."
+  },
+  {
+    "key": "fiber-optic-lighting",
+    "en": "Fiber Optic Lighting",
+    "id": "Pencahayaan Serat Optik",
+    "ms": "Pencahayaan Gentian Optik",
+    "prompt": "High-tech photography using fiber optic lighting systems. Flexible light threads creating precise illumination patterns around garment. Computer-controlled lighting sequences with synchronized photography. Technological photography style suitable for innovative fashion and futuristic brand presentations."
+  },
+  {
+    "key": "laser-grid-pattern",
+    "en": "Laser Grid Pattern",
+    "id": "Pola Grid Laser",
+    "ms": "Corak Grid Laser",
+    "prompt": "Laser grid photography creating geometric light patterns. Multiple laser beams intersecting to form grid structures around garment. Dark studio environment with smoke for laser visibility. Sci-fi photography style suitable for tech fashion and futuristic brand presentations."
+  },
+  {
+    "key": "magnetic-suspension",
+    "en": "Magnetic Suspension",
+    "id": "Suspensi Magnetik",
+    "ms": "Gantungan Magnet",
+    "prompt": "Magnetic levitation photography with floating garment elements. Electromagnetic suspension system creating weightless presentation. Precision-controlled magnetic fields for stable positioning. Scientific photography style suitable for innovative fashion and experimental brand presentations."
+  },
+  {
+    "key": "kinetic-sculpture",
+    "en": "Kinetic Sculpture",
+    "id": "Patung Kinetik",
+    "ms": "Patung Kinetik",
+    "prompt": "Moving sculpture photography with mechanical elements. Garment integrated into kinetic structures creating dynamic movement. Multiple exposure techniques capturing motion and stillness. Experimental photography style suitable for artistic fashion and avant-garde presentations."
+  },
+  {
+    "key": "thermal-imaging",
+    "en": "Thermal Imaging",
+    "id": "Pencitraan Termal",
+    "ms": "Imej Termal",
+    "prompt": "Thermal photography showing heat patterns and temperature variations. Specialized infrared camera capturing garment thermal signature. Scientific approach to artistic fashion photography. Technical photography style suitable for performance wear and technical fabric presentations."
+  },
+  {
+    "key": "ultraviolet-fluorescence",
+    "en": "Ultraviolet Fluorescence",
+    "id": "Fluoresensi Ultraviolet",
+    "ms": "Fluoresensi Ultraungu",
+    "prompt": "UV photography revealing fluorescent properties of materials. Ultraviolet lighting causing garment to emit visible fluorescence. Dark environment with UV light sources and special camera filters. Psychedelic photography style suitable for creative fashion and alternative brand presentations."
+  },
+  {
+    "key": "x-ray-vision-effect",
+    "en": "X-Ray Vision Effect",
+    "id": "Efek Visi X-Ray",
+    "ms": "Kesan Visi X-Ray",
+    "prompt": "X-ray style photography showing internal structure. Simulated radiography effects revealing garment layers and construction. Digital post-processing techniques creating x-ray aesthetic. Medical photography style suitable for technical fashion and educational presentations."
+  },
+  {
+    "key": "infrared-monochrome",
+    "en": "Infrared Monochrome",
+    "id": "Monokrom Inframerah",
+    "ms": "Monokrom Infra Merah",
+    "prompt": "Infrared photography creating ethereal monochrome images. Specialized infrared camera capturing light beyond visible spectrum. Dreamy, otherworldly appearance with bright foliage and dark skies. Artistic photography style suitable for alternative fashion and conceptual presentations."
+  },
+  {
+    "key": "time-lapse-transformation",
+    "en": "Time Lapse Transformation",
+    "id": "Transformasi Time Lapse",
+    "ms": "Transformasi Time Lapse",
+    "prompt": "Time-lapse photography showing garment transformation process. Sequential photography capturing changes over extended period. Cinematic approach to still photography with narrative progression. Documentary photography style suitable for process-oriented fashion and brand storytelling."
+  },
+  {
+    "key": "polarized-light-study",
+    "en": "Polarized Light Study",
+    "id": "Studi Cahaya Terpolarisasi",
+    "ms": "Kajian Cahaya Terkutub",
+    "prompt": "Polarized light photography revealing stress patterns in materials. Cross-polarized lighting creating colorful interference patterns. Scientific photography techniques applied to artistic fashion. Technical photography style suitable for textile analysis and material science presentations."
+  },
+  {
+    "key": "schlieren-imaging",
+    "en": "Schlieren Imaging",
+    "id": "Pencitraan Schlieren",
+    "ms": "Imej Schlieren",
+    "prompt": "Schlieren photography visualizing air density changes. Specialized optical system capturing invisible air currents around garment. Scientific technique applied to artistic fashion photography. Experimental photography style suitable for performance wear and technical presentations."
+  },
+  {
+    "key": "stereoscopic-3d-effect",
+    "en": "Stereoscopic 3D Effect",
+    "id": "Efek Stereoskopis 3D",
+    "ms": "Kesan Stereoskopik 3D",
+    "prompt": "3D stereoscopic photography creating depth perception. Paired images for 3D viewing or anaglyph effects. Specialized camera rigs and precise alignment required. Immersive photography style suitable for interactive fashion and engaging presentations."
+  },
+  {
+    "key": "astrophotography-backdrop",
+    "en": "Astrophotography Backdrop",
+    "id": "Latar Belakang Astrofotografi",
+    "ms": "Latar Belakang Astrofotografi",
+    "prompt": "Cosmic photography with astronomical backdrops. Garment combined with star fields, nebulae, and celestial objects. Long exposure astrophotography techniques with precise tracking. Epic photography style suitable for luxury fashion and cosmic brand presentations."
+  },
+  {
+    "key": "microscopic-detail",
+    "en": "Microscopic Detail",
+    "id": "Detail Mikroskopis",
+    "ms": "Perincian Mikroskop",
+    "prompt": "Microscopic photography revealing cellular structure. Electron microscope levels of detail showing fabric construction. Scientific imaging equipment with extreme magnification. Technical photography style suitable for textile research and luxury fabric documentation."
+  },
+  {
+    "key": "high-speed-fragmentation",
+    "en": "High Speed Fragmentation",
+    "id": "Fragmentasi Kecepatan Tinggi",
+    "ms": "Pecahan Kelajuan Tinggi",
+    "prompt": "High-speed photography capturing explosive fragmentation. Garment fragmentation with controlled explosions or mechanical dispersion. Microsecond timing precision with specialized triggers. Action photography style suitable for dynamic fashion and impact presentations."
+  },
+  {
+    "key": "plasma-discharge-effect",
+    "en": "Plasma Discharge Effect",
+    "id": "Efek Pelepasan Plasma",
+    "ms": "Kesan Pelepasan Plasma",
+    "prompt": "Plasma photography using electrical discharge effects. Tesla coils and plasma tubes creating lightning-like effects around garment. High-voltage equipment with extreme safety precautions. Electrifying photography style suitable for edgy fashion and energy brand presentations."
+  },
+  {
+    "key": "sonic-vibration-pattern",
+    "en": "Sonic Vibration Pattern",
+    "id": "Pola Getaran Sonik",
+    "ms": "Corak Getaran Sonik",
+    "prompt": "Cymatics photography visualizing sound vibrations. Garment responding to specific frequencies creating geometric patterns. Specialized audio equipment with vibration-sensitive mediums. Experimental photography style suitable for music fashion and sensory presentations."
+  },
+  {
+    "key": "holographic-interference",
+    "en": "Holographic Interference",
+    "id": "Interferensi Holografik",
+    "ms": "Interferensi Holografik",
+    "prompt": "Holographic interference photography creating rainbow patterns. Laser interference patterns creating colorful wave formations around garment. Precision laser alignment and vibration-free environment. Scientific photography style suitable for technical fashion and experimental presentations."
+  },
+  {
+    "key": "thermal-camera-effect",
+    "en": "Thermal Camera Effect",
+    "id": "Efek Kamera Termal",
+    "ms": "Kesan Kamera Termal",
+    "prompt": "Thermal imaging photography showing heat signatures. Advanced thermal camera technology revealing temperature distributions. Security and surveillance aesthetic applied to fashion photography. Technical photography style suitable for performance wear and utility fashion presentations."
+  },
+  {
+    "key": "radioactive-glow-effect",
+    "en": "Radioactive Glow Effect",
+    "id": "Efek Bersinar Radioaktif",
+    "ms": "Kesan Bersinar Radioaktif",
+    "prompt": "Radioactive-style photography with eerie green glow. Simulated radioactivity effects using special lighting and filters. Post-apocalyptic aesthetic with cautionary elements. Dark photography style suitable for alternative fashion and edgy brand presentations."
+  },
+  {
+    "key": "quantum-uncertainty-visual",
+    "en": "Quantum Uncertainty Visual",
+    "id": "Visual Ketidakpastian Kuantum",
+    "ms": "Visual Ketidakpastian Kuantum",
+    "prompt": "Quantum-inspired photography showing probability distributions. Multiple exposure techniques creating uncertainty visualizations. Scientific concepts translated into artistic fashion imagery. Conceptual photography style suitable for intellectual fashion and thought-provoking presentations."
+  },
+  {
+    "key": "bioluminescent-effect",
+    "en": "Bioluminescent Effect",
+    "id": "Efek Bioluminesen",
+    "ms": "Kesan Bioluminesen",
+    "prompt": "Bioluminescent photography simulating living light effects. Glowing effects created with special pigments and lighting. Deep-sea and jungle inspiration with organic glow patterns. Natural photography style suitable for eco-fashion and sustainable brand presentations."
+  },
+  {
+    "key": "aurora-borealis-backdrop",
+    "en": "Aurora Borealis Backdrop",
+    "id": "Latar Belakang Aurora Borealis",
+    "ms": "Latar Belakang Aurora Borealis",
+    "prompt": "Northern lights photography with aurora effects. Garment combined with simulated aurora borealis patterns. Long exposure techniques with specialized lighting. Ethereal photography style suitable for luxury fashion and mystical brand presentations."
+  },
+  {
+    "key": "volcanic-ash-atmosphere",
+    "en": "Volcanic Ash Atmosphere",
+    "id": "Atmosfer Abu Vulkanik",
+    "ms": "Atmosfera Abu Gunung Berapi",
+    "prompt": "Volcanic photography with ash and smoke effects. Dramatic environment with fine ash particles creating hazy atmosphere. Controlled environment with simulated ash effects. Intense photography style suitable for rugged fashion and adventure brand presentations."
+  },
+  {
+    "key": "crystal-cave-setting",
+    "en": "Crystal Cave Setting",
+    "id": "Latar Gua Kristal",
+    "ms": "Latar Gua Kristal",
+    "prompt": "Crystal cave photography with geological formations. Garment among crystal formations creating fantasy environment. Specialized lighting through crystals creating rainbow effects. Magical photography style suitable for fantasy fashion and enchanting brand presentations."
+  },
+  {
+    "key": "desert-mirage-effect",
+    "en": "Desert Mirage Effect",
+    "id": "Efek Ilusi Gurun",
+    "ms": "Kesan Ilusi Gurun",
+    "prompt": "Mirage photography with heat distortion effects. Simulated desert heat waves creating warped imagery around garment. Specialized heating elements and atmospheric techniques. Surreal photography style suitable for dreamy fashion and conceptual presentations."
+  },
+  {
+    "key": "arctic-ice-cavern",
+    "en": "Arctic Ice Cavern",
+    "id": "Gua Es Arktik",
+    "ms": "Gua Ais Artik",
+    "prompt": "Arctic photography with ice cavern environments. Garment within ice formations creating crystalline surroundings. Cold studio conditions with specialized ice-making equipment. Frozen photography style suitable for winter fashion and crisp brand presentations."
+  },
+  {
+    "key": "underwater-cave-exploration",
+    "en": "Underwater Cave Exploration",
+    "id": "Eksplorasi Gua Bawah Air",
+    "ms": "Eksplorasi Gua Bawah Air",
+    "prompt": "Underwater cave photography with mysterious atmosphere. Garment in submerged cave environments with dramatic lighting. Specialized underwater equipment and safety protocols. Mysterious photography style suitable for deep fashion and enigmatic brand presentations."
+  },
+  {
+    "key": "space-station-zero-gravity",
+    "en": "Space Station Zero Gravity",
+    "id": "Stasiun Luar Angkasa Tanpa Gravitasi",
+    "ms": "Stesen Angkasa Tanpa Graviti",
+    "prompt": "Space station photography simulating zero gravity. Garment floating in weightless environment with earth backdrop. Specialized rigging and digital compositing techniques. Futuristic photography style suitable for sci-fi fashion and innovative brand presentations."
+  },
+  {
+    "key": "time-portal-effect",
+    "en": "Time Portal Effect",
+    "id": "Efek Portal Waktu",
+    "ms": "Kesan Portal Masa",
+    "prompt": "Time travel photography with portal effects. Garment transitioning through time vortex with distortion effects. Digital manipulation and practical effects combined. Sci-fi photography style suitable for conceptual fashion and time-traveling brand presentations."
+  },
+  {
+    "key": "dimensional-rift-visual",
+    "en": "Dimensional Rift Visual",
+    "id": "Visual Celah Dimensi",
+    "ms": "Visual Jurang Dimensi",
+    "prompt": "Interdimensional photography with rift effects. Garment crossing dimensional barriers with visual distortions. Advanced digital effects and practical elements. Cosmic photography style suitable for fantasy fashion and otherworldly brand presentations."
+  },
+  {
+    "key": "quantum-entanglement-visual",
+    "en": "Quantum Entanglement Visual",
+    "id": "Visual Keterikatan Kuantum",
+    "ms": "Visual Keterikatan Kuantum",
+    "prompt": "Quantum physics photography showing entangled particles. Garment connected through quantum entanglement visual effects. Scientific concepts translated into visual fashion art. Intellectual photography style suitable for smart fashion and scientific brand presentations."
+  },
+  {
+    "key": "antimatter-explosion-effect",
+    "en": "Antimatter Explosion Effect",
+    "id": "Efek Ledakan Antimateri",
+    "ms": "Kesan Letupan Antijirim",
+    "prompt": "Antimatter photography with explosive annihilation effects. Matter-antimatter collision simulation around garment. Digital effects with practical lighting elements. High-energy photography style suitable for power fashion and dynamic brand presentations."
+  },
+  {
+    "key": "black-hole-distortion",
+    "en": "Black Hole Distortion",
+    "id": "Distorsi Lubang Hitam",
+    "ms": "Distorsi Lubang Hitam",
+    "prompt": "Black hole photography with gravitational distortion. Garment near event horizon with spacetime warping effects. Advanced digital manipulation and lighting techniques. Cosmic photography style suitable for luxury fashion and gravity-defying brand presentations."
+  },
+  {
+    "key": "wormhole-portal-effect",
+    "en": "Wormhole Portal Effect",
+    "id": "Efek Portal Lubang Cacing",
+    "ms": "Kesan Portal Lubang Cacing",
+    "prompt": "Wormhole photography with dimensional travel effects. Garment passing through spacetime tunnel with visual distortions. Special effects photography with practical elements. Sci-fi photography style suitable for futuristic fashion and space-traveling brand presentations."
+  },
+  {
+    "key": "parallel-universe-merge",
+    "en": "Parallel Universe Merge",
+    "id": "Penggabungan Alam Semesta Paralel",
+    "ms": "Gabungan Alam Ganda",
+    "prompt": "Multiverse photography showing parallel realities. Multiple versions of garment from different universes merging. Digital compositing with practical photography. Conceptual photography style suitable for creative fashion and reality-bending brand presentations."
+  },
+  {
+    "key": "matrix-digital-rain",
+    "en": "Matrix Digital Rain",
+    "id": "Hujan Digital Matriks",
+    "ms": "Hujan Digital Matriks",
+    "prompt": "Matrix-style photography with digital rain effects. Garment within digital code rain environment. Green digital cascading effects with cyberpunk aesthetic. Cyber photography style suitable for tech fashion and digital brand presentations."
+  },
+  {
+    "key": "hologram-degradation-effect",
+    "en": "Hologram Degradation Effect",
+    "id": "Efek Degradasi Hologram",
+    "ms": "Kesan Degradasi Hologram",
+    "prompt": "Glitching hologram photography with digital artifacts. Garment as malfunctioning hologram with pixelation and distortion. Digital effects combined with practical elements. Glitch photography style suitable for cyberpunk fashion and dystopian brand presentations."
+  },
+  {
+    "key": "virtual-reality-rendering",
+    "en": "Virtual Reality Rendering",
+    "id": "Rendering Realitas Virtual",
+    "ms": "Renderan Realiti Maya",
+    "prompt": "VR photography showing virtual and real world blend. Garment in partially rendered virtual environment. Digital and physical elements seamlessly combined. Metaverse photography style suitable for digital fashion and virtual brand presentations."
+  },
+  {
+    "key": "augmented-reality-overlay",
+    "en": "Augmented Reality Overlay",
+    "id": "Overlay Realitas Tertambah",
+    "ms": "Lapisan Realiti Tambahan",
+    "prompt": "AR photography with digital information overlay. Garment enhanced with augmented reality graphics and data. Digital interface elements integrated with physical fashion. Tech-forward photography style suitable for smart fashion and digital brand presentations."
+  },
+  {
+    "key": "simulation-glitch-effect",
+    "en": "Simulation Glitch Effect",
+    "id": "Efek Glitch Simulasi",
+    "ms": "Kesan Glitch Simulasi",
+    "prompt": "Simulation photography with reality glitches. Garment within malfunctioning simulation environment. Digital artifacts and physics errors visualized. Philosophical photography style suitable for conceptual fashion and reality-questioning brand presentations."
+  },
+  {
+    "key": "cyberpunk-cityscape",
+    "en": "Cyberpunk Cityscape",
+    "id": "Pemandangan Kota Cyberpunk",
+    "ms": "Pemandangan Bandar Cyberpunk",
+    "prompt": "Cyberpunk urban photography with neon-drenched cityscapes. Garment in futuristic city environment with flying vehicles and holographic ads. Dystopian aesthetic with advanced urban elements. Cyber photography style suitable for tech fashion and futuristic brand presentations."
+  },
+  {
+    "key": "steampunk-machinery",
+    "en": "Steampunk Machinery",
+    "id": "Mesin Steampunk",
+    "ms": "Mesin Steampunk",
+    "prompt": "Steampunk photography with Victorian industrial machinery. Garment among brass gears, steam pipes, and clockwork mechanisms. Industrial revolution aesthetic with advanced technology. Retro-futuristic photography style suitable for alternative fashion and vintage-future brand presentations."
+  },
+  {
+    "key": "solar-punk-paradise",
+    "en": "Solar Punk Paradise",
+    "id": "Surga Solar Punk",
+    "ms": "Syurga Solar Punk",
+    "prompt": "Solar punk photography with sustainable utopian future. Garment in green technology environment with solar panels and vertical gardens. Optimistic eco-futurism aesthetic. Environmental photography style suitable for sustainable fashion and green brand presentations."
+  },
+  {
+    "key": "dystopian-wasteland",
+    "en": "Dystopian Wasteland",
+    "id": "Padang Pasir Dystopia",
+    "ms": "Tanah Lapang Dystopia",
+    "prompt": "Post-apocalyptic photography with desolate wasteland. Garment in ruined environment with overgrown nature and abandoned technology. Grim survival aesthetic with environmental storytelling. Dark photography style suitable for rugged fashion and survivalist brand presentations."
+  },
+  {
+    "key": "utopian-megalopolis",
+    "en": "Utopian Megalopolis",
+    "id": "Megalopolis Utopis",
+    "ms": "Megalopolis Utopia",
+    "prompt": "Utopian future photography with perfect megacity. Garment in harmonious urban environment with advanced architecture and clean energy. Optimistic future vision with human-centered design. Bright photography style suitable for optimistic fashion and progressive brand presentations."
+  },
+  {
+    "key": "retro-futurism-blend",
+    "en": "Retro Futurism Blend",
+    "id": "Campuran Retro Futurisme",
+    "ms": "Gabungan Retro Futurisme",
+    "prompt": "Retro-futurism photography blending past and future. Garment in environment combining 1950s futurism with modern technology. Nostalgic future vision with period-specific aesthetics. Vintage photography style suitable for retro fashion and nostalgic brand presentations."
+  },
+  {
+    "key": "biomechanical-fusion",
+    "en": "Biomechanical Fusion",
+    "id": "Fusi Biomekanik",
+    "ms": "Gabungan Biomekanik",
+    "prompt": "Biomechanical photography merging organic and mechanical. Garment integrated with biological machinery and cybernetic elements. Giger-inspired aesthetic with organic technology. Dark photography style suitable for avant-garde fashion and experimental brand presentations."
+  },
+  {
+    "key": "nanotechnology-visualization",
+    "en": "Nanotechnology Visualization",
+    "id": "Visualisasi Nanoteknologi",
+    "ms": "Visualisasi Nanoteknologi",
+    "prompt": "Nanotechnology photography showing microscopic machines. Garment enhanced with visible nanobots and molecular assembly. Scientific visualization with artistic interpretation. Technical photography style suitable for high-tech fashion and innovative brand presentations."
+  },
+  {
+    "key": "artificial-intelligence-interface",
+    "en": "Artificial Intelligence Interface",
+    "id": "Antarmuka Kecerdasan Buatan",
+    "ms": "Antara Muka Kecerdasan Tiruan",
+    "prompt": "AI interface photography showing neural networks. Garment connected to artificial intelligence systems with visible data flows. Digital brain visualization with machine learning elements. Smart photography style suitable for intelligent fashion and tech brand presentations."
+  },
+  {
+    "key": "quantum-computing-visual",
+    "en": "Quantum Computing Visual",
+    "id": "Visual Komputasi Kuantum",
+    "ms": "Visual Komputeran Kuantum",
+    "prompt": "Quantum computing photography showing qubit operations. Garment interacting with quantum computer systems and probability clouds. Advanced technology visualization with quantum mechanics. Scientific photography style suitable for technical fashion and cutting-edge brand presentations."
+  },
+  {
+    "key": "robotics-integration",
+    "en": "Robotics Integration",
+    "id": "Integrasi Robotika",
+    "ms": "Integrasi Robotik",
+    "prompt": "Robotics photography showing human-machine interaction. Garment combined with advanced robotics and automated systems. Industrial automation with precision engineering. Technical photography style suitable for performance wear and technological brand presentations."
+  },
+  {
+    "key": "virtual-influencer-setting",
+    "en": "Virtual Influencer Setting",
+    "id": "Pengaturan Influencer Virtual",
+    "ms": "Tetapan Influencer Maya",
+    "prompt": "Virtual influencer photography in digital environment. Garment on CGI avatar in perfect virtual world setting. Computer-generated imagery with photorealistic rendering. Digital photography style suitable for online fashion and virtual brand presentations."
+  },
+  {
+    "key": "metaverse-fashion-show",
+    "en": "Metaverse Fashion Show",
+    "id": "Peragaan Busana Metaverse",
+    "ms": "Pertunjukan Fesyen Metaverse",
+    "prompt": "Metaverse photography in virtual reality space. Garment showcased in digital fashion show with virtual audience. Immersive 3D environment with infinite possibilities. Virtual photography style suitable for digital fashion and metaverse brand presentations."
+  },
+  {
+    "key": "blockchain-verification-visual",
+    "en": "Blockchain Verification Visual",
+    "id": "Visual Verifikasi Blockchain",
+    "ms": "Visual Pengesahan Rantai Blok",
+    "prompt": "Blockchain photography showing digital authentication. Garment with visible blockchain verification and NFT elements. Cryptocurrency aesthetic with digital security visualization. Tech photography style suitable for luxury fashion and authenticated brand presentations."
+  },
+  {
+    "key": "3d-printing-process",
+    "en": "3D Printing Process",
+    "id": "Proses Pencetakan 3D",
+    "ms": "Proses Cetak 3D",
+    "prompt": "3D printing photography showing additive manufacturing. Garment being created through layer-by-layer 3D printing process. Advanced manufacturing technology with precision engineering. Industrial photography style suitable for custom fashion and technological brand presentations."
+  },
+  {
+    "key": "smart-textile-technology",
+    "en": "Smart Textile Technology",
+    "id": "Teknologi Tekstil Cerdas",
+    "ms": "Teknologi Tekstil Pintar",
+    "prompt": "Smart textile photography showing embedded technology. Garment with visible electronic components and conductive threads. Wearable technology with functional integration. Technical photography style suitable for performance wear and intelligent fashion presentations."
+  },
+  {
+    "key": "sustainable-innovation",
+    "en": "Sustainable Innovation",
+    "id": "Inovasi Berkelanjutan",
+    "ms": "Inovasi Mampan",
+    "prompt": "Sustainable photography showing eco-friendly innovation. Garment made from recycled materials with green technology production. Environmental responsibility with circular economy principles. Green photography style suitable for ethical fashion and sustainable brand presentations."
+  },
+  {
+    "key": "biofabrication-laboratory",
+    "en": "Biofabrication Laboratory",
+    "id": "Laboratorium Biofabrikasi",
+    "ms": "Makmal Biofabrikasi",
+    "prompt": "Biofabrication photography showing lab-grown materials. Garment created through biological processes and cellular agriculture. Scientific laboratory setting with cutting-edge biotechnology. Laboratory photography style suitable for experimental fashion and bio-tech brand presentations."
+  },
+  {
+    "key": "wearable-solar-cells",
+    "en": "Wearable Solar Cells",
+    "id": "Sel Matahari Dapat Dipakai",
+    "ms": "Sel Solar Boleh Dipakai",
+    "prompt": "Solar technology photography showing wearable energy. Garment integrated with flexible solar panels and energy storage. Renewable energy with fashion functionality. Green technology photography style suitable for outdoor fashion and sustainable brand presentations."
+  },
+  {
+    "key": "temperature-adaptive-fabric",
+    "en": "Temperature Adaptive Fabric",
+    "id": "Kain Adaptif Suhu",
+    "ms": "Kain Penyesuai Suhu",
+    "prompt": "Thermal photography showing temperature-regulating fabric. Garment with visible thermal regulation and climate adaptation. Smart textiles with responsive material properties. Technical photography style suitable for performance wear and adaptive fashion presentations."
+  },
+  {
+    "key": "self-healing-materials",
+    "en": "Self Healing Materials",
+    "id": "Material Penyembuh Diri",
+    "ms": "Bahan Penyembuh Diri",
+    "prompt": "Regenerative photography showing self-repairing materials. Garment with visible healing process and material regeneration. Advanced material science with biological inspiration. Scientific photography style suitable for technical fashion and innovative brand presentations."
+  },
+  {
+    "key": "color-changing-fabric",
+    "en": "Color Changing Fabric",
+    "id": "Kain Berubah Warna",
+    "ms": "Kain Berubah Warna",
+    "prompt": "Chromatic photography showing color-transforming materials. Garment with visible color change and adaptive camouflage. Smart materials with responsive color technology. Dynamic photography style suitable for interactive fashion and adaptable brand presentations."
+  },
+  {
+    "key": "shape-memory-alloys",
+    "en": "Shape Memory Alloys",
+    "id": "Memori Bentuk Paduan",
+    "ms": "Aloi Ingatan Bentuk",
+    "prompt": "Metamorphic photography showing shape-shifting materials. Garment with visible shape transformation and structural changes. Smart materials with programmed morphing abilities. Technical photography style suitable for futuristic fashion and adaptive brand presentations."
+  },
+  {
+    "key": "conductive-fabric-network",
+    "en": "Conductive Fabric Network",
+    "id": "Jaringan Kain Konduktif",
+    "ms": "Rangkaian Kain Konduktif",
+    "prompt": "Electrical photography showing conductive textile networks. Garment with visible circuitry and electronic integration. Wearable technology with functional connectivity. Technical photography style suitable for smart fashion and connected brand presentations."
+  },
+  {
+    "key": "photovoltaic-textiles",
+    "en": "Photovoltaic Textiles",
+    "id": "Tekstil Fotovoltaik",
+    "ms": "Tekstil Fotovoltan",
+    "prompt": "Solar textile photography showing energy-harvesting fabrics. Garment with integrated solar cells and power generation. Renewable energy with wearable technology. Green tech photography style suitable for outdoor fashion and sustainable brand presentations."
+  },
+  {
+    "key": "piezoelectric-energy-harvesting",
+    "en": "Piezoelectric Energy Harvesting",
+    "id": "Panen Energi Piezoelektrik",
+    "ms": "Penuaian Tenaga Piezoelektrik",
+    "prompt": "Energy harvesting photography showing motion-to-electric conversion. Garment generating power through movement and pressure. Kinetic energy harvesting with wearable technology. Technical photography style suitable for performance wear and energy-efficient brand presentations."
+  },
+  {
+    "key": "thermoelectric-cooling-heating",
+    "en": "Thermoelectric Cooling Heating",
+    "id": "Pendinginan Pemanasan Termoelektrik",
+    "ms": "Penyejukan Pemanasan Termaelektrik",
+    "prompt": "Thermal regulation photography showing temperature control systems. Garment with visible cooling and heating elements. Climate control technology with personal comfort systems. Technical photography style suitable for performance wear and adaptive fashion presentations."
+  },
+  {
+    "key": "electroluminescent-wiring",
+    "en": "Electroluminescent Wiring",
+    "id": "Kabel Elektroluminesen",
+    "ms": "Pemboleh Ubah Elektroluminesen",
+    "prompt": "Luminous photography showing light-emitting textiles. Garment with integrated electrolinescent wires and glowing elements. Illuminated fashion with built-in lighting systems. Electric photography style suitable for nightlife fashion and illuminated brand presentations."
+  },
+  {
+    "key": "embedded-sensors-array",
+    "en": "Embedded Sensors Array",
+    "id": "Array Sensor Tertanam",
+    "ms": "Array Sensor Terbenam",
+    "prompt": "Sensor photography showing biometric monitoring systems. Garment with visible health sensors and data collection points. Medical technology with wearable health monitoring. Technical photography style suitable for health fashion and medical brand presentations."
+  },
+  {
+    "key": "microfluidic-cooling-system",
+    "en": "Microfluidic Cooling System",
+    "id": "Sistem Pendinginan Mikrofluidik",
+    "ms": "Sistem Penyejukan Mikrofluid",
+    "prompt": "Fluid dynamics photography showing cooling networks. Garment with visible microfluidic channels and liquid cooling. Advanced thermal management with fluid circulation. Technical photography style suitable for sports fashion and performance brand presentations."
+  },
+  {
+    "key": "fiber-optic-communication",
+    "en": "Fiber Optic Communication",
+    "id": "Komunikasi Serat Optik",
+    "ms": "Komunikasi Gentian Optik",
+    "prompt": "Optical photography showing data transmission textiles. Garment with integrated fiber optics and communication systems. High-speed connectivity with wearable networking. Technical photography style suitable for connected fashion and tech brand presentations."
+  },
+  {
+    "key": "magneto-rheological-fluid",
+    "en": "Magneto Rheological Fluid",
+    "id": "Cairan Magneto Reologi",
+    "ms": "Cecair Magneto Reologi",
+    "prompt": "Magnetic photography showing smart fluid adaptation. Garment with magneto-rheological fluid and field-responsive properties. Adaptive materials with magnetic field control. Technical photography style suitable for performance wear and intelligent fashion presentations."
+  },
+  {
+    "key": "electroactive-polymers",
+    "en": "Electroactive Polymers",
+    "id": "Polimer Elektroaktif",
+    "ms": "Polimer Elektroaktif",
+    "prompt": "Electrical photography showing voltage-responsive materials. Garment with electroactive polymers and electric field actuation. Smart materials with electrical stimulation. Technical photography style suitable for interactive fashion and responsive brand presentations."
+  },
+  {
+    "key": "carbon-nanotube-fabric",
+    "en": "Carbon Nanotube Fabric",
+    "id": "Kain Nanotube Karbon",
+    "ms": "Kain Tiub Nano Karbon",
+    "prompt": "Nanotechnology photography showing advanced carbon materials. Garment made from carbon nanotubes with superior properties. Cutting-edge material science with nanotechnology. Technical photography style suitable for high-performance fashion and advanced brand presentations."
+  },
+  {
+    "key": "graphene-enhanced-textiles",
+    "en": "Graphene Enhanced Textiles",
+    "id": "Tekstil Diperkuat Graphene",
+    "ms": "Tekstil Diperkukuhkan Grafena",
+    "prompt": "Graphene photography showing wonder material integration. Garment enhanced with graphene layers and properties. Revolutionary material science with atomic thickness. Technical photography style suitable for premium fashion and innovative brand presentations."
+  },
+  {
+    "key": "aerogel-insulation-fabric",
+    "en": "Aerogel Insulation Fabric",
+    "id": "Kain Isolasi Aerogel",
+    "ms": "Kain Penebat Aerogel",
+    "prompt": "Insulation photography showing ultra-light thermal protection. Garment with aerogel insulation and thermal barrier properties. Advanced thermal protection with minimal weight. Technical photography style suitable for extreme weather fashion and performance brand presentations."
+  },
+  {
+    "key": "metallic-glass-alloys",
+    "en": "Metallic Glass Alloys",
+    "id": "Paduan Kaca Logam",
+    "ms": "Aloi Kaca Logam",
+    "prompt": "Metallurgical photography showing amorphous metal structures. Garment with metallic glass elements and unique properties. Advanced materials science with non-crystalline structures. Technical photography style suitable for protective fashion and industrial brand presentations."
+  },
+  {
+    "key": "self-cleaning-surface",
+    "en": "Self Cleaning Surface",
+    "id": "Permukaan Membersihkan Diri",
+    "ms": "Permukaan Membersih Diri",
+    "prompt": "Hydrophobic photography showing water-repellent surfaces. Garment with self-cleaning coating and liquid-repellent properties. Advanced surface engineering with nanostructure treatments. Technical photography style suitable for outdoor fashion and practical brand presentations."
+  },
+  {
+    "key": "anti-microbial-fabric",
+    "en": "Anti Microbial Fabric",
+    "id": "Kain Anti Mikroba",
+    "ms": "Kain Anti Mikroba",
+    "prompt": "Hygiene photography showing germ-resistant materials. Garment with anti-microbial treatments and pathogen resistance. Medical-grade textiles with health protection. Technical photography style suitable for healthcare fashion and hygiene brand presentations."
+  },
+  {
+    "key": "fire-resistant-materials",
+    "en": "Fire Resistant Materials",
+    "id": "Material Tahan Api",
+    "ms": "Bahan Tahan Api",
+    "prompt": "Fire safety photography showing flame-retardant fabrics. Garment with fire-resistant properties and thermal protection. Safety materials with extreme heat resistance. Technical photography style suitable for protective fashion and safety brand presentations."
+  },
+  {
+    "key": "radiation-shielding-fabric",
+    "en": "Radiation Shielding Fabric",
+    "id": "Kain Perisai Radiasi",
+    "ms": "Kain Perisai Radiasi",
+    "prompt": "Nuclear photography showing radiation-blocking materials. Garment with radiation shielding and protective properties. Advanced protection against electromagnetic and particle radiation. Technical photography style suitable for protective fashion and safety brand presentations."
+  },
+  {
+    "key": "ballistic-protection-textiles",
+    "en": "Ballistic Protection Textiles",
+    "id": "Tekstil Perlindungan Balistik",
+    "ms": "Tekstil Perlindungan Balistik",
+    "prompt": "Protective photography showing armor-grade fabrics. Garment with ballistic protection and impact resistance. Military-grade materials with personal protection. Technical photography style suitable for security fashion and protective brand presentations."
+  },
+  {
+    "key": "stealth-technology-fabric",
+    "en": "Stealth Technology Fabric",
+    "id": "Kain Teknologi Siluman",
+    "ms": "Kain Teknologi Halimunan",
+    "prompt": "Stealth photography showing radar-absorbing materials. Garment with stealth technology and low observability. Military materials with radar and thermal invisibility. Technical photography style suitable for tactical fashion and security brand presentations."
+  },
+  {
+    "key": "camouflage-adaptive-system",
+    "en": "Camouflage Adaptive System",
+    "id": "Sistem Kamuflase Adaptif",
+    "ms": "Sistem Kamuflaz Adaptif",
+    "prompt": "Adaptive photography showing environment-mimicking materials. Garment with active camouflage and background matching technology. Military-grade adaptive concealment systems. Technical photography style suitable for tactical fashion and outdoor brand presentations."
+  },
+  {
+    "key": "exoskeleton-integration",
+    "en": "Exoskeleton Integration",
+    "id": "Integrasi Eksoskeleton",
+    "ms": "Integrasi Eksoskeleton",
+    "prompt": "Robotic photography showing powered exoskeleton integration. Garment combined with mechanical enhancement and strength augmentation. Human enhancement technology with wearable robotics. Technical photography style suitable for performance fashion and enhancement brand presentations."
+  },
+  {
+    "key": "neural-interface-textiles",
+    "en": "Neural Interface Textiles",
+    "id": "Tekstil Antarmuka Neural",
+    "ms": "Tekstil Antara Muka Neural",
+    "prompt": "Neurotechnology photography showing brain-computer interfaces. Garment with neural sensors and mind-control capabilities. Advanced brain-machine interface technology. Technical photography style suitable for futuristic fashion and cognitive enhancement brand presentations."
+  },
+  {
+    "key": "holographic-display-fabric",
+    "en": "Holographic Display Fabric",
+    "id": "Kain Tampilan Holografik",
+    "ms": "Kain Paparan Holografik",
+    "prompt": "Holography photography showing 3D display textiles. Garment with integrated holographic projection and 3D imaging. Advanced display technology with floating images. Technical photography style suitable for interactive fashion and display brand presentations."
+  },
+  {
+    "key": "programmable-matter-clothing",
+    "en": "Programmable Matter Clothing",
+    "id": "Pakaian Materi Terprogram",
+    "ms": "Pakaian Boleh Diprogram",
+    "prompt": "Programmable photography showing reconfigurable materials. Garment with programmable matter and shape-shifting capabilities. Future technology with material property control. Technical photography style suitable for futuristic fashion and adaptive brand presentations."
+  },
+  {
+    "key": "quantum-dot-enhancement",
+    "en": "Quantum Dot Enhancement",
+    "id": "Peningkatan Titik Kuantum",
+    "ms": "Penambahbaikan Titik Kuantum",
+    "prompt": "Quantum photography showing quantum dot integration. Garment enhanced with quantum dots for advanced optical properties. Nanotechnology with quantum mechanical effects. Technical photography style suitable for advanced fashion and high-tech brand presentations."
+  },
+  {
+    "key": "metamaterial-clothing",
+    "en": "Metamaterial Clothing",
+    "id": "Pakaian Metamaterial",
+    "ms": "Pakaian Metamaterial",
+    "prompt": "Metamaterial photography showing impossible material properties. Garment with metamaterials and engineered electromagnetic responses. Advanced physics with material property manipulation. Technical photography style suitable for experimental fashion and physics-based brand presentations."
+  },
+  {
+    "key": "time-crystal-textiles",
+    "en": "Time Crystal Textiles",
+    "id": "Tekstil Kristal Waktu",
+    "ms": "Tekstil Kristal Masa",
+    "prompt": "Temporal photography showing time-based material behavior. Garment with time crystal structures and periodic material properties. Quantum physics with temporal material states. Experimental photography style suitable for conceptual fashion and theoretical brand presentations."
+  },
+  {
+    "key": "topological-insulator-fabric",
+    "en": "Topological Insulator Fabric",
+    "id": "Kain Insulator Topologis",
+    "ms": "Kain Penebat Topologi",
+    "prompt": "Quantum photography showing topological material properties. Garment with topological insulators and unique electronic behavior. Advanced quantum materials with protected surface states. Technical photography style suitable for quantum fashion and physics-based brand presentations."
+  },
+  {
+    "key": "spintronic-textiles",
+    "en": "Spintronic Textiles",
+    "id": "Tekstil Spintronik",
+    "ms": "Tekstil Spintronik",
+    "prompt": "Spin-based photography showing electron spin manipulation. Garment with spintronic materials and magnetic storage capabilities. Quantum electronics with spin-based computing. Technical photography style suitable for smart fashion and memory brand presentations."
+  },
+  {
+    "key": "superconducting-fabric",
+    "en": "Superconducting Fabric",
+    "id": "Kain Superkonduktor",
+    "ms": "Kain Superkonduktor",
+    "prompt": "Cryogenic photography showing zero-resistance materials. Garment with superconducting elements and quantum effects. Low-temperature physics with perfect conductivity. Technical photography style suitable for quantum fashion and extreme technology brand presentations."
+  },
+  {
+    "key": "photonic-crystal-textiles",
+    "en": "Photonic Crystal Textiles",
+    "id": "Tekstil Kristal Fotonik",
+    "ms": "Tekstil Kristal Fotonik",
+    "prompt": "Optical photography showing light-manipulating materials. Garment with photonic crystals and advanced optical properties. Advanced optics with structural color control. Technical photography style suitable for optical fashion and light-based brand presentations."
+  },
+  {
+    "key": "acoustic-metamaterial-clothing",
+    "en": "Acoustic Metamaterial Clothing",
+    "id": "Pakaian Metamaterial Akustik",
+    "ms": "Pakaian Metamaterial Akustik",
+    "prompt": "Acoustic photography showing sound-manipulating materials. Garment with acoustic metamaterials and sound control properties. Advanced acoustics with sound wave manipulation. Technical photography style suitable for audio fashion and acoustic brand presentations."
+  },
+  {
+    "key": "plasma-display-textiles",
+    "en": "Plasma Display Textiles",
+    "id": "Tekstil Tampilan Plasma",
+    "ms": "Tekstil Paparan Plasma",
+    "prompt": "Plasma photography showing ionized gas displays. Garment with plasma panels and glowing ion effects. Advanced display technology with gas discharge lighting. Technical photography style suitable for illuminated fashion and plasma brand presentations."
+  },
+  {
+    "key": "ferrofluid-pattern-fabric",
+    "en": "Ferrofluid Pattern Fabric",
+    "id": "Kain Pola Ferrofluid",
+    "ms": "Kain Corak Ferrofluid",
+    "prompt": "Magnetic fluid photography showing ferrofluid patterns. Garment with ferrofluid integration and magnetic field-responsive designs. Magnetic liquids with dynamic pattern formation. Technical photography style suitable for interactive fashion and magnetic brand presentations."
+  },
+  {
+    "key": "electrochromic-color-changing",
+    "en": "Electrochromic Color Changing",
+    "id": "Perubahan Warna Elektrokromik",
+    "ms": "Perubahan Warna Elektrokromik",
+    "prompt": "Electrochemical photography showing voltage-controlled color change. Garment with electrochromic materials and electric color switching. Smart materials with electrical color control. Technical photography style suitable for adaptive fashion and interactive brand presentations."
+  },
+  {
+    "key": "magnetorheological-adaptive",
+    "en": "Magnetorheological Adaptive",
+    "id": "Adaptif Magnetoreologi",
+    "ms": "Adaptif Magnetoreologi",
+    "prompt": "Magnetic photography showing field-responsive viscosity changes. Garment with magnetorheological fluids and magnetic stiffness control. Smart fluids with magnetic property adaptation. Technical photography style suitable for performance fashion and adaptive brand presentations."
+  },
+  {
+    "key": "thermochromic-temperature-response",
+    "en": "Thermochromic Temperature Response",
+    "id": "Respons Suhu Termokromik",
+    "ms": "Respons Suhu Termokromik",
+    "prompt": "Thermal photography showing temperature-activated color change. Garment with thermochromic materials and heat-sensitive colors. Temperature-responsive materials with visual feedback. Technical photography style suitable for performance fashion and adaptive brand presentations."
+  },
+  {
+    "key": "mechanochromic-pressure-response",
+    "en": "Mechanochemic Pressure Response",
+    "id": "Respons Tekanan Mekanokromik",
+    "ms": "Respons Tekanan Mekanokromik",
+    "prompt": "Pressure photography showing force-activated color change. Garment with mechanochromic materials and pressure-sensitive colors. Stress-responsive materials with visual indication. Technical photography style suitable for performance fashion and interactive brand presentations."
+  },
+  {
+    "key": "photochromic-light-response",
+    "en": "Photochromic Light Response",
+    "id": "Respons Cahaya Fotokromik",
+    "ms": "Respons Cahaya Fotokromik",
+    "prompt": "Light photography showing UV-activated color change. Garment with photochromic materials and sunlight-responsive colors. Light-adaptive materials with UV sensitivity. Technical photography style suitable for outdoor fashion and adaptive brand presentations."
+  },
+  {
+    "key": "hydrochromic-water-response",
+    "en": "Hydrochromic Water Response",
+    "id": "Respons Air Hidrokromik",
+    "ms": "Respons Air Hidrokromik",
+    "prompt": "Water photography showing moisture-activated effects. Garment with hydrochromic materials and water-sensitive changes. Humidity-responsive materials with water interaction. Technical photography style suitable for outdoor fashion and weather-adaptive brand presentations."
+  },
+  {
+    "key": "electroluminescent-wire-patterns",
+    "en": "Electroluminescent Wire Patterns",
+    "id": "Pola Kawat Elektroluminesen",
+    "ms": "Corak Dawai Elektroluminesen",
+    "prompt": "Luminescent photography showing glowing wire patterns. Garment with electroluminescent wires and programmed light designs. Wearable lighting with artistic pattern creation. Illuminated photography style suitable for nightlife fashion and LED brand presentations."
+  },
+  {
+    "key": "piezochromic-pressure-colors",
+    "en": "Piezochromic Pressure Colors",
+    "id": "Warna Tekanan Piezokromik",
+    "ms": "Warna Tekanan Piezokromik",
+    "prompt": "Pressure photography showing stress-activated colors. Garment with piezochromic materials and pressure color mapping. Force-visualization with color-coded stress distribution. Technical photography style suitable for performance fashion and safety brand presentations."
+  },
+  {
+    "key": "triboluminescent-impact-glow",
+    "en": "Triboluminescent Impact Glow",
+    "id": "Benturan Cahaya Triboluminesen",
+    "ms": "Hentaman Cahaya Triboluminesen",
+    "prompt": "Impact photography showing collision-activated light. Garment with triboluminescent materials and impact-responsive glow. Mechanical energy conversion to light emission. Technical photography style suitable for performance fashion and safety brand presentations."
+  },
+  {
+    "key": "chemiluminescent-reaction-glow",
+    "en": "Chemiluminescent Reaction Glow",
+    "id": "Cahaya Reaksi Kemiluminesen",
+    "ms": "Cahaya Tindakbalas Kemiluminesen",
+    "prompt": "Chemical photography showing reaction-based light emission. Garment with chemiluminescent materials and chemical glow activation. Chemical reaction energy conversion to light. Technical photography style suitable for emergency fashion and safety brand presentations."
+  },
+  {
+    "key": "bioluminescent-living-light",
+    "en": "Bioluminescent Living Light",
+    "id": "Cahaya Hidup Bioluminesen",
+    "ms": "Cahaya Hidup Bioluminesen",
+    "prompt": "Biological photography showing living organism light. Garment with bioluminescent integration and living light emission. Biological light production with sustainable illumination. Natural photography style suitable for eco-fashion and biotech brand presentations."
+  },
+  {
+    "key": "radioluminescent-radioactive-glow",
+    "en": "Radioluminescent Radioactive Glow",
+    "id": "Cahaya Radioaktif Radioluminesen",
+    "ms": "Cahaya Radioaktif Radioluminesen",
+    "prompt": "Radioactive photography showing radiation-induced light. Garment with radioluminescent materials and radioactive glow effects. Nuclear radiation energy conversion to light. Technical photography style suitable for industrial fashion and safety brand presentations."
+  },
+  {
+    "key": "cathodoluminescent-electron-glow",
+    "en": "Cathodoluminescent Electron Glow",
+    "id": "Cahaya Elektron Katodoluminesen",
+    "ms": "Cahaya Elektron Katodoluminesen",
+    "prompt": "Electron microscopy photography showing electron-induced light. Garment with cathodoluminescent materials and electron beam activation. Electron-stimulated light emission with microscopic detail. Technical photography style suitable for scientific fashion and research brand presentations."
+  },
+  {
+    "key": "sonoluminescent-sound-light",
+    "en": "Sonoluminescent Sound Light",
+    "id": "Cahaya Bunyi Sonoluminesen",
+    "ms": "Cahaya Bunyi Sonoluminesen",
+    "prompt": "Acoustic photography showing sound-induced light emission. Garment with sonoluminescent materials and sound wave activation. Sound energy conversion to light through cavitation. Technical photography style suitable for audio fashion and experimental brand presentations."
+  },
+  {
+    "key": "fractoluminescent-fracture-light",
+    "en": "Fractoluminescent Fracture Light",
+    "id": "Cahaya Pecahan Fraktoluminesen",
+    "ms": "Cahaya Retakan Fraktoluminesen",
+    "prompt": "Fracture photography showing break-induced light emission. Garment with fractoluminescent materials and crack-responsive glow. Material fracture energy conversion to light. Technical photography style suitable for safety fashion and structural brand presentations."
+  },
+  {
+    "key": "crystalloluminescent-crystallization-glow",
+    "en": "Crystalloluminescent Crystallization Glow",
+    "id": "Cahaya Kristalisasi Kristaloluminesen",
+    "ms": "Cahaya Penghabluran Kristaloluminesen",
+    "prompt": "Crystallization photography showing crystal formation light. Garment with crystalloluminescent materials and crystal growth glow. Crystallization process energy emission as light. Technical photography style suitable for luxury fashion and crystalline brand presentations."
+  },
+  {
+    "key": "electroluminescent-powder-coating",
+    "en": "Electroluminescent Powder Coating",
+    "id": "Lapisan Serbuk Elektroluminesen",
+    "ms": "Salutan Serbuk Elektroluminesen",
+    "prompt": "Powder photography showing electroluminescent coating effects. Garment with EL powder coating and uniform surface illumination. Advanced coating technology with wearable lighting. Technical photography style suitable for decorative fashion and illumination brand presentations."
+  },
+  {
+    "key": "phosphorescent-glow-in-dark",
+    "en": "Phosphorescent Glow in Dark",
+    "id": "Bersinar Gelap Fosforesen",
+    "ms": "Bersinar Gelap Fosforesen",
+    "prompt": "Dark photography showing long-lasting phosphorescence. Garment with phosphorescent materials and afterglow effects. Energy storage and slow light release mechanisms. Night-glow photography style suitable for safety fashion and nighttime brand presentations."
+  },
+  {
+    "key": "fluorescent-uv-reactive",
+    "en": "Fluorescent UV Reactive",
+    "id": "Reaktif UV Fluoresen",
+    "ms": "Reaktif UV Fluoresen",
+    "prompt": "UV photography showing blacklight reactive materials. Garment with fluorescent pigments and UV light activation. Immediate light emission under UV exposure. Club photography style suitable for nightlife fashion and UV brand presentations."
+  },
+  {
+    "key": "thermoluminescent-heat-release",
+    "en": "Thermoluminescent Heat Release",
+    "id": "Pelepasan Panas Termoluminesen",
+    "ms": "Pelepasan Haba Termoluminesen",
+    "prompt": "Heat photography showing temperature-stored light release. Garment with thermoluminescent materials and heat-activated glow. Thermal energy storage and controlled light emission. Technical photography style suitable for performance fashion and thermal brand presentations."
+  },
+  {
+    "key": "radiation-detection-visual",
+    "en": "Radiation Detection Visual",
+    "id": "Visual Pengesanan Radiasi",
+    "ms": "Visual Pengesanan Radiasi",
+    "prompt": "Radiation photography showing invisible radiation detection. Garment with radiation-sensitive materials and visual indication. Safety monitoring with immediate visual feedback. Technical photography style suitable for safety fashion and protection brand presentations."
+  },
+  {
+    "key": "chemical-reaction-visual",
+    "en": "Chemical Reaction Visual",
+    "id": "Visual Tindakbalas Kimia",
+    "ms": "Visual Tindakbalas Kimia",
+    "prompt": "Chemical photography showing reaction-based visual changes. Garment with chemical indicators and reagent-responsive colors. Chemical state visualization with color changes. Technical photography style suitable for laboratory fashion and chemical brand presentations."
+  },
+  {
+    "key": "biochemical-response-visual",
+    "en": "Biochemical Response Visual",
+    "id": "Visual Respons Biokimia",
+    "ms": "Visual Respons Biokimia",
+    "prompt": "Biochemical photography showing biological reaction indicators. Garment with bio-sensors and biochemical-responsive materials. Biological state visualization with medical applications. Medical photography style suitable for healthcare fashion and medical brand presentations."
+  },
+  {
+    "key": "environmental-adaptive-camouflage",
+    "en": "Environmental Adaptive Camouflage",
+    "id": "Kamuflase Adaptif Lingkungan",
+    "ms": "Kamuflaz Adaptif Persekitaran",
+    "prompt": "Environmental photography showing adaptive background matching. Garment with environment-sensing and color-changing camouflage. Real-time environmental adaptation with pattern matching. Technical photography style suitable for outdoor fashion and adaptive brand presentations."
+  },
+  {
+    "key": "weather-responsive-adaptation",
+    "en": "Weather Responsive Adaptation",
+    "id": "Adaptasi Respons Cuaca",
+    "ms": "Penyesuaian Respons Cuaca",
+    "prompt": "Weather photography showing climate-adaptive materials. Garment with weather sensors and environmental response systems. Real-time weather adaptation with material property changes. Technical photography style suitable for outdoor fashion and all-weather brand presentations."
+  },
+  {
+    "key": "electromagnetic-shielding-visual",
+    "en": "Electromagnetic Shielding Visual",
+    "id": "Visual Perisai Elektromagnetik",
+    "ms": "Visual Perisai Elektromagnet",
+    "prompt": "EM photography showing electromagnetic field protection. Garment with conductive materials and EM shielding visualization. Electromagnetic wave blocking with visual indicators. Technical photography style suitable for protective fashion and security brand presentations."
+  },
+  {
+    "key": "gravity-sensing-adaptation",
+    "en": "Gravity Sensing Adaptation",
+    "id": "Adaptasi Sensor Gravitasi",
+    "ms": "Penyesuaian Penderia Graviti",
+    "prompt": "Gravity photography showing gravitational field response. Garment with gravity sensors and orientation-adaptive materials. Gravitational force detection with structural adaptation. Technical photography style suitable for aerospace fashion and zero-gravity brand presentations."
+  },
+  {
+    "key": "time-aware-temporal-adaptation",
+    "en": "Time Aware Temporal Adaptation",
+    "id": "Adaptasi Temporal Waktu Sedar",
+    "ms": "Penyesuaian Masa Sedar Waktu",
+    "prompt": "Temporal photography showing time-based material changes. Garment with time sensors and chronologically adaptive properties. Time-aware material transformation with scheduled changes. Technical photography style suitable for scheduled fashion and temporal brand presentations."
+  },
+  {
+    "key": "quantum-entangled-communication",
+    "en": "Quantum Entangled Communication",
+    "id": "Komunikasi Terjerat Kuantum",
+    "ms": "Komunikasi Terjerat Kuantum",
+    "prompt": "Quantum photography showing instantaneous information transfer. Garment with quantum entangled sensors and non-local communication. Quantum mechanics principles in wearable technology. Technical photography style suitable for quantum fashion and communication brand presentations."
+  },
+  {
+    "key": "multidimensional-perception-visual",
+    "en": "Multidimensional Perception Visual",
+    "id": "Visual Persepsi Multidimensi",
+    "ms": "Visual Persepsi Multidimensi",
+    "prompt": "Dimensional photography showing higher spatial dimensions. Garment with dimensional sensors and multidimensional data visualization. Theoretical physics concepts in practical application. Conceptual photography style suitable for theoretical fashion and dimensional brand presentations."
+  },
+  {
+    "key": "consciousness-interface-visual",
+    "en": "Consciousness Interface Visual",
+    "id": "Visual Antarmuka Kesadaran",
+    "ms": "Visual Antara Muka Kesedaran",
+    "prompt": "Consciousness photography showing brain-computer interfaces. Garment with neural sensors and consciousness-responsive materials. Mind-machine interface with visual feedback. Advanced photography style suitable for neuro-fashion and cognitive brand presentations."
+  },
+  {
+    "key": "collective-intelligence-network",
+    "en": "Collective Intelligence Network",
+    "id": "Jaringan Kecerdasan Kolektif",
+    "ms": "Rangkaian Kecerdasan Kolektif",
+    "prompt": "Network photography showing interconnected garment systems. Garment with collective intelligence and swarm behavior coordination. Distributed computing with wearable network nodes. Technical photography style suitable for connected fashion and network brand presentations."
+  },
+  {
+    "key": "autonomous-self-assembly",
+    "en": "Autonomous Self Assembly",
+    "id": "Perakitan Diri Otonom",
+    "ms": "Perhimpunan Diri Autonomi",
+    "prompt": "Assembly photography showing self-organizing materials. Garment with autonomous assembly and disassembly capabilities. Self-replicating systems with material reconfiguration. Advanced photography style suitable for modular fashion and adaptive brand presentations."
+  },
+  {
+    "key": "evolutionary-adaptation-system",
+    "en": "Evolutionary Adaptation System",
+    "id": "Sistem Adaptasi Evolusioner",
+    "ms": "Sistem Penyesuaian Evolusi",
+    "prompt": "Evolutionary photography showing genetic algorithm optimization. Garment with evolutionary learning and environmental adaptation. Artificial evolution with material property optimization. Biological photography style suitable for adaptive fashion and evolutionary brand presentations."
+  },
+  {
+    "key": "quantum-computing-enhancement",
+    "en": "Quantum Computing Enhancement",
+    "id": "Peningkatan Komputasi Kuantum",
+    "ms": "Penambahbaikan Komputeran Kuantum",
+    "prompt": "Quantum photography showing quantum-enhanced materials. Garment with quantum computing integration and parallel processing. Quantum mechanical principles in material enhancement. Technical photography style suitable for quantum fashion and computing brand presentations."
+  },
+  {
+    "key": "singularity-energy-convergence",
+    "en": "Singularity Energy Convergence",
+    "id": "Konvergensi Energi Singularitas",
+    "ms": "Konvergensi Tenaga Singulariti",
+    "prompt": "Singularity photography showing infinite energy density. Garment with singularity technology and energy concentration. Theoretical physics concepts with practical applications. Extreme photography style suitable for ultimate fashion and energy brand presentations."
+  },
+  {
+    "key": "transcendental-consciousness-fabric",
+    "en": "Transcendental Consciousness Fabric",
+    "id": "Kain Kesadaran Transendental",
+    "ms": "Kain Kesedaran Transendental",
+    "prompt": "Transcendental photography showing consciousness integration. Garment with transcendental meditation and spiritual enhancement. Mystical experiences with material manifestation. Spiritual photography style suitable for consciousness fashion and spiritual brand presentations."
+  },
+  {
+    "key": "universal-field-harmony",
+    "en": "Universal Field Harmony",
+    "id": "Harmoni Medan Universal",
+    "ms": "Harmoni Medan Universal",
+    "prompt": "Universal photography showing cosmic field integration. Garment with universal field sensors and cosmic harmony resonance. Unified field theory with wearable applications. Cosmic photography style suitable for universal fashion and cosmic brand presentations."
+  }
+]

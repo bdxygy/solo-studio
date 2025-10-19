@@ -189,13 +189,6 @@
     "prompt": "High-fashion design with elegant models and runway aesthetics. Monochromatic color scheme with bold accent colors. Stylish typography and fashion photography elements. Sophisticated and trendy feel perfect for fashion brands and beauty services. Magazine-style layout with fashion photography."
   },
   {
-    "key": "gaming-anime",
-    "en": "Gaming Anime",
-    "id": "Gaming Anime",
-    "ms": "Gaming Anime",
-    "prompt": "Energetic gaming design with anime-inspired characters and elements. Bright, saturated colors and dynamic action poses. Gaming controller icons and digital effects. Exciting and immersive feel perfect for gaming tournaments and anime events. Japanese animation style with digital glitch effects."
-  },
-  {
     "key": "wedding-romantic",
     "en": "Wedding Romantic",
     "id": "Pernikahan Romantis",
@@ -215,13 +208,6 @@
     "id": "Fitness Kuat",
     "ms": "Kecergasan Kuat",
     "prompt": "Powerful fitness design with muscular figures and exercise equipment. Bold, energetic colors like red and black. Dynamic action poses and strength training elements. Motivating and intense feel perfect for gyms and fitness programs. Muscle definition with sweat effects and dynamic movement."
-  },
-  {
-    "key": "pet-friendly",
-    "en": "Pet Friendly",
-    "id": "Ramah Hewan",
-    "ms": "Mesra Haiwan",
-    "prompt": "Adorable pet design with playful animals and paw prints. Warm, friendly colors with cute cartoon elements. Pet accessories and happy animal poses. Loving and caring feel perfect for pet services and animal shelters. Soft fur textures with playful pet expressions."
   },
   {
     "key": "real-estate-premium",
@@ -544,5 +530,299 @@
     "id": "Modern Kontemporer",
     "ms": "Moden Kontemporari",
     "prompt": "Modern contemporary design with current elements. Fresh color palette with clean typography. Current graphics with modern layout. Current feel perfect for contemporary brands and modern services. Modern design with contemporary relevance."
+  },
+  {
+    "key": "esports-gaming-banner",
+    "en": "Esports Gaming Banner",
+    "id": "Banner Esport Gaming",
+    "ms": "Banner Esports Gaming",
+    "prompt": "Dynamic esports gaming banner with competitive gaming elements. Dark background with neon blue and purple accents. Gaming controllers, keyboards, and tournament brackets. Bold gaming typography with glitch effects. High-energy design perfect for gaming tournaments and esports events. Animated particle effects with digital textures."
+  },
+  {
+    "key": "retro-arcade-style",
+    "en": "Retro Arcade Style",
+    "id": "Gaya Arcade Retro",
+    "ms": "Gaya Arked Retro",
+    "prompt": "Nostalgic retro arcade gaming design with 8-bit pixel aesthetics. Pixel art characters, retro game consoles, and arcade cabinet elements. Bright neon colors reminiscent of 80s arcades. Classic gaming fonts with digital distortion effects. Perfect for retro gaming events and classic game promotions. Pixelated textures with scan line effects."
+  },
+  {
+    "key": "battle-royale-map",
+    "en": "Battle Royale Map",
+    "id": "Peta Battle Royale",
+    "ms": "Peta Battle Royale",
+    "prompt": "Battle royale gaming map design with top-down battlefield view. Island or arena layout with drop zones and safe zones. Strategic elements like loot locations and terrain features. Tactical color coding with zone indicators. Perfect for gaming tournaments and strategy guides. Clean game map aesthetic with military-style graphics."
+  },
+  {
+    "key": "mmo-rpg-interface",
+    "en": "MMO RPG Interface",
+    "id": "Antarmuka MMO RPG",
+    "ms": "Antara Muka MMO RPG",
+    "prompt": "MMO RPG gaming interface with fantasy elements. Character stats bars, inventory slots, and skill icons. Medieval fantasy backgrounds with castles and landscapes. Ornate metallic frames and glowing magical effects. Perfect for MMORPG promotions and gaming communities. Detailed UI elements with epic fantasy styling."
+  },
+  {
+    "key": "mobile-game-ui",
+    "en": "Mobile Game UI",
+    "id": "UI Game Mobile",
+    "ms": "UI Game Mobile",
+    "prompt": "Clean mobile gaming UI design optimized for touch screens. Simple button layouts with colorful game icons. Casual gaming aesthetic with friendly characters and environments. Bright, cheerful color palette for mobile audiences. Perfect for mobile game promotions and app store listings. Touch-friendly interface elements with rounded corners."
+  },
+  {
+    "key": "fps-shooter-gaming",
+    "en": "FPS Shooter Gaming",
+    "id": "Gaming FPS Shooter",
+    "ms": "Gaming FPS Penembak",
+    "prompt": "Intense FPS shooter gaming design with tactical elements. Crosshair overlays, ammo counters, and health bars. Military color schemes with camo patterns and tactical gear. Weapon illustrations and battlefield environments. Perfect for shooting game tournaments and gaming gear. Dark atmosphere with red accent colors for intensity."
+  },
+  {
+    "key": "racing-game-speed",
+    "en": "Racing Game Speed",
+    "id": "Kecepatan Game Balap",
+    "ms": "Kelajuan Game Perlumbaan",
+    "prompt": "High-speed racing game design with motion blur effects. Race track layouts with checkered patterns and speed lines. Sports car silhouettes and dashboard gauges. Dynamic typography suggesting velocity and competition. Perfect for racing games and automotive events. Motion graphics with speed trail effects."
+  },
+  {
+    "key": "fantasy-rpg-world",
+    "en": "Fantasy RPG World",
+    "id": "Dunia Fantasi RPG",
+    "ms": "Dunia Fantasi RPG",
+    "prompt": "Epic fantasy RPG world design with mythical creatures and landscapes. Medieval castles, dragons, and magical forests. Ornate medieval typography with glowing magical effects. Rich color palette with gold and purple accents. Perfect for fantasy gaming events and roleplaying communities. Illustrative fantasy art style with epic atmosphere."
+  },
+  {
+    "key": "cyberpunk-gaming-neon",
+    "en": "Cyberpunk Gaming Neon",
+    "id": "Neon Gaming Cyberpunk",
+    "ms": "Neon Gaming Siberpunk",
+    "prompt": "Futuristic cyberpunk gaming design with neon aesthetics. Dark urban backgrounds with vibrant neon signs and holographic ads. Cybernetic characters and futuristic cityscapes. Electric blue, pink, and purple color schemes. Perfect for cyberpunk games and futuristic gaming events. High-tech digital effects with glitch overlays."
+  },
+  {
+    "key": "puzzle-game-interface",
+    "en": "Puzzle Game Interface",
+    "id": "Antarmuka Game Teka-Teki",
+    "ms": "Antara Muka Game Teka-Teki",
+    "prompt": "Clean puzzle game interface with logical elements. Grid layouts, matching symbols, and brain teaser graphics. Soft, thoughtful color palette with educational appeal. Simple typography with friendly gaming aesthetics. Perfect for puzzle game promotions and educational gaming. Minimalist design with clear visual hierarchy."
+  },
+  {
+    "key": "horror-gaming-dark",
+    "en": "Horror Gaming Dark",
+    "id": "Gaming Horor Gelap",
+    "ms": "Gaming Seram Gelap",
+    "prompt": "Dark horror gaming design with spooky elements. Eerie backgrounds with haunted houses and mysterious shadows. Distorted typography with blood red and black color schemes. Creepy illustrations and horror-themed icons. Perfect for horror game events and Halloween promotions. Gothic atmosphere with fog effects and eerie lighting."
+  },
+  {
+    "key": "sports-gaming-arena",
+    "en": "Sports Gaming Arena",
+    "id": "Arena Olahraga Gaming",
+    "ms": "Arena Sukan Gaming",
+    "prompt": "Dynamic sports gaming arena design with stadium elements. Team colors and sports equipment illustrations. Scoreboards and match statistics displays. Energetic typography with bold athletic styling. Perfect for sports gaming tournaments and fantasy sports. Arena layout with crowd and player perspectives."
+  },
+  {
+    "key": "strategy-game-board",
+    "en": "Strategy Game Board",
+    "id": "Papan Game Strategi",
+    "ms": "Papan Game Strategi",
+    "prompt": "Strategic board game design with tactical elements. Hexagonal grids or square game boards with unit positions. Military-inspired color schemes with tactical overlays. Clean, analytical typography for strategic clarity. Perfect for strategy gaming tournaments and board game cafes. Professional gaming aesthetic with tactical precision."
+  },
+  {
+    "key": "sci-fi-space-gaming",
+    "en": "Sci-Fi Space Gaming",
+    "id": "Gaming Ruang Angkasa Sci-Fi",
+    "ms": "Gaming Angkasa Lepas Sci-Fi",
+    "prompt": "Futuristic sci-fi space gaming design with cosmic elements. Deep space backgrounds with stars, planets, and spacecraft. Sleek metallic textures with holographic displays. Advanced technology interfaces with alien aesthetics. Perfect for space games and sci-fi gaming events. Cosmic atmosphere with nebula effects."
+  },
+  {
+    "key": "card-game-collection",
+    "en": "Card Game Collection",
+    "id": "Koleksi Game Kartu",
+    "ms": "Koleksi Game Kad",
+    "prompt": "Elegant card game design with collectible elements. Playing card layouts with rarity indicators and stats. Fantasy or sci-fi card illustrations with detailed artwork. Rich color schemes with metallic foil effects. Perfect for trading card games and collectible gaming events. Premium card aesthetic with collector appeal."
+  },
+  {
+    "key": "indie-game-artistic",
+    "en": "Indie Game Artistic",
+    "id": "Artistik Game Indie",
+    "ms": "Artistik Game Indie",
+    "prompt": "Creative indie game design with artistic elements. Hand-drawn illustrations and unique art styles. Quirky characters and imaginative environments. Vibrant color palettes with indie charm. Perfect for indie game showcases and creative gaming events. Artistic expression with distinctive visual identity."
+  },
+  {
+    "key": "simulation-game-realistic",
+    "en": "Simulation Game Realistic",
+    "id": "Simulasi Game Realistis",
+    "ms": "Simulasi Game Realistik",
+    "prompt": "Realistic simulation game design with detailed elements. Photorealistic environments and authentic graphics. Natural color palettes with accurate representations. Professional typography with information displays. Perfect for simulation games and educational gaming. Realistic aesthetics with attention to detail."
+  },
+  {
+    "key": "music-rhythm-gaming",
+    "en": "Music Rhythm Gaming",
+    "id": "Gaming Ritme Musik",
+    "ms": "Gaming Rentak Muzik",
+    "prompt": "Rhythmic music gaming design with audio visualizers. Sound waves, musical notes, and beat indicators. Vibrant, pulsating colors synchronized with music. Dynamic typography with music-themed fonts. Perfect for rhythm games and music events. Energetic design with synchronized visual effects."
+  },
+  {
+    "key": "virtual-reality-gaming",
+    "en": "Virtual Reality Gaming",
+    "id": "Gaming Realitas Virtual",
+    "ms": "Gaming Realiti Maya",
+    "prompt": "Immersive VR gaming design with virtual reality elements. 360-degree environments with depth perception indicators. Futuristic interface elements with gesture controls. Sleek, minimal design with floating UI elements. Perfect for VR gaming events and metaverse experiences. Cutting-edge technology aesthetics with immersion focus."
+  },
+  {
+    "key": "augmented-reality-gaming",
+    "en": "Augmented Reality Gaming",
+    "id": "Gaming Realitas Tertambah",
+    "ms": "Gaming Realiti Tambahan",
+    "prompt": "Interactive AR gaming design with mixed reality elements. Real-world backgrounds overlaid with digital gaming elements. Transparent UI with contextual information. Clean, modern design with AR indicators. Perfect for AR gaming experiences and mobile gaming. Technology-forward design with spatial awareness."
+  },
+  {
+    "key": "cloud-gaming-service",
+    "en": "Cloud Gaming Service",
+    "id": "Layanan Gaming Cloud",
+    "ms": "Perkhidmat Gaming Cloud",
+    "prompt": "Modern cloud gaming design with streaming elements. Cloud illustrations with data transfer indicators. Sleek, minimal design with performance metrics. Blue and white color scheme with technology focus. Perfect for cloud gaming platforms and streaming services. Clean interface with accessibility features."
+  },
+  {
+    "key": "blockchain-gaming-crypto",
+    "en": "Blockchain Gaming Crypto",
+    "id": "Gaming Blockchain Crypto",
+    "ms": "Gaming Blockchain Crypto",
+    "prompt": "Innovative blockchain gaming design with cryptocurrency elements. Digital currency symbols and blockchain network graphics. Modern tech aesthetic with financial indicators. Futuristic color schemes with metallic gold effects. Perfect for NFT gaming and crypto games. Cutting-edge technology with financial integration."
+  },
+  {
+    "key": "gaming-community-hub",
+    "en": "Gaming Community Hub",
+    "id": "Pusat Komunitas Gaming",
+    "ms": "Pusat Komuniti Gaming",
+    "prompt": "Social gaming community design with interactive elements. Player profiles, chat interfaces, and community features. Friendly, engaging color palette with social media aesthetics. Modern typography with community-focused messaging. Perfect for gaming forums and social gaming platforms. Welcoming atmosphere with community engagement."
+  },
+  {
+    "key": "game-development-studio",
+    "en": "Game Development Studio",
+    "id": "Studio Pengembangan Game",
+    "ms": "Studio Pembangunan Game",
+    "prompt": "Professional game development studio design with creative elements. Computer screens showing code, game engines, and design tools. Tech-focused color scheme with creative workspace elements. Modern typography with professional gaming industry appeal. Perfect for game studios and development teams. Creative technology aesthetic with innovation focus."
+  },
+  {
+    "key": "console-gaming-system",
+    "en": "Console Gaming System",
+    "id": "Sistem Gaming Konsol",
+    "ms": "Sistem Gaming Konsol",
+    "prompt": "Sleek console gaming design with hardware elements. Gaming console illustrations with controller designs. Brand-specific color schemes with signature aesthetics. Modern typography with gaming industry standards. Perfect for console gaming promotions and hardware launches. Professional product presentation with gaming focus."
+  },
+  {
+    "key": "gaming-tournament-championship",
+    "en": "Gaming Tournament Championship",
+    "id": "Kejuaraan Turnamen Gaming",
+    "ms": "Kejohanan Kejohanan Gaming",
+    "prompt": "Epic gaming tournament design with championship elements. Trophy illustrations and winner podium displays. Competitive color schemes with gold and silver accents. Bold typography announcing tournament names and dates. Perfect for gaming competitions and championship events. Prestigious atmosphere with competitive excitement."
+  },
+  {
+    "key": "gaming-news-review",
+    "en": "Gaming News Review",
+    "id": "Ulasan Berita Gaming",
+    "ms": "Ulasan Berita Gaming",
+    "prompt": "Professional gaming news design with review elements. Magazine-style layout with article headlines and screenshots. Balanced color scheme with professional journalism aesthetics. Clean typography with gaming industry focus. Perfect for gaming websites and review platforms. Credible media presentation with gaming expertise."
+  },
+  {
+    "key": "mobile-gaming-advertising",
+    "en": "Mobile Gaming Advertising",
+    "id": "Iklan Gaming Mobile",
+    "ms": "Iklan Gaming Mobile",
+    "prompt": "Engaging mobile gaming advertising design with promotional elements. App store screenshots with call-to-action buttons. Bright, colorful design with mobile-optimized layouts. Playful typography with gaming excitement. Perfect for mobile game ads and user acquisition campaigns. Conversion-focused design with gaming appeal."
+  },
+  {
+    "key": "gaming-merchandise-store",
+    "en": "Gaming Merchandise Store",
+    "id": "Toko Merchandise Gaming",
+    "ms": "Kedai Barangan Gaming",
+    "prompt": "Creative gaming merchandise design with product showcases. Gaming apparel, collectibles, and accessory illustrations. E-commerce layout with shopping cart elements. Brand-focused color schemes with gaming identity. Perfect for gaming stores and fan merchandise. Commercial design with gaming branding."
+  },
+  {
+    "key": "live-streaming-gaming",
+    "en": "Live Streaming Gaming",
+    "id": "Streaming Langsung Gaming",
+    "ms": "Strim Langsung Gaming",
+    "prompt": "Dynamic live streaming gaming design with broadcast elements. Webcam overlays, chat boxes, and donation alerts. Interactive color schemes with engagement features. Live status indicators with real-time updates. Perfect for streaming platforms and content creators. Interactive design with community engagement."
+  },
+  {
+    "key": "gaming-podcast-interface",
+    "en": "Gaming Podcast Interface",
+    "id": "Antarmuka Podcast Gaming",
+    "ms": "Antara Muka Podcast Gaming",
+    "prompt": "Professional gaming podcast design with audio elements. Microphone illustrations and sound wave visualizations. Clean layout with episode information and guest features. Modern color scheme with podcast branding. Perfect for gaming podcasts and audio content. Professional media design with audio focus."
+  },
+  {
+    "key": "gaming-analytics-dashboard",
+    "en": "Gaming Analytics Dashboard",
+    "id": "Dashboard Analitik Gaming",
+    "ms": "Papan Pemuka Analitik Gaming",
+    "prompt": "Technical gaming analytics design with data visualization. Charts, graphs, and statistical displays. Dark background with bright accent colors for data visibility. Complex information architecture with clear navigation. Perfect for gaming analytics platforms and performance tracking. Professional data visualization with gaming context."
+  },
+  {
+    "key": "multiplayer-party-gaming",
+    "en": "Multiplayer Party Gaming",
+    "id": "Gaming Pesta Multiplayer",
+    "ms": "Gaming Parti Multiplayer",
+    "prompt": "Fun multiplayer party game design with social elements. Character avatars and party game illustrations. Colorful, playful design with party themes. Friendly typography with social gaming appeal. Perfect for party games and social gaming events. Welcoming atmosphere with multiplayer engagement."
+  },
+  {
+    "key": "educational-gaming-learning",
+    "en": "Educational Gaming Learning",
+    "id": "Pembelajaran Gaming Edukasi",
+    "ms": "Pembelajaran Gaming Pendidikan",
+    "prompt": "Educational gaming design with learning elements. Interactive game mechanics with educational content. Bright, engaging color palette with child-friendly aesthetics. Clear typography with learning objectives. Perfect for educational games and learning platforms. Fun design with educational value."
+  },
+  {
+    "key": "fitness-gaming-active",
+    "en": "Fitness Gaming Active",
+    "id": "Gaming Kebugaran Aktif",
+    "ms": "Gaming Kecergasan Aktif",
+    "prompt": "Energetic fitness gaming design with active elements. Sports illustrations and fitness tracking displays. Vibrant color schemes with motivational aesthetics. Dynamic typography with fitness motivation. Perfect for fitness games and exergaming platforms. High-energy design with health focus."
+  },
+  {
+    "key": "cooperative-gaming-team",
+    "en": "Cooperative Gaming Team",
+    "id": "Tim Gaming Kooperatif",
+    "ms": "Pasukan Gaming Kerjasama",
+    "prompt": "Collaborative cooperative gaming design with team elements. Team-based illustrations and cooperative gameplay mechanics. Harmonious color schemes with unity themes. Inclusive typography with teamwork messaging. Perfect for cooperative games and team building. Supportive design with cooperative values."
+  },
+  {
+    "key": "gaming-characters-collection",
+    "en": "Gaming Characters Collection",
+    "id": "Koleksi Karakter Gaming",
+    "ms": "Koleksi Watak Gaming",
+    "prompt": "Diverse gaming characters collection design with variety. Multiple character illustrations representing different gaming genres. Inclusive color palette representing character diversity. Gallery-style layout with character showcases. Perfect for character collections and gaming rosters. Comprehensive character presentation with gaming appeal."
+  },
+  {
+    "key": "gaming-environments-worlds",
+    "en": "Gaming Environments Worlds",
+    "id": "Dunia Lingkungan Gaming",
+    "ms": "Dunia Persekitaran Gaming",
+    "prompt": "Immersive gaming environments design with world-building. Diverse landscape illustrations representing different game worlds. Rich color palettes showcasing environmental diversity. Panoramic layouts with world exploration. Perfect for open-world games and immersive experiences. Epic design with environmental storytelling."
+  },
+  {
+    "key": "gaming-loot-rewards",
+    "en": "Gaming Loot Rewards",
+    "id": "Hadiah Loot Gaming",
+    "ms": "Hadiah Ganjaran Gaming",
+    "prompt": "Exciting gaming loot design with reward elements. Treasure chests, item illustrations, and reward displays. Shiny color schemes with metallic effects. Glowing typography announcing loot drops. Perfect for loot-based games and reward systems. Appealing design with collection motivation."
+  },
+  {
+    "key": "gaming-progress-achievement",
+    "en": "Gaming Progress Achievement",
+    "id": "Pencapaian Prestasi Gaming",
+    "ms": "Pencapaian Pencapaian Gaming",
+    "prompt": "Motivational gaming progress design with achievement elements. Progress bars, achievement badges, and milestone markers. Encouraging color schemes with completion focus. Celebratory typography with achievement recognition. Perfect for achievement systems and progress tracking. Inspiring design with gamification."
+  },
+  {
+    "key": "gaming-social-integration",
+    "en": "Gaming Social Integration",
+    "id": "Integrasi Sosial Gaming",
+    "ms": "Integrasi Sosial Gaming",
+    "prompt": "Connected gaming social design with integration elements. Social media icons and sharing features. Network-inspired color schemes with connectivity themes. Modern typography with social messaging. Perfect for social gaming and community platforms. Connected design with social engagement."
+  },
+  {
+    "key": "gaming-accessibility-inclusive",
+    "en": "Gaming Accessibility Inclusive",
+    "id": "Inklusif Aksesibilitas Gaming",
+    "ms": "Inklusif Kebolehcapai Gaming",
+    "prompt": "Inclusive gaming accessibility design with universal elements. Clear layouts with high contrast options. Accessible color schemes with readability focus. Clean typography with inclusive messaging. Perfect for accessible gaming and inclusive design. Universal design with gaming enjoyment for all."
   }
 ]

@@ -1,0 +1,352 @@
+[
+  {
+    "key": "front-center-a3",
+    "en": "Front Center A3",
+    "id": "Depan Tengah A3",
+    "ms": "Depan Tengah A3",
+    "prompt": "Front center print position A3 size on t-shirt or garment. Large format printing covering central chest area with professional alignment. Perfect for bold graphic designs and statement prints. High-resolution artwork suitable for premium quality. Standard A3 dimensions (297x420mm) with clear borders and centered placement."
+  },
+  {
+    "key": "front-center-a4",
+    "en": "Front Center A4",
+    "id": "Depan Tengah A4",
+    "ms": "Depan Tengah A4",
+    "prompt": "Front center print position A4 size on garment body. Medium-sized print centered on chest area for balanced appearance. Ideal for detailed designs and moderate coverage. Professional printing with crisp edges and vibrant colors. Standard A4 dimensions (210x297mm) with centered alignment and adequate margins."
+  },
+  {
+    "key": "front-left-chest-pocket",
+    "en": "Front Left Chest Pocket",
+    "id": "Depan Dada Kiri Saku",
+    "ms": "Depan Dada Kiri Saku",
+    "prompt": "Small front left chest pocket position print. Pocket-sized design covering left chest area where pocket would be. Perfect for logos, monograms, and subtle branding. Precise placement aligned with natural pocket position. Approximately 10x10cm size with clean edges and professional appearance."
+  },
+  {
+    "key": "front-right-chest",
+    "en": "Front Right Chest",
+    "id": "Depan Dada Kanan",
+    "ms": "Depan Dada Kanan",
+    "prompt": "Front right chest print position for logos and small designs. Right-side chest placement commonly used for corporate branding. Ideal for company logos, team emblems, and brand identity. Precise positioning with consistent alignment. Professional appearance suitable for business and corporate apparel."
+  },
+  {
+    "key": "full-front-oversized",
+    "en": "Full Front Oversized",
+    "id": "Depan Penuh Oversize",
+    "ms": "Depan Penuh Saiz Besar",
+    "prompt": "Oversized full front print covering entire chest area. Large format printing extending beyond standard boundaries. Bold statement design with maximum visual impact. Premium quality printing with edge-to-edge coverage. Perfect for fashion statements and artistic expression."
+  },
+  {
+    "key": "back-center-large",
+    "en": "Back Center Large",
+    "id": "Belakang Tengah Besar",
+    "ms": "Belakang Tengah Besar",
+    "prompt": "Large back center print position for maximum visibility. Back-focused design covering upper back area. Ideal for event promotions, team jerseys, and statement graphics. Professional placement with centered alignment. High-quality printing with vibrant colors and sharp details."
+  },
+  {
+    "key": "back-shoulder-blades",
+    "en": "Back Shoulder Blades",
+    "id": "Belakang Bahu",
+    "ms": "Belakang Bahu",
+    "prompt": "Back shoulder blades print position between shoulders. Upper back placement perfect for medium-sized designs. Ideal for logos, artwork, and promotional graphics. Natural positioning that flows with garment shape. Professional appearance with balanced visual weight."
+  },
+  {
+    "key": "back-yoke-small",
+    "en": "Back Yoke Small",
+    "id": "Belakang Leher Kecil",
+    "ms": "Belakang Leher Kecil",
+    "prompt": "Small back yoke print position near neckline. Upper back placement suitable for logos and branding. Subtle design element that doesn't overwhelm garment. Professional appearance ideal for corporate and team apparel. Clean edges with precise placement."
+  },
+  {
+    "key": "left-sleeve-standard",
+    "en": "Left Sleeve Standard",
+    "id": "Lengan Kiri Standar",
+    "ms": "Lengan Kiri Standard",
+    "prompt": "Standard left sleeve print position for logos and small graphics. Upper sleeve placement visible when arms are relaxed. Perfect for brand logos, team numbers, and sponsor branding. Professional appearance with consistent alignment. Approximately 8x8cm size with clear visibility."
+  },
+  {
+    "key": "right-sleeve-matching",
+    "en": "Right Sleeve Matching",
+    "id": "Lengan Kanan Cocok",
+    "ms": "Lengan Kanan Padanan",
+    "prompt": "Right sleeve print position matching left sleeve design. Coordinated placement for balanced sleeve graphics. Ideal for paired designs, team numbers, and branding consistency. Professional alignment with symmetrical appearance. Same size and position as left sleeve."
+  },
+  {
+    "key": "both-sleeves-coordinated",
+    "en": "Both Sleeves Coordinated",
+    "id": "Kedua Lengan Terkoordinasi",
+    "ms": "Kedua Lengan Berkoordinasi",
+    "prompt": "Coordinated print position on both sleeves. Symmetrical design placement for balanced appearance. Perfect for team uniforms, brand consistency, and coordinated graphics. Professional alignment with consistent sizing and positioning. Creates unified look across both arms."
+  },
+  {
+    "key": "left-sleeve-wrap-around",
+    "en": "Left Sleeve Wrap Around",
+    "id": "Lengan Kiri Melingkar",
+    "ms": "Lengan Kiri Berkeliling",
+    "prompt": "Wrap-around left sleeve print position extending around arm. Extended coverage wrapping partially around sleeve circumference. Bold design element with high visibility. Perfect for sponsor logos and statement graphics. Professional printing with seamless wrap effect."
+  },
+  {
+    "key": "hood-center-front",
+    "en": "Hood Center Front",
+    "id": "Depan Tengah Tudung",
+    "ms": "Depan Tengah Tudung",
+    "prompt": "Center front print position on hooded garments. Hood placement visible when hood is down. Ideal for logos, brand identity, and hood-specific designs. Professional placement that works with hood functionality. Clear visibility with hood both up and down positions."
+  },
+  {
+    "key": "hood-center-back",
+    "en": "Hood Center Back",
+    "id": "Belakang Tengah Tudung",
+    "ms": "Belakang Tengah Tudung",
+    "prompt": "Center back print position on hood exterior. Back hood placement visible when hood is worn. Ideal for large graphics, artwork, and statement designs. Professional placement that enhances hood appearance. Maximum visibility when hood is up."
+  },
+  {
+    "key": "left-hood-panel",
+    "en": "Left Hood Panel",
+    "id": "Panel Kiri Tudung",
+    "ms": "Panel Kiri Tudung",
+    "prompt": "Left hood panel print position for asymmetrical design. Side hood placement for creative and unique designs. Perfect for artistic expression and brand differentiation. Professional placement that complements overall garment design. Visible from multiple angles."
+  },
+  {
+    "key": "right-hood-panel",
+    "en": "Right Hood Panel",
+    "id": "Panel Kanan Tudung",
+    "ms": "Panel Kanan Tudung",
+    "prompt": "Right hood panel print position for coordinated design. Complementary placement to left hood panel or standalone design. Ideal for balanced asymmetrical layouts. Professional alignment with hood construction. Creative placement for unique garment design."
+  },
+  {
+    "key": "collar-front-center",
+    "en": "Collar Front Center",
+    "id": "Leher Depan Tengah",
+    "ms": "Kolar Depan Tengah",
+    "prompt": "Front collar center print position for polos and shirts. Collar placement suitable for small logos and monograms. Professional appearance ideal for corporate and formal wear. Precise positioning that complements collar style. Subtle branding with elegant placement."
+  },
+  {
+    "key": "collar-back-tab",
+    "en": "Collar Back Tab",
+    "id": "Label Leher Belakang",
+    "ms": "Label Kolar Belakang",
+    "prompt": "Back collar tab print position for brand labels. Small back collar placement for size tags and brand information. Professional appearance suitable for retail and branded apparel. Clean design with clear text and graphics. Industry-standard placement."
+  },
+  {
+    "key": "cuff-left-sleeve",
+    "en": "Cuff Left Sleeve",
+    "id": "Manset Lengan Kiri",
+    "ms": "Manset Lengan Kiri",
+    "prompt": "Left sleeve cuff print position for detail work. Cuff placement for logos, patterns, and decorative elements. Perfect for formal shirts and premium apparel. Professional placement that complements cuff style. Small design with high impact."
+  },
+  {
+    "key": "cuff-right-sleeve",
+    "en": "Cuff Right Sleeve",
+    "id": "Manset Lengan Kanan",
+    "ms": "Manset Lengan Kanan",
+    "prompt": "Right sleeve cuff print position matching left cuff. Coordinated cuff placement for balanced design. Ideal for monograms, logos, and pattern consistency. Professional appearance with symmetrical alignment. Complements formal shirt styling."
+  },
+  {
+    "key": "placket-front-left",
+    "en": "Placket Front Left",
+    "id": "Plaket Depan Kiri",
+    "ms": "Plakat Depan Kiri",
+    "prompt": "Front left placket print position for shirts. Placket placement suitable for subtle branding and logos. Professional appearance ideal for formal and business shirts. Clean design that works with button closure. Small but impactful placement."
+  },
+  {
+    "key": "side-seam-left",
+    "en": "Side Seam Left",
+    "id": "Jahitan Samping Kiri",
+    "ms": "Jahatan Sisi Kiri",
+    "prompt": "Left side seam print position for unique placement. Side seam placement for wrap-around or vertical designs. Creative positioning for artistic and fashion-forward designs. Professional placement that follows garment construction. Visible from multiple angles."
+  },
+  {
+    "key": "side-seam-right",
+    "en": "Side Seam Right",
+    "id": "Jahitan Samping Kanan",
+    "ms": "Jahatan Sisi Kanan",
+    "prompt": "Right side seam print position matching left side. Coordinated side seam placement for balanced design. Ideal for symmetrical patterns and continuous designs. Professional alignment with garment construction. Creative placement for unique visual effects."
+  },
+  {
+    "key": "hem-front-center",
+    "en": "Hem Front Center",
+    "id": "Hem Depan Tengah",
+    "ms": "Hem Depan Tengah",
+    "prompt": "Front hem center print position for bottom graphics. Lower front placement suitable for taglines and small logos. Professional appearance that doesn't interfere with upper design. Clean placement with adequate spacing from bottom edge."
+  },
+  {
+    "key": "hem-back-center",
+    "en": "Hem Back Center",
+    "id": "Hem Belakang Tengah",
+    "ms": "Hem Belakang Tengah",
+    "prompt": "Back hem center print position for bottom design elements. Lower back placement for branding and decorative elements. Professional appearance that complements upper back design. Clean placement with consistent hem spacing."
+  },
+  {
+    "key": "pocket-left-chest-printed",
+    "en": "Pocket Left Chest Printed",
+    "id": "Saku Dada Kiri Cetak",
+    "ms": "Saku Dada Kiri Cetak",
+    "prompt": "Printed left chest pocket position with integrated design. Pocket area printing that covers entire pocket surface. Ideal for branded pocket designs and decorative elements. Professional appearance that enhances pocket functionality. Clean edges with precise pocket alignment."
+  },
+  {
+    "key": "pocket-right-chest-printed",
+    "en": "Pocket Right Chest Printed",
+    "id": "Saku Dada Kanan Cetak",
+    "ms": "Saku Dada Kanan Cetak",
+    "prompt": "Printed right chest pocket position for coordinated design. Pocket printing that complements overall garment design. Professional appearance suitable for branded workwear. Clean design that works with pocket construction. Durable printing for pocket functionality."
+  },
+  {
+    "key": "shoulder-left-top",
+    "en": "Shoulder Left Top",
+    "id": "Bahu Kiri Atas",
+    "ms": "Bahu Kiri Atas",
+    "prompt": "Left shoulder top print position near neckline. Upper shoulder placement for small logos and designs. Professional appearance suitable for athletic wear and branding. Clean placement that doesn't interfere with neck comfort. Visible from multiple angles."
+  },
+  {
+    "key": "shoulder-right-top",
+    "en": "Shoulder Right Top",
+    "id": "Bahu Kanan Atas",
+    "ms": "Bahu Kanan Atas",
+    "prompt": "Right shoulder top print position matching left shoulder. Coordinated shoulder placement for balanced design. Ideal for sports team branding and symmetrical logos. Professional alignment with garment neckline. Clean appearance from all viewing angles."
+  },
+  {
+    "key": "front-upper-torso",
+    "en": "Front Upper Torso",
+    "id": "Depan Atas Badan",
+    "ms": "Depan Atas Badan",
+    "prompt": "Front upper torso print position above chest. Upper body placement for vertical designs and long graphics. Professional appearance suitable for fashion and artistic designs. Clean placement that follows torso shape. Extended coverage for statement designs."
+  },
+  {
+    "key": "front-diagonal-wrap",
+    "en": "Front Diagonal Wrap",
+    "id": "Depan Diagonal Melingkar",
+    "ms": "Depan Pepenjuru Melilit",
+    "prompt": "Front diagonal wrap print position across torso. Diagonal placement wrapping from shoulder to hem. Dynamic design placement for artistic and fashion-forward looks. Professional alignment that follows body contours. Bold statement with unique positioning."
+  },
+  {
+    "key": "back-full-coverage",
+    "en": "Back Full Coverage",
+    "id": "Belakang Cakupan Penuh",
+    "ms": "Belakang Liputan Penuh",
+    "prompt": "Full back coverage print position. Large format back printing covering entire back area. Maximum impact design placement for statement graphics. Professional quality printing with edge-to-edge coverage. Ideal for event promotions and artistic expression."
+  },
+  {
+    "key": "back-vertical-stripe",
+    "en": "Back Vertical Stripe",
+    "id": "Belakang Garis Vertikal",
+    "ms": "Belakang Garis Menegak",
+    "prompt": "Back vertical stripe print position. Vertical design placement running down center back. Ideal for branding, team names, and decorative elements. Professional alignment with garment centerline. Clean vertical design with balanced proportions."
+  },
+  {
+    "key": "sleeve-full-wrap",
+    "en": "Sleeve Full Wrap",
+    "id": "Lengan Bungkus Penuh",
+    "ms": "Lengan Balut Penuh",
+    "prompt": "Full sleeve wrap print position. Circumferential sleeve printing wrapping entire arm. Bold design placement for maximum sleeve coverage. Professional printing with seamless wrap-around effect. Ideal for sponsor logos and statement designs."
+  },
+  {
+    "key": "torso-side-left",
+    "en": "Torso Side Left",
+    "id": "Samping Badan Kiri",
+    "ms": "Tepi Badan Kiri",
+    "prompt": "Left torso side print position. Side body placement visible from profile view. Creative positioning for unique design elements. Professional placement that follows body contours. Ideal for asymmetric designs and artistic expression."
+  },
+  {
+    "key": "torso-side-right",
+    "en": "Torso Side Right",
+    "id": "Samping Badan Kanan",
+    "ms": "Tepi Badan Kanan",
+    "prompt": "Right torso side print position matching left side. Coordinated side placement for balanced asymmetric design. Professional alignment with garment construction. Creative positioning for fashion-forward designs. Visible from multiple viewing angles."
+  },
+  {
+    "key": "front-multiple-small",
+    "en": "Front Multiple Small",
+    "id": "Depan Beberapa Kecil",
+    "ms": "Depan Berbilangan Kecil",
+    "prompt": "Multiple small front print positions. Various small designs scattered across front torso. Creative placement for artistic and pattern-based designs. Professional arrangement with balanced composition. Ideal for repeating patterns and decorative elements."
+  },
+  {
+    "key": "back-scattered-pattern",
+    "en": "Back Scattered Pattern",
+    "id": "Belakang Pola Tersebar",
+    "ms": "Belakang Corak Tersebar",
+    "prompt": "Scattered back pattern print positions. Multiple small designs distributed across back area. Artistic placement for pattern-based designs and decorative elements. Professional arrangement with visual balance. Creative expression through distributed design."
+  },
+  {
+    "key": "all-over-print",
+    "en": "All Over Print",
+    "id": "Cetak Sepanjang",
+    "ms": "Cetak Seluruhnya",
+    "prompt": "All-over print position covering entire garment. Full garment printing with seamless pattern or design. Maximum coverage for bold fashion statements. Professional printing with consistent quality across all areas. Ideal for artistic expression and unique designs."
+  },
+  {
+    "key": "front-half-torso",
+    "en": "Front Half Torso",
+    "id": "Depan Setengah Badan",
+    "ms": "Depan Separuh Badan",
+    "prompt": "Front half torso print position covering upper body. Large format printing from chest to hem. Bold design placement for statement graphics. Professional coverage with clean edges at waistline. Ideal for fashion-forward and promotional designs."
+  },
+  {
+    "key": "back-shoulder-blades-large",
+    "en": "Back Shoulder Blades Large",
+    "id": "Belakang Bahu Besar",
+    "ms": "Belakang Bahu Besar",
+    "prompt": "Large back shoulder blades print position. Upper back coverage extending across shoulder area. Professional placement for team jerseys and athletic wear. Clean alignment with natural body contours. Maximum visibility from behind."
+  },
+  {
+    "key": "front-corner-bottom-left",
+    "en": "Front Corner Bottom Left",
+    "id": "Sudut Depan Bawah Kiri",
+    "ms": "Sudut Depan Bawah Kiri",
+    "prompt": "Front corner bottom left print position. Lower left corner placement for subtle design elements. Professional appearance suitable for signature designs and branding. Clean placement that doesn't interfere with main design. Elegant corner positioning."
+  },
+  {
+    "key": "front-corner-bottom-right",
+    "en": "Front Corner Bottom Right",
+    "id": "Sudut Depan Bawah Kanan",
+    "ms": "Sudut Depan Bawah Kanan",
+    "prompt": "Front corner bottom right print position. Lower right corner placement for coordinated design. Professional appearance complementing main front design. Clean placement with adequate spacing from edges. Elegant corner positioning."
+  },
+  {
+    "key": "neck-tape-inner",
+    "en": "Neck Tape Inner",
+    "id": "Pita Leher Dalam",
+    "ms": "Tali Leher Dalam",
+    "prompt": "Inner neck tape print position. Inside collar placement for brand labels and care instructions. Professional placement visible when garment is inside out. Clean design with clear text and care symbols. Industry-standard positioning for retail apparel."
+  },
+  {
+    "key": "waistband-front",
+    "en": "Waistband Front",
+    "id": "Pinggang Depan",
+    "ms": "Tali Pinggang Depan",
+    "prompt": "Front waistband print position. Lower front placement on pants and shorts. Ideal for branding and decorative waistband designs. Professional placement that works with waistband construction. Clean design that enhances garment styling."
+  },
+  {
+    "key": "waistband-back",
+    "en": "Waistband Back",
+    "id": "Pinggang Belakang",
+    "ms": "Tali Pinggang Belakang",
+    "prompt": "Back waistband print position. Lower back placement for coordinated waistband design. Professional appearance complementing front waistband. Clean placement with consistent positioning. Ideal for brand consistency on pants and shorts."
+  },
+  {
+    "key": "leg-upper-left",
+    "en": "Leg Upper Left",
+    "id": "Kaki Atas Kiri",
+    "ms": "Kaki Atas Kiri",
+    "prompt": "Upper left leg print position for pants and shorts. Thigh area placement for logos and decorative elements. Professional appearance suitable for athletic wear and branding. Clean placement that doesn't interfere with movement."
+  },
+  {
+    "key": "leg-upper-right",
+    "en": "Leg Upper Right",
+    "id": "Kaki Atas Kanan",
+    "ms": "Kaki Atas Kanan",
+    "prompt": "Upper right leg print position matching left leg. Coordinated thigh placement for balanced design. Professional alignment with pant construction. Ideal for team uniforms and brand consistency. Clean placement with symmetrical appearance."
+  },
+  {
+    "key": "pocket-back-right",
+    "en": "Pocket Back Right",
+    "id": "Saku Belakang Kanan",
+    "ms": "Saku Belakang Kanan",
+    "prompt": "Back right pocket print position. Back pocket placement for pants and shorts. Professional appearance suitable for branded workwear and casual apparel. Clean design that complements pocket functionality. Precise placement aligned with pocket construction."
+  },
+  {
+    "key": "pocket-back-left",
+    "en": "Pocket Back Left",
+    "id": "Saku Belakang Kiri",
+    "ms": "Saku Belakang Kiri",
+    "prompt": "Back left pocket print position. Back pocket placement for coordinated design. Professional appearance matching right pocket placement. Clean design that enhances pocket area. Precise alignment with pocket construction."
+  }
+]

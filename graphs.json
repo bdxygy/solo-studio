@@ -105,13 +105,6 @@
     "prompt": "Edgy industrial design with concrete textures and metal elements. Distressed surfaces, bold typography, and monochromatic color scheme. Raw and authentic feel perfect for urban brands and alternative events. Spray paint effects and stencil designs with rough textures."
   },
   {
-    "key": "celestial-cosmic",
-    "en": "Celestial Cosmic",
-    "id": "Langit Antariksa",
-    "ms": "Angkasa Langit",
-    "prompt": "Mystical design featuring stars, galaxies, and cosmic elements. Deep space backgrounds with nebula effects and glowing stars. Purple, blue, and gold color palette with shimmer effects. Magical and awe-inspiring feel perfect for spiritual events and imaginative themes. Glowing particle effects and cosmic dust."
-  },
-  {
     "key": "botanical-floral",
     "en": "Botanical Floral",
     "id": "Botanis Bunga",
@@ -553,13 +546,6 @@
     "prompt": "Battle royale gaming map design with top-down battlefield view. Island or arena layout with drop zones and safe zones. Strategic elements like loot locations and terrain features. Tactical color coding with zone indicators. Perfect for gaming tournaments and strategy guides. Clean game map aesthetic with military-style graphics."
   },
   {
-    "key": "mmo-rpg-interface",
-    "en": "MMO RPG Interface",
-    "id": "Antarmuka MMO RPG",
-    "ms": "Antara Muka MMO RPG",
-    "prompt": "MMO RPG gaming interface with fantasy elements. Character stats bars, inventory slots, and skill icons. Medieval fantasy backgrounds with castles and landscapes. Ornate metallic frames and glowing magical effects. Perfect for MMORPG promotions and gaming communities. Detailed UI elements with epic fantasy styling."
-  },
-  {
     "key": "mobile-game-ui",
     "en": "Mobile Game UI",
     "id": "UI Game Mobile",
@@ -579,13 +565,6 @@
     "id": "Kecepatan Game Balap",
     "ms": "Kelajuan Game Perlumbaan",
     "prompt": "High-speed racing game design with motion blur effects. Race track layouts with checkered patterns and speed lines. Sports car silhouettes and dashboard gauges. Dynamic typography suggesting velocity and competition. Perfect for racing games and automotive events. Motion graphics with speed trail effects."
-  },
-  {
-    "key": "fantasy-rpg-world",
-    "en": "Fantasy RPG World",
-    "id": "Dunia Fantasi RPG",
-    "ms": "Dunia Fantasi RPG",
-    "prompt": "Epic fantasy RPG world design with mythical creatures and landscapes. Medieval castles, dragons, and magical forests. Ornate medieval typography with glowing magical effects. Rich color palette with gold and purple accents. Perfect for fantasy gaming events and roleplaying communities. Illustrative fantasy art style with epic atmosphere."
   },
   {
     "key": "cyberpunk-gaming-neon",

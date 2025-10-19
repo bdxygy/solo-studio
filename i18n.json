@@ -2,7 +2,7 @@
   "en": {
     "menu-basic": "AI Photoshoot",
     "menu-ai-mockup": "AI Mockup",
-    "menu-remix": "Remix Photoshoot",
+    "menu-remix": "AI Remix Photoshoot",
     "menu-virtual-try-on": "AI Virtual Try-On",
     "menu-ai-graphic": "AI Graphic",
     "menu-settings": "Settings",
@@ -92,7 +92,7 @@
   "id": {
     "menu-basic": "Sesi Foto AI",
     "menu-ai-mockup": "AI Mockup",
-    "menu-remix": "Sesi Foto Remix",
+    "menu-remix": "Sesi Foto Remix AI",
     "menu-virtual-try-on": "Coba Virtual AI",
     "menu-ai-graphic": "Grafis AI",
     "menu-settings": "Pengaturan",
@@ -182,7 +182,7 @@
   "ms": {
     "menu-basic": "Sesi Penggambaran AI",
     "menu-ai-mockup": "Mockup AI",
-    "menu-remix": "Sesi Gambar Remix",
+    "menu-remix": "Sesi Gambar Remix AI",
     "menu-virtual-try-on": "Cuba Secara Maya AI",
     "menu-ai-graphic": "Grafik AI",
     "menu-settings": "Tetapan",

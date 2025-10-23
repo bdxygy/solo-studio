@@ -1,0 +1,2235 @@
+[
+    {
+    "key": "studio-white-seamless",
+    "en": "Studio - White Seamless Background",
+    "id": "Studio - Latar Putih Tanpa Sambungan",
+    "ms": "Studio - Latar Belakang Putih Tanpa Sambungan",
+    "prompt": "Product on pure white seamless paper background with soft, even lighting. Professional studio setup with large softbox creating minimal shadows. Clean, minimalist aesthetic with perfect white background. The mood is clean, professional, and commercial. Studio product photography with white seamless, soft lighting, minimalist composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-black-velvet",
+    "en": "Studio - Black Velvet Background",
+    "id": "Studio - Latar Belakang Beludru Hitam",
+    "ms": "Studio - Latar Belakang Velum Hitam",
+    "prompt": "Product on luxurious black velvet background with dramatic rim lighting. Studio setup with controlled spotlights creating product separation. Deep, rich black tones with subtle light reflections. The mood is luxury, dramatic, and elegant. Studio photography with black velvet, rim lighting, luxury presentation, 8K, high-end commercial."
+  },
+  {
+    "key": "studio-soft-gray",
+    "en": "Studio - Soft Gray Background",
+    "id": "Studio - Latar Belakang Abu-abu Lembut",
+    "ms": "Studio - Latar Belakang Kelabu Lembut",
+    "prompt": "Product on neutral soft gray background with balanced lighting. Professional studio setup with two softboxes creating even illumination. Sophisticated, neutral tones that don't compete with product. The mood is professional, balanced, and versatile. Studio photography with gray background, balanced lighting, professional aesthetic, 8K, commercial quality."
+  },
+  {
+    "key": "studio-gradient-backdrop",
+    "en": "Studio - Gradient Backdrop",
+    "id": "Studio - Latar Belakang Gradien",
+    "ms": "Studio - Latar Belakang Gradien",
+    "prompt": "Product against subtle gradient backdrop from light to dark gray. Studio lighting with soft transition creating depth and dimension. Modern, sophisticated background with smooth color transition. The mood is contemporary, professional, and elegant. Studio photography with gradient backdrop, soft transitions, modern aesthetic, 8K, commercial quality."
+  },
+  {
+    "key": "studio-high-key-lighting",
+    "en": "Studio - High Key Lighting",
+    "id": "Studio - Pencahayaan High Key",
+    "ms": "Studio - Pencahayaan High Key",
+    "prompt": "Product with bright, high-key lighting setup eliminating most shadows. Multiple light sources creating bright, airy atmosphere. Clean, minimalist approach with excellent detail visibility. The mood is bright, clean, and professional. High key studio photography with bright lighting, minimal shadows, clean aesthetic, 8K, commercial quality."
+  },
+  {
+    "key": "studio-low-key-dramatic",
+    "en": "Studio - Low Key Dramatic",
+    "id": "Studio - Low Key Dramatis",
+    "ms": "Studio - Low Key Drama",
+    "prompt": "Product with moody low-key lighting creating dramatic shadows. Single spotlight with careful positioning highlights product edges. Deep shadows and bright highlights create contrast and mystery. The mood is dramatic, mysterious, and premium. Low key studio photography with dramatic shadows, contrast lighting, premium aesthetic, 8K, high-end commercial."
+  },
+  {
+    "key": "studio-natural-window",
+    "en": "Studio - Natural Window Light",
+    "id": "Studio - Cahaya Jendela Alami",
+    "ms": "Studio - Cahaya Tingkap Semula Jadi",
+    "prompt": "Product positioned near large window with natural daylight. Soft diffused sunlight creating gentle shadows and authentic atmosphere. Organic lighting with subtle color temperature variations. The mood is natural, authentic, and lifestyle-oriented. Window light studio photography with natural illumination, soft shadows, lifestyle aesthetic, 8K, editorial quality."
+  },
+  {
+    "key": "studio-softbox-left",
+    "en": "Studio - Left Softbox Lighting",
+    "id": "Studio - Cahaya Softbox Kiri",
+    "ms": "Studio - Pencahayaan Softbox Kiri",
+    "prompt": "Product with large softbox positioned at 45-degree angle from left. Directional lighting creating soft shadows on the right side. Professional studio setup with controlled light spill. The mood is professional, clean, and dimensional. Left softbox studio photography with directional lighting, soft shadows, professional composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-softbox-right",
+    "en": "Studio - Right Softbox Lighting",
+    "id": "Studio - Cahaya Softbox Kanan",
+    "ms": "Studio - Pencahayaan Softbox Kanan",
+    "prompt": "Product with large softbox positioned at 45-degree angle from right. Directional lighting creating soft shadows on the left side. Professional studio setup with controlled light distribution. The mood is professional, clean, and dimensional. Right softbox studio photography with directional lighting, soft shadows, professional composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-ring-light",
+    "en": "Studio - Ring Light Setup",
+    "id": "Studio - Setup Ring Light",
+    "ms": "Studio - Sediakan Cahaya Gelang",
+    "prompt": "Product illuminated with ring light creating even frontal lighting. Characteristic catchlights in reflective surfaces. Shadowless illumination perfect for detailed products. The mood is modern, clean, and detailed. Ring light studio photography with frontal illumination, catchlights, shadowless aesthetic, 8K, e-commerce quality."
+  },
+  {
+    "key": "studio-dramatic-backlit",
+    "en": "Studio - Dramatic Backlighting",
+    "id": "Studio - Cahaya Belakang Dramatis",
+    "ms": "Studio - Pencahayaan Belakang Drama",
+    "prompt": "Product with strong backlight creating dramatic halo effect. Carefully positioned fill light prevents complete silhouette. Dynamic lighting creating depth and separation. The mood is dramatic, artistic, and high-impact. Backlit studio photography with halo effect, rim lighting, artistic composition, 8K, editorial quality."
+  },
+  {
+    "key": "studio-three-point",
+    "en": "Studio - Three Point Lighting",
+    "id": "Studio - Cahaya Tiga Titik",
+    "ms": "Studio - Pencahayaan Tiga Titik",
+    "prompt": "Product with professional three-point lighting setup. Key light, fill light, and back light creating perfect balance. Dimensional illumination with controlled shadows. The mood is professional, balanced, and commercial. Three-point studio photography with balanced lighting, dimensional shadows, professional setup, 8K, commercial quality."
+  },
+  {
+    "key": "studio-overhead-light",
+    "en": "Studio - Overhead Soft Light",
+    "id": "Studio - Cahaya Lemut Atas",
+    "ms": "Studio - Cahaya Lembut Di Atas",
+    "prompt": "Product with large softbox positioned directly overhead. Butterfly lighting pattern creating subtle shadows. Top-down illumination with controlled light fall-off. The mood is sophisticated, elegant, and clean. Overhead studio photography with butterfly lighting, top-down illumination, elegant aesthetic, 8K, premium quality."
+  },
+  {
+    "key": "studio-side-profile",
+    "en": "Studio - Side Profile Lighting",
+    "id": "Studio - Cahaya Profil Samping",
+    "ms": "Studio - Pencahayaan Profil Sisi",
+    "prompt": "Product with strong side lighting creating dramatic profile illumination. 90-degree light angle maximizing texture and form. High contrast between lit and shadow areas. The mood is dramatic, textural, and artistic. Side lighting studio photography with profile illumination, high contrast, textural emphasis, 8K, artistic quality."
+  },
+  {
+    "key": "studio-rembrandt-lighting",
+    "en": "Studio - Rembrandt Lighting",
+    "id": "Studio - Cahaya Rembrandt",
+    "ms": "Studio - Pencahayaan Rembrandt",
+    "prompt": "Product with classic Rembrandt lighting setup. Characteristic triangular highlight pattern on shadowed areas. Dramatic yet balanced illumination with depth. The mood is classical, artistic, and sophisticated. Rembrandt studio photography with triangular highlights, dramatic shadows, classical composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-broad-lighting",
+    "en": "Studio - Broad Lighting Setup",
+    "id": "Studio - Setup Cahaya Lebar",
+    "ms": "Studio - Sediakan Pencahayaan Lebar",
+    "prompt": "Product with broad lighting technique illuminating the larger surface area. Soft, flattering illumination minimizing shadows. Even light distribution across product surface. The mood is gentle, commercial, and clean. Broad lighting studio photography with even illumination, soft shadows, commercial aesthetic, 8K, e-commerce quality."
+  },
+  {
+    "key": "studio-short-lighting",
+    "en": "Studio - Short Lighting Setup",
+    "id": "Studio - Setup Cahaya Pendek",
+    "ms": "Studio - Sediakan Pencahayaan Pendek",
+    "prompt": "Product with short lighting technique highlighting the smaller surface area. Dramatic shadows creating slimming effect. High contrast illumination with artistic depth. The mood is dramatic, artistic, and sophisticated. Short lighting studio photography with high contrast, dramatic shadows, artistic composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-split-lighting",
+    "en": "Studio - Split Lighting Effect",
+    "id": "Studio - Efek Cahaya Terpisah",
+    "ms": "Studio - Kesan Cahaya Berpisah",
+    "prompt": "Product with split lighting creating perfect 50/50 light division. Dramatic contrast between illuminated and shadowed halves. Strong directional lighting effect. The mood is dramatic, bold, and artistic. Split lighting studio photography with high contrast, bold shadows, dramatic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-loop-lighting",
+    "en": "Studio - Loop Lighting Pattern",
+    "id": "Studio - Pola Cahaya Loop",
+    "ms": "Studio - Pola Cahaya Gelung",
+    "prompt": "Product with loop lighting creating subtle shadow loop. Soft, natural illumination with gentle shadows. Classic portrait lighting adapted for products. The mood is natural, professional, and clean. Loop lighting studio photography with soft shadows, natural illumination, professional composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-beauty-dish",
+    "en": "Studio - Beauty Dish Setup",
+    "id": "Studio - Setup Beauty Dish",
+    "ms": "Studio - Sediakan Beauty Dish",
+    "prompt": "Product with beauty dish creating moderately harsh light. Contrasty illumination with soft edges. Characteristic catchlight pattern on reflective surfaces. The mood is dramatic, high-fashion, and sophisticated. Beauty dish studio photography with contrasty light, fashion aesthetic, professional setup, 8K, editorial quality."
+  },
+  {
+    "key": "studio-umbrella-soft",
+    "en": "Studio - Soft Umbrella Light",
+    "id": "Studio - Cahaya Payung Lembut",
+    "ms": "Studio - Cahaya Payung Lembut",
+    "prompt": "Product with shoot-through umbrella creating soft, diffused light. Gentle illumination wrapping around product edges. Minimal shadows with professional quality. The mood is soft, professional, and commercial. Umbrella lighting studio photography with diffused illumination, soft shadows, commercial aesthetic, 8K, professional quality."
+  },
+  {
+    "key": "studio-reflector-fill",
+    "en": "Studio - Reflector Fill Light",
+    "id": "Studio - Cahaya Isi Reflektor",
+    "ms": "Studio - Cahaya Isi Reflektor",
+    "prompt": "Product with main light and silver reflector fill. Balanced illumination with controlled shadows. Professional two-light setup with reflected fill. The mood is professional, balanced, and clean. Reflector studio photography with balanced lighting, controlled shadows, professional composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-color-gel-warm",
+    "en": "Studio - Warm Color Gel",
+    "id": "Studio - Filter Warna Hangat",
+    "ms": "Studio - Gel Warna Hangat",
+    "prompt": "Product with warm amber color gel over main light. Warm, inviting atmosphere with subtle color cast. Professional lighting with creative color enhancement. The mood is warm, inviting, and creative. Color gel studio photography with warm tones, creative lighting, commercial aesthetic, 8K, advertising quality."
+  },
+  {
+    "key": "studio-color-gel-cool",
+    "en": "Studio - Cool Color Gel",
+    "id": "Studio - Filter Warna Sejuk",
+    "ms": "Studio - Gel Warna Sejuk",
+    "prompt": "Product with cool blue color gel over main light. Cool, sophisticated atmosphere with subtle blue cast. Professional lighting with creative color enhancement. The mood is cool, sophisticated, and modern. Color gel studio photography with cool tones, creative lighting, commercial aesthetic, 8K, advertising quality."
+  },
+  {
+    "key": "studio-color-gel-green",
+    "en": "Studio - Green Color Gel",
+    "id": "Studio - Filter Warna Hijau",
+    "ms": "Studio - Gel Warna Hijau",
+    "prompt": "Product with green color gel over main light. Fresh, natural atmosphere with subtle green cast. Professional lighting with creative color enhancement. The mood is fresh, natural, and organic. Color gel studio photography with green tones, creative lighting, natural aesthetic, 8K, commercial quality."
+  },
+  {
+    "key": "studio-color-gel-purple",
+    "en": "Studio - Purple Color Gel",
+    "id": "Studio - Filter Warna Ungu",
+    "ms": "Studio - Gel Warna Ungu",
+    "prompt": "Product with purple color gel over main light. Luxurious, creative atmosphere with subtle purple cast. Professional lighting with creative color enhancement. The mood is luxurious, creative, and mysterious. Color gel studio photography with purple tones, creative lighting, luxury aesthetic, 8K, premium quality."
+  },
+  {
+    "key": "studio-textured-background",
+    "en": "Studio - Textured Background",
+    "id": "Studio - Latar Belakang Bertekstur",
+    "ms": "Studio - Latar Belakang Bertekstur",
+    "prompt": "Product on textured studio background with directional lighting. Subtle texture creating visual interest and depth. Professional setup with controlled highlights. The mood is artistic, sophisticated, and dimensional. Textured studio photography with depth, controlled lighting, artistic composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-marble-surface",
+    "en": "Studio - Marble Surface",
+    "id": "Studio - Permukaan Marmer",
+    "ms": "Studio - Permukaan Marmar",
+    "prompt": "Product on polished marble surface with reflections. Elegant, luxurious setting with subtle light bounce. Professional studio setup with high-end materials. The mood is luxurious, elegant, and premium. Marble surface studio photography with reflections, luxury setting, premium aesthetic, 8K, high-end commercial."
+  },
+  {
+    "key": "studio-wood-surface",
+    "en": "Studio - Wood Surface",
+    "id": "Studio - Permukaan Kayu",
+    "ms": "Studio - Permukaan Kayu",
+    "prompt": "Product on natural wood surface with warm tones. Organic, earthy atmosphere with subtle texture. Professional studio setup with natural materials. The mood is natural, warm, and organic. Wood surface studio photography with texture, natural lighting, organic aesthetic, 8K, lifestyle quality."
+  },
+  {
+    "key": "studio-concrete-industrial",
+    "en": "Studio - Concrete Industrial",
+    "id": "Studio - Industrial Beton",
+    "ms": "Studio - Konkrit Perindustrian",
+    "prompt": "Product on raw concrete surface with industrial aesthetic. Urban, modern atmosphere with textured surface. Professional studio setup with edgy materials. The mood is industrial, modern, and edgy. Concrete studio photography with texture, urban aesthetic, industrial composition, 8K, editorial quality."
+  },
+  {
+    "key": "studio-glass-surface",
+    "en": "Studio - Glass Surface",
+    "id": "Studio - Permukaan Kaca",
+    "ms": "Studio - Permukaan Kaca",
+    "prompt": "Product on clear glass surface with subtle reflections. Modern, clean aesthetic with controlled transparency. Professional studio setup with minimal distraction. The mood is modern, clean, and sophisticated. Glass surface studio photography with reflections, transparent aesthetic, modern composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-metallic-surface",
+    "en": "Studio - Metallic Surface",
+    "id": "Studio - Permukaan Logam",
+    "ms": "Studio - Permukaan Logam",
+    "prompt": "Product on metallic surface with subtle sheen. Modern, sophisticated atmosphere with metallic reflections. Professional studio setup with high-tech materials. The mood is modern, sophisticated, and technological. Metallic studio photography with sheen, high-tech aesthetic, technological composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-fabric-texture",
+    "en": "Studio - Fabric Texture Background",
+    "id": "Studio - Latar Tekstur Kain",
+    "ms": "Studio - Latar Belakang Tekstur Fabrik",
+    "prompt": "Product on textured fabric background with soft lighting. Subtle fabric texture creating depth and sophistication. Professional studio setup with controlled highlights. The mood is soft, elegant, and sophisticated. Fabric texture studio photography with depth, soft lighting, elegant composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-mirror-reflection",
+    "en": "Studio - Mirror Reflection Surface",
+    "id": "Studio - Permukaan Cermin",
+    "ms": "Studio - Permukaan Cermin",
+    "prompt": "Product on mirror surface creating perfect reflections. Dramatic, artistic effect with symmetrical imagery. Professional studio setup with controlled angle lighting. The mood is dramatic, artistic, and surreal. Mirror reflection studio photography with symmetry, artistic lighting, surreal composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-gradient-multi",
+    "en": "Studio - Multi-Color Gradient",
+    "id": "Studio - Gradien Multi-Warna",
+    "ms": "Studio - Kecerunuan Pelbagai Warna",
+    "prompt": "Product against multi-color gradient backdrop. Vibrant, modern background with smooth color transitions. Professional lighting with colorful enhancement. The mood is vibrant, modern, and creative. Multi-gradient studio photography with color transitions, creative lighting, modern aesthetic, 8K, editorial quality."
+  },
+  {
+    "key": "studio-bokeh-background",
+    "en": "Studio - Bokeh Background",
+    "id": "Studio - Latar Bokeh",
+    "ms": "Studio - Latar Belakang Bokeh",
+    "prompt": "Product with blurred bokeh background effect. Soft, dreamy background with subtle light circles. Professional studio setup with selective focus. The mood is dreamy, soft, and romantic. Bokeh studio photography with soft focus, dreamy lighting, romantic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-geometric-pattern",
+    "en": "Studio - Geometric Pattern Background",
+    "id": "Studio - Latar Pola Geometris",
+    "ms": "Studio - Latar Belakang Corak Geometri",
+    "prompt": "Product against geometric pattern background. Modern, structured background with clean lines. Professional studio setup with controlled lighting. The mood is modern, structured, and architectural. Geometric studio photography with patterns, structured lighting, architectural composition, 8K, modern quality."
+  },
+  {
+    "key": "studio-neon-lighting",
+    "en": "Studio - Neon Lighting Effect",
+    "id": "Studio - Efek Cahaya Neon",
+    "ms": "Studio - Kesan Cahaya Neon",
+    "prompt": "Product with neon colored lighting effects. Vibrant, modern atmosphere with neon glow. Professional studio setup with colored light tubes. The mood is vibrant, modern, and urban. Neon lighting studio photography with color glow, urban aesthetic, modern composition, 8K, editorial quality."
+  },
+  {
+    "key": "studio-led-strips",
+    "en": "Studio - LED Strip Lighting",
+    "id": "Studio - Cahaya Strip LED",
+    "ms": "Studio - Pencahayaan Jalur LED",
+    "prompt": "Product with LED strip lighting creating linear highlights. Modern, futuristic atmosphere with controlled light lines. Professional studio setup with programmable lighting. The mood is futuristic, modern, and technological. LED strip studio photography with linear lighting, futuristic aesthetic, technological composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-candle-light",
+    "en": "Studio - Candle Light Effect",
+    "id": "Studio - Efek Cahaya Lilin",
+    "ms": "Studio - Kesan Cahaya Lilin",
+    "prompt": "Product with warm candle light illumination. Soft, intimate atmosphere with flickering light. Professional studio setup with simulated candle effect. The mood is intimate, warm, and romantic. Candle light studio photography with warm illumination, intimate lighting, romantic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-fog-machine",
+    "en": "Studio - Fog/Mist Effect",
+    "id": "Studio - Efek Kabut",
+    "ms": "Studio - Kesan Kabut/Debu",
+    "prompt": "Product with studio fog/mist creating atmosphere. Ethereal, mysterious environment with controlled haze. Professional lighting through fog medium. The mood is mysterious, ethereal, and dramatic. Fog effect studio photography with atmospheric lighting, mysterious composition, dramatic aesthetic, 8K, fine art quality."
+  },
+  {
+    "key": "studio-ice-crystal",
+    "en": "Studio - Ice Crystal Effects",
+    "id": "Studio - Efek Kristal Es",
+    "ms": "Studio - Kesan Kristal Ais",
+    "prompt": "Product with ice crystal props and cool lighting. Crystalline, fresh atmosphere with ice reflections. Professional studio setup with temperature control. The mood is fresh, crystalline, and pristine. Ice crystal studio photography with reflections, cool lighting, pristine aesthetic, 8K, premium quality."
+  },
+  {
+    "key": "studio-sand-texture",
+    "en": "Studio - Sand Texture Background",
+    "id": "Studio - Latar Tekstur Pasir",
+    "ms": "Studio - Latar Belakang Tekstur Pasir",
+    "prompt": "Product on sand texture background with warm tones. Natural, earthy atmosphere with fine grain texture. Professional studio setup with controlled sand distribution. The mood is natural, earthy, and organic. Sand texture studio photography with grain, warm lighting, organic composition, 8K, lifestyle quality."
+  },
+  {
+    "key": "studio-water-surface",
+    "en": "Studio - Water Surface Reflection",
+    "id": "Studio - Refleksi Permukaan Air",
+    "ms": "Studio - Refleksi Permukaan Air",
+    "prompt": "Product on water surface creating subtle reflections. Fluid, dynamic atmosphere with light ripple effects. Professional studio setup with controlled water surface. The mood is fluid, dynamic, and serene. Water surface studio photography with ripples, dynamic lighting, serene composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-macro-detail",
+    "en": "Studio - Macro Detail Focus",
+    "id": "Studio - Fokus Detail Makro",
+    "ms": "Studio - Fokus Makro Terperinci",
+    "prompt": "Extreme macro photography focusing on product details. Shallow depth of field with selective focus enhancement. Professional macro lighting setup with precision. The mood is detailed, precise, and analytical. Macro studio photography with extreme detail, selective focus, analytical composition, 8K, scientific quality."
+  },
+  {
+    "key": "studio-xray-effect",
+    "en": "Studio - X-Ray Effect",
+    "id": "Studio - Efek X-Ray",
+    "ms": "Studio - Kesan X-Ray",
+    "prompt": "Product with simulated x-ray transparency effect. Scientific, technical aesthetic with internal structure visibility. Professional studio setup with backlight enhancement. The mood is technical, scientific, and analytical. X-ray effect studio photography with transparency, technical lighting, analytical composition, 8K, scientific quality."
+  },
+  {
+    "key": "studio-thermal-imaging",
+    "en": "Studio - Thermal Imaging Effect",
+    "id": "Studio - Efek Imager Termal",
+    "ms": "Studio - Kesan Imej Termal",
+    "prompt": "Product with thermal imaging color gradient effect. Scientific, technical aesthetic with heat visualization. Professional studio setup with color temperature mapping. The mood is technical, scientific, and innovative. Thermal imaging studio photography with heat mapping, technical colors, innovative composition, 8K, scientific quality."
+  },
+  {
+    "key": "studio-holographic",
+    "en": "Studio - Holographic Effect",
+    "id": "Studio - Efek Holografik",
+    "ms": "Studio - Kesan Holografik",
+    "prompt": "Product with holographic lighting effects. Futuristic, technological atmosphere with prism light refraction. Professional studio setup with holographic elements. The mood is futuristic, technological, and innovative. Holographic studio photography with prisms, technological lighting, innovative composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-silhouette-dramatic",
+    "en": "Studio - Dramatic Silhouette",
+    "id": "Studio - Siluet Dramatis",
+    "ms": "Studio - Siluet Drama",
+    "prompt": "Product as dramatic silhouette against bright background. Bold, striking composition with perfect backlighting. Professional studio setup with controlled exposure. The mood is dramatic, bold, and artistic. Silhouette studio photography with backlighting, bold composition, artistic aesthetic, 8K, fine art quality."
+  },
+  {
+    "key": "studio-shadow-play",
+    "en": "Studio - Shadow Play Effect",
+    "id": "Studio - Efek Permainan Bayang",
+    "ms": "Studio - Kesan Permainan Bayang",
+    "prompt": "Product with artistic shadow patterns and projections. Creative, theatrical atmosphere with designed shadow shapes. Professional studio setup with patterned lighting. The mood is theatrical, creative, and artistic. Shadow play studio photography with patterns, creative lighting, theatrical composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-kaleidoscope",
+    "en": "Studio - Kaleidoscope Effect",
+    "id": "Studio - Efek Kaleidoskop",
+    "ms": "Studio - Kesan Kaléidoskop",
+    "prompt": "Product with kaleidoscopic pattern reflections. Psychedelic, artistic atmosphere with symmetrical patterns. Professional studio setup with mirror prisms. The mood is psychedelic, artistic, and mesmerizing. Kaleidoscope studio photography with patterns, artistic lighting, mesmerizing composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-rainbow-prism",
+    "en": "Studio - Rainbow Prism Effect",
+    "id": "Studio - Efek Pelangi Prisma",
+    "ms": "Studio - Kesan Pelangi Prisma",
+    "prompt": "Product with rainbow prism light refractions. Colorful, magical atmosphere with spectrum dispersion. Professional studio setup with optical prisms. The mood is colorful, magical, and joyful. Rainbow prism studio photography with spectrum colors, magical lighting, joyful composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-aurora-borealis",
+    "en": "Studio - Aurora Borealis Effect",
+    "id": "Studio - Efek Aurora Borealis",
+    "ms": "Studio - Kesan Aurora Borealis",
+    "prompt": "Product with simulated aurora borealis lighting. Ethereal, cosmic atmosphere with flowing color patterns. Professional studio setup with color projection. The mood is cosmic, ethereal, and majestic. Aurora studio photography with flowing colors, cosmic lighting, majestic composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-lava-lamp",
+    "en": "Studio - Lava Lamp Effect",
+    "id": "Studio - Efek Lava Lamp",
+    "ms": "Studio - Kesan Lampu Lava",
+    "prompt": "Product with lava lamp style color flows. Retro, psychedelic atmosphere with moving color blobs. Professional studio setup with liquid lighting effects. The mood is retro, psychedelic, and groovy. Lava lamp studio photography with flowing colors, retro lighting, groovy composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-cinematic-dramatic",
+    "en": "Studio - Cinematic Dramatic",
+    "id": "Studio - Dramatis Sinematik",
+    "ms": "Studio - Drama Sinematik",
+    "prompt": "Product with cinematic dramatic lighting setup. Film-quality atmosphere with dramatic contrast. Professional studio setup with movie lighting techniques. The mood is cinematic, dramatic, and epic. Cinematic studio photography with dramatic lighting, epic composition, film-quality aesthetic, 8K, professional quality."
+  },
+  {
+    "key": "studio-vintage-film",
+    "en": "Studio - Vintage Film Look",
+    "id": "Studio - Tampilan Film Vintage",
+    "ms": "Studio - Penampilan Filem Vintage",
+    "prompt": "Product with vintage film style lighting and grain. Nostalgic, classic atmosphere with film texture. Professional studio setup with period lighting. The mood is nostalgic, classic, and timeless. Vintage film studio photography with grain, classic lighting, timeless composition, 8K, retro quality."
+  },
+  {
+    "key": "studio-noir-style",
+    "en": "Studio - Film Noir Style",
+    "id": "Studio - Gaya Film Noir",
+    "ms": "Studio - Gaya Filem Noir",
+    "prompt": "Product with film noir style high contrast lighting. Dramatic, mysterious atmosphere with deep shadows. Professional studio setup with noir lighting techniques. The mood is mysterious, dramatic, and classic. Film noir studio photography with high contrast, dramatic shadows, classic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-steampunk",
+    "en": "Studio - Steampunk Theme",
+    "id": "Studio - Tema Steampunk",
+    "ms": "Studio - Tema Steampunk",
+    "prompt": "Product with steampunk industrial lighting. Victorian, mechanical atmosphere with brass and copper tones. Professional studio setup with period props. The mood is Victorian, mechanical, and inventive. Steampunk studio photography with industrial lighting, vintage props, inventive composition, 8K, thematic quality."
+  },
+  {
+    "key": "studio-cyberpunk",
+    "en": "Studio - Cyberpunk Theme",
+    "id": "Studio - Tema Cyberpunk",
+    "ms": "Studio - Tema Cyberpunk",
+    "prompt": "Product with cyberpunk neon and atmospheric lighting. Futuristic, dystopian atmosphere with digital rain effects. Professional studio setup with tech elements. The mood is futuristic, dystopian, and technological. Cyberpunk studio photography with neon lighting, tech elements, futuristic composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-minimalist-scandi",
+    "en": "Studio - Minimalist Scandinavian",
+    "id": "Studio - Skandinavia Minimalis",
+    "ms": "Studio - Skandinavia Minimal",
+    "prompt": "Product with minimalist Scandinavian design aesthetic. Clean, bright atmosphere with natural light and simple props. Professional studio setup with Nordic design elements. The mood is clean, serene, and sophisticated. Scandinavian studio photography with minimalism, natural light, sophisticated composition, 8K, design quality."
+  },
+  {
+    "key": "studio-japanese-zen",
+    "en": "Studio - Japanese Zen Style",
+    "id": "Studio - Gaya Zen Jepang",
+    "ms": "Studio - Gaya Zen Jepun",
+    "prompt": "Product with Japanese Zen garden aesthetic. Tranquil, minimalist atmosphere with careful composition. Professional studio setup with Zen design principles. The mood is tranquil, mindful, and elegant. Japanese Zen studio photography with minimalism, careful composition, elegant aesthetic, 8K, fine art quality."
+  },
+  {
+    "key": "studio-art-deco",
+    "en": "Studio - Art Deco Style",
+    "id": "Studio - Gaya Art Deco",
+    "ms": "Studio - Gaya Art Deco",
+    "prompt": "Product with Art Deco geometric luxury style. Glamorous, sophisticated atmosphere with bold patterns. Professional studio setup with period props and lighting. The mood is glamorous, sophisticated, and luxurious. Art Deco studio photography with geometric patterns, luxury lighting, glamorous composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-mid-century",
+    "en": "Studio - Mid-Century Modern",
+    "id": "Studio - Modern Mid-Century",
+    "ms": "Studio - Moden Pertengahan Abad",
+    "prompt": "Product with mid-century modern design aesthetic. Retro, sophisticated atmosphere with teak and brass elements. Professional studio setup with period furniture. The mood is retro, sophisticated, and nostalgic. Mid-century studio photography with vintage props, warm lighting, nostalgic composition, 8K, design quality."
+  },
+  {
+    "key": "studio-gothic-vintage",
+    "en": "Studio - Gothic Vintage Style",
+    "id": "Studio - Gaya Gothic Vintage",
+    "ms": "Studio - Gaya Gothic Vintage",
+    "prompt": "Product with gothic vintage dramatic lighting. Dark, romantic atmosphere with ornate props and shadows. Professional studio setup with gothic elements. The mood is dark, romantic, and dramatic. Gothic studio photography with dramatic lighting, ornate props, romantic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-baroque-luxury",
+    "en": "Studio - Baroque Luxury",
+    "id": "Studio - Mewah Baroque",
+    "ms": "Studio - Baroque Mewah",
+    "prompt": "Product with Baroque period luxury styling. Opulent, dramatic atmosphere with rich textures and gold. Professional studio setup with period props. The mood is opulent, dramatic, and luxurious. Baroque studio photography with rich textures, dramatic lighting, luxurious composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-tribal-ethnic",
+    "en": "Studio - Tribal Ethnic Style",
+    "id": "Studio - Gaya Etnis Suku",
+    "ms": "Studio - Gaya Etnik Kaum",
+    "prompt": "Product with tribal ethnic patterns and textures. Earthy, authentic atmosphere with cultural elements. Professional studio setup with ethnic props. The mood is earthy, authentic, and cultural. Tribal studio photography with ethnic patterns, natural lighting, cultural composition, 8K, lifestyle quality."
+  },
+  {
+    "key": "studio-space-cosmic",
+    "en": "Studio - Space Cosmic Theme",
+    "id": "Studio - Tema Luar Angkasa",
+    "ms": "Studio - Tema Angkasa Lepas",
+    "prompt": "Product with space cosmic theme lighting. Sci-fi, ethereal atmosphere with starfield and nebula effects. Professional studio setup with cosmic elements. The mood is cosmic, ethereal, and futuristic. Space studio photography with cosmic lighting, sci-fi elements, futuristic composition, 8K, premium quality."
+  },
+  {
+    "key": "studio-underwater",
+    "en": "Studio - Underwater Effect",
+    "id": "Studio - Efek Bawah Air",
+    "ms": "Studio - Kesan Bawah Air",
+    "prompt": "Product with simulated underwater lighting effect. Aquatic, serene atmosphere with blue-green color cast. Professional studio setup with water ripple effects. The mood is aquatic, serene, and dreamy. Underwater studio photography with blue lighting, ripple effects, dreamy composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-desert-sunset",
+    "en": "Studio - Desert Sunset Effect",
+    "id": "Studio - Efek Gurun Senja",
+    "ms": "Studio - Kesan Gurun Senja",
+    "prompt": "Product with desert sunset warm lighting. Warm, dramatic atmosphere with golden hour tones. Professional studio setup with warm color gels. The mood is warm, dramatic, and natural. Desert sunset studio photography with warm lighting, golden tones, natural composition, 8K, lifestyle quality."
+  },
+  {
+    "key": "studio-arctic-aurora",
+    "en": "Studio - Arctic Aurora Effect",
+    "id": "Studio - Efek Aurora Arktik",
+    "ms": "Studio - Kesan Aurora Artik",
+    "prompt": "Product with arctic aurora lighting effects. Cool, ethereal atmosphere with northern lights. Professional studio setup with color projection. The mood is cool, ethereal, and majestic. Arctic studio photography with cool lighting, aurora effects, majestic composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-tropical-paradise",
+    "en": "Studio - Tropical Paradise",
+    "id": "Studio - Surga Tropis",
+    "ms": "Studio - Syurga Tropika",
+    "prompt": "Product with tropical paradise lighting theme. Vibrant, lush atmosphere with palm leaf shadows. Professional studio setup with tropical elements. The mood is vibrant, lush, and exotic. Tropical studio photography with warm lighting, palm shadows, exotic composition, 8K, lifestyle quality."
+  },
+  {
+    "key": "studio-mountain-peak",
+    "en": "Studio - Mountain Peak Lighting",
+    "id": "Studio - Cahaya Puncak Gunung",
+    "ms": "Studio - Cahaya Puncak Gunung",
+    "prompt": "Product with mountain peak dramatic lighting. Majestic, dramatic atmosphere with high-altitude feel. Professional studio setup with cool blue tones. The mood is majestic, dramatic, and adventurous. Mountain studio photography with dramatic lighting, cool tones, adventurous composition, 8K, epic quality."
+  },
+  {
+    "key": "studio-forest-canopy",
+    "en": "Studio - Forest Canopy Effect",
+    "id": "Studio - Efek Tajuk Hutan",
+    "ms": "Studio - Kesan Kanopi Hutan",
+    "prompt": "Product with forest canopy dappled lighting. Natural, serene atmosphere with leaf shadows. Professional studio setup with dappled light effects. The mood is natural, serene, and organic. Forest studio photography with dappled lighting, leaf shadows, organic composition, 8K, nature quality."
+  },
+  {
+    "key": "studio-beach-sunrise",
+    "en": "Studio - Beach Sunrise Effect",
+    "id": "Studio - Efek Pantai Matahari Terbit",
+    "ms": "Studio - Kesan Pantai Matahari Terbit",
+    "prompt": "Product with beach sunrise warm lighting. Soft, hopeful atmosphere with golden morning tones. Professional studio setup with warm gradient. The mood is soft, hopeful, and refreshing. Beach sunrise studio photography with warm lighting, golden tones, refreshing composition, 8K, lifestyle quality."
+  },
+  {
+    "key": "studio-volcanic-glow",
+    "en": "Studio - Volcanic Glow Effect",
+    "id": "Studio - Efek Cahaya Vulkanik",
+    "ms": "Studio - Kesan Cahaya Gunung Berapi",
+    "prompt": "Product with volcanic glow dramatic lighting. Fiery, dramatic atmosphere with orange-red tones. Professional studio setup with dramatic color gels. The mood is fiery, dramatic, and powerful. Volcanic studio photography with dramatic lighting, fire tones, powerful composition, 8K, epic quality."
+  },
+  {
+    "key": "studio-crystal-cave",
+    "en": "Studio - Crystal Cave Effect",
+    "id": "Studio - Efek Gua Kristal",
+    "ms": "Studio - Kesan Gua Kristal",
+    "prompt": "Product with crystal cave refracted lighting. Magical, ethereal atmosphere with prism effects. Professional studio setup with crystal elements. The mood is magical, ethereal, and mysterious. Crystal cave studio photography with refracted lighting, prism effects, mysterious composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-rainforest-mist",
+    "en": "Studio - Rainforest Mist Effect",
+    "id": "Studio - Efek Kabut Hutan Hujan",
+    "ms": "Studio - Kesan Kabut Hutan Hujan",
+    "prompt": "Product with rainforest mist atmosphere. Lush, mysterious environment with filtered light. Professional studio setup with fog and green tones. The mood is lush, mysterious, and tropical. Rainforest studio photography with misty lighting, green tones, tropical composition, 8K, nature quality."
+  },
+  {
+    "key": "studio-fantasy-magical",
+    "en": "Studio - Fantasy Magical Theme",
+    "id": "Studio - Tema Fantasi Magis",
+    "ms": "Studio - Tema Fantasi Ajaib",
+    "prompt": "Product with fantasy magical lighting effects. Enchanted, whimsical atmosphere with magical glow. Professional studio setup with fantasy elements. The mood is enchanted, whimsical, and magical. Fantasy studio photography with magical lighting, enchanted effects, whimsical composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-fairy-garden",
+    "en": "Studio - Fairy Garden Effect",
+    "id": "Studio - Efek Taman Peri",
+    "ms": "Studio - Kesan Taman peri",
+    "prompt": "Product with fairy garden magical lighting. Delicate, enchanting atmosphere with soft pastel colors. Professional studio setup with miniature elements. The mood is delicate, enchanting, and whimsical. Fairy garden studio photography with pastel lighting, delicate effects, enchanting composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-dragon-lair",
+    "en": "Studio - Dragon Lair Theme",
+    "id": "Studio - Tema Sarang Naga",
+    "ms": "Studio - Tema Sarang Naga",
+    "prompt": "Product with dragon lair dramatic lighting. Fiery, epic atmosphere with smoke and embers. Professional studio setup with dramatic color effects. The mood is fiery, epic, and legendary. Dragon lair studio photography with dramatic lighting, smoke effects, legendary composition, 8K, epic quality."
+  },
+  {
+    "key": "studio-elven-palace",
+    "en": "Studio - Elven Palace Theme",
+    "id": "Studio - Tema Istana Elf",
+    "ms": "Studio - Tema Istana Elf",
+    "prompt": "Product with elven palace elegant lighting. Graceful, ethereal atmosphere with silver and gold tones. Professional studio setup with elegant props. The mood is graceful, ethereal, and elegant. Elven palace studio photography with elegant lighting, ethereal effects, graceful composition, 8K, fine art quality."
+  },
+  {
+    "key": "studio-steampunk-laboratory",
+    "en": "Studio - Steampunk Laboratory",
+    "id": "Studio - Laboratorium Steampunk",
+    "ms": "Studio - Makmal Steampunk",
+    "prompt": "Product with steampunk laboratory industrial lighting. Inventive, mechanical atmosphere with brass and copper details. Professional studio setup with scientific props. The mood is inventive, mechanical, and scientific. Steampunk laboratory studio photography with industrial lighting, mechanical props, scientific composition, 8K, thematic quality."
+  },
+  {
+    "key": "studio-time-travel",
+    "en": "Studio - Time Travel Effect",
+    "id": "Studio - Efek Perjalanan Waktu",
+    "ms": "Studio - Kesan Perjalanan Masa",
+    "prompt": "Product with time travel temporal distortion effect. Sci-fi, mysterious atmosphere with temporal ripples. Professional studio setup with special effects. The mood is sci-fi, mysterious, and temporal. Time travel studio photography with distortion effects, temporal lighting, mysterious composition, 8K, sci-fi quality."
+  },
+  {
+    "key": "studio-alien-abduction",
+    "en": "Studio - Alien Abduction Theme",
+    "id": "Studio - Tema Penculikan Alien",
+    "ms": "Studio - Tema Penculikan Makhluk Asing",
+    "prompt": "Product with alien abduction beam lighting. Sci-fi, mysterious atmosphere with tractor beam effects. Professional studio setup with UFO elements. The mood is sci-fi, mysterious, and otherworldly. Alien abduction studio photography with beam lighting, UFO effects, otherworldly composition, 8K, sci-fi quality."
+  },
+  {
+    "key": "studio-pirate-treasure",
+    "en": "Studio - Pirate Treasure Theme",
+    "id": "Studio - Tema Harta Karung Bajak Laut",
+    "ms": "Studio - Tema Lanun Khazanah",
+    "prompt": "Product with pirate treasure dramatic lighting. Adventurous, mysterious atmosphere with gold and treasure. Professional studio setup with pirate props. The mood is adventurous, mysterious, and treasure-hunting. Pirate treasure studio photography with dramatic lighting, treasure props, adventurous composition, 8K, thematic quality."
+  },
+  {
+    "key": "studio-medieval-castle",
+    "en": "Studio - Medieval Castle Theme",
+    "id": "Studio - Tema Kastil Abad Pertengahan",
+    "ms": "Studio - Tema Istana Zaman Pertengahan",
+    "prompt": "Product with medieval castle atmospheric lighting. Historic, dramatic atmosphere with torchlight and stone. Professional studio setup with medieval props. The mood is historic, dramatic, and medieval. Medieval castle studio photography with atmospheric lighting, historic props, dramatic composition, 8K, period quality."
+  },
+  {
+    "key": "studio-ancient-egypt",
+    "en": "Studio - Ancient Egypt Theme",
+    "id": "Studio - Tema Mesir Kuno",
+    "ms": "Studio - Tema Mesir Purba",
+    "prompt": "Product with ancient Egypt mysterious lighting. Historic, mystical atmosphere with hieroglyphic projections. Professional studio setup with Egyptian props. The mood is historic, mystical, and ancient. Ancient Egypt studio photography with mysterious lighting, historic props, mystical composition, 8K, period quality."
+  },
+  {
+    "key": "studio-roman-empire",
+    "en": "Studio - Roman Empire Theme",
+    "id": "Studio - Tema Kekaisaran Romawi",
+    "ms": "Studio - Tema Empayar Rom",
+    "prompt": "Product with Roman Empire dramatic lighting. Historic, majestic atmosphere with marble and gold. Professional studio setup with classical props. The mood is historic, majestic, and imperial. Roman Empire studio photography with dramatic lighting, classical props, majestic composition, 8K, period quality."
+  },
+  {
+    "key": "studio-viking-hall",
+    "en": "Studio - Viking Hall Theme",
+    "id": "Studio - Tema Balai Viking",
+    "ms": "Studio - Tema Dewan Viking",
+    "prompt": "Product with Viking hall dramatic firelight. Rugged, historic atmosphere with torch and fire lighting. Professional studio setup with Norse props. The mood is rugged, historic, and warrior-like. Viking hall studio photography with firelight, historic props, rugged composition, 8K, period quality."
+  },
+  {
+    "key": "studio-samurai-dojo",
+    "en": "Studio - Samurai Dojo Theme",
+    "id": "Studio - Tema Dojo Samurai",
+    "ms": "Studio - Tema Dojo Samurai",
+    "prompt": "Product with samurai dojo traditional lighting. Disciplined, serene atmosphere with paper lantern effects. Professional studio setup with Japanese props. The mood is disciplined, serene, and traditional. Samurai dojo studio photography with traditional lighting, cultural props, serene composition, 8K, cultural quality."
+  },
+  {
+    "key": "studio-wild-west",
+    "en": "Studio - Wild West Theme",
+    "id": "Studio - Tema Wild West",
+    "ms": "Studio - Tema Bar Liar",
+    "prompt": "Product with wild west dramatic sunlight. Rugged, adventurous atmosphere with dusty, warm tones. Professional studio setup with western props. The mood is rugged, adventurous, and frontier-like. Wild west studio photography with dramatic sunlight, western props, adventurous composition, 8K, period quality."
+  },
+  {
+    "key": "studio-roaring-twenties",
+    "en": "Studio - Roaring Twenties Theme",
+    "id": "Studio - Tema Roaring Twenties",
+    "ms": "Studio - Tema Dua Puluhan Bergemuruh",
+    "prompt": "Product with 1920s Art Deco glamorous lighting. Sophisticated, elegant atmosphere with jazz era styling. Professional studio setup with period props. The mood is sophisticated, elegant, and vintage. Roaring twenties studio photography with glamorous lighting, period props, elegant composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-fifties-diner",
+    "en": "Studio - 1950s Diner Theme",
+    "id": "Studio - Tema Diner 1950-an",
+    "ms": "Studio - Tema Diner 1950-an",
+    "prompt": "Product with 1950s diner nostalgic lighting. Cheerful, retro atmosphere with neon and chrome. Professional studio setup with period props. The mood is cheerful, retro, and nostalgic. Fifties diner studio photography with nostalgic lighting, retro props, cheerful composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-disco-seventies",
+    "en": "Studio - 1970s Disco Theme",
+    "id": "Studio - Tema Disko 1970-an",
+    "ms": "Studio - Tema Disco 1970-an",
+    "prompt": "Product with 1970s disco colorful lighting. Groovy, vibrant atmosphere with multicolor effects. Professional studio setup with retro props. The mood is groovy, vibrant, and retro. Disco seventies studio photography with colorful lighting, retro props, vibrant composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-eighties-synthwave",
+    "en": "Studio - 1980s Synthwave Theme",
+    "id": "Studio - Tema Synthwave 1980-an",
+    "ms": "Studio - Tema Synthwave 1980-an",
+    "prompt": "Product with 1980s synthwave neon lighting. Retro-futuristic atmosphere with pink and blue tones. Professional studio setup with tech props. The mood is retro-futuristic, vibrant, and nostalgic. Synthwave studio photography with neon lighting, retro props, futuristic composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-high-key-bright",
+    "en": "Studio - High Key Bright",
+    "id": "Studio - High Key Terang",
+    "ms": "Studio - High Key Cerah",
+    "prompt": "Product with high key bright white lighting. Clean, minimal shadows with pure white background. Professional studio setup with multiple softboxes. The mood is bright, clean, and commercial. High key studio photography with bright lighting, white background, clean composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-low-key-dramatic",
+    "en": "Studio - Low Key Dramatic",
+    "id": "Studio - Low Key Dramatis",
+    "ms": "Studio - Low Key Dramatik",
+    "prompt": "Product with low key dramatic lighting. Deep shadows and selective highlighting. Professional studio setup with single focused light source. The mood is dramatic, mysterious, and artistic. Low key studio photography with dramatic lighting, deep shadows, artistic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-clamshell-lighting",
+    "en": "Studio - Clamshell Lighting",
+    "id": "Studio - Pencahayaan Clamshell",
+    "ms": "Studio - Pencahayaan Clamshell",
+    "prompt": "Product with clamshell lighting technique. Top and bottom fill lights creating soft shadows. Professional studio setup with controlled lighting ratio. The mood is flattering, soft, and professional. Clamshell studio photography with soft lighting, balanced shadows, professional composition, 8K, beauty quality."
+  },
+  {
+    "key": "studio-rembrandt-lighting",
+    "en": "Studio - Rembrandt Lighting",
+    "id": "Studio - Pencahayaan Rembrandt",
+    "ms": "Studio - Pencahayaan Rembrandt",
+    "prompt": "Product with Rembrandt lighting pattern. Classic triangle of light on cheek area. Professional studio setup with single key light. The mood is classic, artistic, and dramatic. Rembrandt studio photography with classic lighting, triangle shadow, artistic composition, 8K, portrait quality."
+  },
+  {
+    "key": "studio-split-lighting",
+    "en": "Studio - Split Lighting",
+    "id": "Studio - Pencahayaan Terpisah",
+    "ms": "Studio - Pencahayaan Pisah",
+    "prompt": "Product with split lighting technique. Half face illuminated, half in shadow. Professional studio setup with side key light. The mood is dramatic, bold, and mysterious. Split studio photography with dramatic lighting, half shadow, bold composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-butterfly-lighting",
+    "en": "Studio - Butterfly Lighting",
+    "id": "Studio - Pencahayaan Kupu-kupu",
+    "ms": "Studio - Pencahayaan Rama-rama",
+    "prompt": "Product with butterfly lighting setup. Key light above and slightly in front creating butterfly shadow. Professional studio setup for beauty photography. The mood is flattering, glamorous, and soft. Butterfly studio photography with flattering lighting, soft shadows, glamorous composition, 8K, beauty quality."
+  },
+  {
+    "key": "studio-loop-lighting",
+    "en": "Studio - Loop Lighting",
+    "id": "Studio - Pencahayaan Loop",
+    "ms": "Studio - Pencahayaan Gelung",
+    "prompt": "Product with loop lighting pattern. Small loop-shaped shadow under the eye. Professional studio setup with angled key light. The mood is natural, flattering, and professional. Loop studio photography with natural lighting, soft shadows, flattering composition, 8K, portrait quality."
+  },
+  {
+    "key": "studio-broad-lighting",
+    "en": "Studio - Broad Lighting",
+    "id": "Studio - Pencahayaan Luas",
+    "ms": "Studio - Pencahayaan Luas",
+    "prompt": "Product with broad lighting technique. Light illuminates the side of face turned toward camera. Professional studio setup for flattering portraits. The mood is bright, open, and friendly. Broad studio photography with bright lighting, open shadows, friendly composition, 8K, portrait quality."
+  },
+  {
+    "key": "studio-short-lighting",
+    "en": "Studio - Short Lighting",
+    "id": "Studio - Pencahayaan Pendek",
+    "ms": "Studio - Pencahayaan Pendek",
+    "prompt": "Product with short lighting technique. Light illuminates the side of face turned away from camera. Professional studio setup for dramatic portraits. The mood is dramatic, sophisticated, and artistic. Short studio photography with dramatic lighting, artistic shadows, sophisticated composition, 8K, portrait quality."
+  },
+  {
+    "key": "studio-rim-lighting",
+    "en": "Studio - Rim Lighting",
+    "id": "Studio - Pencahayaan Rim",
+    "ms": "Studio - Pencahayaan Rim",
+    "prompt": "Product with rim lighting effect. Backlight creating bright outline around subject. Professional studio setup with background separation. The mood is dramatic, highlighted, and professional. Rim studio photography with dramatic lighting, bright outline, professional composition, 8K, commercial quality."
+  },
+  {
+    "key": "studio-silhouette-lighting",
+    "en": "Studio - Silhouette Lighting",
+    "id": "Studio - Pencahayaan Siluet",
+    "ms": "Studio - Pencahayaan Siluet",
+    "prompt": "Product with silhouette lighting effect. Subject dark against bright background. Professional studio setup with strong backlighting. The mood is dramatic, mysterious, and artistic. Silhouette studio photography with dramatic lighting, dark subject, artistic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-vintage-film",
+    "en": "Studio - Vintage Film Look",
+    "id": "Studio - Tampilan Film Vintage",
+    "ms": "Studio - Penampilan Filem Vintage",
+    "prompt": "Product with vintage film color grading. Warm tones with film grain and soft focus. Professional studio setup with vintage styling. The mood is nostalgic, warm, and timeless. Vintage studio photography with warm lighting, film grain, timeless composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-cyberpunk-neon",
+    "en": "Studio - Cyberpunk Neon",
+    "id": "Studio - Neon Cyberpunk",
+    "ms": "Studio - Neon Cyberpunk",
+    "prompt": "Product with cyberpunk neon lighting. Electric blue and magenta lights with futuristic elements. Professional studio setup with tech props. The mood is futuristic, edgy, and high-tech. Cyberpunk studio photography with neon lighting, tech props, futuristic composition, 8K, sci-fi quality."
+  },
+  {
+    "key": "studio-steampunk-industrial",
+    "en": "Studio - Steampunk Industrial",
+    "id": "Studio - Steampunk Industrial",
+    "ms": "Studio - Steampunk Perindustrian",
+    "prompt": "Product with steampunk industrial lighting. Brass and copper tones with mechanical elements. Professional studio setup with vintage props. The mood is industrial, vintage, and mechanical. Steampunk studio photography with brass lighting, mechanical props, vintage composition, 8K, thematic quality."
+  },
+  {
+    "key": "studio-minimalist-scandinavian",
+    "en": "Studio - Minimalist Scandinavian",
+    "id": "Studio - Minimalis Skandinavia",
+    "ms": "Studio - Minimalis Skandinavia",
+    "prompt": "Product with minimalist Scandinavian lighting. Clean bright white with natural wood elements. Professional studio setup with simple props. The mood is clean, minimal, and natural. Scandinavian studio photography with bright lighting, natural wood, clean composition, 8K, modern quality."
+  },
+  {
+    "key": "studio-japanese-zen",
+    "en": "Studio - Japanese Zen",
+    "id": "Studio - Zen Jepang",
+    "ms": "Studio - Zen Jepun",
+    "prompt": "Product with Japanese zen lighting. Soft natural light with bamboo and stone elements. Professional studio setup with minimalist props. The mood is peaceful, meditative, and simple. Japanese zen studio photography with soft lighting, natural elements, peaceful composition, 8K, zen quality."
+  },
+  {
+    "key": "studio-art-deco-elegant",
+    "en": "Studio - Art Deco Elegant",
+    "id": "Studio - Art Deco Elegan",
+    "ms": "Studio - Art Deco Elegan",
+    "prompt": "Product with Art Deco elegant lighting. Gold and geometric patterns with luxurious elements. Professional studio setup with period props. The mood is luxurious, geometric, and elegant. Art Deco studio photography with gold lighting, geometric props, elegant composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-mid-century-modern",
+    "en": "Studio - Mid Century Modern",
+    "id": "Studio - Mid Century Modern",
+    "ms": "Studio - Pertengahan Abad Moden",
+    "prompt": "Product with mid-century modern lighting. Warm amber tones with teak wood elements. Professional studio setup with retro furniture. The mood is retro, warm, and sophisticated. Mid-century studio photography with warm lighting, teak elements, sophisticated composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-hollywood-glamour",
+    "en": "Studio - Hollywood Glamour",
+    "id": "Studio - Kemewahan Hollywood",
+    "ms": "Studio - Keagungan Hollywood",
+    "prompt": "Product with Hollywood glamour lighting. Soft, flattering light with dramatic shadows. Professional studio setup with vintage styling. The mood is glamorous, dramatic, and cinematic. Hollywood studio photography with soft lighting, dramatic shadows, glamorous composition, 8K, cinema quality."
+  },
+  {
+    "key": "studio-soft-focus-dreamy",
+    "en": "Studio - Soft Focus Dreamy",
+    "id": "Studio - Fokus Lembut Mimpi",
+    "ms": "Studio - Fokus Lemput Bermimpi",
+    "prompt": "Product with soft focus dreamy lighting. Ethereal glow with gentle diffusion. Professional studio setup with soft focus filters. The mood is dreamy, romantic, and ethereal. Soft focus studio photography with ethereal lighting, gentle diffusion, dreamy composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-industrial-gritty",
+    "en": "Studio - Industrial Gritty",
+    "id": "Studio - Industrial Kasar",
+    "ms": "Studio - Perindustrian Kasar",
+    "prompt": "Product with industrial gritty lighting. Raw concrete and metal textures. Professional studio setup with urban elements. The mood is gritty, urban, and edgy. Industrial studio photography with raw lighting, concrete textures, gritty composition, 8K, urban quality."
+  },
+  {
+    "key": "studio-pastel-dream",
+    "en": "Studio - Pastel Dream",
+    "id": "Studio - Mimpi Pastel",
+    "ms": "Studio - Impian Pastel",
+    "prompt": "Product with pastel dream lighting. Soft pink, blue, and lavender tones. Professional studio setup with pastel props. The mood is dreamy, soft, and whimsical. Pastel studio photography with soft lighting, pastel colors, whimsical composition, 8K, fantasy quality."
+  },
+  {
+    "key": "studio-film-noir",
+    "en": "Studio - Film Noir",
+    "id": "Studio - Film Noir",
+    "ms": "Studio - Filem Noir",
+    "prompt": "Product with film noir lighting. High contrast black and white with dramatic shadows. Professional studio setup with detective themes. The mood is mysterious, dramatic, and cinematic. Film noir studio photography with dramatic lighting, deep shadows, mysterious composition, 8K, cinematic quality."
+  },
+  {
+    "key": "studio-neon-retro",
+    "en": "Studio - Neon Retro",
+    "id": "Studio - Neon Retro",
+    "ms": "Studio - Neon Retro",
+    "prompt": "Product with neon retro lighting. Bright neon signs with 80s vibes. Professional studio setup with retro neon props. The mood is retro, vibrant, and electric. Neon studio photography with bright lighting, retro signs, electric composition, 8K, retro quality."
+  },
+  {
+    "key": "studio-fantasy-magical",
+    "en": "Studio - Fantasy Magical",
+    "id": "Studio - Fantasi Magis",
+    "ms": "Studio - Fantasi Magik",
+    "prompt": "Product with fantasy magical lighting. Ethereal glow with sparkles and mystical effects. Professional studio setup with fantasy props. The mood is magical, mystical, and enchanting. Fantasy studio photography with magical lighting, mystical effects, enchanting composition, 8K, fantasy quality."
+  },
+  {
+    "key": "studio-sci-fi-lab",
+    "en": "Studio - Sci-Fi Laboratory",
+    "id": "Studio - Lab Sci-Fi",
+    "ms": "Studio - Makmal Sci-Fi",
+    "prompt": "Product with sci-fi laboratory lighting. Blue and white clinical lights with tech elements. Professional studio setup with laboratory props. The mood is scientific, futuristic, and sterile. Sci-fi studio photography with clinical lighting, lab props, futuristic composition, 8K, sci-fi quality."
+  },
+  {
+    "key": "studio-cosmic-space",
+    "en": "Studio - Cosmic Space",
+    "id": "Studio - Ruang Angkasa",
+    "ms": "Studio - Angkasa Lepas",
+    "prompt": "Product with cosmic space lighting. Deep blue and purple with starry effects. Professional studio setup with space props. The mood is cosmic, mysterious, and infinite. Cosmic studio photography with deep lighting, starry effects, infinite composition, 8K, space quality."
+  },
+  {
+    "key": "studio-underwater-ocean",
+    "en": "Studio - Underwater Ocean",
+    "id": "Studio - Bawah Laut",
+    "ms": "Studio - Bawah Air",
+    "prompt": "Product with underwater ocean lighting. Blue-green tones with water ripple effects. Professional studio setup with ocean props. The mood is aquatic, serene, and mysterious. Underwater studio photography with blue lighting, water effects, aquatic composition, 8K, ocean quality."
+  },
+  {
+    "key": "studio-victorian-elegant",
+    "en": "Studio - Victorian Elegant",
+    "id": "Studio - Elegan Victoria",
+    "ms": "Studio - Elegan Victoria",
+    "prompt": "Product with Victorian elegant lighting. Warm candlelight with antique props. Professional studio setup with period furniture. The mood is historic, elegant, and romantic. Victorian studio photography with warm lighting, antique props, historic composition, 8K, period quality."
+  },
+  {
+    "key": "studio-bohemian-hippie",
+    "en": "Studio - Bohemian Hippie",
+    "id": "Studio - Bohemian Hippie",
+    "ms": "Studio - Bohemian Hippie",
+    "prompt": "Product with bohemian hippie lighting. Warm, free-spirited colors with eclectic props. Professional studio setup with bohemian elements. The mood is free-spirited, colorful, and eclectic. Bohemian studio photography with warm lighting, eclectic props, free-spirited composition, 8K, hippie quality."
+  },
+  {
+    "key": "studio-gothic-dark",
+    "en": "Studio - Gothic Dark",
+    "id": "Studio - Gothic Gelap",
+    "ms": "Studio - Gothic Gelap",
+    "prompt": "Product with gothic dark lighting. Dramatic shadows with cathedral-inspired elements. Professional studio setup with gothic props. The mood is mysterious, dramatic, and dark. Gothic studio photography with dramatic lighting, dark shadows, mysterious composition, 8K, gothic quality."
+  },
+  {
+    "key": "studio-rainbow-prism",
+    "en": "Studio - Rainbow Prism",
+    "id": "Studio - Pelangi Prisma",
+    "ms": "Studio - Pelangi Prisma",
+    "prompt": "Product with rainbow prism lighting. Full spectrum colors with prism effects. Professional studio setup with crystal props. The mood is colorful, magical, and vibrant. Rainbow studio photography with colorful lighting, prism effects, vibrant composition, 8K, prism quality."
+  },
+  {
+    "key": "studio-aurora-borealis",
+    "en": "Studio - Aurora Borealis",
+    "id": "Studio - Aurora Borealis",
+    "ms": "Studio - Aurora Borealis",
+    "prompt": "Product with aurora borealis lighting. Green and blue waves with ethereal glow. Professional studio setup with northern lights effects. The mood is ethereal, natural, and magical. Aurora studio photography with ethereal lighting, wave effects, magical composition, 8K, nature quality."
+  },
+  {
+    "key": "studio-lava-glow",
+    "en": "Studio - Lava Glow",
+    "id": "Studio - Cahaya Lava",
+    "ms": "Studio - Cahaya Lava",
+    "prompt": "Product with lava glow lighting. Orange and red tones with molten effects. Professional studio setup with volcanic props. The mood is hot, intense, and powerful. Lava studio photography with orange lighting, molten effects, powerful composition, 8K, volcanic quality."
+  },
+  {
+    "key": "studio-crystal-geode",
+    "en": "Studio - Crystal Geode",
+    "id": "Studio - Kristal Geode",
+    "ms": "Studio - Kristal Geod",
+    "prompt": "Product with crystal geode lighting. Purple and blue sparkles with crystal formations. Professional studio setup with geode props. The mood is sparkling, magical, and crystalline. Crystal studio photography with sparkling lighting, crystal effects, crystalline composition, 8K, mineral quality."
+  },
+  {
+    "key": "studio-sunset-warm",
+    "en": "Studio - Sunset Warm",
+    "id": "Studio - Matahari Terbit Hangat",
+    "ms": "Studio - Matahari Terbit Hangat",
+    "prompt": "Product with sunset warm lighting. Golden hour tones with warm shadows. Professional studio setup with sunset effects. The mood is warm, romantic, and peaceful. Sunset studio photography with golden lighting, warm shadows, peaceful composition, 8K, sunset quality."
+  },
+  {
+    "key": "studio-sunrise-fresh",
+    "en": "Studio - Sunrise Fresh",
+    "id": "Studio - Matahari Terbit Segar",
+    "ms": "Studio - Matahari Terbit Segar",
+    "prompt": "Product with sunrise fresh lighting. Soft pink and orange tones with fresh energy. Professional studio setup with dawn effects. The mood is fresh, hopeful, and energizing. Sunrise studio photography with soft lighting, fresh tones, energizing composition, 8K, dawn quality."
+  },
+  {
+    "key": "studio-monochrome-elegant",
+    "en": "Studio - Monochrome Elegant",
+    "id": "Studio - Monokrom Elegan",
+    "ms": "Studio - Monokrom Elegan",
+    "prompt": "Product with monochrome elegant lighting. Pure black and white with high contrast. Professional studio setup with monochrome props. The mood is elegant, timeless, and dramatic. Monochrome studio photography with contrast lighting, black white props, dramatic composition, 8K, elegant quality."
+  },
+  {
+    "key": "studio-sepia-vintage",
+    "en": "Studio - Sepia Vintage",
+    "id": "Studio - Sepia Vintage",
+    "ms": "Studio - Sepia Vintage",
+    "prompt": "Product with sepia vintage lighting. Warm brown tones with aged effects. Professional studio setup with vintage props. The mood is nostalgic, aged, and classic. Sepia studio photography with warm lighting, vintage props, classic composition, 8K, vintage quality."
+  },
+  {
+    "key": "studio-chromatic-aberration",
+    "en": "Studio - Chromatic Aberration",
+    "id": "Studio - Aberrasi Kromatik",
+    "ms": "Studio - Aberrasi Kromatik",
+    "prompt": "Product with chromatic aberration lighting. Color fringes with rainbow dispersion effects. Professional studio setup with prismatic elements. The mood is technical, colorful, and experimental. Chromatic studio photography with color lighting, prismatic props, experimental composition, 8K, technical quality."
+  },
+  {
+    "key": "studio-dust-motes-magical",
+    "en": "Studio - Dust Motes Magical",
+    "id": "Studio - Debu Magis",
+    "ms": "Studio - Habuk Magik",
+    "prompt": "Product with dust motes magical lighting. Floating particles with beam effects. Professional studio setup with atmospheric elements. The mood is magical, atmospheric, and ethereal. Dust motes studio photography with beam lighting, floating particles, ethereal composition, 8K, atmospheric quality."
+  },
+  {
+    "key": "studio-light-paint-flow",
+    "en": "Studio - Light Paint Flow",
+    "id": "Studio - Lukis Cahaya Alir",
+    "ms": "Studio - Lukis Cahaya Alir",
+    "prompt": "Product with light paint flow lighting. flowing light trails with movement effects. Professional studio setup with light painting tools. The mood is dynamic, artistic, and flowing. Light paint studio photography with flowing lighting, trail effects, dynamic composition, 8K, artistic quality."
+  },
+  {
+    "key": "studio-infrared-surreal",
+    "en": "Studio - Infrared Surreal",
+    "id": "Studio - Infrared Surreal",
+    "ms": "Studio - Infra Merah Surreal",
+    "prompt": "Product with infrared surreal lighting. False color infrared effects with surreal tones. Professional studio setup with infrared effects. The mood is surreal, otherworldly, and dreamlike. Infrared studio photography with surreal lighting, false colors, otherworldly composition, 8K, surreal quality."
+  },
+  {
+    "key": "studio-xray-translucent",
+    "en": "Studio - X-Ray Translucent",
+    "id": "Studio - X-Ray Transparan",
+    "ms": "Studio - Sinar-X Transparan",
+    "prompt": "Product with x-ray translucent lighting. See-through effects with skeletal structures. Professional studio setup with x-ray style elements. The mood is scientific, mysterious, and revealing. X-ray studio photography with translucent lighting, skeletal effects, scientific composition, 8K, technical quality."
+  },
+  {
+    "key": "studio-kaleidoscope-pattern",
+    "en": "Studio - Kaleidoscope Pattern",
+    "id": "Studio - Pola Kaleidoskop",
+    "ms": "Studio - Corak Kaleidoskop",
+    "prompt": "Product with kaleidoscope pattern lighting. Symmetrical geometric patterns with multiple reflections. Professional studio setup with mirror elements. The mood is psychedelic, geometric, and mesmerizing. Kaleidoscope studio photography with pattern lighting, geometric effects, psychedelic composition, 8K, pattern quality."
+  },
+  {
+    "key": "studio-holographic-future",
+    "en": "Studio - Holographic Future",
+    "id": "Studio - Holografik Masa Depan",
+    "ms": "Studio - Holografik Masa Depan",
+    "prompt": "Product with holographic future lighting. Iridescent colors with 3D hologram effects. Professional studio setup with futuristic props. The mood is futuristic, iridescent, and high-tech. Holographic studio photography with iridescent lighting, 3D effects, futuristic composition, 8K, holographic quality."
+  },
+  {
+    "key": "studio-matrix-digital",
+    "en": "Studio - Matrix Digital",
+    "id": "Studio - Matriks Digital",
+    "ms": "Studio - Matriks Digital",
+    "prompt": "Product with matrix digital lighting. Green code rain with digital effects. Professional studio setup with cyber elements. The mood is digital, cyber, and futuristic. Matrix studio photography with green lighting, code effects, digital composition, 8K, cyber quality."
+  },
+  {
+    "key": "studio-time-lapse-flow",
+    "en": "Studio - Time Lapse Flow",
+    "id": "Studio - Time Lapse Alir",
+    "ms": "Studio - Jeda Masa Alir",
+    "prompt": "Product with time lapse flow lighting. Motion blur with flowing light trails. Professional studio setup with motion elements. The mood is dynamic, temporal, and flowing. Time lapse studio photography with motion lighting, blur effects, dynamic composition, 8K, temporal quality."
+  },
+  {
+    "key": "studio-glitch-art-digital",
+    "en": "Studio - Glitch Art Digital",
+    "id": "Studio - Seni Glitch Digital",
+    "ms": "Studio - Seni Glitch Digital",
+    "prompt": "Product with glitch art digital lighting. Digital distortion with colorful artifacts. Professional studio setup with digital effects. The mood is digital, glitchy, and artistic. Glitch studio photography with digital lighting, distortion effects, artistic composition, 8K, glitch quality."
+  },
+  {
+    "key": "studio-thermal-heat-vision",
+    "en": "Studio - Thermal Heat Vision",
+    "id": "Studio - Visi Panas Termal",
+    "ms": "Studio - Visi Panas Termal",
+    "prompt": "Product with thermal heat vision lighting. Heat signature colors with temperature gradients. Professional studio setup with thermal effects. The mood is scientific, thermal, and analytical. Thermal studio photography with heat lighting, temperature effects, scientific composition, 8K, thermal quality."
+  },
+  {
+    "key": "studio-ultraviolet-blacklight",
+    "en": "Studio - Ultraviolet Blacklight",
+    "id": "Studio - Ultraviolet Cahaya Hitam",
+    "ms": "Studio - Ultraungu Cahaya Hitam",
+    "prompt": "Product with ultraviolet blacklight lighting. Fluorescent glowing effects with purple tones. Professional studio setup with UV reactive elements. The mood is psychedelic, glowing, and mysterious. UV studio photography with ultraviolet lighting, fluorescent effects, psychedelic composition, 8K, UV quality."
+  },
+  {
+    "key": "studio-polarized-filtered",
+    "en": "Studio - Polarized Filtered",
+    "id": "Studio - Terpolarisasi Terfilter",
+    "ms": "Studio - Terpolarisasi Terfilter",
+    "prompt": "Product with polarized filtered lighting. Enhanced contrast with saturated colors. Professional studio setup with polarizing elements. The mood is vibrant, enhanced, and colorful. Polarized studio photography with enhanced lighting, saturated colors, vibrant composition, 8K, enhanced quality."
+  },
+  {
+    "key": "studio-anamorphic-cinematic",
+    "en": "Studio - Anamorphic Cinematic",
+    "id": "Studio - Anamorfik Sinematik",
+    "ms": "Studio - Anamorfik Sinematik",
+    "prompt": "Product with anamorphic cinematic lighting. Widescreen flares with cinematic depth. Professional studio setup with film elements. The mood is cinematic, dramatic, and professional. Anamorphic studio photography with cinematic lighting, flare effects, dramatic composition, 8K, cinematic quality."
+  },
+  {
+    "key": "studio-lomography-dreamy",
+    "en": "Studio - Lomography Dreamy",
+    "id": "Studio - Lomografi Mimpi",
+    "ms": "Studio - Lomografi Bermimpi",
+    "prompt": "Product with lomography dreamy lighting. Vintage toy camera effects with light leaks. Professional studio setup with lomo elements. The mood is dreamy, vintage, and artistic. Lomography studio photography with dreamy lighting, vintage effects, artistic composition, 8K, lomo quality."
+  },
+  {
+    "key": "studio-stereoscopic-3d",
+    "en": "Studio - Stereoscopic 3D",
+    "id": "Studio - Stereoskopik 3D",
+    "ms": "Studio - Stereoskopik 3D",
+    "prompt": "Product with stereoscopic 3D lighting. Depth effects with dimensional perception. Professional studio setup with 3D elements. The mood is dimensional, immersive, and technical. Stereoscopic studio photography with depth lighting, 3D effects, dimensional composition, 8K, 3D quality."
+  },
+  {
+    "key": "studio-cross-processing-vivid",
+    "en": "Studio - Cross Processing Vivid",
+    "id": "Studio - Cross Processing Cemerlang",
+    "ms": "Studio - Cross Processing Cerah",
+    "prompt": "Product with cross processing vivid lighting. Oversaturated colors with chemical effects. Professional studio setup with vivid elements. The mood is vivid, chemical, and artistic. Cross processing studio photography with vivid lighting, chemical effects, artistic composition, 8K, vivid quality."
+  },
+  {
+    "key": "studio-pinhole-soft-focus",
+    "en": "Studio - Pinhole Soft Focus",
+    "id": "Studio - Lubang Jarum Fokus Lembut",
+    "ms": "Studio - Lubang Jarum Fokus Lembut",
+    "prompt": "Product with pinhole soft focus lighting. Dreamy blur with vignette effects. Professional studio setup with pinhole elements. The mood is dreamy, vintage, and artistic. Pinhole studio photography with soft lighting, blur effects, artistic composition, 8K, pinhole quality."
+  },
+  {
+    "key": "studio-polaroid-instant",
+    "en": "Studio - Polaroid Instant",
+    "id": "Studio - Polaroid Instan",
+    "ms": "Studio - Polaroid Serta-merta",
+    "prompt": "Product with polaroid instant lighting. Vintage instant photo with white borders. Professional studio setup with polaroid elements. The mood is instant, vintage, and nostalgic. Polaroid studio photography with instant lighting, vintage effects, nostalgic composition, 8K, instant quality."
+  },
+  {
+    "key": "studio-daguerreotype-historic",
+    "en": "Studio - Daguerreotype Historic",
+    "id": "Studio - Daguerreotype Historis",
+    "ms": "Studio - Daguerreotype Bersejarah",
+    "prompt": "Product with daguerreotype historic lighting. 19th century photo with metallic sheen. Professional studio setup with historic elements. The mood is historic, metallic, and timeless. Daguerreotype studio photography with historic lighting, metallic effects, timeless composition, 8K, historic quality."
+  },
+  {
+    "key": "studio-tintype-rustic",
+    "en": "Studio - Tintype Rustic",
+    "id": "Studio - Tintype Pedesaan",
+    "ms": "Studio - Tintype Kampung",
+    "prompt": "Product with tintype rustic lighting. Civil War era photo with rustic textures. Professional studio setup with tintype elements. The mood is rustic, historic, and textured. Tintype studio photography with rustic lighting, historic effects, textured composition, 8K, tintype quality."
+  },
+  {
+    "key": "studio-cyanotype-blue",
+    "en": "Studio - Cyanotype Blue",
+    "id": "Studio - Cyanotype Biru",
+    "ms": "Studio - Cyanotype Biru",
+    "prompt": "Product with cyanotype blue lighting. Blue photographic process with white silhouettes. Professional studio setup with cyanotype elements. The mood is blue, artistic, and photographic. Cyanotype studio photography with blue lighting, artistic effects, photographic composition, 8K, cyanotype quality."
+  },
+  {
+    "key": "studio-platinum-elegant",
+    "en": "Studio - Platinum Elegant",
+    "id": "Studio - Platinum Elegan",
+    "ms": "Studio - Platinum Elegan",
+    "prompt": "Product with platinum elegant lighting. Warm tonal range with metallic elegance. Professional studio setup with platinum elements. The mood is elegant, warm, and metallic. Platinum studio photography with elegant lighting, metallic effects, elegant composition, 8K, platinum quality."
+  },
+  {
+    "key": "studio-glass-plate-sharp",
+    "en": "Studio - Glass Plate Sharp",
+    "id": "Studio - Plat Kaca Tajam",
+    "ms": "Studio - Plat Kaca Tajam",
+    "prompt": "Product with glass plate sharp lighting. Ultra sharp detail with historic clarity. Professional studio setup with glass plate elements. The mood is sharp, historic, and detailed. Glass plate studio photography with sharp lighting, detailed effects, historic composition, 8K, sharp quality."
+  },
+  {
+    "key": "studio-autochrome-pointillist",
+    "en": "Studio - Autochrome Pointillist",
+    "id": "Studio - Autochrome Pointilis",
+    "ms": "Studio - Autochrome Pointilis",
+    "prompt": "Product with autochrome pointillist lighting. Colorful pointillist dots with vintage charm. Professional studio setup with autochrome elements. The mood is pointillist, colorful, and vintage. Autochrome studio photography with colorful lighting, pointillist effects, vintage composition, 8K, autochrome quality."
+  },
+  {
+    "key": "studio-digital-noise-gritty",
+    "en": "Studio - Digital Noise Gritty",
+    "id": "Studio - Noise Digital Kasar",
+    "ms": "Studio - Hingar Digital Kasar",
+    "prompt": "Product with digital noise gritty lighting. High ISO noise with gritty texture. Professional studio setup with noise elements. The mood is gritty, digital, and textured. Digital noise studio photography with gritty lighting, noise effects, textured composition, 8K, gritty quality."
+  },
+  {
+    "key": "studio-lens-flare-dramatic",
+    "en": "Studio - Lens Flare Dramatic",
+    "id": "Studio - Lens Flare Dramatis",
+    "ms": "Studio - Lens Flare Dramatik",
+    "prompt": "Product with lens flare dramatic lighting. Bright streaks with sunburst effects. Professional studio setup with flare elements. The mood is dramatic, bright, and cinematic. Lens flare studio photography with dramatic lighting, flare effects, cinematic composition, 8K, flare quality."
+  },
+  {
+    "key": "studio-bokeh-dreamy-blur",
+    "en": "Studio - Bokeh Dreamy Blur",
+    "id": "Studio - Bokeh Mimpi Kabur",
+    "ms": "Studio - Bokeh Bermimpi Kabur",
+    "prompt": "Product with bokeh dreamy blur lighting. Soft out-of-focus circles with dreamy quality. Professional studio setup with bokeh elements. The mood is dreamy, soft, and romantic. Bokeh studio photography with dreamy lighting, blur effects, romantic composition, 8K, bokeh quality."
+  },
+  {
+    "key": "studio-motion-panning-dynamic",
+    "en": "Studio - Motion Panning Dynamic",
+    "id": "Studio - Motion Panning Dinamik",
+    "ms": "Studio - Motion Panding Dinamik",
+    "prompt": "Product with motion panning dynamic lighting. Motion blur with frozen subject effect. Professional studio setup with motion elements. The mood is dynamic, fast, and focused. Motion panning studio photography with dynamic lighting, motion effects, focused composition, 8K, dynamic quality."
+  },
+  {
+    "key": "studio-double-exposure-ethereal",
+    "en": "Studio - Double Exposure Ethereal",
+    "id": "Studio - Double Exposure Ethereal",
+    "ms": "Studio - Dedahan Berganda Ethereal",
+    "prompt": "Product with double exposure ethereal lighting. Layered images with ghostly effects. Professional studio setup with exposure elements. The mood is ethereal, layered, and artistic. Double exposure studio photography with ethereal lighting, layered effects, artistic composition, 8K, exposure quality."
+  },
+  {
+    "key": "studio-infrared-foliage-dramatic",
+    "en": "Studio - Infrared Foliage Dramatic",
+    "id": "Studio - Infrared Dedauan Dramatis",
+    "ms": "Studio - Infra Merah Dedaun Dramatik",
+    "prompt": "Product with infrared foliage dramatic lighting. White foliage with dark sky effects. Professional studio setup with infrared elements. The mood is dramatic, otherworldly, and natural. Infrared foliage studio photography with dramatic lighting, foliage effects, natural composition, 8K, infrared quality."
+  },
+  {
+    "key": "studio-long-exposure-flowing",
+    "en": "Studio - Long Exposure Flowing",
+    "id": "Studio - Long Exposure Mengalir",
+    "ms": "Studio - Dedahan Panjang Mengalir",
+    "prompt": "Product with long exposure flowing lighting. Light trails with flowing movement. Professional studio setup with long exposure elements. The mood is flowing, dynamic, and artistic. Long exposure studio photography with flowing lighting, trail effects, artistic composition, 8K, exposure quality."
+  },
+  {
+    "key": "studio-high-speed-frozen",
+    "en": "Studio - High Speed Frozen",
+    "id": "Studio - Kecepatan Tinggi Beku",
+    "ms": "Studio - Kelajuan Tinggi Beku",
+    "prompt": "Product with high speed frozen lighting. Motion frozen in time with clarity. Professional studio setup with speed elements. The mood is frozen, fast, and clear. High speed studio photography with frozen lighting, speed effects, clear composition, 8K, speed quality."
+  },
+  {
+    "key": "studio-panorama-wide-sweeping",
+    "en": "Studio - Panorama Wide Sweeping",
+    "id": "Studio - Panorama Lebar Menyapu",
+    "ms": "Studio - Panorama Lebar Menyapu",
+    "prompt": "Product with panorama wide sweeping lighting. Wide angle with panoramic scope. Professional studio setup with panorama elements. The mood is wide, sweeping, and expansive. Panorama studio photography with wide lighting, panorama effects, expansive composition, 8K, panoramic quality."
+  },
+  {
+    "key": "studio-macro-detail-extreme",
+    "en": "Studio - Macro Detail Extreme",
+    "id": "Studio - Macro Detail Ekstrem",
+    "ms": "Studio - Makro Butiran Ekstrem",
+    "prompt": "Product with macro detail extreme lighting. Extreme close-up with detailed texture. Professional studio setup with macro elements. The mood is detailed, extreme, and textured. Macro studio photography with detail lighting, texture effects, detailed composition, 8K, macro quality."
+  },
+  {
+    "key": "studio-telephoto-compressed",
+    "en": "Studio - Telephoto Compressed",
+    "id": "Studio - Telephoto Terkompres",
+    "ms": "Studio - Telefoto Terkompres",
+    "prompt": "Product with telephoto compressed lighting. Compressed perspective with dramatic compression. Professional studio setup with telephoto elements. The mood is compressed, dramatic, and distant. Telephoto studio photography with compressed lighting, perspective effects, dramatic composition, 8K, telephoto quality."
+  },
+  {
+    "key": "studio-fisheye-distorted-wide",
+    "en": "Studio - Fisheye Distorted Wide",
+    "id": "Studio - Fisheye Terdistorsi Lebar",
+    "ms": "Studio - Fisheye Terpesong Lebar",
+    "prompt": "Product with fisheye distorted wide lighting. Extreme wide angle with distortion effects. Professional studio setup with fisheye elements. The mood is distorted, wide, and dramatic. Fisheye studio photography with distorted lighting, wide effects, dramatic composition, 8K, fisheye quality."
+  },
+  {
+    "key": "studio-tilt-shift-miniature",
+    "en": "Studio - Tilt Shift Miniature",
+    "id": "Studio - Tilt Shift Miniatur",
+    "ms": "Studio - Tilt Shift Miniatur",
+    "prompt": "Product with tilt shift miniature lighting. Selective focus with miniature effect. Professional studio setup with tilt shift elements. The mood is miniature, focused, and artistic. Tilt shift studio photography with miniature lighting, focus effects, artistic composition, 8K, tilt quality."
+  },
+  {
+    "key": "studio-stereographic-projection",
+    "en": "Studio - Stereographic Projection",
+    "id": "Studio - Proyeksi Stereografik",
+    "ms": "Studio - Unjuran Stereografik",
+    "prompt": "Product with stereographic projection lighting. Little planet effect with circular projection. Professional studio setup with stereographic elements. The mood is circular, projected, and artistic. Stereographic studio photography with projection lighting, circular effects, artistic composition, 8K, projection quality."
+  },
+  {
+    "key": "studio-hdr-high-dynamic",
+    "en": "Studio - HDR High Dynamic",
+    "id": "Studio - HDR Dinamik Tinggi",
+    "ms": "Studio - HDR Dinamik Tinggi",
+    "prompt": "Product with HDR high dynamic lighting. Enhanced dynamic range with vibrant colors. Professional studio setup with HDR elements. The mood is dynamic, enhanced, and vibrant. HDR studio photography with dynamic lighting, enhanced colors, vibrant composition, 8K, HDR quality."
+  },
+  {
+    "key": "studio-astro-photography-cosmic",
+    "en": "Studio - Astro Photography Cosmic",
+    "id": "Studio - Astro Fotografi Kosmik",
+    "ms": "Studio - Astro Fotografi Kosmik",
+    "prompt": "Product with astro photography cosmic lighting. Star trails with cosmic elements. Professional studio setup with astro elements. The mood is cosmic, stellar, and astronomical. Astro studio photography with cosmic lighting, star effects, astronomical composition, 8K, astro quality."
+  },
+  {
+    "key": "studio-microscopic-extreme-zoom",
+    "en": "Studio - Microscopic Extreme Zoom",
+    "id": "Studio - Mikroskopik Zoom Ekstrem",
+    "ms": "Studio - Mikroskopik Zoom Ekstrem",
+    "prompt": "Product with microscopic extreme zoom lighting. Ultra detailed microscopic view. Professional studio setup with microscopic elements. The mood is microscopic, detailed, and scientific. Microscopic studio photography with extreme lighting, detail effects, scientific composition, 8K, microscopic quality."
+  },
+  {
+    "key": "studio-thermal-imaging-heat",
+    "en": "Studio - Thermal Imaging Heat",
+    "id": "Studio - Citra Termal Panas",
+    "ms": "Studio - Imej Termal Panas",
+    "prompt": "Product with thermal imaging heat lighting. Heat signature visualization with color gradients. Professional studio setup with thermal elements. The mood is thermal, imaging, and scientific. Thermal imaging studio photography with heat lighting, imaging effects, scientific composition, 8K, thermal quality."
+  },
+  {
+    "key": "studio-xray-vision-transparent",
+    "en": "Studio - X-Ray Vision Transparent",
+    "id": "Studio - Visi X-Ray Transparan",
+    "ms": "Studio - Visi X-Ray Transparan",
+    "prompt": "Product with x-ray vision transparent lighting. See-through structure with transparency effects. Professional studio setup with x-ray elements. The mood is transparent, structural, and revealing. X-ray vision studio photography with transparent lighting, structure effects, revealing composition, 8K, x-ray quality."
+  },
+  {
+    "key": "studio-ultraviolet-fluorescent-glow",
+    "en": "Studio - Ultraviolet Fluorescent Glow",
+    "id": "Studio - Ultraviolet Fluorescent Bersinar",
+    "ms": "Studio - Ultraungu Fluorescent Bersinar",
+    "prompt": "Product with ultraviolet fluorescent glow lighting. UV reactive materials with fluorescent glow. Professional studio setup with UV elements. The mood is fluorescent, glowing, and otherworldly. UV fluorescent studio photography with glowing lighting, fluorescent effects, otherworldly composition, 8K, UV quality."
+  },
+  {
+    "key": "studio-sonar-imaging-depth",
+    "en": "Studio - Sonar Imaging Depth",
+    "id": "Studio - Citra Sonar Kedalaman",
+    "ms": "Studio - Imej Sonar Kedalaman",
+    "prompt": "Product with sonar imaging depth lighting. Depth visualization with sonar patterns. Professional studio setup with sonar elements. The mood is depth, sonar, and technical. Sonar imaging studio photography with depth lighting, sonar effects, technical composition, 8K, sonar quality."
+  },
+  {
+    "key": "studio-lidar-3d-mapping",
+    "en": "Studio - LiDAR 3D Mapping",
+    "id": "Studio - LiDAR Pemetaan 3D",
+    "ms": "Studio - LiDAR Pemetaan 3D",
+    "prompt": "Product with LiDAR 3D mapping lighting. Point cloud visualization with 3D mapping. Professional studio setup with LiDAR elements. The mood is mapped, point cloud, and technical. LiDAR studio photography with mapping lighting, point cloud effects, technical composition, 8K, LiDAR quality."
+  },
+  {
+    "key": "studio-magnetic-field-visualization",
+    "en": "Studio - Magnetic Field Visualization",
+    "id": "Studio - Visualisasi Medan Magnet",
+    "ms": "Studio - Visualisasi Medan Magnet",
+    "prompt": "Product with magnetic field visualization lighting. Field lines with magnetic effects. Professional studio setup with magnetic elements. The mood is magnetic, field-based, and scientific. Magnetic field studio photography with field lighting, magnetic effects, scientific composition, 8K, magnetic quality."
+  },
+  {
+    "key": "studio-quantum-uncertainty-probability",
+    "en": "Studio - Quantum Uncertainty Probability",
+    "id": "Studio - Ketidakpastian Kuantum Probabilitas",
+    "ms": "Studio - Ketidakpastian Kuantum Kebarangkalian",
+    "prompt": "Product with quantum uncertainty probability lighting. Probability clouds with quantum effects. Professional studio setup with quantum elements. The mood is quantum, uncertain, and scientific. Quantum studio photography with uncertainty lighting, probability effects, scientific composition, 8K, quantum quality."
+  },
+  {
+    "key": "studio-particle-physics-collision",
+    "en": "Studio - Particle Physics Collision",
+    "id": "Studio - Fisika Partikel Tabrakan",
+    "ms": "Studio - Fizik Zarah Perlanggaran",
+    "prompt": "Product with particle physics collision lighting. Particle tracks with collision effects. Professional studio setup with particle elements. The mood is particle, collision-based, and scientific. Particle physics studio photography with collision lighting, particle effects, scientific composition, 8K, particle quality."
+  },
+  {
+    "key": "studio-neural-network-connections",
+    "en": "Studio - Neural Network Connections",
+    "id": "Studio - Koneksi Jaringan Saraf",
+    "ms": "Studio - Sambungan Rangkaian Neural",
+    "prompt": "Product with neural network connections lighting. Connected nodes with neural patterns. Professional studio setup with neural elements. The mood is neural, connected, and technological. Neural network studio photography with connection lighting, network effects, technological composition, 8K, neural quality."
+  },
+  {
+    "key": "studio-blockchain-distributed",
+    "en": "Studio - Blockchain Distributed",
+    "id": "Studio - Blockchain Terdistribusi",
+    "ms": "Studio - Blockchain Teragih",
+    "prompt": "Product with blockchain distributed lighting. Distributed network with blockchain patterns. Professional studio setup with blockchain elements. The mood is distributed, networked, and technological. Blockchain studio photography with distributed lighting, network effects, technological composition, 8K, blockchain quality."
+  },
+  {
+    "key": "studio-artificial-intelligence-learning",
+    "en": "Studio - Artificial Intelligence Learning",
+    "id": "Studio - Kecerdasan Buatan Pembelajaran",
+    "ms": "Studio - Kecerdasan Tiruan Pembelajaran",
+    "prompt": "Product with artificial intelligence learning lighting. AI patterns with learning algorithms. Professional studio setup with AI elements. The mood is intelligent, learning, and technological. AI studio photography with learning lighting, algorithm effects, technological composition, 8K, AI quality."
+  },
+  {
+    "key": "studio-virtual-reality-immersive",
+    "en": "Studio - Virtual Reality Immersive",
+    "id": "Studio - Realitas Virtual Imersif",
+    "ms": "Studio - Realiti Maya Imersif",
+    "prompt": "Product with virtual reality immersive lighting. VR environment with immersive effects. Professional studio setup with VR elements. The mood is immersive, virtual, and technological. VR studio photography with immersive lighting, virtual effects, technological composition, 8K, VR quality."
+  },
+  {
+    "key": "studio-augmented-reality-overlay",
+    "en": "Studio - Augmented Reality Overlay",
+    "id": "Studio - Realitas Tertambah Overlay",
+    "ms": "Studio - Realiti Tertambah Lapisan",
+    "prompt": "Product with augmented reality overlay lighting. AR elements with overlay effects. Professional studio setup with AR elements. The mood is augmented, overlaid, and technological. AR studio photography with overlay lighting, AR effects, technological composition, 8K, AR quality."
+  },
+  {
+    "key": "studio-mixed-reality-blended",
+    "en": "Studio - Mixed Reality Blended",
+    "id": "Studio - Realitas Campuran Terpadu",
+    "ms": "Studio - Realiti Campuran Bercampur",
+    "prompt": "Product with mixed reality blended lighting. MR elements with blended effects. Professional studio setup with MR elements. The mood is mixed, blended, and technological. Mixed reality studio photography with blended lighting, MR effects, technological composition, 8K, MR quality."
+  },
+  {
+    "key": "studio-metaverse-digital-world",
+    "en": "Studio - Metaverse Digital World",
+    "id": "Studio - Metaverse Dunia Digital",
+    "ms": "Studio - Metaverse Dunia Digital",
+    "prompt": "Product with metaverse digital world lighting. Digital universe with metaverse elements. Professional studio setup with metaverse elements. The mood is digital, metaverse, and technological. Metaverse studio photography with digital lighting, universe effects, technological composition, 8K, metaverse quality."
+  },
+  {
+    "key": "studio-digital-twin-simulation",
+    "en": "Studio - Digital Twin Simulation",
+    "id": "Studio - Digital Twin Simulasi",
+    "ms": "Studio - Digital Twin Simulasi",
+    "prompt": "Product with digital twin simulation lighting. Virtual replica with simulation effects. Professional studio setup with digital twin elements. The mood is simulated, virtual, and technological. Digital twin studio photography with simulation lighting, virtual effects, technological composition, 8K, digital quality."
+  },
+  {
+    "key": "studio-cloud-computing-distributed",
+    "en": "Studio - Cloud Computing Distributed",
+    "id": "Studio - Cloud Computing Terdistribusi",
+    "ms": "Studio - Cloud Computing Teragih",
+    "prompt": "Product with cloud computing distributed lighting. Cloud infrastructure with distributed systems. Professional studio setup with cloud elements. The mood is cloud-based, distributed, and technological. Cloud computing studio photography with distributed lighting, cloud effects, technological composition, 8K, cloud quality."
+  },
+  {
+    "key": "studio-edge-computing-local",
+    "en": "Studio - Edge Computing Local",
+    "id": "Studio - Edge Computing Lokal",
+    "ms": "Studio - Edge Computing Tempatan",
+    "prompt": "Product with edge computing local lighting. Local processing with edge devices. Professional studio setup with edge elements. The mood is edge-based, local, and technological. Edge computing studio photography with local lighting, edge effects, technological composition, 8K, edge quality."
+  },
+  {
+    "key": "studio-quantum-computing-superposition",
+    "en": "Studio - Quantum Computing Superposition",
+    "id": "Studio - Komputasi Kuantum Superposisi",
+    "ms": "Studio - Pengkomputeran Kuantum Superposisi",
+    "prompt": "Product with quantum computing superposition lighting. Quantum states with superposition effects. Professional studio setup with quantum elements. The mood is quantum, superposed, and technological. Quantum computing studio photography with superposition lighting, quantum effects, technological composition, 8K, quantum quality."
+  },
+  {
+    "key": "studio-biotechnology-genetic-engineering",
+    "en": "Studio - Biotechnology Genetic Engineering",
+    "id": "Studio - Bioteknologi Rekayasa Genetika",
+    "ms": "Studio - Bioteknologi Kejuruteraan Genetik",
+    "prompt": "Product with biotechnology genetic engineering lighting. DNA sequences with genetic elements. Professional studio setup with biotechnology elements. The mood is genetic, engineered, and scientific. Biotechnology studio photography with genetic lighting, DNA effects, scientific composition, 8K, biotech quality."
+  },
+  {
+    "key": "studio-nanotechnology-molecular-scale",
+    "en": "Studio - Nanotechnology Molecular Scale",
+    "id": "Studio - Nanoteknologi Skala Molekuler",
+    "ms": "Studio - Nanoteknologi Skala Molekul",
+    "prompt": "Product with nanotechnology molecular scale lighting. Molecular structures with nanotechnology effects. Professional studio setup with nano elements. The mood is molecular, nano-scaled, and scientific. Nanotechnology studio photography with molecular lighting, nano effects, scientific composition, 8K, nano quality."
+  },
+  {
+    "key": "studio-renewable-energy-sustainable",
+    "en": "Studio - Renewable Energy Sustainable",
+    "id": "Studio - Energi Terbarukan Berkelanjutan",
+    "ms": "Studio - Tenaga Boleh Diperbaharui Mampan",
+    "prompt": "Product with renewable energy sustainable lighting. Green energy with sustainable elements. Professional studio setup with renewable elements. The mood is sustainable, renewable, and environmental. Renewable energy studio photography with sustainable lighting, green effects, environmental composition, 8K, renewable quality."
+  },
+  {
+    "key": "studio-smart-grid-intelligent",
+    "en": "Studio - Smart Grid Intelligent",
+    "id": "Studio - Smart Grid Cerdas",
+    "ms": "Studio - Smart Grid Pintar",
+    "prompt": "Product with smart grid intelligent lighting. Intelligent power grid with smart elements. Professional studio setup with smart grid elements. The mood is intelligent, grid-based, and technological. Smart grid studio photography with intelligent lighting, grid effects, technological composition, 8K, smart quality."
+  },
+  {
+    "key": "studio-internet-of-things-connected",
+    "en": "Studio - Internet of Things Connected",
+    "id": "Studio - Internet of Things Terhubung",
+    "ms": "Studio - Internet of Things Berhubung",
+    "prompt": "Product with internet of things connected lighting. IoT devices with connected systems. Professional studio setup with IoT elements. The mood is connected, IoT-based, and technological. IoT studio photography with connected lighting, device effects, technological composition, 8K, IoT quality."
+  },
+  {
+    "key": "studio-cybersecurity-protected",
+    "en": "Studio - Cybersecurity Protected",
+    "id": "Studio - Keamanan Siber Dilindungi",
+    "ms": "Studio - Keselamatan Siber Dilindungi",
+    "prompt": "Product with cybersecurity protected lighting. Security systems with protection elements. Professional studio setup with security elements. The mood is protected, secure, and technological. Cybersecurity studio photography with protected lighting, security effects, technological composition, 8K, security quality."
+  },
+  {
+    "key": "studio-robotics-automation-precise",
+    "en": "Studio - Robotics Automation Precise",
+    "id": "Studio - Robotika Otomasi Tepat",
+    "ms": "Studio - Robotik Automasi Tepat",
+    "prompt": "Product with robotics automation precise lighting. Robotic systems with precise automation. Professional studio setup with robotics elements. The mood is robotic, automated, and technological. Robotics studio photography with precise lighting, automation effects, technological composition, 8K, robotics quality."
+  },
+  {
+    "key": "studio-artificial-general-intelligence",
+    "en": "Studio - Artificial General Intelligence",
+    "id": "Studio - Kecerdasan Buatan Umum",
+    "ms": "Studio - Kecerdasan Tiruan Am",
+    "prompt": "Product with artificial general intelligence lighting. AGI systems with general intelligence. Professional studio setup with AGI elements. The mood is intelligent, general, and technological. AGI studio photography with intelligent lighting, general effects, technological composition, 8K, AGI quality."
+  },
+  {
+    "key": "studio-machine-learning-predictive",
+    "en": "Studio - Machine Learning Predictive",
+    "id": "Studio - Machine Learning Prediktif",
+    "ms": "Studio - Machine Learning Ramalan",
+    "prompt": "Product with machine learning predictive lighting. ML algorithms with predictive patterns. Professional studio setup with ML elements. The mood is predictive, learned, and technological. Machine learning studio photography with predictive lighting, algorithm effects, technological composition, 8K, ML quality."
+  },
+  {
+    "key": "studio-deep-learning-neural-layers",
+    "en": "Studio - Deep Learning Neural Layers",
+    "id": "Studio - Deep Learning Lapisan Neural",
+    "ms": "Studio - Deep Learning Lapisan Neural",
+    "prompt": "Product with deep learning neural layers lighting. Deep networks with layered architecture. Professional studio setup with deep learning elements. The mood is deep, layered, and technological. Deep learning studio photography with layered lighting, network effects, technological composition, 8K, deep quality."
+  },
+  {
+    "key": "studio-computer-vision-recognition",
+    "en": "Studio - Computer Vision Recognition",
+    "id": "Studio - Computer Vision Pengenalan",
+    "ms": "Studio - Computer Vision Pengenalan",
+    "prompt": "Product with computer vision recognition lighting. Vision systems with recognition patterns. Professional studio setup with vision elements. The mood is visual, recognized, and technological. Computer vision studio photography with recognition lighting, vision effects, technological composition, 8K, vision quality."
+  },
+  {
+    "key": "studio-natural-language-processing",
+    "en": "Studio - Natural Language Processing",
+    "id": "Studio - Natural Language Processing",
+    "ms": "Studio - Pemprosesan Bahasa Semula Jadi",
+    "prompt": "Product with natural language processing lighting. Language understanding with text patterns. Professional studio setup with NLP elements. The mood is linguistic, processed, and technological. NLP studio photography with linguistic lighting, text effects, technological composition, 8K, NLP quality."
+  },
+  {
+    "key": "studio-speech-recognition-voice",
+    "en": "Studio - Speech Recognition Voice",
+    "id": "Studio - Speech Recognition Suara",
+    "ms": "Studio - Speech Recognition Suara",
+    "prompt": "Product with speech recognition voice lighting. Voice understanding with audio patterns. Professional studio setup with speech elements. The mood is vocal, recognized, and technological. Speech recognition studio photography with vocal lighting, audio effects, technological composition, 8K, speech quality."
+  },
+  {
+    "key": "studio-computer-graphics-rendering",
+    "en": "Studio - Computer Graphics Rendering",
+    "id": "Studio - Computer Graphics Rendering",
+    "ms": "Studio - Computer Graphics Rendering",
+    "prompt": "Product with computer graphics rendering lighting. 3D rendering with graphics elements. Professional studio setup with graphics elements. The mood is rendered, graphical, and technological. Computer graphics studio photography with rendered lighting, graphics effects, technological composition, 8K, graphics quality."
+  },
+  {
+    "key": "studio-animation-motion-dynamic",
+    "en": "Studio - Animation Motion Dynamic",
+    "id": "Studio - Animasi Gerak Dinamik",
+    "ms": "Studio - Animasi Gerak Dinamik",
+    "prompt": "Product with animation motion dynamic lighting. Animated sequences with motion dynamics. Professional studio setup with animation elements. The mood is animated, dynamic, and technological. Animation studio photography with dynamic lighting, motion effects, technological composition, 8K, animation quality."
+  },
+  {
+    "key": "studio-virtual-production-hybrid",
+    "en": "Studio - Virtual Production Hybrid",
+    "id": "Studio - Virtual Production Hibrid",
+    "ms": "Studio - Virtual Production Hibrid",
+    "prompt": "Product with virtual production hybrid lighting. Virtual sets with hybrid elements. Professional studio setup with virtual production elements. The mood is hybrid, virtual, and technological. Virtual production studio photography with hybrid lighting, virtual effects, technological composition, 8K, virtual quality."
+  },
+  {
+    "key": "studio-game-engine-real-time",
+    "en": "Studio - Game Engine Real Time",
+    "id": "Studio - Game Engine Real Time",
+    "ms": "Studio - Game Engine Real Time",
+    "prompt": "Product with game engine real time lighting. Real-time rendering with game elements. Professional studio setup with game engine elements. The mood is real-time, game-based, and technological. Game engine studio photography with real-time lighting, game effects, technological composition, 8K, game quality."
+  },
+  {
+    "key": "studio-procedural-generation-algorithmic",
+    "en": "Studio - Procedural Generation Algorithmic",
+    "id": "Studio - Generasi Prosedural Algoritmik",
+    "ms": "Studio - Penjanaan Prosedural Algoritma",
+    "prompt": "Product with procedural generation algorithmic lighting. Algorithmic creation with procedural elements. Professional studio setup with procedural elements. The mood is procedural, algorithmic, and technological. Procedural generation studio photography with algorithmic lighting, generation effects, technological composition, 8K, procedural quality."
+  },
+  {
+    "key": "studio-parametric-design-geometric",
+    "en": "Studio - Parametric Design Geometric",
+    "id": "Studio - Desain Parametrik Geometrik",
+    "ms": "Studio - Reka Bentuk Parametrik Geometrik",
+    "prompt": "Product with parametric design geometric lighting. Parametric models with geometric elements. Professional studio setup with parametric elements. The mood is parametric, geometric, and technological. Parametric design studio photography with geometric lighting, parametric effects, technological composition, 8K, parametric quality."
+  },
+  {
+    "key": "studio-generative-adversarial-networks",
+    "en": "Studio - Generative Adversarial Networks",
+    "id": "Studio - Generative Adversarial Networks",
+    "ms": "Studio - Generative Adversarial Networks",
+    "prompt": "Product with generative adversarial networks lighting. GAN generation with adversarial elements. Professional studio setup with GAN elements. The mood is generative, adversarial, and technological. GAN studio photography with generative lighting, network effects, technological composition, 8K, GAN quality."
+  },
+  {
+    "key": "studio-transformer-neural-networks",
+    "en": "Studio - Transformer Neural Networks",
+    "id": "Studio - Transformer Neural Networks",
+    "ms": "Studio - Transformer Neural Networks",
+    "prompt": "Product with transformer neural networks lighting. Attention mechanisms with transformer elements. Professional studio setup with transformer elements. The mood is transformative, attentive, and technological. Transformer studio photography with transformative lighting, network effects, technological composition, 8K, transformer quality."
+  },
+  {
+    "key": "studio-diffusion-models-generative",
+    "en": "Studio - Diffusion Models Generative",
+    "id": "Studio - Model Diffusi Generatif",
+    "ms": "Studio - Model Resapan Generatif",
+    "prompt": "Product with diffusion models generative lighting. Diffusion generation with model elements. Professional studio setup with diffusion elements. The mood is diffusive, generative, and technological. Diffusion models studio photography with generative lighting, diffusion effects, technological composition, 8K, diffusion quality."
+  },
+  {
+    "key": "studio-large-language-models-text",
+    "en": "Studio - Large Language Models Text",
+    "id": "Studio - Model Bahasa Besar Teks",
+    "ms": "Studio - Model Bahasa Besar Teks",
+    "prompt": "Product with large language models text lighting. Text generation with LLM elements. Professional studio setup with LLM elements. The mood is linguistic, large-scale, and technological. Large language models studio photography with text lighting, language effects, technological composition, 8K, LLM quality."
+  },
+  {
+    "key": "studio-multimodal-ai-integrated",
+    "en": "Studio - Multimodal AI Integrated",
+    "id": "Studio - AI Multimodal Terintegrasi",
+    "ms": "Studio - AI Multimodal Bersepadu",
+    "prompt": "Product with multimodal AI integrated lighting. Multiple modalities with integrated AI. Professional studio setup with multimodal elements. The mood is integrated, multimodal, and technological. Multimodal AI studio photography with integrated lighting, modal effects, technological composition, 8K, multimodal quality."
+  },
+  {
+    "key": "studio-foundation-models-versatile",
+    "en": "Studio - Foundation Models Versatile",
+    "id": "Studio - Model Foundation Serbaguna",
+    "ms": "Studio - Model Asas Serbaguna",
+    "prompt": "Product with foundation models versatile lighting. Versatile models with foundation elements. Professional studio setup with foundation elements. The mood is foundational, versatile, and technological. Foundation models studio photography with versatile lighting, model effects, technological composition, 8K, foundation quality."
+  },
+  {
+    "key": "studio-emergent-ai-behaviors",
+    "en": "Studio - Emergent AI Behaviors",
+    "id": "Studio - Perilaku AI Muncul",
+    "ms": "Studio - Kelakuan AI Muncul",
+    "prompt": "Product with emergent AI behaviors lighting. Emergent patterns with AI behaviors. Professional studio setup with emergent elements. The mood is emergent, behavioral, and technological. Emergent AI studio photography with behavioral lighting, emergence effects, technological composition, 8K, emergent quality."
+  },
+  {
+    "key": "studio-ai-safety-alignment",
+    "en": "Studio - AI Safety Alignment",
+    "id": "Studio - Keselamatan AI Penyelarasan",
+    "ms": "Studio - Keselamatan AI Penjajaran",
+    "prompt": "Product with AI safety alignment lighting. Safe AI with aligned objectives. Professional studio setup with safety elements. The mood is safe, aligned, and technological. AI safety studio photography with aligned lighting, safety effects, technological composition, 8K, safety quality."
+  },
+  {
+    "key": "studio-explainable-ai-transparent",
+    "en": "Studio - Explainable AI Transparent",
+    "id": "Studio - AI Dapat Dijelaskan Transparan",
+    "ms": "Studio - AI Boleh Diterangkan Telus",
+    "prompt": "Product with explainable AI transparent lighting. Transparent AI with explainable elements. Professional studio setup with explainable elements. The mood is explainable, transparent, and technological. Explainable AI studio photography with transparent lighting, explanation effects, technological composition, 8K, explainable quality."
+  },
+  {
+    "key": "studio-ai-ethics-responsible",
+    "en": "Studio - AI Ethics Responsible",
+    "id": "Studio - Etika AI Bertanggung Jawab",
+    "ms": "Studio - Etika AI Bertanggungjawab",
+    "prompt": "Product with AI ethics responsible lighting. Responsible AI with ethical principles. Professional studio setup with ethics elements. The mood is ethical, responsible, and technological. AI ethics studio photography with responsible lighting, ethical effects, technological composition, 8K, ethics quality."
+  },
+  {
+    "key": "studio-future-technology-evolution",
+    "en": "Studio - Future Technology Evolution",
+    "id": "Studio - Teknologi Masa Depan Evolusi",
+    "ms": "Studio - Teknologi Masa Depan Evolusi",
+    "prompt": "Product with future technology evolution lighting. Evolving tech with future elements. Professional studio setup with future elements. The mood is evolutionary, futuristic, and technological. Future technology studio photography with evolutionary lighting, future effects, technological composition, 8K, future quality."
+  },
+  {
+    "key": "studio-innovation-breakthrough-disruptive",
+    "en": "Studio - Innovation Breakthrough Disruptive",
+    "id": "Studio - Inovasi Terobosan Disruptif",
+    "ms": "Studio - Inovasi Terobosan Disruptif",
+    "prompt": "Product with innovation breakthrough disruptive lighting. Disruptive innovation with breakthrough elements. Professional studio setup with innovation elements. The mood is innovative, breakthrough, and technological. Innovation studio photography with disruptive lighting, innovation effects, technological composition, 8K, innovation quality."
+  },
+  {
+    "key": "studio-technological-convergence-integrated",
+    "en": "Studio - Technological Convergence Integrated",
+    "id": "Studio - Konvergensi Teknologi Terintegrasi",
+    "ms": "Studio - Konvergensi Teknologi Bersepadu",
+    "prompt": "Product with technological convergence integrated lighting. Converged tech with integrated systems. Professional studio setup with convergence elements. The mood is convergent, integrated, and technological. Technological convergence studio photography with integrated lighting, convergence effects, technological composition, 8K, convergence quality."
+  },
+  {
+    "key": "studio-advanced-manufacturing-precision",
+    "en": "Studio - Advanced Manufacturing Precision",
+    "id": "Studio - Manufaktur Lanjutan Presisi",
+    "ms": "Studio - Pembuatan Lanjutan Ketepatan",
+    "prompt": "Product with advanced manufacturing precision lighting. Precision manufacturing with advanced elements. Professional studio setup with manufacturing elements. The mood is manufactured, precise, and technological. Advanced manufacturing studio photography with precision lighting, manufacturing effects, technological composition, 8K, manufacturing quality."
+  },
+  {
+    "key": "studio-smart-materials-responsive",
+    "en": "Studio - Smart Materials Responsive",
+    "id": "Studio - Material Cerdas Responsif",
+    "ms": "Studio - Material Pintar Responsif",
+    "prompt": "Product with smart materials responsive lighting. Responsive materials with smart elements. Professional studio setup with material elements. The mood is material, responsive, and technological. Smart materials studio photography with responsive lighting, material effects, technological composition, 8K, material quality."
+  },
+  {
+    "key": "studio-bio-inspired-engineering-natural",
+    "en": "Studio - Bio-Inspired Engineering Natural",
+    "id": "Studio - Rekayasa Terinspirasi Biologi Alam",
+    "ms": "Studio - Kejuruteraan Terinspirasi Biologi Alam",
+    "prompt": "Product with bio-inspired engineering natural lighting. Bio-inspired design with natural elements. Professional studio setup with bio elements. The mood is bio-inspired, natural, and technological. Bio-inspired studio photography with natural lighting, bio effects, technological composition, 8K, bio quality."
+  },
+  {
+    "key": "studio-synthetic-biology-engineered",
+    "en": "Studio - Synthetic Biology Engineered",
+    "id": "Studio - Biologi Sintetik Direkayasa",
+    "ms": "Studio - Biologi Sintetik Direkayasa",
+    "prompt": "Product with synthetic biology engineered lighting. Engineered biology with synthetic elements. Professional studio setup with synthetic elements. The mood is synthetic, biological, and technological. Synthetic biology studio photography with engineered lighting, biology effects, technological composition, 8K, synthetic quality."
+  },
+  {
+    "key": "studio-quantum-biology-entangled",
+    "en": "Studio - Quantum Biology Entangled",
+    "id": "Studio - Biologi Kuantum Terjerat",
+    "ms": "Studio - Biologi Kuantum Terjerat",
+    "prompt": "Product with quantum biology entangled lighting. Quantum effects in biological systems. Professional studio setup with quantum biology elements. The mood is quantum, biological, and scientific. Quantum biology studio photography with entangled lighting, quantum effects, biological composition, 8K, quantum quality."
+  },
+  {
+    "key": "studio-cosmic-radiation-energetic",
+    "en": "Studio - Cosmic Radiation Energetic",
+    "id": "Studio - Radiasi Kosmik Energik",
+    "ms": "Studio - Radiasi Kosmik Energik",
+    "prompt": "Product with cosmic radiation energetic lighting. Cosmic rays with energetic radiation. Professional studio setup with cosmic elements. The mood is cosmic, energetic, and scientific. Cosmic radiation studio photography with energetic lighting, radiation effects, scientific composition, 8K, cosmic quality."
+  },
+  {
+    "key": "studio-atomic-molecular-structure",
+    "en": "Studio - Atomic Molecular Structure",
+    "id": "Studio - Struktur Atomik Molekuler",
+    "ms": "Studio - Struktur Atom Molekul",
+    "prompt": "Product with atomic molecular structure lighting. Atomic arrangements with molecular structure. Professional studio setup with atomic elements. The mood is atomic, molecular, and scientific. Atomic molecular studio photography with structure lighting, atomic effects, scientific composition, 8K, atomic quality."
+  },
+  {
+    "key": "studio-subatomic-particle-physics",
+    "en": "Studio - Subatomic Particle Physics",
+    "id": "Studio - Fisika Partikel Subatomik",
+    "ms": "Studio - Fizik Zarah Subatomik",
+    "prompt": "Product with subatomic particle physics lighting. Subatomic particles with quantum effects. Professional studio setup with subatomic elements. The mood is subatomic, quantum, and scientific. Subatomic physics studio photography with particle lighting, quantum effects, scientific composition, 8K, subatomic quality."
+  },
+  {
+    "key": "studio-plasma-physics-ionized",
+    "en": "Studio - Plasma Physics Ionized",
+    "id": "Studio - Fisika Plasma Terionisasi",
+    "ms": "Studio - Fizik Plasma Terionisasi",
+    "prompt": "Product with plasma physics ionized lighting. Ionized plasma with physics elements. Professional studio setup with plasma elements. The mood is ionized, plasma-based, and scientific. Plasma physics studio photography with ionized lighting, plasma effects, scientific composition, 8K, plasma quality."
+  },
+  {
+    "key": "studio-nuclear-fission-chain-reaction",
+    "en": "Studio - Nuclear Fission Chain Reaction",
+    "id": "Studio - Fisi Nuklir Reaksi Berantai",
+    "ms": "Studio - Fisi Nuklear Reaksi Rantai",
+    "prompt": "Product with nuclear fission chain reaction lighting. Nuclear fission with chain reaction elements. Professional studio setup with nuclear elements. The mood is nuclear, fissile, and scientific. Nuclear fission studio photography with chain lighting, fission effects, scientific composition, 8K, nuclear quality."
+  },
+  {
+    "key": "studio-nuclear-fusion-energy-generation",
+    "en": "Studio - Nuclear Fusion Energy Generation",
+    "id": "Studio - Fusi Nuklir Pembangkit Energi",
+    "ms": "Studio - Fusi Nuklear Pembangkit Tenaga",
+    "prompt": "Product with nuclear fusion energy generation lighting. Nuclear fusion with energy elements. Professional studio setup with fusion elements. The mood is fusional, energetic, and scientific. Nuclear fusion studio photography with energy lighting, fusion effects, scientific composition, 8K, fusion quality."
+  },
+  {
+    "key": "stellar-nucleosynthesis-creation",
+    "en": "Studio - Stellar Nucleosynthesis Creation",
+    "id": "Studio - Nukleosintesis Bintang Penciptaan",
+    "ms": "Studio - Nukleosintesis Bintang Penciptaan",
+    "prompt": "Product with stellar nucleosynthesis creation lighting. Stellar element creation with cosmic elements. Professional studio setup with stellar elements. The mood is stellar, creative, and cosmic. Stellar nucleosynthesis studio photography with creation lighting, stellar effects, cosmic composition, 8K, stellar quality."
+  },
+  {
+    "key": "studio-black-hole-gravitational-singularity",
+    "en": "Studio - Black Hole Gravitational Singularity",
+    "id": "Studio - Lubang Hitam Singularitas Gravitasi",
+    "ms": "Studio - Lubang Hitam Singulariti Graviti",
+    "prompt": "Product with black hole gravitational singularity lighting. Black hole physics with gravitational elements. Professional studio setup with black hole elements. The mood is black-holed, gravitational, and cosmic. Black hole studio photography with singularity lighting, hole effects, cosmic composition, 8K, black hole quality."
+  },
+  {
+    "key": "studio-neutron-star-dense-matter",
+    "en": "Studio - Neutron Star Dense Matter",
+    "id": "Studio - Bintang Neutron Mater Padat",
+    "ms": "Studio - Bintang Neutron Zarah Padat",
+    "prompt": "Product with neutron star dense matter lighting. Dense matter physics with neutron elements. Professional studio setup with neutron star elements. The mood is neutron, dense, and cosmic. Neutron star studio photography with dense lighting, neutron effects, cosmic composition, 8K, neutron quality."
+  },
+  {
+    "key": "studio-white-hole-thermodynamic-arrow",
+    "en": "Studio - White Hole Thermodynamic Arrow",
+    "id": "Studio - Lubang Putih Panah Termodinamik",
+    "ms": "Studio - Lubang Putih Panah Termodinamik",
+    "prompt": "Product with white hole thermodynamic arrow lighting. White hole physics with thermodynamic elements. Professional studio setup with white hole elements. The mood is white-holed, thermodynamic, and cosmic. White hole studio photography with arrow lighting, hole effects, cosmic composition, 8K, white hole quality."
+  },
+  {
+    "key": "studio-wormhole-spacetime-tunnel",
+    "en": "Studio - Wormhole Spacetime Tunnel",
+    "id": "Studio - Lubang Cacing Terowong Waktu",
+    "ms": "Studio - Lubang Cacing Terowong Masa",
+    "prompt": "Product with wormhole spacetime tunnel lighting. Wormhole physics with tunnel elements. Professional studio setup with wormhole elements. The mood is wormholed, tunnel-based, and cosmic. Wormhole studio photography with tunnel lighting, wormhole effects, cosmic composition, 8K, wormhole quality."
+  },
+  {
+    "key": "studio-multiverse-parallel-universes",
+    "en": "Studio - Multiverse Parallel Universes",
+    "id": "Studio - Multiverse Alam Semesta Paralel",
+    "ms": "Studio - Multiverse Alam Semesta Selari",
+    "prompt": "Product with multiverse parallel universes lighting. Multiple universes with parallel elements. Professional studio setup with multiverse elements. The mood is multiversal, parallel, and cosmic. Multiverse studio photography with parallel lighting, universe effects, cosmic composition, 8K, multiverse quality."
+  },
+  {
+    "key": "studio-string-theory-vibrating-dimensions",
+    "en": "Studio - String Theory Vibrating Dimensions",
+    "id": "Studio - Teori String Dimensi Bergetar",
+    "ms": "Studio - Teori Tali Dimensi Bergetar",
+    "prompt": "Product with string theory vibrating dimensions lighting. String physics with vibrating elements. Professional studio setup with string theory elements. The mood is string-theoretic, vibrating, and cosmic. String theory studio photography with vibrating lighting, string effects, cosmic composition, 8K, string quality."
+  },
+  {
+    "key": "studio-m-theory-unified-framework",
+    "en": "Studio - M-Theory Unified Framework",
+    "id": "Studio - Teori-M Kerangka Terpadu",
+    "ms": "Studio - Teori-M Kerangka Bersepadu",
+    "prompt": "Product with M-theory unified framework lighting. Unified physics with M-theory elements. Professional studio setup with M-theory elements. The mood is M-theoretic, unified, and cosmic. M-theory studio photography with unified lighting, theory effects, cosmic composition, 8K, M-theory quality."
+  },
+  {
+    "key": "studio-grand-unification-fundamental-forces",
+    "en": "Studio - Grand Unification Fundamental Forces",
+    "id": "Studio - Unifikasi Besar Gaya Fundamental",
+    "ms": "Studio - Unifikasi Besar Daya Asas",
+    "prompt": "Product with grand unification fundamental forces lighting. Unified forces with grand elements. Professional studio setup with unification elements. The mood is unified, fundamental, and cosmic. Grand unification studio photography with fundamental lighting, force effects, cosmic composition, 8K, unification quality."
+  },
+  {
+    "key": "studio-cosmic-microwave-background-primordial",
+    "en": "Studio - Cosmic Microwave Background Primordial",
+    "id": "Studio - Latar Belakang Gelombang Mikrokosmik Primordial",
+    "ms": "Studio - Latar Belakang Gelombang Mikrokosmik Primordial",
+    "prompt": "Product with cosmic microwave background primordial lighting. Primordial universe with cosmic elements. Professional studio setup with CMB elements. The mood is primordial, cosmic, and ancient. CMB studio photography with primordial lighting, cosmic effects, ancient composition, 8K, CMB quality."
+  },
+  {
+    "key": "studio-dark-matter-dark-energy-cosmic",
+    "en": "Studio - Dark Matter Dark Energy Cosmic",
+    "id": "Studio - Mater Gelap Energi Gelap Kosmik",
+    "ms": "Studio - Jirim Gelap Tenaga Gelap Kosmik",
+    "prompt": "Product with dark matter dark energy cosmic lighting. Dark universe with cosmic elements. Professional studio setup with dark elements. The mood is dark, cosmic, and mysterious. Dark matter studio photography with cosmic lighting, dark effects, mysterious composition, 8K, dark quality."
+  },
+  {
+    "key": "studio-entropy-thermodynamic-arrow-time",
+    "en": "Studio - Entropy Thermodynamic Arrow Time",
+    "id": "Studio - Entropi Panah Termodinamik Waktu",
+    "ms": "Studio - Entropi Panah Termodinamik Masa",
+    "prompt": "Product with entropy thermodynamic arrow time lighting. Time direction with entropy elements. Professional studio setup with entropy elements. The mood is entropic, temporal, and cosmic. Entropy studio photography with arrow lighting, entropy effects, temporal composition, 8K, entropy quality."
+  },
+  {
+    "key": "studio-information-theory-data-universe",
+    "en": "Studio - Information Theory Data Universe",
+    "id": "Studio - Teori Informasi Semesta Data",
+    "ms": "Studio - Teori Maklumat Alam Semesta Data",
+    "prompt": "Product with information theory data universe lighting. Data universe with information elements. Professional studio setup with information elements. The mood is informational, data-based, and cosmic. Information theory studio photography with data lighting, information effects, cosmic composition, 8K, information quality."
+  },
+  {
+    "key": "studio-consciousness-quantum-observer",
+    "en": "Studio - Consciousness Quantum Observer",
+    "id": "Studio - Kesadaran Pengamat Kuantum",
+    "ms": "Studio - Kesedaran Pemerhati Kuantum",
+    "prompt": "Product with consciousness quantum observer lighting. Conscious observation with quantum elements. Professional studio setup with consciousness elements. The mood is conscious, observational, and quantum. Consciousness studio photography with observer lighting, consciousness effects, quantum composition, 8K, consciousness quality."
+  },
+  {
+    "key": "studio-simulation-hypothesis-reality-program",
+    "en": "Studio - Simulation Hypothesis Reality Program",
+    "id": "Studio - Hipotesis Simulasi Realitas Program",
+    "ms": "Studio - Hipotesis Simulasi Realiti Program",
+    "prompt": "Product with simulation hypothesis reality program lighting. Simulated reality with program elements. Professional studio setup with simulation elements. The mood is simulated, programmatic, and philosophical. Simulation hypothesis studio photography with reality lighting, simulation effects, philosophical composition, 8K, simulation quality."
+  },
+  {
+    "key": "studio-anthropic-principle-fine-tuned",
+    "en": "Studio - Anthropic Principle Fine Tuned",
+    "id": "Studio - Prinsip Antropik Halus Disetel",
+    "ms": "Studio - Prinsip Antropik Halus Disetel",
+    "prompt": "Product with anthropic principle fine tuned lighting. Fine-tuned universe with anthropic elements. Professional studio setup with anthropic elements. The mood is anthropic, fine-tuned, and cosmic. Anthropic principle studio photography with tuned lighting, anthropic effects, cosmic composition, 8K, anthropic quality."
+  },
+  {
+    "key": "studio-fermi-paradox-cosmic-silence",
+    "en": "Studio - Fermi Paradox Cosmic Silence",
+    "id": "Studio - Paradoks Fermi Keheningan Kosmik",
+    "ms": "Studio - Paradoks Fermi Keheningan Kosmik",
+    "prompt": "Product with Fermi paradox cosmic silence lighting. Silent universe with Fermi elements. Professional studio setup with Fermi elements. The mood is silent, paradoxical, and cosmic. Fermi paradox studio photography with silence lighting, paradox effects, cosmic composition, 8K, Fermi quality."
+  },
+  {
+    "key": "studio-drake-equation-civilization-calculator",
+    "en": "Studio - Drake Equation Civilization Calculator",
+    "id": "Studio - Persamaan Drake Kalkulator Peradaban",
+    "ms": "Studio - Persamaan Drake Kalkulator Tamadun",
+    "prompt": "Product with Drake equation civilization calculator lighting. Civilization probability with Drake elements. Professional studio setup with Drake elements. The mood is calculative, civilizational, and cosmic. Drake equation studio photography with calculator lighting, equation effects, cosmic composition, 8K, Drake quality."
+  },
+  {
+    "key": "studio-kardashev-scale-energy-civilization",
+    "en": "Studio - Kardashev Scale Energy Civilization",
+    "id": "Studio - Skala Kardashev Energi Peradaban",
+    "ms": "Studio - Skala Kardashev Tenaga Tamadun",
+    "prompt": "Product with Kardashev scale energy civilization lighting. Energy civilization types with Kardashev elements. Professional studio setup with Kardashev elements. The mood is energetic, civilizational, and cosmic. Kardashev scale studio photography with energy lighting, scale effects, cosmic composition, 8K, Kardashev quality."
+  },
+  {
+    "key": "studio-dyson-sphere-cosmic-engineering",
+    "en": "Studio - Dyson Sphere Cosmic Engineering",
+    "id": "Studio - Bola Dyson Teknik Kosmik",
+    "ms": "Studio - Sfera Dyson Kejuruteraan Kosmik",
+    "prompt": "Product with Dyson sphere cosmic engineering lighting. Stellar engineering with Dyson elements. Professional studio setup with Dyson elements. The mood is engineered, stellar, and cosmic. Dyson sphere studio photography with sphere lighting, engineering effects, cosmic composition, 8K, Dyson quality."
+  },
+  {
+    "key": "studio-matrioshka-brain-computational-universe",
+    "en": "Studio - Matrioshka Brain Computational Universe",
+    "id": "Studio - Otak Matrioshka Alam Semesta Komputasi",
+    "ms": "Studio - Otak Matrioshka Alam Semesta Pengkomputeran",
+    "prompt": "Product with Matrioshka brain computational universe lighting. Computational universe with brain elements. Professional studio setup with Matrioshka elements. The mood is computational, brain-based, and cosmic. Matrioshka brain studio photography with computational lighting, brain effects, cosmic composition, 8K, Matrioshka quality."
+  },
+  {
+    "key": "studio-ultimate-fate-heat-death-universe",
+    "en": "Studio - Ultimate Fate Heat Death Universe",
+    "id": "Studio - Takdir Akhir Kematian Panas Alam Semesta",
+    "ms": "Studio - Takdir Akhir Kematian Haba Alam Semesta",
+    "prompt": "Product with ultimate fate heat death universe lighting. Universal end with heat death elements. Professional studio setup with ultimate fate elements. The mood is final, universal, and cosmic. Ultimate fate studio photography with heat lighting, death effects, cosmic composition, 8K, ultimate quality."
+  },
+  {
+    "key": "studio-big-rip-ultimate-destruction",
+    "en": "Studio - Big Rip Ultimate Destruction",
+    "id": "Studio - Big Rip Penghancuran Akhir",
+    "ms": "Studio - Big Rip Pemusnahan Akhir",
+    "prompt": "Product with big rip ultimate destruction lighting. Universal destruction with rip elements. Professional studio setup with big rip elements. The mood is destructive, ultimate, and cosmic. Big rip studio photography with destruction lighting, rip effects, cosmic composition, 8K, big rip quality."
+  },
+  {
+    "key": "studio-big-crunch-cosmic-rebound",
+    "en": "Studio - Big Crunch Cosmic Rebound",
+    "id": "Studio - Big Crunch Rebound Kosmik",
+    "ms": "Studio - Big Crunch Rebound Kosmik",
+    "prompt": "Product with big crunch cosmic rebound lighting. Cosmic collapse with rebound elements. Professional studio setup with big crunch elements. The mood is crunching, rebounding, and cosmic. Big crunch studio photography with rebound lighting, crunch effects, cosmic composition, 8K, big crunch quality."
+  },
+  {
+    "key": "studio-cyclic-universe-eternal-return",
+    "en": "Studio - Cyclic Universe Eternal Return",
+    "id": "Studio - Alam Semesta Siklik Kembali Abadi",
+    "ms": "Studio - Alam Semesta Kitaran Kembali Abadi",
+    "prompt": "Product with cyclic universe eternal return lighting. Eternal cycles with return elements. Professional studio setup with cyclic elements. The mood is cyclic, eternal, and cosmic. Cyclic universe studio photography with eternal lighting, cycle effects, cosmic composition, 8K, cyclic quality."
+  },
+  {
+    "key": "station-station-microgravity-environment",
+    "en": "Station - Microgravity Environment",
+    "id": "Station - Lingkungan Mikrogravitasi",
+    "ms": "Station - Persekitaran Mikrograviti",
+    "prompt": "Product positioned in microgravity environment with weightless, floating lighting. Zero gravity conditions with floating elements. Space station with microgravity effects. The mood is weightless, floating, and space-like. Microgravity station photography with floating lighting, weightless elements, space composition, 8K, space quality."
+  },
+  {
+    "key": "station-station-artificial-gravity-rotation",
+    "en": "Station - Artificial Gravity Rotation",
+    "id": "Station - Gravitasi Buatan Rotasi",
+    "ms": "Station - Graviti Buatan Putaran",
+    "prompt": "Product positioned in artificial gravity rotation with spinning, stable lighting. Centrifugal force with rotation elements. Space station with artificial gravity effects. The mood is spinning, stable, and engineered. Artificial gravity station photography with rotation lighting, spinning elements, engineered composition, 8K, engineering quality."
+  },
+  {
+    "key": "station-station-solar-power-collection",
+    "en": "Station - Solar Power Collection",
+    "id": "Station - Koleksi Tenaga Surya",
+    "ms": "Station - Koleksi Tenaga Suria",
+    "prompt": "Product positioned in solar power collection with bright, energetic lighting. Solar panels with energy collection elements. Space station with solar power effects. The mood is solar, energetic, and powered. Solar power station photography with bright lighting, energy elements, powered composition, 8K, solar quality."
+  },
+  {
+    "key": "station-station-life-support-recycling",
+    "en": "Station - Life Support Recycling",
+    "id": "Station - Dukungan Hidup Daur Ulang",
+    "ms": "Station - Sokongan Hidup Kitar Semula",
+    "prompt": "Product positioned in life support recycling with clean, sustainable lighting. Recycling systems with life support elements. Space station with recycling effects. The mood is recycled, sustainable, and living. Life support station photography with clean lighting, recycling elements, sustainable composition, 8K, sustainable quality."
+  },
+  {
+    "key": "station-station-communication-array-transmission",
+    "en": "Station - Communication Array Transmission",
+    "id": "Station - Array Komunikasi Transmisi",
+    "ms": "Station - Array Komunikasi Transmisi",
+    "prompt": "Product positioned in communication array transmission with signal, connected lighting. Communication systems with transmission elements. Space station with communication effects. The mood is communicative, connected, and signal-based. Communication station photography with signal lighting, array elements, connected composition, 8K, communication quality."
+  },
+  {
+    "key": "station-station-navigation-precision-positioning",
+    "en": "Station - Navigation Precision Positioning",
+    "id": "Station - Navigasi Pemosisian Presisi",
+    "ms": "Station - Navigasi Kedudukan Tepat",
+    "prompt": "Product positioned in navigation precision positioning with accurate, guided lighting. Navigation systems with positioning elements. Space station with navigation effects. The mood is navigational, precise, and guided. Navigation station photography with precise lighting, navigation elements, guided composition, 8K, navigation quality."
+  },
+  {
+    "key": "station-station-observation-panoramic-viewing",
+    "en": "Station - Observation Panoramic Viewing",
+    "id": "Station - Observasi Pandangan Panoramik",
+    "ms": "Station - Pemerhatian Pandangan Panoramik",
+    "prompt": "Product positioned in observation panoramic viewing with expansive, scenic lighting. Observation windows with panoramic elements. Space station with observation effects. The mood is observational, panoramic, and scenic. Observation station photography with expansive lighting, window elements, scenic composition, 8K, observation quality."
+  },
+  {
+    "key": "station-station-experiment-laboratory-research",
+    "en": "Station - Experiment Laboratory Research",
+    "id": "Station - Eksperimen Laboratorium Riset",
+    "ms": "Station - Eksperimen Makmal Penyelidikan",
+    "prompt": "Product positioned in experiment laboratory research with scientific, experimental lighting. Research equipment with experimental elements. Space station with laboratory effects. The mood is experimental, scientific, and research-based. Laboratory station photography with scientific lighting, research elements, experimental composition, 8K, laboratory quality."
+  },
+  {
+    "key": "station-station-docking-connection-interface",
+    "en": "Station - Docking Connection Interface",
+    "id": "Station - Docking Koneksi Antarmuka",
+    "ms": "Station - Pelabuhan Sambungan Antaramuka",
+    "prompt": "Product positioned in docking connection interface with connected, modular lighting. Docking systems with interface elements. Space station with docking effects. The mood is connected, modular, and interfaced. Docking station photography with connection lighting, docking elements, modular composition, 8K, docking quality."
+  },
+  {
+    "key": "station-station-manipulator-robotic-arm",
+    "en": "Station - Manipulator Robotic Arm",
+    "id": "Station - Manipulator Lengan Robotik",
+    "ms": "Station - Manipulator Lengan Robotik",
+    "prompt": "Product positioned with manipulator robotic arm with precise, controlled lighting. Robotic systems with manipulation elements. Space station with robotic effects. The mood is robotic, controlled, and precise. Robotic station photography with controlled lighting, robotic elements, precise composition, 8K, robotic quality."
+  },
+  {
+    "key": "station-station-storage-cargo-logistics",
+    "en": "Station - Storage Cargo Logistics",
+    "id": "Station - Penyimpanan Kargo Logistik",
+    "ms": "Station - Penyimpanan Kargo Logistik",
+    "prompt": "Product positioned in storage cargo logistics with organized, efficient lighting. Storage systems with logistics elements. Space station with cargo effects. The mood is organized, logistical, and efficient. Storage station photography with organized lighting, storage elements, efficient composition, 8K, logistics quality."
+  },
+  {
+    "key": "station-station-maintenance-repair-service",
+    "en": "Station - Maintenance Repair Service",
+    "id": "Station - Perawatan Perbaikan Layanan",
+    "ms": "Station - Penyelenggaraan Pembaikan Perkhidmatan",
+    "prompt": "Product positioned in maintenance repair service with technical, service lighting. Maintenance systems with repair elements. Space station with maintenance effects. The mood is technical, service-oriented, and maintained. Maintenance station photography with technical lighting, maintenance elements, service composition, 8K, maintenance quality."
+  },
+  {
+    "key": "station-station-medical-bay-healthcare",
+    "en": "Station - Medical Bay Healthcare",
+    "id": "Station - Ruang Medis Perawatan Kesehatan",
+    "ms": "Station - Bilik Perubatan Penjagaan Kesihatan",
+    "prompt": "Product positioned in medical bay healthcare with clinical, healing lighting. Medical systems with healthcare elements. Space station with medical effects. The mood is clinical, healing, and medical. Medical station photography with clinical lighting, medical elements, healthcare composition, 8K, medical quality."
+  },
+  {
+    "key": "station-station-habitat-living-quarters",
+    "en": "Station - Habitat Living Quarters",
+    "id": "Station - Habitat Ruang Tinggal",
+    "ms": "Station - Habitat Ruang Tinggal",
+    "prompt": "Product positioned in habitat living quarters with comfortable, living lighting. Living systems with habitat elements. Space station with living effects. The mood is livable, comfortable, and residential. Habitat station photography with comfortable lighting, living elements, residential composition, 8K, habitat quality."
+  },
+  {
+    "key": "station-station-greenhouse-agriculture",
+    "en": "Station - Greenhouse Agriculture",
+    "id": "Station - Rumah Kaca Pertanian",
+    "ms": "Station - Rumah Hijau Pertanian",
+    "prompt": "Product positioned in greenhouse agriculture with growing, natural lighting. Agricultural systems with greenhouse elements. Space station with agriculture effects. The mood is growing, agricultural, and natural. Greenhouse station photography with natural lighting, agriculture elements, growing composition, 8K, agriculture quality."
+  },
+  {
+    "key": "station-station-fitness-exercise-recreation",
+    "en": "Station - Fitness Exercise Recreation",
+    "id": "Station - Fitness Olahraga Rekreasi",
+    "ms": "Station - Kecergasan Senaman Rekreasi",
+    "prompt": "Product positioned in fitness exercise recreation with active, energetic lighting. Exercise systems with fitness elements. Space station with recreation effects. The mood is active, fitness-oriented, and recreational. Fitness station photography with energetic lighting, exercise elements, active composition, 8K, fitness quality."
+  },
+  {
+    "key": "station-station-social-gathering-community",
+    "en": "Station - Social Gathering Community",
+    "id": "Station - Perkumpulan Sosial Komunitas",
+    "ms": "Station - Perhimpunan Sosial Komuniti",
+    "prompt": "Product positioned in social gathering community with social, communal lighting. Community systems with gathering elements. Space station with social effects. The mood is social, communal, and gathering-based. Social station photography with communal lighting, social elements, gathering composition, 8K, social quality."
+  },
+  {
+    "key": "station-station-command-control-center",
+    "en": "Station - Command Control Center",
+    "id": "Station - Pusat Kendali Kontrol",
+    "ms": "Station - Pusat Kawalan Kawalan",
+    "prompt": "Product positioned in command control center with authoritative, controlled lighting. Command systems with control elements. Space station with command effects. The mood is commanding, controlled, and authoritative. Command station photography with controlled lighting, command elements, authoritative composition, 8K, command quality."
+  },
+  {
+    "key": "station-station-education-training-facility",
+    "en": "Station - Education Training Facility",
+    "id": "Station - Fasilitas Pelatihan Pendidikan",
+    "ms": "Station - Kemudahan Latihan Pendidikan",
+    "prompt": "Product positioned in education training facility with educational, training lighting. Education systems with training elements. Space station with educational effects. The mood is educational, training-oriented, and learning-based. Education station photography with training lighting, education elements, learning composition, 8K, education quality."
+  },
+  {
+    "key": "station-station-artistic-cultural-expression",
+    "en": "Station - Artistic Cultural Expression",
+    "id": "Station - Ekspresi Artistik Budaya",
+    "ms": "Station - Ungkapan Artistik Budaya",
+    "prompt": "Product positioned in artistic cultural expression with creative, cultural lighting. Art systems with expression elements. Space station with artistic effects. The mood is artistic, expressive, and cultural. Artistic station photography with creative lighting, artistic elements, cultural composition, 8K, artistic quality."
+  },
+  {
+    "key": "station-station-spiritual-meditation-space",
+    "en": "Station - Spiritual Meditation Space",
+    "id": "Station - Ruang Meditasi Spiritual",
+    "ms": "Station - Ruang Meditasi Spiritual",
+    "prompt": "Product positioned in spiritual meditation space with peaceful, meditative lighting. Spiritual systems with meditation elements. Space station with spiritual effects. The mood is spiritual, meditative, and peaceful. Spiritual station photography with peaceful lighting, spiritual elements, meditative composition, 8K, spiritual quality."
+  },
+  {
+    "key": "station-station-workshop-fabrication-manufacturing",
+    "en": "Station - Workshop Fabrication Manufacturing",
+    "id": "Station - Bengket Fabrikasi Manufaktur",
+    "ms": "Station - Bengkel Fabrikasi Pembuatan",
+    "prompt": "Product positioned in workshop fabrication manufacturing with productive, technical lighting. Workshop systems with fabrication elements. Space station with manufacturing effects. The mood is productive, technical, and manufacturing-based. Workshop station photography with technical lighting, workshop elements, productive composition, 8K, workshop quality."
+  },
+  {
+    "key": "station-station-entertainment-media-center",
+    "en": "Station - Entertainment Media Center",
+    "id": "Station - Pusat Hiburan Media",
+    "ms": "Station - Pusat Hiburan Media",
+    "prompt": "Product positioned in entertainment media center with entertaining, media lighting. Entertainment systems with media elements. Space station with entertainment effects. The mood is entertaining, media-focused, and recreational. Entertainment station photography with media lighting, entertainment elements, recreational composition, 8K, entertainment quality."
+  },
+  {
+    "key": "station-station-telepresence-remote-operation",
+    "en": "Station - Telepresence Remote Operation",
+    "id": "Station - Telepresence Operasi Jarak Jauh",
+    "ms": "Station - Telepresence Operasi Jarak Jauh",
+    "prompt": "Product positioned in telepresence remote operation with connected, remote lighting. Telepresence systems with operation elements. Space station with remote effects. The mood is remote, connected, and operational. Telepresence station photography with remote lighting, telepresence elements, connected composition, 8K, telepresence quality."
+  },
+  {
+    "key": "station-station-quantum-computing-processing",
+    "en": "Station - Quantum Computing Processing",
+    "id": "Station - Komputasi Kuantum Pemrosesan",
+    "ms": "Station - Pengkomputeran Kuantum Pemprosesan",
+    "prompt": "Product positioned in quantum computing processing with quantum, computational lighting. Quantum systems with processing elements. Space station with quantum effects. The mood is quantum, computational, and processing-based. Quantum station photography with quantum lighting, computing elements, computational composition, 8K, quantum quality."
+  },
+  {
+    "key": "station-station-artificial-intelligence-analysis",
+    "en": "Station - Artificial Intelligence Analysis",
+    "id": "Station - Kecerdasan Buatan Analisis",
+    "ms": "Station - Kecerdasan Tiruan Analisis",
+    "prompt": "Product positioned in artificial intelligence analysis with intelligent, analytical lighting. AI systems with analysis elements. Space station with AI effects. The mood is intelligent, analytical, and AI-based. AI station photography with intelligent lighting, AI elements, analytical composition, 8K, AI quality."
+  },
+  {
+    "key": "station-station-cryogenic-storage-preservation",
+    "en": "Station - Cryogenic Storage Preservation",
+    "id": "Station - Penyimpanan Kriogenik Pelestarian",
+    "ms": "Station - Penyimpanan Kriogenik Pemeliharaan",
+    "prompt": "Product positioned in cryogenic storage preservation with frozen, preserved lighting. Cryogenic systems with storage elements. Space station with cryogenic effects. The mood is frozen, preserved, and cryogenic. Cryogenic station photography with frozen lighting, storage elements, preserved composition, 8K, cryogenic quality."
+  },
+  {
+    "key": "station-station-zero-gravity-manufacturing",
+    "en": "Station - Zero Gravity Manufacturing",
+    "id": "Station - Manufaktur Gravitasi Nol",
+    "ms": "Station - Pembuatan Graviti Sifar",
+    "prompt": "Product positioned in zero gravity manufacturing with floating, production lighting. Zero gravity systems with manufacturing elements. Space station with zero gravity effects. The mood is floating, manufacturing-based, and zero-gravity. Zero gravity station photography with floating lighting, manufacturing elements, production composition, 8K, zero gravity quality."
+  },
+  {
+    "key": "station-station-crystal-growth-materials-science",
+    "en": "Station - Crystal Growth Materials Science",
+    "id": "Station - Pertumbuhan Kristal Sains Material",
+    "ms": "Station - Pertumbuhan Kristal Sains Material",
+    "prompt": "Product positioned in crystal growth materials science with crystalline, scientific lighting. Crystal systems with growth elements. Space station with crystal effects. The mood is crystalline, scientific, and growing. Crystal station photography with scientific lighting, crystal elements, growth composition, 8K, crystal quality."
+  },
+  {
+    "key": "station-station-plasma-processing-materials",
+    "en": "Station - Plasma Processing Materials",
+    "id": "Station - Pemrosesan Plasma Material",
+    "ms": "Station - Pemprosesan Plasma Material",
+    "prompt": "Product positioned in plasma processing materials with plasma, processed lighting. Plasma systems with processing elements. Space station with plasma effects. The mood is plasma, processed, and energetic. Plasma station photography with plasma lighting, processing elements, energetic composition, 8K, plasma quality."
+  },
+  {
+    "key": "station-station-magnetic-field-experiment",
+    "en": "Station - Magnetic Field Experiment",
+    "id": "Station - Eksperimen Medan Magnet",
+    "ms": "Station - Eksperimen Medan Magnet",
+    "prompt": "Product positioned in magnetic field experiment with magnetic, experimental lighting. Magnetic systems with field elements. Space station with magnetic effects. The mood is magnetic, experimental, and field-based. Magnetic field station photography with magnetic lighting, field elements, experimental composition, 8K, magnetic quality."
+  },
+  {
+    "key": "station-station-radiation-shielding-protection",
+    "en": "Station - Radiation Shielding Protection",
+    "id": "Station - Perisai Radiasi Perlindungan",
+    "ms": "Station - Perisai Radiasi Perlindungan",
+    "prompt": "Product positioned in radiation shielding protection with protected, shielded lighting. Radiation systems with shielding elements. Space station with radiation effects. The mood is protected, shielded, and safe. Radiation shielding station photography with protected lighting, shielding elements, safe composition, 8K, radiation quality."
+  },
+  {
+    "key": "station-station-meteor-debris-defense-system",
+    "en": "Station - Meteor Debris Defense System",
+    "id": "Station - Sistem Pertahanan Meteor Debris",
+    "ms": "Station - Sistem Pertahanan Meteor Serpihan",
+    "prompt": "Product positioned in meteor debris defense system with defensive, protective lighting. Defense systems with debris elements. Space station with defense effects. The mood is defensive, protected, and secured. Defense system station photography with protective lighting, defense elements, secured composition, 8K, defense quality."
+  },
+  {
+    "key": "station-station-solar-storm-protection-shelter",
+    "en": "Station - Solar Storm Protection Shelter",
+    "id": "Station - Perlindungan Badai Matahari",
+    "ms": "Station - Perlindungan Ribut Matahari",
+    "prompt": "Product positioned in solar storm protection shelter with sheltered, protected lighting. Protection systems with storm elements. Space station with shelter effects. The mood is sheltered, protected, and storm-safe. Solar storm station photography with sheltered lighting, protection elements, storm composition, 8K, solar quality."
+  },
+  {
+    "key": "station-station-emergency-evacuation-preparedness",
+    "en": "Station - Emergency Evacuation Preparedness",
+    "id": "Station - Kesiapan Evakuasi Darurat",
+    "ms": "Station - Kesiapan Evakuasi Kecemasan",
+    "prompt": "Product positioned in emergency evacuation preparedness with emergency, prepared lighting. Evacuation systems with emergency elements. Space station with evacuation effects. The mood is emergency, prepared, and safe. Emergency evacuation station photography with emergency lighting, evacuation elements, prepared composition, 8K, emergency quality."
+  },
+  {
+    "key": "station-station-redundancy-backup-systems",
+    "en": "Station - Redundancy Backup Systems",
+    "id": "Station - Redundansi Sistem Cadangan",
+    "ms": "Station - Redundansi Sistem Sandaran",
+    "prompt": "Product positioned in redundancy backup systems with redundant, backup lighting. Backup systems with redundancy elements. Space station with backup effects. The mood is redundant, backed-up, and reliable. Redundancy station photography with backup lighting, redundancy elements, reliable composition, 8K, redundancy quality."
+  },
+  {
+    "key": "station-station-thermal-regulation-temperature",
+    "en": "Station - Thermal Regulation Temperature",
+    "id": "Station - Regulasi Termal Suhu",
+    "ms": "Station - Kawalan Termal Suhu",
+    "prompt": "Product positioned in thermal regulation temperature with regulated, thermal lighting. Temperature systems with regulation elements. Space station with thermal effects. The mood is regulated, thermal, and temperature-controlled. Thermal regulation station photography with regulated lighting, thermal elements, temperature composition, 8K, thermal quality."
+  },
+  {
+    "key": "station-station-pressure-regulation-atmosphere",
+    "en": "Station - Pressure Regulation Atmosphere",
+    "id": "Station - Regulasi Tekanan Atmosfer",
+    "ms": "Station - Kawalan Tekanan Atmosfera",
+    "prompt": "Product positioned in pressure regulation atmosphere with atmospheric, regulated lighting. Pressure systems with atmosphere elements. Space station with pressure effects. The mood is atmospheric, regulated, and pressure-controlled. Pressure regulation station photography with atmospheric lighting, pressure elements, regulated composition, 8K, pressure quality."
+  },
+  {
+    "key": "station-station-water-recycling-conservation",
+    "en": "Station - Water Recycling Conservation",
+    "id": "Station - Daur Ulang Air Konservasi",
+    "ms": "Station - Kitar Semula Air Pemuliharaan",
+    "prompt": "Product positioned in water recycling conservation with conserved, recycled lighting. Water systems with conservation elements. Space station with water effects. The mood is conserved, recycled, and water-efficient. Water recycling station photography with conserved lighting, water elements, recycled composition, 8K, water quality."
+  },
+  {
+    "key": "station-station-air-quality-monitoring-filtration",
+    "en": "Station - Air Quality Monitoring Filtration",
+    "id": "Station - Pemantauan Kualitas Udara Filtrasi",
+    "ms": "Station - Pemantauan Kualiti Udara Penurasan",
+    "prompt": "Product positioned in air quality monitoring filtration with filtered, clean lighting. Air systems with quality elements. Space station with air effects. The mood is filtered, clean, and quality-controlled. Air quality station photography with filtered lighting, air elements, quality composition, 8K, air quality."
+  },
+  {
+    "key": "station-station-acoustic-dampening-isolation",
+    "en": "Station - Acoustic Dampening Isolation",
+    "id": "Station - Peredam Akustik Isolasi",
+    "ms": "Station - Pelemasan Akustik Pencilakatan",
+    "prompt": "Product positioned in acoustic dampening isolation with isolated, quiet lighting. Acoustic systems with dampening elements. Space station with acoustic effects. The mood is isolated, quiet, and dampened. Acoustic station photography with isolated lighting, acoustic elements, dampened composition, 8K, acoustic quality."
+  },
+  {
+    "key": "station-station-vibration-control-stabilization",
+    "en": "Station - Vibration Control Stabilization",
+    "id": "Station - Kontrol Getaran Stabilisasi",
+    "ms": "Station - Kawalan Getaran Stabilisasi",
+    "prompt": "Product positioned in vibration control stabilization with stabilized, controlled lighting. Vibration systems with control elements. Space station with stabilization effects. The mood is stabilized, controlled, and vibration-free. Vibration control station photography with stabilized lighting, vibration elements, controlled composition, 8K, vibration quality."
+  },
+  {
+    "key": "station-station-precision-timing-synchronization",
+    "en": "Station - Precision Timing Synchronization",
+    "id": "Station - Ketepatan Waktu Sinkronisasi",
+    "ms": "Station - Ketepatan Masa Penyegerakan",
+    "prompt": "Product positioned in precision timing synchronization with synchronized, precise lighting. Timing systems with synchronization elements. Space station with timing effects. The mood is synchronized, precise, and timed. Precision timing station photography with synchronized lighting, timing elements, precise composition, 8K, timing quality."
+  },
+  {
+    "key": "station-station-data-management-storage",
+    "en": "Station - Data Management Storage",
+    "id": "Station - Manajemen Data Penyimpanan",
+    "ms": "Station - Pengurusan Data Penyimpanan",
+    "prompt": "Product positioned in data management storage with managed, stored lighting. Data systems with management elements. Space station with data effects. The mood is managed, stored, and data-secure. Data management station photography with managed lighting, data elements, stored composition, 8K, data quality."
+  },
+  {
+    "key": "station-station-communication-redundancy-backup",
+    "en": "Station - Communication Redundancy Backup",
+    "id": "Station - Redundansi Komunikasi Cadangan",
+    "ms": "Station - Redundansi Komunikasi Sandaran",
+    "prompt": "Product positioned in communication redundancy backup with backed-up, redundant lighting. Communication systems with backup elements. Space station with redundancy effects. The mood is redundant, backed-up, and communication-secure. Communication redundancy station photography with backed-up lighting, communication elements, redundant composition, 8K, communication quality."
+  },
+  {
+    "key": "station-station-power-distribution-management",
+    "en": "Station - Power Distribution Management",
+    "id": "Station - Manajemen Distribusi Daya",
+    "ms": "Station - Pengurusan Pengagihan Tenaga",
+    "prompt": "Product positioned in power distribution management with distributed, powered lighting. Power systems with distribution elements. Space station with power effects. The mood is distributed, powered, and managed. Power distribution station photography with distributed lighting, power elements, managed composition, 8K, power quality."
+  },
+  {
+    "key": "station-station-computer-network-infrastructure",
+    "en": "Station - Computer Network Infrastructure",
+    "id": "Station - Infrastruktur Jaringan Komputer",
+    "ms": "Station - Infrastruktur Rangkaian Komputer",
+    "prompt": "Product positioned in computer network infrastructure with networked, connected lighting. Network systems with infrastructure elements. Space station with network effects. The mood is networked, connected, and computer-based. Computer network station photography with networked lighting, computer elements, connected composition, 8K, network quality."
+  },
+  {
+    "key": "station-station-software-update-maintenance",
+    "en": "Station - Software Update Maintenance",
+    "id": "Station - Pembaruan Software Perawatan",
+    "ms": "Station - Kemaskini Perisian Penyelenggaraan",
+    "prompt": "Product positioned in software update maintenance with updated, maintained lighting. Software systems with update elements. Space station with software effects. The mood is updated, maintained, and software-current. Software update station photography with updated lighting, software elements, maintained composition, 8K, software quality."
+  },
+  {
+    "key": "station-station-sensor-monitoring-detection",
+    "en": "Station - Sensor Monitoring Detection",
+    "id": "Station - Sensor Pemantauan Deteksi",
+    "ms": "Station - Sensor Pemantauan Pengesanan",
+    "prompt": "Product positioned in sensor monitoring detection with monitored, detected lighting. Sensor systems with monitoring elements. Space station with sensor effects. The mood is monitored, detected, and sensor-aware. Sensor monitoring station photography with monitored lighting, sensor elements, detected composition, 8K, sensor quality."
+  },
+  {
+    "key": "station-station-alarm-warning-notification",
+    "en": "Station - Alarm Warning Notification",
+    "id": "Station - Alarm Peringatan Notifikasi",
+    "ms": "Station - Amaran Amaran Notifikasi",
+    "prompt": "Product positioned in alarm warning notification with alarmed, notified lighting. Alarm systems with warning elements. Space station with alarm effects. The mood is alarmed, warned, and notified. Alarm warning station photography with alarmed lighting, alarm elements, notified composition, 8K, alarm quality."
+  },
+  {
+    "key": "station-station-automated-systems-operation",
+    "en": "Station - Automated Systems Operation",
+    "id": "Station - Sistem Terotomasi Operasi",
+    "ms": "Station - Sistem Automasi Operasi",
+    "prompt": "Product positioned in automated systems operation with automated, operating lighting. Automation systems with operation elements. Space station with automation effects. The mood is automated, operating, and system-managed. Automated systems station photography with automated lighting, systems elements, operating composition, 8K, automation quality."
+  },
+  {
+    "key": "station-station-remote-diagnostics-troubleshooting",
+    "en": "Station - Remote Diagnostics Troubleshooting",
+    "id": "Station - Diagnostik Jarak Jauh Pemecahan Masalah",
+    "ms": "Station - Diagnostik Jauh Penyelesaian Masalah",
+    "prompt": "Product positioned in remote diagnostics troubleshooting with diagnosed, troubleshot lighting. Diagnostic systems with troubleshooting elements. Space station with diagnostic effects. The mood is diagnosed, troubleshot, and remote-accessible. Remote diagnostics station photography with diagnosed lighting, diagnostic elements, troubleshot composition, 8K, diagnostic quality."
+  },
+  {
+    "key": "station-station-predictive-maintenance-optimization",
+    "en": "Station - Predictive Maintenance Optimization",
+    "id": "Station - Perawatan Prediktif Optimasi",
+    "ms": "Station - Penyelenggaraan Ramalan Pengoptimuman",
+    "prompt": "Product positioned in predictive maintenance optimization with predicted, optimized lighting. Maintenance systems with prediction elements. Space station with maintenance effects. The mood is predicted, optimized, and maintenance-forward. Predictive maintenance station photography with predicted lighting, maintenance elements, optimized composition, 8K, predictive quality."
+  },
+  {
+    "key": "station-station-continuous-learning-adaptation",
+    "en": "Station - Continuous Learning Adaptation",
+    "id": "Station - Pembelajaran Berlanjut Adaptasi",
+    "ms": "Station - Pembelajaran Berterusan Penyesuaian",
+    "prompt": "Product positioned in continuous learning adaptation with learning, adaptive lighting. Learning systems with adaptation elements. Space station with learning effects. The mood is learning, adaptive, and continuously-improving. Continuous learning station photography with learning lighting, learning elements, adaptive composition, 8K, learning quality."
+  },
+  {
+    "key": "station-station-self-healing-systems-recovery",
+    "en": "Station - Self-Healing Systems Recovery",
+    "id": "Station - Sistem Penyembuhan Diri Pemulihan",
+    "ms": "Station - Sistem Penyembuhan Diri Pemulihan",
+    "prompt": "Product positioned in self-healing systems recovery with healing, recovered lighting. Healing systems with recovery elements. Space station with healing effects. The mood is healing, recovered, and self-maintaining. Self-healing station photography with healing lighting, systems elements, recovered composition, 8K, healing quality."
+  },
+  {
+    "key": "station-station-evolutionary-upgrade-pathway",
+    "en": "Station - Evolutionary Upgrade Pathway",
+    "id": "Station - Jalur Peningkatan Evolusioner",
+    "ms": "Station - Laluan Naik Taraf Evolusi",
+    "prompt": "Product positioned in evolutionary upgrade pathway with upgraded, evolutionary lighting. Upgrade systems with pathway elements. Space station with upgrade effects. The mood is upgraded, evolutionary, and pathway-directed. Evolutionary upgrade station photography with upgraded lighting, upgrade elements, evolutionary composition, 8K, upgrade quality."
+  }
+]

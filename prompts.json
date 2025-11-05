@@ -128,14 +128,6 @@
     "category": "indoors"
   },
   {
-    "key": "indoors-indoor-bar-area",
-    "en": "Indoor - Home Bar Area",
-    "id": "Indoor - Area Bar Rumah",
-    "ms": "Indoor - Kawasan Bar Rumah",
-    "prompt": "Product placed in stylish home bar with atmospheric, moody lighting. Bar stools and glassware creating sophisticated entertaining atmosphere. Indoor photography with ambient bar lighting and reflective surfaces. The mood is sophisticated, entertaining, and social. Indoor home bar photography with atmospheric lighting, bar setup, social atmosphere, photorealistic, 8K, lifestyle quality.",
-    "category": "indoors"
-  },
-  {
     "key": "indoors-indoor-formal-dining-room",
     "en": "Indoor - Formal Dining Room",
     "id": "Indoor - Ruang Makan Formal",
@@ -389,14 +381,6 @@
     "id": "Indoor - Lounge Musik",
     "ms": "Indoor - Lounge Muzik",
     "prompt": "Product placed in music lounge with atmospheric, moody lighting. Audio equipment and comfortable seating creating musical atmosphere. Indoor photography with ambient mood lighting and audio elements. The mood is musical, atmospheric, and relaxing. Indoor music lounge photography with moody lighting, audio setup, musical atmosphere, photorealistic, 8K, lifestyle quality.",
-    "category": "indoors"
-  },
-  {
-    "key": "indoors-indoor-sports-bar",
-    "en": "Indoor - Sports Bar",
-    "id": "Indoor - Bar Olahraga",
-    "ms": "Indoor - Bar Sukan",
-    "prompt": "Product placed in sports bar with energetic, vibrant lighting. Multiple screens and bar setup creating exciting atmosphere. Indoor photography with dynamic lighting and sports elements. The mood is energetic, exciting, and social. Indoor sports bar photography with dynamic lighting, bar setup, exciting atmosphere, photorealistic, 8K, entertainment quality.",
     "category": "indoors"
   },
   {
@@ -872,14 +856,6 @@
     "category": "indoors"
   },
   {
-    "key": "indoors-indoor-sushi-bar-restaurant",
-    "en": "Indoor - Sushi Bar Restaurant",
-    "id": "Indoor - Restoran Bar Sushi",
-    "ms": "Indoor - Restoran Bar Sushi",
-    "prompt": "Product placed in sushi bar restaurant with counter seating and Japanese decor. Warm ambient lighting with sushi chefs preparing fresh fish creating authentic atmosphere. Sushi bar photography with Japanese elements and culinary expertise. The mood is authentic, fresh, and sophisticated. Sushi bar photography with counter seating, Japanese decor, culinary atmosphere, photorealistic, 8K, restaurant quality.",
-    "category": "indoors"
-  },
-  {
     "key": "indoors-indoor-ice-cream-parlor-shop",
     "en": "Indoor - Ice Cream Parlor Shop",
     "id": "Indoor - Toko Es Krim Parlor",
@@ -901,14 +877,6 @@
     "id": "Indoor - Salon Kecantikan Spa",
     "ms": "Indoor - Salon Kecantikan Spa",
     "prompt": "Product positioned in beauty spa salon with treatment stations and relaxing ambiance. Soft ambient lighting with elegant decor creating pampering atmosphere. Beauty salon photography with comfortable stations and elegant elements. The mood is pampering, elegant, and relaxing. Beauty spa photography with treatment stations, soft lighting, elegant decor, photorealistic, 8K, beauty quality.",
-    "category": "indoors"
-  },
-  {
-    "key": "indoors-indoor-microbrewery-taproom",
-    "en": "Indoor - Microbrewery Taproom",
-    "id": "Indoor - Taproom Mikrobrewery",
-    "ms": "Indoor - Taproom Mikrobrewery",
-    "prompt": "Product placed in microbrewery taproom with beer brewing equipment and bar seating. Industrial brewing equipment with warm ambient lighting creating craft beer atmosphere. Microbrewery photography with brewing tanks and craft beer elements. The mood is craft, industrial, and social. Microbrewery photography with brewing equipment, bar seating, craft atmosphere, photorealistic, 8K, brewery quality.",
     "category": "indoors"
   },
   {
@@ -973,14 +941,6 @@
     "id": "Indoor - Bioskop Movie Pribadi",
     "ms": "Indoor - Panggung Wayang Persendirian",
     "prompt": "Product placed in private movie theater with luxury seating and projection equipment. Dim cinematic lighting with premium sound system creating exclusive viewing atmosphere. Private theater photography with luxury seating and cinematic setup. The mood is cinematic, exclusive, and luxurious. Private movie theater photography with luxury seating, projection equipment, cinematic lighting, photorealistic, 8K, entertainment quality.",
-    "category": "indoors"
-  },
-  {
-    "key": "indoors-indoor-sports-bar-lounge",
-    "en": "Indoor - Sports Bar Lounge",
-    "id": "Indoor - Lounge Bar Olahraga",
-    "ms": "Indoor - Lounge Bar Sukan",
-    "prompt": "Product positioned in sports bar lounge with multiple screens and bar seating. Dynamic sports lighting with team memorabilia creating energetic viewing atmosphere. Sports bar photography with screens and sports elements. The mood is energetic, social, and sports-focused. Sports bar photography with multiple screens, bar seating, energetic atmosphere, photorealistic, 8K, entertainment quality.",
     "category": "indoors"
   },
   {
@@ -4789,14 +4749,6 @@
     "id": "Studio - Tema Dojo Samurai",
     "ms": "Studio - Tema Dojo Samurai",
     "prompt": "Product with samurai dojo traditional lighting. Disciplined, serene atmosphere with paper lantern effects. Professional studio setup with Japanese props. The mood is disciplined, serene, and traditional. Samurai dojo studio photography with traditional lighting, cultural props, serene composition, 8K, cultural quality.",
-    "category": "studios"
-  },
-  {
-    "key": "studios-studio-wild-west",
-    "en": "Studio - Wild West Theme",
-    "id": "Studio - Tema Wild West",
-    "ms": "Studio - Tema Bar Liar",
-    "prompt": "Product with wild west dramatic sunlight. Rugged, adventurous atmosphere with dusty, warm tones. Professional studio setup with western props. The mood is rugged, adventurous, and frontier-like. Wild west studio photography with dramatic sunlight, western props, adventurous composition, 8K, period quality.",
     "category": "studios"
   },
   {

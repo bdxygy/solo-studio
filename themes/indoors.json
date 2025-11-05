@@ -84,13 +84,6 @@
     "prompt": "Product positioned in charming breakfast nook with soft morning lighting. Cozy banquette seating and natural daylight creating welcoming atmosphere. Indoor photography with natural window light and warm wood tones. The mood is cheerful, cozy, and morning-oriented. Indoor breakfast nook photography with natural light, cozy seating, morning atmosphere, photorealistic, 8K, lifestyle quality."
   },
   {
-    "key": "indoor-wine-cellar",
-    "en": "Indoor - Wine Cellar",
-    "id": "Indoor - Gudang Anggur",
-    "ms": "Indoor - Gua Anggur",
-    "prompt": "Product placed in elegant wine cellar with warm, atmospheric lighting. Wine racks and stone walls creating sophisticated, aged atmosphere. Indoor photography with warm ambient lighting and rich textures. The mood is sophisticated, aged, and luxurious. Indoor wine cellar photography with warm lighting, wine racks, luxurious atmosphere, photorealistic, 8K, premium quality."
-  },
-  {
     "key": "indoor-coffee-station",
     "en": "Indoor - Coffee Station",
     "id": "Indoor - Stasiun Kopi",
@@ -110,13 +103,6 @@
     "id": "Indoor - Pusat Memanggang",
     "ms": "Indoor - Pusat Membakar",
     "prompt": "Product positioned in dedicated baking center with warm, functional lighting. Baking equipment and flour-dusted surfaces creating cozy baking atmosphere. Indoor photography with warm task lighting and baking tools. The mood is cozy, creative, and baking-oriented. Indoor baking center photography with warm lighting, baking equipment, creative atmosphere, photorealistic, 8K, lifestyle quality."
-  },
-  {
-    "key": "indoor-bar-area",
-    "en": "Indoor - Home Bar Area",
-    "id": "Indoor - Area Bar Rumah",
-    "ms": "Indoor - Kawasan Bar Rumah",
-    "prompt": "Product placed in stylish home bar with atmospheric, moody lighting. Bar stools and glassware creating sophisticated entertaining atmosphere. Indoor photography with ambient bar lighting and reflective surfaces. The mood is sophisticated, entertaining, and social. Indoor home bar photography with atmospheric lighting, bar setup, social atmosphere, photorealistic, 8K, lifestyle quality."
   },
   {
     "key": "indoor-formal-dining-room",
@@ -343,13 +329,6 @@
     "prompt": "Product placed in music lounge with atmospheric, moody lighting. Audio equipment and comfortable seating creating musical atmosphere. Indoor photography with ambient mood lighting and audio elements. The mood is musical, atmospheric, and relaxing. Indoor music lounge photography with moody lighting, audio setup, musical atmosphere, photorealistic, 8K, lifestyle quality."
   },
   {
-    "key": "indoor-sports-bar",
-    "en": "Indoor - Sports Bar",
-    "id": "Indoor - Bar Olahraga",
-    "ms": "Indoor - Bar Sukan",
-    "prompt": "Product placed in sports bar with energetic, vibrant lighting. Multiple screens and bar setup creating exciting atmosphere. Indoor photography with dynamic lighting and sports elements. The mood is energetic, exciting, and social. Indoor sports bar photography with dynamic lighting, bar setup, exciting atmosphere, photorealistic, 8K, entertainment quality."
-  },
-  {
     "key": "indoor-art-gallery",
     "en": "Indoor - Art Gallery",
     "id": "Indoor - Galeri Seni",
@@ -560,13 +539,6 @@
     "prompt": "Product positioned in botanical conservatory with exotic plants and glass ceiling. Natural light filtering through tropical foliage creating garden-like atmosphere. Greenhouse photography with dappled sunlight and lush vegetation. The mood is tropical, natural, and serene. Botanical conservatory photography with exotic plants, glass ceiling, natural lighting, photorealistic, 8K, garden quality."
   },
   {
-    "key": "indoor-wine-cellar-tasting-room",
-    "en": "Indoor - Wine Cellar Tasting Room",
-    "id": "Indoor - Ruang Menjual Anggur",
-    "ms": "Indoor - Bilik Rasa Anggur",
-    "prompt": "Product placed in elegant wine cellar with oak barrels and tasting area. Warm ambient lighting and stone walls creating sophisticated atmosphere. Wine cellar photography with intimate lighting and luxury wine storage. The mood is sophisticated, intimate, and luxurious. Wine cellar photography with oak barrels, stone walls, tasting room ambiance, photorealistic, 8K, luxury quality."
-  },
-  {
     "key": "indoor-professional-recording-studio",
     "en": "Indoor - Professional Recording Studio",
     "id": "Indoor - Studio Rekaman Profesional",
@@ -770,13 +742,6 @@
     "prompt": "Product positioned in traditional tea ceremony room with tatami mats and tea utensils. Soft natural light with minimalist Japanese decor creating serene cultural atmosphere. Tea room photography with traditional elements and zen-like simplicity. The mood is serene, cultural, and meditative. Tea ceremony photography with tatami mats, tea utensils, minimalist decor, photorealistic, 8K, cultural quality."
   },
   {
-    "key": "indoor-sushi-bar-restaurant",
-    "en": "Indoor - Sushi Bar Restaurant",
-    "id": "Indoor - Restoran Bar Sushi",
-    "ms": "Indoor - Restoran Bar Sushi",
-    "prompt": "Product placed in sushi bar restaurant with counter seating and Japanese decor. Warm ambient lighting with sushi chefs preparing fresh fish creating authentic atmosphere. Sushi bar photography with Japanese elements and culinary expertise. The mood is authentic, fresh, and sophisticated. Sushi bar photography with counter seating, Japanese decor, culinary atmosphere, photorealistic, 8K, restaurant quality."
-  },
-  {
     "key": "indoor-ice-cream-parlor-shop",
     "en": "Indoor - Ice Cream Parlor Shop",
     "id": "Indoor - Toko Es Krim Parlor",
@@ -796,13 +761,6 @@
     "id": "Indoor - Salon Kecantikan Spa",
     "ms": "Indoor - Salon Kecantikan Spa",
     "prompt": "Product positioned in beauty spa salon with treatment stations and relaxing ambiance. Soft ambient lighting with elegant decor creating pampering atmosphere. Beauty salon photography with comfortable stations and elegant elements. The mood is pampering, elegant, and relaxing. Beauty spa photography with treatment stations, soft lighting, elegant decor, photorealistic, 8K, beauty quality."
-  },
-  {
-    "key": "indoor-microbrewery-taproom",
-    "en": "Indoor - Microbrewery Taproom",
-    "id": "Indoor - Taproom Mikrobrewery",
-    "ms": "Indoor - Taproom Mikrobrewery",
-    "prompt": "Product placed in microbrewery taproom with beer brewing equipment and bar seating. Industrial brewing equipment with warm ambient lighting creating craft beer atmosphere. Microbrewery photography with brewing tanks and craft beer elements. The mood is craft, industrial, and social. Microbrewery photography with brewing equipment, bar seating, craft atmosphere, photorealistic, 8K, brewery quality."
   },
   {
     "key": "indoor-tailor-sewing-workshop",
@@ -859,13 +817,6 @@
     "id": "Indoor - Bioskop Movie Pribadi",
     "ms": "Indoor - Panggung Wayang Persendirian",
     "prompt": "Product placed in private movie theater with luxury seating and projection equipment. Dim cinematic lighting with premium sound system creating exclusive viewing atmosphere. Private theater photography with luxury seating and cinematic setup. The mood is cinematic, exclusive, and luxurious. Private movie theater photography with luxury seating, projection equipment, cinematic lighting, photorealistic, 8K, entertainment quality."
-  },
-  {
-    "key": "indoor-sports-bar-lounge",
-    "en": "Indoor - Sports Bar Lounge",
-    "id": "Indoor - Lounge Bar Olahraga",
-    "ms": "Indoor - Lounge Bar Sukan",
-    "prompt": "Product positioned in sports bar lounge with multiple screens and bar seating. Dynamic sports lighting with team memorabilia creating energetic viewing atmosphere. Sports bar photography with screens and sports elements. The mood is energetic, social, and sports-focused. Sports bar photography with multiple screens, bar seating, energetic atmosphere, photorealistic, 8K, entertainment quality."
   },
   {
     "key": "indoor-architectural-model-workshop",
@@ -957,27 +908,6 @@
     "id": "Indoor - Lounge Ruang Pameran Ferrari",
     "ms": "Indoor - Lounge Ruang Pameran Ferrari",
     "prompt": "Product positioned in Ferrari showroom lounge with red leather and racing elements. Dramatic Italian lighting with luxury sports cars creating exclusive atmosphere. Ferrari showroom photography with luxury vehicles and racing elements. The mood is exclusive, sporty, and luxurious. Ferrari showroom photography with luxury sports cars, red leather, dramatic lighting, photorealistic, 8K, automotive quality."
-  },
-  {
-    "key": "indoor-diamond-trading-room",
-    "en": "Indoor - Diamond Trading Room",
-    "id": "Indoor - Ruang Perdagangan Berlian",
-    "ms": "Indoor - Bilik Dagangan Berlian",
-    "prompt": "Product positioned in diamond trading room with secure displays and bright lighting. Professional gemstone lighting with security features creating exclusive trading atmosphere. Diamond trading photography with secure displays and gemstone elements. The mood is exclusive, secure, and professional. Diamond trading room photography with gemstone displays, security features, professional lighting, photorealistic, 8K, luxury quality."
-  },
-  {
-    "key": "indoor-vintage-wine-cellar-tasting",
-    "en": "Indoor - Vintage Wine Cellar Tasting",
-    "id": "Indoor - Ruang Menjual Anggur Vintage",
-    "ms": "Indoor - Bilik Rasa Anggur Vintage",
-    "prompt": "Product positioned in vintage wine cellar with aged bottles and tasting area. Wine cellar lighting with historic bottles creating exclusive atmosphere. Vintage wine cellar photography with aged bottles and tasting elements. The mood is vintage, exclusive, and sophisticated. Vintage wine cellar photography with historic bottles, tasting area, cellar lighting, photorealistic, 8K, wine quality."
-  },
-  {
-    "key": "indoor-champagne-lounge-vip",
-    "en": "Indoor - Champagne Lounge VIP",
-    "id": "Indoor - Lounge Champagne VIP",
-    "ms": "Indoor - Lounge Champagne VIP",
-    "prompt": "Product positioned in champagne VIP lounge with crystal glass displays and elegant seating. Celebration lighting with premium champagne elements creating exclusive atmosphere. Champagne lounge photography with crystal displays and VIP elements. The mood is celebratory, exclusive, and elegant. Champagne VIP lounge photography with crystal glass displays, elegant seating, celebration lighting, photorealistic, 8K, luxury quality."
   },
   {
     "key": "indoor-olympic-training-facility",
@@ -1384,5 +1314,145 @@
     "id": "Indoor - Lounge Ruang Pameran Acura",
     "ms": "Indoor - Lounge Ruang Pameran Acura",
     "prompt": "Product positioned in Acura showroom with Japanese design and performance elements. Performance Japanese lighting with vehicles creating sporty atmosphere. Acura showroom photography with vehicles and Japanese design. The mood is Japanese, performance, and sporty. Acura showroom photography with vehicles, Japanese design, performance lighting, photorealistic, 8K, automotive quality."
+  },
+  {
+    "key": "indoor-children-playroom",
+    "en": "Indoor - Children's Playroom",
+    "id": "Indoor - Ruang Bermain Anak",
+    "ms": "Indoor - Bilik Main Kanak-kanak",
+    "prompt": "Product placed in colorful children's playroom with toys and educational elements. Bright, cheerful lighting with vibrant colors creating playful atmosphere. Professional indoor photography with child-friendly elements and energetic mood. The mood is playful, colorful, and educational. Indoor children's photography with bright lighting, toys, playful atmosphere, photorealistic, 8K, family quality."
+  },
+  {
+    "key": "indoor-kids-bedroom",
+    "en": "Indoor - Kids Bedroom",
+    "id": "Indoor - Kamar Tidur Anak",
+    "ms": "Indoor - Bilik Tidur Kanak-kanak",
+    "prompt": "Product positioned in cozy children's bedroom with themed decorations and soft furnishings. Warm, gentle lighting creating comfortable and safe atmosphere. Indoor photography with child-friendly elements and peaceful mood. The mood is comfortable, safe, and imaginative. Indoor kids' bedroom photography with warm lighting, themed decor, cozy atmosphere, photorealistic, 8K, family quality."
+  },
+  {
+    "key": "indoor-nursery-room",
+    "en": "Indoor - Nursery Room",
+    "id": "Indoor - Kamar Bayi",
+    "ms": "Indoor - Bilik Bayi",
+    "prompt": "Product placed in gentle nursery setting with pastel colors and soft textures. Soft, calming lighting perfect for infants creating peaceful atmosphere. Professional indoor photography with serene, tranquil mood. The mood is peaceful, gentle, and nurturing. Indoor nursery photography with soft lighting, pastel colors, calming atmosphere, photorealistic, 8K, baby quality."
+  },
+  {
+    "key": "indoor-kids-art-corner",
+    "en": "Indoor - Kids Art Corner",
+    "id": "Indoor - Sudut Seni Anak",
+    "ms": "Indoor - Sudut Seni Kanak-kanak",
+    "prompt": "Product positioned in creative art space with children's drawings and art supplies. Bright, inspiring lighting for creative activities and artistic expression. Indoor photography with colorful, artistic elements and creative mood. The mood is creative, colorful, and inspiring. Indoor art corner photography with bright lighting, art supplies, creative atmosphere, photorealistic, 8K, educational quality."
+  },
+  {
+    "key": "indoor-childrens-library",
+    "en": "Indoor - Children's Library",
+    "id": "Indoor - Perpustakaan Anak",
+    "ms": "Indoor - Perpustakaan Kanak-kanak",
+    "prompt": "Product placed in mini library with colorful books and cozy reading nook. Warm, focused lighting for reading atmosphere and educational activities. Professional indoor photography with learning-focused elements and intellectual mood. The mood is educational, quiet, and imaginative. Indoor children's library photography with warm lighting, books, educational atmosphere, photorealistic, 8K, learning quality."
+  },
+  {
+    "key": "indoor-play-kitchen-area",
+    "en": "Indoor - Play Kitchen Area",
+    "id": "Indoor - Area Dapur Mainan",
+    "ms": "Indoor - Kawasan Dapur Mainan",
+    "prompt": "Product positioned in children's play kitchen with toy food and utensils. Bright, playful lighting mimicking real kitchen atmosphere for imaginative play. Indoor photography with role-playing elements and creative mood. The mood is imaginative, playful, and social. Indoor play kitchen photography with bright lighting, toy food, playful atmosphere, photorealistic, 8K, children's quality."
+  },
+  {
+    "key": "indoor-kids-science-corner",
+    "en": "Indoor - Kids Science Corner",
+    "id": "Indoor - Sudut Sains Anak",
+    "ms": "Indoor - Sudut Sains Kanak-kanak",
+    "prompt": "Product placed in educational science area with experiments and colorful posters. Bright, curious lighting for discovery atmosphere and learning activities. Professional indoor photography with educational elements and experimental mood. The mood is educational, curious, and discovery-focused. Indoor science corner photography with bright lighting, experiments, educational atmosphere, photorealistic, 8K, learning quality."
+  },
+  {
+    "key": "indoor-childrens-music-room",
+    "en": "Indoor - Children's Music Room",
+    "id": "Indoor - Ruang Musik Anak",
+    "ms": "Indoor - Bilik Muzik Kanak-kanak",
+    "prompt": "Product positioned in colorful music room with instruments and sound elements. Dynamic, energetic lighting for creative expression and musical activities. Indoor photography with rhythmic, musical elements and artistic mood. The mood is creative, musical, and energetic. Indoor children's music room photography with dynamic lighting, instruments, creative atmosphere, photorealistic, 8K, artistic quality."
+  },
+  {
+    "key": "indoor-kids-gaming-zone",
+    "en": "Indoor - Kids Gaming Zone",
+    "id": "Indoor - Zona Game Anak",
+    "ms": "Indoor - Zona Game Kanak-kanak",
+    "prompt": "Product placed in modern gaming setup with child-friendly technology and colorful decor. Exciting, vibrant lighting for entertainment atmosphere and digital fun. Professional indoor photography with tech-savvy elements and energetic mood. The mood is exciting, modern, and entertaining. Indoor gaming zone photography with vibrant lighting, technology, entertainment atmosphere, photorealistic, 8K, digital quality."
+  },
+  {
+    "key": "indoor-childrens-dressup-area",
+    "en": "Indoor - Children's Dress-up Area",
+    "id": "Indoor - Area Berdandan Anak",
+    "ms": "Indoor - Kawasan Berpakaian Kanak-kanak",
+    "prompt": "Product positioned in costume corner with dress-up clothes and child-safe mirror. Fun, theatrical lighting for imaginative play and creative expression. Indoor photography with theatrical, playful elements and imaginative mood. The mood is imaginative, theatrical, and playful. Indoor dress-up area photography with fun lighting, costumes, creative atmosphere, photorealistic, 8K, children's quality."
+  },
+  {
+    "key": "indoor-kids-building-blocks-space",
+    "en": "Indoor - Kids Building Blocks Space",
+    "id": "Indoor - Area Balok Konstruksi Anak",
+    "ms": "Indoor - Kawasan Blok Binaan Kanak-kanak",
+    "prompt": "Product placed in construction area with colorful blocks and building toys. Creative, focused lighting for building activities and constructive play. Professional indoor photography with educational elements and constructive mood. The mood is constructive, educational, and creative. Indoor building blocks photography with focused lighting, construction toys, educational atmosphere, photorealistic, 8K, developmental quality."
+  },
+  {
+    "key": "indoor-childrens-reading-tent",
+    "en": "Indoor - Children's Reading Tent",
+    "id": "Indoor - Tenda Membaca Anak",
+    "ms": "Indoor - Khemah Membaca Kanak-kanak",
+    "prompt": "Product positioned in cozy tent setup with pillows, books and soft lighting. Soft, intimate lighting for reading adventures and quiet time activities. Indoor photography with cozy, adventurous elements and peaceful mood. The mood is cozy, adventurous, and peaceful. Indoor reading tent photography with soft lighting, books, cozy atmosphere, photorealistic, 8K, comfort quality."
+  },
+  {
+    "key": "indoor-kids-science-lab",
+    "en": "Indoor - Kids Science Lab",
+    "id": "Indoor - Laboratorium Sains Anak",
+    "ms": "Indoor - Makmal Sains Kanak-kanak",
+    "prompt": "Product placed in mini laboratory with safe experiments and child-friendly microscopes. Bright, scientific lighting for discovery atmosphere and hands-on learning. Professional indoor photography with educational elements and experimental mood. The mood is educational, experimental, and discovery-focused. Indoor science lab photography with bright lighting, experiments, educational atmosphere, photorealistic, 8K, laboratory quality."
+  },
+  {
+    "key": "indoor-childrens-theater-stage",
+    "en": "Indoor - Children's Theater Stage",
+    "id": "Indoor - Panggung Teater Anak",
+    "ms": "Indoor - Panggung Teater Kanak-kanak",
+    "prompt": "Product positioned on small stage with colorful curtains and performance space. Dramatic, theatrical lighting for performances and creative expression. Indoor photography with entertainment, creative elements and artistic mood. The mood is artistic, entertaining, and expressive. Indoor children's theater photography with dramatic lighting, stage, creative atmosphere, photorealistic, 8K, performance quality."
+  },
+  {
+    "key": "indoor-kids-puzzle-corner",
+    "en": "Indoor - Kids Puzzle Corner",
+    "id": "Indoor - Sudut Teka-Teki Anak",
+    "ms": "Indoor - Sudut Teka-Teki Kanak-kanak",
+    "prompt": "Product placed in quiet puzzle area with various brain games and educational toys. Focused, calm lighting for concentration and cognitive development activities. Professional indoor photography with intellectual, peaceful elements and learning mood. The mood is intellectual, peaceful, and focused. Indoor puzzle corner photography with calm lighting, educational toys, learning atmosphere, photorealistic, 8K, developmental quality."
+  },
+  {
+    "key": "indoor-childrens-pet-play-area",
+    "en": "Indoor - Children's Pet Play Area",
+    "id": "Indoor - Area Bermain Peliharaan Anak",
+    "ms": "Indoor - Kawasan Main Haiwan Peliharaan Kanak-kanak",
+    "prompt": "Product positioned in safe space for children to interact with pets and animals. Warm, friendly lighting for gentle interactions and nurturing activities. Indoor photography with caring, gentle elements and loving mood. The mood is caring, gentle, and nurturing. Indoor pet play area photography with warm lighting, pets, caring atmosphere, photorealistic, 8K, family quality."
+  },
+  {
+    "key": "indoor-kids-cooking-class",
+    "en": "Indoor - Kids Cooking Class",
+    "id": "Indoor - Kelas Memasak Anak",
+    "ms": "Indoor - Kelas Memasak Kanak-kanak",
+    "prompt": "Product positioned in child-safe cooking area with ingredients and colorful utensils. Bright, educational lighting for learning activities and hands-on cooking. Professional indoor photography with educational, fun elements and learning mood. The mood is educational, fun, and hands-on. Indoor cooking class photography with bright lighting, cooking tools, educational atmosphere, photorealistic, 8K, learning quality."
+  },
+  {
+    "key": "indoor-childrens-dance-studio",
+    "en": "Indoor - Children's Dance Studio",
+    "id": "Indoor - Studio Tari Anak",
+    "ms": "Indoor - Studio Tarian Kanak-kanak",
+    "prompt": "Product placed in dance floor with mirrors and colorful dance decorations. Energetic, dynamic lighting for movement activities and creative expression. Indoor photography with active, creative elements and energetic mood. The mood is energetic, creative, and active. Indoor dance studio photography with dynamic lighting, dance elements, active atmosphere, photorealistic, 8K, artistic quality."
+  },
+  {
+    "key": "indoor-kids-story-time-circle",
+    "en": "Indoor - Kids Story Time Circle",
+    "id": "Indoor - Lingkaran Waktu Cerita Anak",
+    "ms": "Indoor - Bulatan Masa Cerita Kanak-kanak",
+    "prompt": "Product positioned in circular seating area for storytelling and group activities. Soft, engaging lighting for social interaction and educational activities. Professional indoor photography with social, educational elements and interactive mood. The mood is social, educational, and interactive. Indoor story time photography with soft lighting, books, social atmosphere, photorealistic, 8K, group quality."
+  },
+  {
+    "key": "indoor-childrens-sensory-play",
+    "en": "Indoor - Children's Sensory Play",
+    "id": "Indoor - Permainan Sensorik Anak",
+    "ms": "Indoor - Permainan Sensorik Kanak-kanak",
+    "prompt": "Product positioned in sensory table with various textures and materials for exploration. Gentle, stimulating lighting for sensory exploration and developmental activities. Indoor photography with developmental, educational elements and calming mood. The mood is developmental, calming, and educational. Indoor sensory play photography with gentle lighting, sensory materials, developmental atmosphere, photorealistic, 8K, therapeutic quality."
   }
 ]

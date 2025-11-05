@@ -1,249 +1,784 @@
+<!--
+    **Coding Principles Reminder**
+
+    When editing or adding to this file, please adhere to the DRY (Don't Repeat Yourself) principle.
+    
+    - **Reusability:** Create functions for any logic that is used more than once.
+    - **Maintainability:** Keep the code clean and easy to understand. Centralize configuration and data (like translations and themes) to make updates easier.
+    - **Efficiency:** Avoid redundant code to keep the file size smaller and the application faster.
+
+    By following these principles, we can ensure the codebase remains scalable and easy to manage.
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stellar AI Dashboard</title>
+    <title>Solo Studio - AI Photoshoot</title>
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts (Inter) -->
+    <!-- Google Fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Lucide Icons -->
+    <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
-    <!-- Custom Styles -->
+    <!-- jQuery and i18n scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.messagestore.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.fallbacks.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.parser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.emitter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.language.min.js"></script>
+    
+    <!-- JSZip and FileSaver for downloading all images -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+
+
     <style>
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* slate-50 */
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        .dark ::-webkit-scrollbar-track { background: #1f2937; }
+        .dark ::-webkit-scrollbar-thumb { background: #4b5563; }
+        .dark ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+        
+        /* Language switcher styles */
+        .lang-btn {
+            padding: 0.25rem 0.75rem; border-radius: 0.5rem; font-weight: 500;
+            transition: all 0.2s ease-in-out; border: 2px solid transparent;
+        }
+        .lang-btn.active {
+            color: #4f46e5; background-color: rgba(79, 70, 229, 0.1); border-color: #4f46e5;
+        }
+        .dark .lang-btn.active {
+             color: #a5b4fc; background-color: rgba(165, 180, 252, 0.1); border-color: #a5b4fc;
+        }
+        .lang-btn:not(.active):hover { background-color: rgba(107, 114, 128, 0.1); }
+
+        /* Theme button styles in modal */
+        .modal-theme-item {
+            transition: all 0.2s ease-in-out; border: 2px solid;
+        }
+        .modal-theme-item.selected {
+            transform: translateY(-2px); box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+            border-color: #4f46e5;
+        }
+        .favorite-btn.favorited .lucide-star {
+            fill: #facc15;
+            stroke: #facc15;
         }
         
-        .sidebar-link {
-            display: flex;
-            align-items: center;
-            padding: 0.75rem 1rem;
-            border-radius: 0.5rem;
-            color: #cbd5e1; /* slate-300 */
-            font-weight: 500;
-            transition: background-color 0.2s, color 0.2s;
+        /* Image Editor Modal Styles */
+        #image-editor-canvas-wrapper, #page-image-editor-canvas-wrapper {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1/1;
         }
-        .sidebar-link:hover {
-            background-color: #334155; /* slate-700 */
-            color: #ffffff;
+        #image-editor-canvas-wrapper canvas, #page-image-editor-canvas-wrapper canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
-        .sidebar-link.active {
-            background-color: #4f46e5; /* indigo-600 */
-            color: #ffffff;
+        #editor-canvas, #page-editor-canvas {
+            cursor: crosshair;
+        }
+        .color-swatch {
+            width: 24px;
+            height: 24px;
+            border-radius: 9999px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: transform 0.1s ease-in-out;
+        }
+        .color-swatch.active {
+            transform: scale(1.2);
+            border-color: #4f46e5;
+        }
+        .dark .color-swatch.active {
+             border-color: #a5b4fc;
+        }
+        .editor-tool-btn.active {
+            background-color: #e0e7ff;
+        }
+        .dark .editor-tool-btn.active {
+            background-color: #3730a3;
+        }
+         .nav-link.active {
+            color: #4f46e5;
             font-weight: 600;
         }
-        .sidebar-link i {
-            margin-right: 0.75rem;
+        .dark .nav-link.active {
+             color: #a5b4fc;
+        }
+        .nav-link.active.md-active {
+            background-color: #f3f4f6;
+        }
+         .dark .nav-link.active.md-active {
+            background-color: rgba(99, 102, 241, 0.2);
         }
 
-        /* Custom styles for the image uploader and radio buttons */
-        .image-uploader {
-            border: 2px dashed #d1d5db;
-            transition: border-color 0.3s, background-color 0.3s;
+        /* Styles for remove button on image previews */
+        .preview-item {
+            position: relative;
         }
-        .image-uploader:hover {
-            border-color: #4f46e5;
-            background-color: #f0f2ff;
-        }
-        .ratio-radio:checked + label {
-            border-color: #4f46e5;
-            background-color: #e0e7ff;
-            color: #4f46e5;
-        }
-        /* Simple spinner animation */
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        .spinner {
-            border: 4px solid rgba(0, 0, 0, 0.1);
-            border-left-color: #4f46e5;
-            animation: spin 1s linear infinite;
-        }
-        /* Add a class to disable pointer events during generation */
-        .generating {
-            pointer-events: none;
-            opacity: 0.7;
-        }
-        /* Language switcher style */
-        .lang-btn.active {
-            background-color: #4f46e5;
+        .remove-image-btn {
+            position: absolute;
+            top: 0.25rem;
+            right: 0.25rem;
+            background-color: rgba(0, 0, 0, 0.6);
             color: white;
-            border-color: #4f46e5;
+            border-radius: 9999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 0.2s ease-in-out;
+            padding: 0.25rem; /* For better touch area */
+        }
+        .preview-item:hover .remove-image-btn {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .remove-image-btn:hover {
+            background-color: rgba(239, 68, 68, 1); /* red-500 */
         }
     </style>
 </head>
-<body class="text-slate-800">
-
-    <div class="flex h-screen bg-slate-100">
-        <!-- Sidebar -->
-        <aside class="hidden md:flex flex-col w-64 bg-slate-900 text-slate-100 p-4">
-            <div class="flex items-center gap-3 h-16 px-2 mb-4">
-                 <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-lg flex items-center justify-center shadow-lg">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <div class="flex h-screen">
+        <!-- Sidebar / Bottom Nav -->
+        <aside class="fixed bottom-0 left-0 w-full h-16 bg-white dark:bg-gray-800/50 backdrop-blur-sm border-t border-gray-200 dark:border-gray-700/50 z-20 flex md:relative md:w-64 md:h-screen md:flex-col md:border-r md:border-t-0 md:bottom-auto">
+            <!-- Logo: Desktop only -->
+            <div class="hidden px-6 py-5 border-b border-gray-200 dark:border-gray-700/50 md:flex items-center space-x-3">
+                <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center">
                     <i data-lucide="sparkles" class="text-white"></i>
                 </div>
-                <h1 class="text-xl font-bold" data-i18n="appTitle">Stellar AI</h1>
+                <h1 class="text-xl font-bold text-gray-800 dark:text-white">Solo Studio</h1>
             </div>
-            <nav class="flex flex-col gap-2">
-                <a href="#" class="sidebar-link active">
-                    <i data-lucide="image" class="w-5 h-5"></i>
-                    <span data-i18n="menuBasic">Basic Product Photo</span>
+
+            <!-- Navigation Links Container -->
+            <div id="main-nav" class="w-full flex flex-row items-center justify-around md:flex-col md:items-stretch md:flex-1 md:px-4 md:py-4">
+                <a href="#ai-photoshoot" class="nav-link active md-active flex flex-col items-center justify-center p-2 rounded-lg text-gray-500 dark:text-gray-400 font-medium md:flex-row md:justify-start md:px-4 md:py-2" data-page="ai-photoshoot-page">
+                    <i data-lucide="camera" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-basic">AI Photoshoot</span>
                 </a>
-                 <a href="#" class="sidebar-link">
-                    <i data-lucide="wand-2" class="w-5 h-5"></i>
-                    <span data-i18n="menuAdvanced">Advanced Photoshoot</span>
+                <a href="#remix-photoshoot" class="nav-link flex flex-col items-center justify-center p-2 rounded-lg text-gray-500 dark:text-gray-400 font-medium md:flex-row md:justify-start md:px-4 md:py-2" data-page="remix-photoshoot-page">
+                    <i data-lucide="layers-3" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-remix">Remix Photoshoot</span>
                 </a>
-                <a href="#" class="sidebar-link">
-                    <i data-lucide="shirt" class="w-5 h-5"></i>
-                    <span data-i18n="menuVirtualTryOn">Virtual Try-On</span>
+                 <a href="#ai-mockup" class="nav-link flex flex-col items-center justify-center p-2 rounded-lg text-gray-500 dark:text-gray-400 font-medium md:flex-row md:justify-start md:px-4 md:py-2" data-page="ai-mockup-page">
+                    <i data-lucide="shirt" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-ai-mockup">AI Mockup</span>
                 </a>
-                 <a href="#" class="sidebar-link">
-                    <i data-lucide="user-round" class="w-5 h-5"></i>
-                    <span data-i18n="menuAIModels">AI Models</span>
+                <a href="#ai-graphic" class="nav-link flex flex-col items-center justify-center p-2 rounded-lg text-gray-500 dark:text-gray-400 font-medium md:flex-row md:justify-start md:px-4 md:py-2" data-page="ai-graphic-page">
+                    <i data-lucide="layout-template" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-ai-graphic">AI Graphic</span>
                 </a>
-            </nav>
-            <div class="mt-auto">
-                 <button id="settings-btn" class="sidebar-link mt-2 w-full">
-                    <i data-lucide="settings" class="w-5 h-5"></i>
-                    <span data-i18n="menuSettings">Settings</span>
-                </button>
+                <a href="#virtual-try-on" class="nav-link flex flex-col items-center justify-center p-2 rounded-lg text-gray-500 dark:text-gray-400 font-medium md:flex-row md:justify-start md:px-4 md:py-2" data-page="virtual-try-on-page">
+                    <i data-lucide="shirt" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-virtual-try-on">Virtual Try-On</span>
+                </a>
+                <a href="#ai-free-edit" class="nav-link flex flex-col items-center justify-center p-2 rounded-lg text-gray-500 dark:text-gray-400 font-medium md:flex-row md:justify-start md:px-4 md:py-2" data-page="ai-free-edit-page">
+                    <i data-lucide="edit-3" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-ai-free-edit">AI Free Edit</span>
+                </a>
+                <a href="#" id="settings-btn" class="flex flex-col items-center justify-center p-2 rounded-lg text-gray-600 dark:text-gray-300 font-medium hover:bg-gray-100 dark:hover:bg-gray-700/50 md:flex-row md:justify-start md:px-4 md:py-2 md:mt-auto md:mb-2">
+                    <i data-lucide="settings" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-settings">Settings</span>
+                </a>
+                <a href="#" class="flex flex-col items-center justify-center p-2 rounded-lg text-gray-600 dark:text-gray-300 font-medium hover:bg-gray-100 dark:hover:bg-gray-700/50 md:flex-row md:justify-start md:px-4 md:py-2">
+                    <i data-lucide="help-circle" class="w-6 h-6 md:w-5 md:h-5 md:mr-3"></i>
+                    <span class="text-xs mt-1 md:text-base md:mt-0" data-i18n="menu-help">Help</span>
+                </a>
             </div>
         </aside>
 
-        <!-- Main Content -->
-        <main class="flex-1 overflow-y-auto">
-            <header class="bg-white/80 backdrop-blur-md border-b border-slate-200 p-4 md:hidden">
-                 <div class="flex items-center gap-3">
-                     <div class="w-8 h-8 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-lg flex items-center justify-center shadow-lg">
-                        <i data-lucide="sparkles" class="text-white w-5 h-5"></i>
-                    </div>
-                    <h1 class="text-lg font-bold" data-i18n="appTitleMobile">Stellar AI</h1>
-                </div>
-            </header>
+        <!-- Main Content Area -->
+        <main class="flex-1 overflow-y-auto pb-20 md:pb-0">
 
-            <div class="p-6 md:p-8">
-                <!-- AI Photo Generator Section -->
-                <section id="basic-product-photo">
-                    <div class="max-w-4xl mx-auto">
-                         <div class="mb-8">
-                            <h2 class="text-3xl font-bold text-slate-900" data-i18n="headerTitle">Basic Product Photo</h2>
-                            <p class="text-slate-600 mt-1" data-i18n="headerDescription">Upload your product image and let our AI generate professional-quality photos in seconds.</p>
+            <!-- AI Photoshoot Page -->
+            <div id="ai-photoshoot-page" class="page-content p-4 md:p-8">
+                <div class="max-w-4xl mx-auto">
+                    <header class="mb-8">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="app-title">AI Photoshoot</h2>
+                        <p class="text-gray-500 dark:text-gray-400 mt-1" data-i18n="app-subtitle">Upload your photo, pick themes, and let AI create new versions.</p>
+                    </header>
+
+                    <!-- Generation Area -->
+                    <div class="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                            <!-- Image Upload -->
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="step1-title">Step 1: Upload Photo</h3>
+                                <label id="image-upload-label" for="image-upload-input" class="cursor-pointer w-full aspect-square bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700/50 transition-colors">
+                                    <div id="image-preview-container">
+                                        <i data-lucide="upload-cloud" class="w-12 h-12 mx-auto"></i>
+                                        <p class="font-medium mt-2" data-i18n="upload-main">Click to upload</p>
+                                        <p class="text-xs" data-i18n="upload-sub">PNG, JPG, or JPEG</p>
+                                    </div>
+                                </label>
+                                <input type="file" id="image-upload-input" class="hidden" accept="image/png, image/jpeg, image/jpg">
+                            </div>
+                            <!-- Theme Selection -->
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="step2-title">Step 2: Choose Theme(s)</h3>
+                                <div class="h-48 flex flex-col">
+                                    <div id="selected-themes-display" class="flex-1 flex flex-wrap gap-2 content-start overflow-y-auto bg-gray-100 dark:bg-gray-900/50 p-3 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600">
+                                        <p id="no-themes-selected-msg" class="text-gray-500 dark:text-gray-400 text-sm" data-i18n="no-themes-selected">No themes selected.</p>
+                                    </div>
+                                    <button id="open-themes-modal-btn" class="mt-3 w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-200 flex items-center justify-center space-x-2">
+                                        <i data-lucide="plus-circle" class="w-5 h-5"></i>
+                                        <span data-i18n="btn-select-themes">Select Themes</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Generate Button -->
+                        <div class="mt-6">
+                            <button id="generate-btn" class="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-900 transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i data-lucide="wand-2" class="w-5 h-5"></i>
+                                <span data-i18n="btn-generate">Generate Image</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Image Display Area -->
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4" data-i18n="creation-title">Your Creation</h3>
+                        <div id="image-container" class="w-full min-h-[20rem] bg-white dark:bg-gray-800/50 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50 flex items-center justify-center p-4 transition-all duration-300">
+                            <div id="placeholder" class="text-center text-gray-400 dark:text-gray-500">
+                                <i data-lucide="image" class="w-16 h-16 mx-auto mb-4"></i>
+                                <p class="font-medium" data-i18n="placeholder-main">Your new image will appear here.</p>
+                            </div>
+                            <div id="loader" class="hidden text-center text-gray-500 dark:text-gray-400">
+                                <svg class="animate-spin h-10 w-10 text-indigo-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                <p class="mt-4 font-semibold" data-i18n="loader-main">Creating your vision...</p>
+                            </div>
+                        </div>
+                        <div id="download-all-wrapper" class="mt-6 text-center hidden">
+                            <button id="download-all-btn" class="bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2 w-full md:w-auto mx-auto">
+                                <i data-lucide="download-cloud" class="w-5 h-5"></i>
+                                <span data-i18n="btn-download-all">Download All as ZIP</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Mockup Page -->
+            <div id="ai-mockup-page" class="page-content p-4 md:p-8 hidden">
+                <div class="max-w-4xl mx-auto">
+                    <header class="mb-8">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="ai-mockup-title">AI Mockup</h2>
+                        <p class="text-gray-500 dark:text-gray-400 mt-1" data-i18n="ai-mockup-subtitle">Create realistic mockups for your clothing designs.</p>
+                    </header>
+                    <div class="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                             <div>
+                                <h3 class="font-semibold mb-2" data-i18n="ai-mockup-step1-title">Step 1: Upload Clothes</h3>
+                                <label for="ai-mockup-clothes-input" class="cursor-pointer w-full aspect-square bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700/50 transition-colors">
+                                    <div id="ai-mockup-clothes-preview">
+                                        <i data-lucide="shirt" class="w-12 h-12 mx-auto"></i>
+                                        <p class="font-medium mt-2" data-i18n="upload-main">Click to upload</p>
+                                        <p class="text-xs" data-i18n="upload-sub">PNG, JPG, or JPEG</p>
+                                    </div>
+                                </label>
+                                <input type="file" id="ai-mockup-clothes-input" class="hidden" accept="image/png, image/jpeg, image/jpg">
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="ai-mockup-step2-title">Step 2: Upload Design</h3>
+                                <label for="ai-mockup-design-input" class="cursor-pointer w-full aspect-square bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700/50 transition-colors">
+                                    <div id="ai-mockup-design-preview">
+                                        <i data-lucide="paintbrush" class="w-12 h-12 mx-auto"></i>
+                                        <p class="font-medium mt-2" data-i18n="upload-main">Click to upload</p>
+                                        <p class="text-xs" data-i18n="upload-sub">PNG, JPG, or JPEG</p>
+                                    </div>
+                                </label>
+                                <input type="file" id="ai-mockup-design-input" class="hidden" accept="image/png, image/jpeg, image/jpg">
+                            </div>
                         </div>
 
-                        <div id="generator-ui" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg flex flex-col gap-8">
-                            <!-- Form Controls -->
-                            <div class="space-y-6">
-                                <div>
-                                    <label class="font-semibold text-slate-700 block mb-2" data-i18n="step1Label">1. Upload Product Image</label>
-                                    <div id="image-uploader" class="image-uploader rounded-lg p-6 text-center cursor-pointer">
-                                        <input type="file" id="file-input" class="hidden" accept="image/*">
-                                        <div id="image-preview-container" class="flex flex-col items-center justify-center text-slate-500">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" /></svg>
-                                            <p class="font-semibold" data-i18n="uploadHelpText">Click to upload</p>
-                                            <p class="text-sm" data-i18n="uploadFileType">PNG, JPG, or WEBP</p>
-                                        </div>
-                                    </div>
+                        <div class="mt-6">
+                            <h3 class="font-semibold mb-2" data-i18n="ai-mockup-step3-title">Step 3: Select Design Position</h3>
+                            <select id="ai-mockup-position-select" class="w-full bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-200 text-sm rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block p-2.5">
+                                <option value="" selected data-i18n="select-position-placeholder">Choose a position...</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <h3 class="font-semibold mb-2" data-i18n="ai-mockup-step4-title">Step 4: Choose Photo Style(s)</h3>
+                             <div class="h-48 flex flex-col">
+                                <div id="selected-photo-styles-display" class="flex-1 flex flex-wrap gap-2 content-start overflow-y-auto bg-gray-100 dark:bg-gray-900/50 p-3 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600">
+                                    <p id="no-photo-styles-selected-msg" class="text-gray-500 dark:text-gray-400 text-sm" data-i18n="no-styles-selected">No styles selected.</p>
                                 </div>
-
-                                <div>
-                                    <label for="photo-style" class="font-semibold text-slate-700 block mb-2" data-i18n="step2Label">2. Select Style of Photo</label>
-                                    <select id="photo-style" class="w-full border border-gray-300 shadow-sm rounded-lg p-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"></select>
-                                </div>
-                                
-                                <div>
-                                    <label for="negative-prompt" class="font-semibold text-slate-700 block mb-2" data-i18n="step3LabelNegative">3. Negative Prompt (Optional)</label>
-                                    <textarea id="negative-prompt" rows="2" class="w-full border border-gray-300 shadow-sm rounded-lg p-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition" data-i18n-placeholder="negativePromptPlaceholder" placeholder="e.g., text, watermarks, ugly, deformed..."></textarea>
-                                </div>
-
-                                <div>
-                                    <label for="prompt" class="font-semibold text-slate-700 block mb-2" data-i18n="step4LabelPrompt">4. Write a Prompt</label>
-                                    <div class="relative">
-                                        <textarea id="prompt" rows="6" class="w-full border border-gray-300 shadow-sm rounded-lg p-3 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition" data-i18n-placeholder="promptPlaceholder" placeholder="e.g., A futuristic sneaker on a rocky planet at sunset..."></textarea>
-                                        <button id="magic-prompt-btn" class="absolute bottom-2 right-2 bg-indigo-100 text-indigo-600 text-sm font-semibold px-3 py-1 rounded-md hover:bg-indigo-200 transition flex items-center">
-                                           <span id="magic-prompt-text" data-i18n="magicPromptBtn">✨ Magic Prompt</span>
-                                           <div id="magic-prompt-spinner" class="spinner w-4 h-4 rounded-full ml-2 hidden"></div>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <label class="font-semibold text-slate-700 block mb-2" data-i18n="step5LabelRatio">5. Select Photo Ratio</label>
-                                    <div class="grid grid-cols-3 gap-2">
-                                        <input type="radio" name="ratio" id="ratio-1-1" value="1:1" class="sr-only ratio-radio" checked>
-                                        <label for="ratio-1-1" class="block border-2 border-slate-300 rounded-lg p-3 text-center cursor-pointer font-medium transition" data-i18n="ratioSquare">Square (1:1)</label>
-                                        
-                                        <input type="radio" name="ratio" id="ratio-4-5" value="4:5" class="sr-only ratio-radio">
-                                        <label for="ratio-4-5" class="block border-2 border-slate-300 rounded-lg p-3 text-center cursor-pointer font-medium transition" data-i18n="ratioPortrait">Portrait (4:5)</label>
-
-                                        <input type="radio" name="ratio" id="ratio-16-9" value="16:9" class="sr-only ratio-radio">
-                                        <label for="ratio-16-9" class="block border-2 border-slate-300 rounded-lg p-3 text-center cursor-pointer font-medium transition" data-i18n="ratioWidescreen">Widescreen (16:9)</label>
-                                    </div>
-                                </div>
-                                
-                                <button id="generate-btn" class="w-full bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-indigo-700 transition-transform duration-300 hover:scale-105 shadow-lg flex items-center justify-center">
-                                   <span id="generate-btn-text" data-i18n="generateBtn">Generate Photo</span>
-                                   <div id="generate-btn-spinner" class="spinner w-6 h-6 rounded-full ml-3 hidden"></div>
+                                <button id="open-photo-styles-modal-btn" class="mt-3 w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-200 flex items-center justify-center space-x-2">
+                                    <i data-lucide="plus-circle" class="w-5 h-5"></i>
+                                    <span data-i18n="btn-select-styles">Select Styles</span>
                                 </button>
                             </div>
+                        </div>
 
-                            <!-- Output Container -->
-                            <div class="bg-slate-100 rounded-lg flex items-center justify-center p-4 border w-full min-h-[400px]">
-                                <div id="output-container" class="text-center text-slate-500 w-full">
-                                     <p class="font-semibold" data-i18n="outputPlaceholder">Your generated photo will appear here.</p>
+                        <div class="mt-6">
+                            <button id="ai-mockup-generate-btn" class="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-900 transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i data-lucide="wand-2" class="w-5 h-5"></i>
+                                <span data-i18n="btn-ai-mockup">Generate Mockup</span>
+                            </button>
+                        </div>
+                    </div>
+                     <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4" data-i18n="ai-mockup-creation-title">Your Mockups</h3>
+                        <div id="ai-mockup-image-container" class="w-full min-h-[20rem] bg-white dark:bg-gray-800/50 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50 flex items-center justify-center p-4 transition-all duration-300">
+                            <div id="ai-mockup-placeholder" class="text-center text-gray-400 dark:text-gray-500">
+                                <i data-lucide="image" class="w-16 h-16 mx-auto mb-4"></i>
+                                <p class="font-medium" data-i18n="placeholder-main">Your new image will appear here.</p>
+                            </div>
+                            <div id="ai-mockup-loader" class="hidden text-center text-gray-500 dark:text-gray-400">
+                                <svg class="animate-spin h-10 w-10 text-indigo-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                                <p class="mt-4 font-semibold" data-i18n="loader-ai-mockup">Generating mockups...</p>
+                            </div>
+                        </div>
+                        <div id="ai-mockup-download-all-wrapper" class="mt-6 text-center hidden">
+                            <button id="ai-mockup-download-all-btn" class="bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2 w-full md:w-auto mx-auto">
+                                <i data-lucide="download-cloud" class="w-5 h-5"></i>
+                                <span data-i18n="btn-download-all">Download All as ZIP</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Remix Photoshoot Page -->
+            <div id="remix-photoshoot-page" class="page-content p-4 md:p-8 hidden">
+                <div class="max-w-4xl mx-auto">
+                    <header class="mb-8">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="remix-title">Remix Photoshoot</h2>
+                        <p class="text-gray-500 dark:text-gray-400 mt-1" data-i18n="remix-subtitle">Upload multiple photos, pick themes, and merge them into one masterpiece.</p>
+                    </header>
+                    <div class="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="remix-step1-title">Step 1: Upload Photos</h3>
+                                <div id="remix-preview-container" class="w-full min-h-[12rem] grid grid-cols-3 gap-2 p-2 bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg">
+                                    <label for="remix-upload-input" class="cursor-pointer aspect-square bg-gray-200 dark:bg-gray-700/50 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+                                        <i data-lucide="upload-cloud" class="w-8 h-8"></i>
+                                        <span class="text-xs mt-1" data-i18n="upload-multiple-main">Upload...</span>
+                                    </label>
+                                </div>
+                                <input type="file" id="remix-upload-input" class="hidden" accept="image/png, image/jpeg, image/jpg" multiple>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="step2-title">Step 2: Choose Theme(s)</h3>
+                                <div class="h-48 flex flex-col">
+                                    <div id="remix-selected-themes-display" class="flex-1 flex flex-wrap gap-2 content-start overflow-y-auto bg-gray-100 dark:bg-gray-900/50 p-3 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600">
+                                        <p id="remix-no-themes-msg" class="text-gray-500 dark:text-gray-400 text-sm" data-i18n="no-themes-selected">No themes selected.</p>
+                                    </div>
+                                    <button class="remix-open-themes-modal-btn mt-3 w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-200 flex items-center justify-center space-x-2">
+                                        <i data-lucide="plus-circle" class="w-5 h-5"></i>
+                                        <span data-i18n="btn-select-themes">Select Themes</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                         <div id="error-box" class="hidden mt-4 max-w-4xl mx-auto bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg relative" role="alert">
-                            <strong class="font-bold" data-i18n="errorTitle">Error:</strong>
-                            <span class="block sm:inline" id="error-message">Something went wrong.</span>
+                        <div class="mt-6">
+                            <button id="remix-generate-btn" class="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-900 transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i data-lucide="wand-2" class="w-5 h-5"></i>
+                                <span data-i18n="btn-remix">Create Remix</span>
+                            </button>
                         </div>
                     </div>
-                </section>
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4" data-i18n="remix-creation-title">Your Remix</h3>
+                        <div id="remix-image-container" class="w-full min-h-[20rem] bg-white dark:bg-gray-800/50 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50 flex items-center justify-center p-4 transition-all duration-300">
+                            <div id="remix-placeholder" class="text-center text-gray-400 dark:text-gray-500">
+                                <i data-lucide="image" class="w-16 h-16 mx-auto mb-4"></i>
+                                <p class="font-medium" data-i18n="placeholder-main">Your new image will appear here.</p>
+                            </div>
+                            <div id="remix-loader" class="hidden text-center text-gray-500 dark:text-gray-400">
+                                <svg class="animate-spin h-10 w-10 text-indigo-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                <p class="mt-4 font-semibold" data-i18n="loader-remixing">Remixing your images...</p>
+                            </div>
+                        </div>
+                        <div id="remix-download-all-wrapper" class="mt-6 text-center hidden">
+                            <button id="remix-download-all-btn" class="bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2 w-full md:w-auto mx-auto">
+                                <i data-lucide="download-cloud" class="w-5 h-5"></i>
+                                <span data-i18n="btn-download-all">Download All as ZIP</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-             <!-- Mobile Bottom Navigation Placeholder -->
-            <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 flex justify-around p-2 md:hidden">
-                 <a href="#" class="flex flex-col items-center text-indigo-600">
-                    <i data-lucide="image" class="w-6 h-6"></i>
-                    <span class="text-xs font-medium" data-i18n="mobileMenuBasic">Basic</span>
-                </a>
-                 <a href="#" class="flex flex-col items-center text-slate-500">
-                    <i data-lucide="wand-2" class="w-6 h-6"></i>
-                    <span class="text-xs" data-i18n="mobileMenuAdvanced">Advanced</span>
-                </a>
-                 <a href="#" class="flex flex-col items-center text-slate-500">
-                    <i data-lucide="shirt" class="w-6 h-6"></i>
-                    <span class="text-xs" data-i18n="mobileMenuTryOn">Try-On</span>
-                </a>
-                <a href="#" class="flex flex-col items-center text-slate-500">
-                    <i data-lucide="user-round" class="w-6 h-6"></i>
-                    <span class="text-xs" data-i18n="mobileMenuModels">Models</span>
-                </a>
+            
+            <!-- Virtual Try-On Page -->
+            <div id="virtual-try-on-page" class="page-content p-4 md:p-8 hidden">
+                <div class="max-w-4xl mx-auto">
+                    <header class="mb-8">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="virtual-try-on-title">Virtual Try-On</h2>
+                        <p class="text-gray-500 dark:text-gray-400 mt-1" data-i18n="virtual-try-on-subtitle">Upload a model and clothes to see a virtual fitting.</p>
+                    </header>
+                    <div class="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="virtual-try-on-step1-title">Step 1: Upload Model</h3>
+                                <label id="virtual-model-upload-label" for="virtual-model-upload-input" class="cursor-pointer w-full aspect-square bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700/50 transition-colors">
+                                    <div id="virtual-model-preview-container">
+                                        <i data-lucide="user-square-2" class="w-12 h-12 mx-auto"></i>
+                                        <p class="font-medium mt-2" data-i18n="upload-main">Click to upload</p>
+                                        <p class="text-xs" data-i18n="upload-sub">PNG, JPG, or JPEG</p>
+                                    </div>
+                                </label>
+                                <input type="file" id="virtual-model-upload-input" class="hidden" accept="image/png, image/jpeg, image/jpg">
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="virtual-try-on-step2-title">Step 2: Upload Clothes</h3>
+                                <div id="virtual-clothes-preview-container" class="w-full min-h-[12rem] grid grid-cols-3 gap-2 p-2 bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg">
+                                    <label for="virtual-clothes-upload-input" class="cursor-pointer aspect-square bg-gray-200 dark:bg-gray-700/50 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+                                        <i data-lucide="shirt" class="w-8 h-8"></i>
+                                        <span class="text-xs mt-1" data-i18n="upload-multiple-main">Upload...</span>
+                                    </label>
+                                </div>
+                                <input type="file" id="virtual-clothes-upload-input" class="hidden" accept="image/png, image/jpeg, image/jpg" multiple>
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <button id="virtual-generate-btn" class="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-900 transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i data-lucide="wand-2" class="w-5 h-5"></i>
+                                <span data-i18n="btn-virtual-try-on">Generate Try-On</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4" data-i18n="virtual-try-on-creation-title">Your Virtual Try-On</h3>
+                        <div id="virtual-image-container" class="w-full min-h-[20rem] bg-white dark:bg-gray-800/50 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50 flex items-center justify-center p-4 transition-all duration-300">
+                            <div id="virtual-placeholder" class="text-center text-gray-400 dark:text-gray-500">
+                                <i data-lucide="image" class="w-16 h-16 mx-auto mb-4"></i>
+                                <p class="font-medium" data-i18n="placeholder-main">Your new image will appear here.</p>
+                            </div>
+                            <div id="virtual-loader" class="hidden text-center text-gray-500 dark:text-gray-400">
+                                <svg class="animate-spin h-10 w-10 text-indigo-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                <p class="mt-4 font-semibold" data-i18n="loader-virtual-try-on">Generating outfits...</p>
+                            </div>
+                        </div>
+                        <div id="virtual-download-all-wrapper" class="mt-6 text-center hidden">
+                            <button id="virtual-download-all-btn" class="bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2 w-full md:w-auto mx-auto">
+                                <i data-lucide="download-cloud" class="w-5 h-5"></i>
+                                <span data-i18n="btn-download-all">Download All as ZIP</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- AI Graphic Page -->
+            <div id="ai-graphic-page" class="page-content p-4 md:p-8 hidden">
+                <div class="max-w-4xl mx-auto">
+                    <header class="mb-8">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="ai-graphic-title">AI Graphic</h2>
+                        <p class="text-gray-500 dark:text-gray-400 mt-1" data-i18n="ai-graphic-subtitle">Create banners and flyers with AI.</p>
+                    </header>
+                    <div class="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50">
+                        <div class="space-y-6">
+                            <!-- Banner Type -->
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="ai-graphic-step1-title">Step 1: Choose Aspect Ratio</h3>
+                                <div id="ai-graphic-format-selector" class="grid grid-cols-3 gap-4">
+                                    <label class="cursor-pointer">
+                                        <input type="radio" name="graphic-format" value="square" class="sr-only peer">
+                                        <div class="p-3 text-center rounded-lg border-2 peer-checked:border-indigo-500 peer-checked:text-indigo-600 dark:peer-checked:text-indigo-400 flex flex-col items-center justify-center space-y-2 h-full">
+                                            <div class="w-10 h-10 bg-gray-200 dark:bg-gray-700 rounded-sm"></div>
+                                            <span class="font-medium text-sm" data-i18n="ai-graphic-format-square">1:1 (Square)</span>
+                                        </div>
+                                    </label>
+                                    <label class="cursor-pointer">
+                                        <input type="radio" name="graphic-format" value="portrait" class="sr-only peer">
+                                        <div class="p-3 text-center rounded-lg border-2 peer-checked:border-indigo-500 peer-checked:text-indigo-600 dark:peer-checked:text-indigo-400 flex flex-col items-center justify-center space-y-2 h-full">
+                                            <div class="w-8 h-12 bg-gray-200 dark:bg-gray-700 rounded-sm"></div>
+                                            <span class="font-medium text-sm" data-i18n="ai-graphic-format-portrait">9:16 (Portrait)</span>
+                                        </div>
+                                    </label>
+                                    <label class="cursor-pointer">
+                                        <input type="radio" name="graphic-format" value="landscape" class="sr-only peer">
+                                        <div class="p-3 text-center rounded-lg border-2 peer-checked:border-indigo-500 peer-checked:text-indigo-600 dark:peer-checked:text-indigo-400 flex flex-col items-center justify-center space-y-2 h-full">
+                                            <div class="w-12 h-8 bg-gray-200 dark:bg-gray-700 rounded-sm"></div>
+                                            <span class="font-medium text-sm" data-i18n="ai-graphic-format-landscape">16:9 (Landscape)</span>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- Content -->
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="ai-graphic-step2-title">Step 2: Describe Content</h3>
+                                <textarea id="ai-graphic-content" class="w-full p-3 bg-gray-100 dark:bg-gray-900/50 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" rows="3" data-i18n="[placeholder]ai-graphic-content-placeholder"></textarea>
+                            </div>
+                            <!-- Assets -->
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="ai-graphic-step3-title">Step 3: Upload Assets (Optional)</h3>
+                                <div id="ai-graphic-assets-preview-container" class="w-full min-h-[8rem] grid grid-cols-4 gap-2 p-2 bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg">
+                                    <label for="ai-graphic-assets-upload-input" class="cursor-pointer aspect-square bg-gray-200 dark:bg-gray-700/50 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
+                                        <i data-lucide="upload-cloud" class="w-8 h-8"></i>
+                                        <span class="text-xs mt-1" data-i18n="upload-multiple-main">Upload...</span>
+                                    </label>
+                                </div>
+                                <input type="file" id="ai-graphic-assets-upload-input" class="hidden" accept="image/png, image/jpeg, image/jpg" multiple>
+                            </div>
+                            <!-- Styles -->
+                            <div>
+                                <h3 class="font-semibold mb-2" data-i18n="ai-graphic-step4-title">Step 4: Choose Style(s)</h3>
+                                <div class="flex flex-col">
+                                    <div id="ai-graphic-selected-styles-display" class="flex-1 flex flex-wrap gap-2 content-start overflow-y-auto bg-gray-100 dark:bg-gray-900/50 p-3 rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600 min-h-[4rem]">
+                                        <p id="ai-graphic-no-styles-msg" class="text-gray-500 dark:text-gray-400 text-sm" data-i18n="no-themes-selected">No styles selected.</p>
+                                    </div>
+                                    <button class="ai-graphic-open-styles-modal-btn mt-3 w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-200 flex items-center justify-center space-x-2">
+                                        <i data-lucide="plus-circle" class="w-5 h-5"></i>
+                                        <span data-i18n="btn-select-styles">Select Styles</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6">
+                            <button id="ai-graphic-generate-btn" class="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-900 transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i data-lucide="wand-2" class="w-5 h-5"></i>
+                                <span data-i18n="btn-ai-graphic">Generate Graphic Design</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4" data-i18n="ai-graphic-creation-title">Your Graphic Designs</h3>
+                        <div id="ai-graphic-image-container" class="w-full min-h-[20rem] bg-white dark:bg-gray-800/50 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50 flex items-center justify-center p-4 transition-all duration-300">
+                            <div id="ai-graphic-placeholder" class="text-center text-gray-400 dark:text-gray-500">
+                                <i data-lucide="image" class="w-16 h-16 mx-auto mb-4"></i>
+                                <p class="font-medium" data-i18n="placeholder-main">Your new image will appear here.</p>
+                            </div>
+                            <div id="ai-graphic-loader" class="hidden text-center text-gray-500 dark:text-gray-400">
+                                <svg class="animate-spin h-10 w-10 text-indigo-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                <p class="mt-4 font-semibold" data-i18n="loader-ai-graphic">Designing your graphics...</p>
+                            </div>
+                        </div>
+                        <div id="ai-graphic-download-all-wrapper" class="mt-6 text-center hidden">
+                            <button id="ai-graphic-download-all-btn" class="bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2 w-full md:w-auto mx-auto">
+                                <i data-lucide="download-cloud" class="w-5 h-5"></i>
+                                <span data-i18n="btn-download-all">Download All as ZIP</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- AI Free Edit Page -->
+            <div id="ai-free-edit-page" class="page-content p-4 md:p-8 hidden">
+                <div class="max-w-4xl mx-auto">
+                    <header class="mb-8">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="ai-free-edit-title">AI Free Edit</h2>
+                        <p class="text-gray-500 dark:text-gray-400 mt-1" data-i18n="ai-free-edit-subtitle">Upload an image and use the brush tool to edit it with AI.</p>
+                    </header>
+
+                    <!-- Upload Wrapper -->
+                    <div id="ai-free-edit-upload-wrapper">
+                        <div class="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700/50">
+                            <h3 class="font-semibold mb-2" data-i18n="upload-image-to-edit">Upload Image to Edit</h3>
+                            <label for="ai-free-edit-upload-input" class="cursor-pointer w-full aspect-video bg-gray-100 dark:bg-gray-900/50 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg flex flex-col items-center justify-center text-center text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700/50 transition-colors">
+                                <div id="ai-free-edit-preview-container">
+                                    <i data-lucide="upload-cloud" class="w-12 h-12 mx-auto"></i>
+                                    <p class="font-medium mt-2" data-i18n="upload-main">Click to upload</p>
+                                    <p class="text-xs" data-i18n="upload-sub">PNG, JPG, or JPEG</p>
+                                </div>
+                            </label>
+                            <input type="file" id="ai-free-edit-upload-input" class="hidden" accept="image/png, image/jpeg, image/jpg">
+                        </div>
+                    </div>
+
+                    <!-- Editor Wrapper (initially hidden) -->
+                    <div id="ai-free-edit-editor-wrapper" class="hidden">
+                         <div class="flex flex-col gap-4">
+                            <!-- Tools -->
+                            <div class="bg-gray-100 dark:bg-gray-900/50 p-3 rounded-lg">
+                                <div class="flex flex-wrap items-center gap-6">
+                                    <!-- Action Tools -->
+                                    <div>
+                                        <label class="block text-sm font-medium mb-2" data-i18n="editor-tools">Tools</label>
+                                        <div class="flex items-center space-x-1 bg-gray-200 dark:bg-gray-800 p-1 rounded-lg">
+                                            <button id="page-undo-btn" title="Undo Drawing" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"><i data-lucide="undo-2" class="w-5 h-5"></i></button>
+                                            <button id="page-undo-regeneration-btn" title="Undo Regeneration" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"><i data-lucide="rotate-ccw" class="w-5 h-5"></i></button>
+                                            <button id="page-eraser-btn" title="Eraser" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700"><i data-lucide="eraser" class="w-5 h-5"></i></button>
+                                            <button id="page-clear-btn" title="Clear All" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700 text-red-500"><i data-lucide="trash-2" class="w-5 h-5"></i></button>
+                                        </div>
+                                    </div>
+                                    <!-- Color Palette -->
+                                    <div>
+                                        <label class="block text-sm font-medium mb-2" data-i18n="editor-brush-color">Brush Color</label>
+                                        <div id="page-color-palette" class="flex items-center space-x-2">
+                                            <button class="color-swatch active" style="background-color: #EF4444;" data-color="#EF4444"></button>
+                                            <button class="color-swatch" style="background-color: #3B82F6;" data-color="#3B82F6"></button>
+                                            <button class="color-swatch" style="background-color: #22C55E;" data-color="#22C55E"></button>
+                                            <button class="color-swatch" style="background-color: #F97316;" data-color="#F97316"></button>
+                                            <button class="color-swatch" style="background-color: #FFFFFF;" data-color="#FFFFFF"></button>
+                                            <button class="color-swatch" style="background-color: #000000;" data-color="#000000"></button>
+                                        </div>
+                                    </div>
+                                    <!-- Brush Size -->
+                                    <div class="flex-1 min-w-[120px]">
+                                        <label for="page-brush-size" class="block text-sm font-medium mb-2" data-i18n="editor-brush-size">Brush Size</label>
+                                        <input id="page-brush-size" type="range" min="2" max="50" value="10" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Canvas -->
+                            <div id="page-image-editor-canvas-wrapper" class="bg-gray-200 dark:bg-gray-900 rounded-lg">
+                                <canvas id="page-editor-canvas"></canvas>
+                            </div>
+                            <!-- Adjustment Prompt -->
+                            <div class="flex-1 flex flex-col">
+                                <label for="page-adjustment-prompt" class="block font-semibold mb-2" data-i18n="editor-prompt">Adjustment Prompt</label>
+                                <textarea id="page-adjustment-prompt" class="flex-1 w-full p-3 bg-gray-100 dark:bg-gray-900/50 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" data-i18n="[placeholder]editor-prompt-placeholder"></textarea>
+                            </div>
+                            <!-- Action Buttons -->
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <button id="page-regenerate-btn" class="flex-1 bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-200 flex items-center justify-center space-x-2">
+                                    <i data-lucide="wand-2" class="w-5 h-5"></i>
+                                    <span data-i18n="btn-generate">Generate</span>
+                                </button>
+                                <button id="page-download-editor-btn" class="flex-1 sm:flex-none bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2">
+                                    <i data-lucide="download" class="w-5 h-5"></i>
+                                    <span data-i18n="btn-download">Download</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </main>
     </div>
 
     <!-- Settings Modal -->
-    <div id="settings-modal" class="fixed inset-0 bg-slate-900 bg-opacity-50 backdrop-blur-sm flex items-center justify-center p-4 hidden z-50">
-        <div class="bg-white rounded-2xl shadow-xl w-full max-w-md p-6">
+    <div id="settings-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg w-full max-w-md p-6 relative">
             <div class="flex justify-between items-center mb-6">
-                <h3 class="text-xl font-bold text-slate-800" data-i18n="settingsTitle">Settings</h3>
-                <button id="close-modal-btn" class="text-slate-500 hover:text-slate-800">
-                    <i data-lucide="x" class="w-6 h-6"></i>
-                </button>
+                <h4 class="text-xl font-bold" data-i18n="settings-title">Settings</h4>
+                <button id="close-modal-btn" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"><i data-lucide="x" class="w-6 h-6"></i></button>
             </div>
             <div>
-                <label class="font-semibold text-slate-700 block mb-2" data-i18n="languageLabel">Language</label>
-                <div class="flex gap-2">
-                    <button id="lang-en-modal" class="lang-btn w-full p-3 rounded-lg border-2 border-slate-200 font-semibold transition">English</button>
-                    <button id="lang-id-modal" class="lang-btn w-full p-3 rounded-lg border-2 border-slate-200 text-slate-600 font-semibold transition">Indonesian</button>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" data-i18n="settings-language">Language</label>
+                <div id="lang-switcher" class="flex space-x-1 border border-gray-200 dark:border-gray-700 rounded-lg p-1 w-min">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn active" data-lang="id">ID</button>
+                    <button class="lang-btn" data-lang="ms">MY</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Themes Modal -->
+    <div id="themes-modal" class="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center p-4 z-50 hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg w-full max-w-3xl h-[90vh] flex flex-col">
+            <!-- Header -->
+            <div class="flex justify-between items-center p-6 border-b border-gray-200 dark:border-gray-700">
+                <h4 id="themes-modal-title" class="text-2xl font-bold"></h4>
+                <button id="close-themes-modal-btn" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"><i data-lucide="x" class="w-7 h-7"></i></button>
+            </div>
+            <!-- Body -->
+            <div id="modal-theme-list" class="flex-1 overflow-y-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <!-- Modal theme items will be injected here -->
+            </div>
+            <!-- Footer -->
+            <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                <button id="confirm-themes-btn" class="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-200 flex items-center justify-center space-x-2">
+                    <i data-lucide="check-circle" class="w-5 h-5"></i>
+                    <span data-i18n="btn-done">Done</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Image Editor Modal -->
+    <div id="image-editor-modal" class="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center p-4 z-[60] hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg w-full max-w-2xl h-[95vh] flex flex-col">
+            <!-- Header -->
+            <div class="flex justify-between items-center p-5 border-b border-gray-200 dark:border-gray-700">
+                <h4 id="editor-title-text" class="text-xl font-bold"></h4>
+                <button id="close-editor-modal-btn" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"><i data-lucide="x" class="w-7 h-7"></i></button>
+            </div>
+            <!-- Body -->
+            <div class="flex-1 flex flex-col gap-4 p-5 overflow-y-auto">
+                <!-- Tools -->
+                <div class="bg-gray-100 dark:bg-gray-900/50 p-3 rounded-lg">
+                    <div class="flex flex-wrap items-center gap-6">
+                        <!-- Action Tools -->
+                        <div>
+                            <label class="block text-sm font-medium mb-2" data-i18n="editor-tools">Tools</label>
+                            <div class="flex items-center space-x-1 bg-gray-200 dark:bg-gray-800 p-1 rounded-lg">
+                                <button id="undo-btn" title="Undo Drawing" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"><i data-lucide="undo-2" class="w-5 h-5"></i></button>
+                                <button id="undo-regeneration-btn" title="Undo Regeneration" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"><i data-lucide="rotate-ccw" class="w-5 h-5"></i></button>
+                                <button id="eraser-btn" title="Eraser" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700"><i data-lucide="eraser" class="w-5 h-5"></i></button>
+                                <button id="clear-btn" title="Clear All" class="editor-tool-btn p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-700 text-red-500"><i data-lucide="trash-2" class="w-5 h-5"></i></button>
+                            </div>
+                        </div>
+                        <!-- Color Palette -->
+                        <div>
+                            <label class="block text-sm font-medium mb-2" data-i18n="editor-brush-color">Brush Color</label>
+                            <div id="color-palette" class="flex items-center space-x-2">
+                                <button class="color-swatch active" style="background-color: #EF4444;" data-color="#EF4444"></button>
+                                <button class="color-swatch" style="background-color: #3B82F6;" data-color="#3B82F6"></button>
+                                <button class="color-swatch" style="background-color: #22C55E;" data-color="#22C55E"></button>
+                                <button class="color-swatch" style="background-color: #F97316;" data-color="#F97316"></button>
+                                <button class="color-swatch" style="background-color: #FFFFFF;" data-color="#FFFFFF"></button>
+                                <button class="color-swatch" style="background-color: #000000;" data-color="#000000"></button>
+                            </div>
+                        </div>
+                        <!-- Brush Size -->
+                        <div class="flex-1 min-w-[120px]">
+                            <label for="brush-size" class="block text-sm font-medium mb-2" data-i18n="editor-brush-size">Brush Size</label>
+                            <input id="brush-size" type="range" min="2" max="50" value="10" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+                        </div>
+                    </div>
+                </div>
+                <!-- Canvas -->
+                <div id="image-editor-canvas-wrapper" class="bg-gray-200 dark:bg-gray-900 rounded-lg">
+                    <canvas id="editor-canvas"></canvas>
+                </div>
+                <!-- Adjustment Prompt -->
+                <div class="flex-1 flex flex-col">
+                    <label for="adjustment-prompt" class="block font-semibold mb-2" data-i18n="editor-prompt">Adjustment Prompt</label>
+                    <textarea id="adjustment-prompt" class="flex-1 w-full p-3 bg-gray-100 dark:bg-gray-900/50 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" data-i18n="[placeholder]editor-prompt-placeholder"></textarea>
+                </div>
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <button id="regenerate-btn" class="flex-1 bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-200 flex items-center justify-center space-x-2">
+                        <i data-lucide="sparkles" class="w-5 h-5"></i>
+                        <span data-i18n="btn-regenerate">Regenerate</span>
+                    </button>
+                    <button id="download-editor-btn" class="flex-1 sm:flex-none bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 dark:hover:bg-gray-300 transition duration-200 flex items-center justify-center space-x-2">
+                        <i data-lucide="download" class="w-5 h-5"></i>
+                        <span data-i18n="btn-download">Download</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -251,425 +786,1317 @@
 
 
     <script>
-        // Initialize Lucide Icons
-        lucide.createIcons();
+        // --- App Data ---
+        let themes = [];
+        let graphicStyles = [];
+        let printPositions = [];
+        let photoStyles = [];
 
-        document.addEventListener('DOMContentLoaded', () => {
-            // --- I18n Translation Setup ---
-            const translations = {
-                en: {
-                    appTitle: "Stellar AI",
-                    appTitleMobile: "Stellar AI",
-                    menuBasic: "Basic Product Photo",
-                    menuAdvanced: "Advanced Photoshoot",
-                    menuVirtualTryOn: "Virtual Try-On",
-                    menuAIModels: "AI Models",
-                    menuSettings: "Settings",
-                    settingsTitle: "Settings",
-                    languageLabel: "Language",
-                    headerTitle: "Basic Product Photo",
-                    headerDescription: "Upload your product image and let our AI generate professional-quality photos in seconds.",
-                    step1Label: "1. Upload Product Image",
-                    uploadHelpText: "Click to upload",
-                    uploadFileType: "PNG, JPG, or WEBP",
-                    step2Label: "2. Select Style of Photo",
-                    step3LabelNegative: "3. Negative Prompt (Optional)",
-                    negativePromptPlaceholder: "e.g., text, watermarks, ugly, deformed...",
-                    step4LabelPrompt: "4. Write a Prompt",
-                    promptPlaceholder: "e.g., A futuristic sneaker on a rocky planet at sunset...",
-                    magicPromptBtn: "✨ Magic Prompt",
-                    step5LabelRatio: "5. Select Photo Ratio",
-                    ratioSquare: "Square (1:1)",
-                    ratioPortrait: "Portrait (4:5)",
-                    ratioWidescreen: "Widescreen (16:9)",
-                    generateBtn: "Generate Photo",
-                    outputPlaceholder: "Your generated photo will appear here.",
-                    errorTitle: "Error:",
-                    mobileMenuBasic: "Basic",
-                    mobileMenuAdvanced: "Advanced",
-                    mobileMenuTryOn: "Try-On",
-                    mobileMenuModels: "Models",
-                    errorNoImage: "Please upload a product image first.",
-                    errorMagicPrompt: "Could not generate a magic prompt. Please try again.",
-                    errorGeneration: "Failed to generate image. The model may have refused the request. Please try a different prompt or image.",
-                    generatingStatus: "Generating your image...",
-                    generatingTime: "This can take up to 30 seconds.",
-                    generationFailed: "Generation failed. Please try again."
-                },
-                id: {
-                    appTitle: "Stellar AI",
-                    appTitleMobile: "Stellar AI",
-                    menuBasic: "Foto Produk Dasar",
-                    menuAdvanced: "Sesi Foto Lanjutan",
-                    menuVirtualTryOn: "Coba Virtual",
-                    menuAIModels: "Model AI",
-                    menuSettings: "Pengaturan",
-                    settingsTitle: "Pengaturan",
-                    languageLabel: "Bahasa",
-                    headerTitle: "Foto Produk Dasar",
-                    headerDescription: "Unggah gambar produk Anda dan biarkan AI kami menghasilkan foto berkualitas profesional dalam hitungan detik.",
-                    step1Label: "1. Unggah Gambar Produk",
-                    uploadHelpText: "Klik untuk mengunggah",
-                    uploadFileType: "PNG, JPG, atau WEBP",
-                    step2Label: "2. Pilih Gaya Foto",
-                    step3LabelNegative: "3. Prompt Negatif (Opsional)",
-                    negativePromptPlaceholder: "cth., teks, watermark, jelek, cacat...",
-                    step4LabelPrompt: "4. Tulis Prompt",
-                    promptPlaceholder: "cth., Sepatu kets futuristik di planet berbatu saat matahari terbenam...",
-                    magicPromptBtn: "✨ Prompt Ajaib",
-                    step5LabelRatio: "5. Pilih Rasio Foto",
-                    ratioSquare: "Persegi (1:1)",
-                    ratioPortrait: "Potret (4:5)",
-                    ratioWidescreen: "Layar Lebar (16:9)",
-                    generateBtn: "Hasilkan Foto",
-                    outputPlaceholder: "Foto yang Anda hasilkan akan muncul di sini.",
-                    errorTitle: "Kesalahan:",
-                    mobileMenuBasic: "Dasar",
-                    mobileMenuAdvanced: "Lanjutan",
-                    mobileMenuTryOn: "Coba",
-                    mobileMenuModels: "Model",
-                    errorNoImage: "Harap unggah gambar produk terlebih dahulu.",
-                    errorMagicPrompt: "Tidak dapat menghasilkan prompt ajaib. Silakan coba lagi.",
-                    errorGeneration: "Gagal menghasilkan gambar. Model mungkin menolak permintaan. Coba prompt atau gambar yang berbeda.",
-                    generatingStatus: "Menghasilkan gambar Anda...",
-                    generatingTime: "Ini bisa memakan waktu hingga 30 detik.",
-                    generationFailed: "Gagal menghasilkan. Silakan coba lagi."
+        $(document).ready(function() {
+            // --- State Variables ---
+            let uploadedImageData = null;
+            let remixUploadedImages = [];
+            let virtualModelImage = null;
+            let virtualClothesImages = [];
+            let aiGraphicAssets = [];
+            let aiMockupClothesImage = null;
+            let aiMockupDesignImage = null;
+            let activePage = 'ai-photoshoot-page';
+            let selectedItems = []; 
+            let selectedPrintPosition = null;
+            let selectedPhotoStyles = [];
+            let favoriteItems = { themes: [], graphicStyles: [], printPositions: [], photoStyles: [] };
+            let currentLang = 'id';
+            let currentModalContext = 'themes'; // e.g., 'themes', 'graphicStyles', 'printPositions', 'photoStyles'
+            
+            // --- Editor State ---
+            const baseEditorState = {
+                originalImage: null,
+                originalImageDataBase64: null,
+                originalImageDataUrl: null,
+                itemKey: null,
+                targetElement: null,
+                isDrawing: false,
+                isErasing: false,
+                brushColor: '#EF4444',
+                brushSize: 10,
+                lastX: 0,
+                lastY: 0,
+                drawingHistory: [],
+                regenerationHistory: [],
+            };
+            let editorState = { ...baseEditorState };
+            let pageEditorState = { ...baseEditorState };
+
+
+            // --- DOM Elements ---
+            const $generateBtn = $('#generate-btn');
+            const $remixGenerateBtn = $('#remix-generate-btn');
+            const $virtualGenerateBtn = $('#virtual-generate-btn');
+            const $aiGraphicGenerateBtn = $('#ai-graphic-generate-btn');
+            const $aiMockupGenerateBtn = $('#ai-mockup-generate-btn');
+
+
+            const $imageContainer = $('#image-container');
+            const $remixImageContainer = $('#remix-image-container');
+            const $virtualImageContainer = $('#virtual-image-container');
+            const $aiGraphicImageContainer = $('#ai-graphic-image-container');
+            const $aiMockupImageContainer = $('#ai-mockup-image-container');
+
+            const $placeholder = $('#placeholder');
+            const $remixPlaceholder = $('#remix-placeholder');
+            const $virtualPlaceholder = $('#virtual-placeholder');
+            const $aiGraphicPlaceholder = $('#ai-graphic-placeholder');
+            const $aiMockupPlaceholder = $('#ai-mockup-placeholder');
+            
+            const $loader = $('#loader');
+            const $remixLoader = $('#remix-loader');
+            const $virtualLoader = $('#virtual-loader');
+            const $aiGraphicLoader = $('#ai-graphic-loader');
+            const $aiMockupLoader = $('#ai-mockup-loader');
+
+            const $settingsModal = $('#settings-modal');
+            const $themesModal = $('#themes-modal');
+            const $editorModal = $('#image-editor-modal');
+
+            const $imageUploadInput = $('#image-upload-input');
+            const $remixUploadInput = $('#remix-upload-input');
+            const $virtualModelUploadInput = $('#virtual-model-upload-input');
+            const $virtualClothesUploadInput = $('#virtual-clothes-upload-input');
+            const $aiGraphicAssetsUploadInput = $('#ai-graphic-assets-upload-input');
+            const $aiMockupClothesInput = $('#ai-mockup-clothes-input');
+            const $aiMockupDesignInput = $('#ai-mockup-design-input');
+            const $aiFreeEditUploadInput = $('#ai-free-edit-upload-input');
+
+            const $imagePreviewContainer = $('#image-preview-container');
+            const $remixPreviewContainer = $('#remix-preview-container');
+            const $virtualModelPreviewContainer = $('#virtual-model-preview-container');
+            const $virtualClothesPreviewContainer = $('#virtual-clothes-preview-container');
+            const $aiGraphicAssetsPreviewContainer = $('#ai-graphic-assets-preview-container');
+            const $aiMockupClothesPreview = $('#ai-mockup-clothes-preview');
+            const $aiMockupDesignPreview = $('#ai-mockup-design-preview');
+            const $aiFreeEditPreviewContainer = $('#ai-free-edit-preview-container');
+
+
+            const $modalThemeList = $('#modal-theme-list');
+
+            const $selectedThemesDisplay = $('#selected-themes-display');
+            const $remixSelectedThemesDisplay = $('#remix-selected-themes-display');
+            const $aiGraphicSelectedStylesDisplay = $('#ai-graphic-selected-styles-display');
+            const $aiMockupPositionSelect = $('#ai-mockup-position-select');
+            const $selectedPhotoStylesDisplay = $('#selected-photo-styles-display');
+            
+            const $noThemesSelectedMsg = $('#no-themes-selected-msg');
+            const $remixNoThemesMsg = $('#remix-no-themes-msg');
+            const $aiGraphicNoStylesMsg = $('#ai-graphic-no-styles-msg');
+            const $noPhotoStylesSelectedMsg = $('#no-photo-styles-selected-msg');
+
+
+            const $downloadAllWrapper = $('#download-all-wrapper');
+            const $remixDownloadAllWrapper = $('#remix-download-all-wrapper');
+            const $virtualDownloadAllWrapper = $('#virtual-download-all-wrapper');
+            const $aiGraphicDownloadAllWrapper = $('#ai-graphic-download-all-wrapper');
+            const $aiMockupDownloadAllWrapper = $('#ai-mockup-download-all-wrapper');
+
+            
+            // Modal Editor DOM Elements
+            const $editorCanvas = $('#editor-canvas');
+            const editorCtx = $editorCanvas[0].getContext('2d', { willReadFrequently: true });
+            const $brushSizeSlider = $('#brush-size');
+            const $colorPalette = $('#color-palette');
+            const $adjustmentPrompt = $('#adjustment-prompt');
+            const $regenerateBtn = $('#regenerate-btn');
+            const $downloadEditorBtn = $('#download-editor-btn');
+            const $undoBtn = $('#undo-btn');
+            const $undoRegenerationBtn = $('#undo-regeneration-btn');
+            const $eraserBtn = $('#eraser-btn');
+            const $clearBtn = $('#clear-btn');
+
+            // Page Editor DOM Elements
+            const $aiFreeEditUploadWrapper = $('#ai-free-edit-upload-wrapper');
+            const $aiFreeEditEditorWrapper = $('#ai-free-edit-editor-wrapper');
+            const $pageEditorCanvas = $('#page-editor-canvas');
+            const pageEditorCtx = $pageEditorCanvas[0].getContext('2d', { willReadFrequently: true });
+            const $pageBrushSizeSlider = $('#page-brush-size');
+            const $pageColorPalette = $('#page-color-palette');
+            const $pageAdjustmentPrompt = $('#page-adjustment-prompt');
+            const $pageRegenerateBtn = $('#page-regenerate-btn');
+            const $pageDownloadEditorBtn = $('#page-download-editor-btn');
+            const $pageUndoBtn = $('#page-undo-btn');
+            const $pageUndoRegenerationBtn = $('#page-undo-regeneration-btn');
+            const $pageEraserBtn = $('#page-eraser-btn');
+            const $pageClearBtn = $('#page-clear-btn');
+
+
+            // --- API Configuration ---
+            const apiKey = ""; // Handled by environment
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key=${apiKey}`;
+            
+            // --- LocalStorage ---
+            const saveFavorites = () => { try { localStorage.setItem('soloStudioFavorites', JSON.stringify(favoriteItems)); } catch (e) { console.error("Could not save favorites to localStorage.", e); } };
+            const loadFavorites = () => { try { const saved = localStorage.getItem('soloStudioFavorites'); if (saved) { const parsed = JSON.parse(saved); favoriteItems = {...{ themes: [], graphicStyles: [], printPositions: [], photoStyles: [] }, ...parsed }; } } catch (e) { console.error("Could not load favorites from localStorage.", e); favoriteItems = { themes: [], graphicStyles: [], printPositions: [], photoStyles: [] }; } };
+
+            // --- i18n Initialization ---
+            const setLanguage = (lang) => { 
+                currentLang = lang; 
+                $.i18n().locale = lang; 
+                $('body').i18n(); 
+                renderSelectedItemsOnMain(); 
+                populatePrintPositionsDropdown();
+            };
+            
+            // --- Helper Functions ---
+            const hexToRgba = (hex, alpha) => {
+                let r = 0, g = 0, b = 0;
+                if (hex.length === 4) {
+                    r = parseInt(hex[1] + hex[1], 16);
+                    g = parseInt(hex[2] + hex[2], 16);
+                    b = parseInt(hex[3] + hex[3], 16);
+                } else if (hex.length === 7) {
+                    r = parseInt(hex.substring(1, 3), 16);
+                    g = parseInt(hex.substring(3, 5), 16);
+                    b = parseInt(hex.substring(5, 7), 16);
+                }
+                return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+            };
+            const getItemByKey = (key, type) => {
+                switch(type) {
+                    case 'graphicStyles': return graphicStyles.find(t => t.key === key);
+                    case 'printPositions': return printPositions.find(t => t.key === key);
+                    case 'photoStyles': return photoStyles.find(t => t.key === key);
+                    default: return themes.find(t => t.key === key);
                 }
             };
 
-            let currentLanguage = 'en';
-
-            const langEnBtnModal = document.getElementById('lang-en-modal');
-            const langIdBtnModal = document.getElementById('lang-id-modal');
-            
-            const settingsBtn = document.getElementById('settings-btn');
-            const settingsModal = document.getElementById('settings-modal');
-            const closeModalBtn = document.getElementById('close-modal-btn');
-
-
-            function setLanguage(lang) {
-                currentLanguage = lang;
-                document.querySelectorAll('[data-i18n]').forEach(el => {
-                    const key = el.getAttribute('data-i18n');
-                    if (translations[lang][key]) {
-                        el.innerText = translations[lang][key];
-                    }
+            const populatePrintPositionsDropdown = () => {
+                if (!printPositions || printPositions.length === 0) return;
+                const currentValue = $aiMockupPositionSelect.val();
+                $aiMockupPositionSelect.empty();
+                $aiMockupPositionSelect.append(`<option value="" data-i18n="select-position-placeholder">${$.i18n('select-position-placeholder')}</option>`);
+                printPositions.forEach(pos => {
+                    $aiMockupPositionSelect.append(`<option value="${pos.key}">${pos[currentLang]}</option>`);
                 });
-                document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-                     const key = el.getAttribute('data-i18n-placeholder');
-                    if (translations[lang][key]) {
-                        el.placeholder = translations[lang][key];
+                $aiMockupPositionSelect.val(currentValue);
+            };
+
+            const triggerDownload = (dataUrl, filename) => {
+                const link = document.createElement('a');
+                link.href = dataUrl;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            };
+
+            // --- UI Functions ---
+            const updateGenerateButton = (state, textKey = 'btn-generate', button = $generateBtn) => {
+                const text = $.i18n(textKey);
+                if (state === 'loading') {
+                    button.prop('disabled', true).html(`<svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> <span>${text}</span>`);
+                } else {
+                    button.prop('disabled', false)
+                    if (button.is($generateBtn)) { button.prop('disabled', !(uploadedImageData && selectedItems.length > 0)); } 
+                    else if (button.is($remixGenerateBtn)) { button.prop('disabled', !(remixUploadedImages.length > 1 && selectedItems.length > 0)); } 
+                    else if (button.is($virtualGenerateBtn)) { button.prop('disabled', !(virtualModelImage && virtualClothesImages.length > 0)); } 
+                    else if (button.is($aiGraphicGenerateBtn)) { button.prop('disabled', !($('#ai-graphic-format-selector input:checked').val() && $('#ai-graphic-content').val() && selectedItems.length > 0)); }
+                    else if (button.is($aiMockupGenerateBtn)) { button.prop('disabled', !(aiMockupClothesImage && aiMockupDesignImage && selectedPrintPosition && selectedPhotoStyles.length > 0)); }
+
+                    if(button.is($regenerateBtn)) {
+                        button.html(`<i data-lucide="sparkles" class="w-5 h-5"></i><span>${text}</span>`);
+                    } else {
+                        button.html(`<i data-lucide="wand-2" class="w-5 h-5"></i><span>${text}</span>`);
                     }
+                    lucide.createIcons();
+                }
+            };
+            
+            const renderItemsInModal = () => {
+                $modalThemeList.empty();
+
+                let itemsToRender, favorites, modalTitleKey, currentSelection;
+                switch(currentModalContext) {
+                    case 'graphicStyles':
+                        itemsToRender = graphicStyles;
+                        favorites = favoriteItems.graphicStyles;
+                        modalTitleKey = 'styles-modal-title';
+                        currentSelection = selectedItems;
+                        break;
+                    case 'printPositions': // This case is no longer used for selection but kept for favorites logic
+                        itemsToRender = printPositions;
+                        favorites = favoriteItems.printPositions;
+                        modalTitleKey = 'positions-modal-title';
+                        currentSelection = selectedPrintPosition ? [selectedPrintPosition] : [];
+                        break;
+                    case 'photoStyles':
+                         itemsToRender = photoStyles;
+                        favorites = favoriteItems.photoStyles;
+                        modalTitleKey = 'photo-styles-modal-title';
+                        currentSelection = selectedPhotoStyles;
+                        break;
+                    default: // themes
+                        itemsToRender = themes;
+                        favorites = favoriteItems.themes;
+                        modalTitleKey = 'themes-modal-title';
+                        currentSelection = selectedItems;
+                }
+                
+                $('#themes-modal-title').attr('data-i18n', modalTitleKey).text($.i18n(modalTitleKey));
+
+                const sortedItems = [...itemsToRender].sort((a, b) => {
+                    const aIsFav = favorites.includes(a.key);
+                    const bIsFav = favorites.includes(b.key);
+                    if (aIsFav && !bIsFav) return -1;
+                    if (!aIsFav && bIsFav) return 1;
+                    return a[currentLang].localeCompare(b[currentLang]);
                 });
 
-                // Update language button styles in modal
-                if (lang === 'en') {
-                    langEnBtnModal.classList.add('active');
-                    langEnBtnModal.classList.remove('bg-slate-100', 'text-slate-600');
-                    langIdBtnModal.classList.remove('active');
-                    langIdBtnModal.classList.add('bg-slate-100', 'text-slate-600');
-                } else if (lang === 'id') {
-                    langIdBtnModal.classList.add('active');
-                    langIdBtnModal.classList.remove('bg-slate-100', 'text-slate-600');
-                    langEnBtnModal.classList.remove('active');
-                    langEnBtnModal.classList.add('bg-slate-100', 'text-slate-600');
+                for (const [index, item] of sortedItems.entries()) {
+                    const isSelected = currentSelection.includes(item.key);
+                    const isFavorite = favorites.includes(item.key);
+                    const itemIndex = index + 1;
+                    
+                    const badgeClasses = isSelected 
+                        ? 'bg-indigo-600 text-white' 
+                        : 'bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200';
+
+                    const numberBadge = `<div class="absolute top-2 left-2 w-5 h-5 ${badgeClasses} text-xs font-bold rounded-full flex items-center justify-center transition-colors">${itemIndex}</div>`;
+
+                    const $itemEl = $(`
+                        <div class="modal-theme-item cursor-pointer relative flex flex-col justify-between p-3 rounded-lg bg-white dark:bg-gray-700/50 border-gray-300 dark:border-gray-600 ${isSelected ? 'selected' : ''}" data-item="${item.key}">
+                            ${numberBadge}
+                            <span class="font-semibold text-sm mb-2 flex-1 text-center pt-2">${item[currentLang]}</span>
+                            <div class="flex justify-end">
+                                <button class="favorite-btn p-1 text-gray-400 hover:text-yellow-400 dark:hover:text-yellow-300 ${isFavorite ? 'favorited' : ''}" data-item-key="${item.key}">
+                                    <i data-lucide="star" class="w-5 h-5 transition-colors"></i>
+                                </button>
+                            </div>
+                        </div>`);
+                    $modalThemeList.append($itemEl);
                 }
-            }
-            
-            langEnBtnModal.addEventListener('click', () => {
-                setLanguage('en');
-                // settingsModal.classList.add('hidden');
-            });
-            langIdBtnModal.addEventListener('click', () => {
-                setLanguage('id');
-                // settingsModal.classList.add('hidden');
-            });
+                lucide.createIcons();
+            };
 
-            // --- Modal Logic ---
-            settingsBtn.addEventListener('click', () => {
-                settingsModal.classList.remove('hidden');
-            });
+            const renderSelectedItemsOnMain = () => {
+                const renderPills = ($display, $msg, items, type) => {
+                    $display.empty();
+                    if (items.length === 0) {
+                        $msg.removeClass('hidden');
+                    } else {
+                        $msg.addClass('hidden');
+                        items.forEach(key => {
+                            const item = getItemByKey(key, type);
+                            if (item) {
+                                const itemName = item[currentLang];
+                                const $pill = $(`
+                                    <div class="theme-pill flex items-center bg-indigo-100 dark:bg-indigo-900/50 text-indigo-800 dark:text-indigo-200 text-sm font-semibold pl-3 pr-1.5 py-1 rounded-full" data-item-key="${key}">
+                                        <span>${itemName}</span>
+                                        <button class="remove-item-btn ml-1 p-0.5 rounded-full hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors" data-type="${type}">
+                                            <i data-lucide="x" class="w-3.5 h-3.5"></i>
+                                        </button>
+                                    </div>`);
+                                $display.append($pill);
+                            }
+                        });
+                        lucide.createIcons();
+                    }
+                };
 
-            closeModalBtn.addEventListener('click', () => {
-                settingsModal.classList.add('hidden');
-            });
+                // AI Photoshoot, Remix, Virtual Try-on use 'themes' and 'selectedItems'
+                renderPills($selectedThemesDisplay, $noThemesSelectedMsg, activePage === 'ai-photoshoot-page' ? selectedItems : [], 'themes');
+                renderPills($remixSelectedThemesDisplay, $remixNoThemesMsg, activePage === 'remix-photoshoot-page' ? selectedItems : [], 'themes');
+                // AI Graphic uses 'graphicStyles' and 'selectedItems'
+                renderPills($aiGraphicSelectedStylesDisplay, $aiGraphicNoStylesMsg, activePage === 'ai-graphic-page' ? selectedItems : [], 'graphicStyles');
+                // AI Mockup uses its own state variables
+                renderPills($selectedPhotoStylesDisplay, $noPhotoStylesSelectedMsg, selectedPhotoStyles, 'photoStyles');
+            };
 
-            settingsModal.addEventListener('click', (e) => {
-                if (e.target === settingsModal) {
-                    settingsModal.classList.add('hidden');
+            const displayResults = (results, container, downloadWrapper, isMockup = false) => {
+                const $loaderEl = container.find('div[id*="loader"]');
+                const $placeholderEl = container.find('div[id*="placeholder"]');
+                
+                $loaderEl.addClass('hidden');
+                $placeholderEl.addClass('hidden');
+                container.children('.results-grid').remove();
+                downloadWrapper.addClass('hidden');
+                
+                const $grid = $('<div class="results-grid grid grid-cols-1 sm:grid-cols-2 gap-4 w-full"></div>');
+                let successCount = 0;
+                
+                results.forEach((result, index) => {
+                    let itemKey, itemType, itemName;
+
+                    if (activePage === 'virtual-try-on-page') {
+                        itemKey = `cloth-${index}`;
+                        itemName = `Outfit ${index + 1}`;
+                    } else {
+                        const currentItems = isMockup ? selectedPhotoStyles : selectedItems;
+                        itemKey = currentItems[index] || `item-${index}`;
+                        itemType = isMockup ? 'photoStyles' : (activePage === 'ai-graphic-page' ? 'graphicStyles' : 'themes');
+                        const item = getItemByKey(itemKey, itemType);
+                        itemName = item ? item[currentLang] : `Result ${index + 1}`;
+                    }
+                    
+                    const $itemWrapper = $('<div class="relative group aspect-square"></div>').data('item-key', itemKey);
+                    if (result.status === 'fulfilled') {
+                        successCount++;
+                        const imgSrc = `data:image/png;base64,${result.value}`;
+                        $itemWrapper.data('img-src', imgSrc).addClass('cursor-pointer');
+                        $itemWrapper.html(`
+                            <img src="${imgSrc}" class="w-full h-full object-cover rounded-lg shadow-md">
+                            <div class="absolute top-2 right-2">
+                                <button class="download-item-btn p-2 bg-black/50 text-white rounded-full hover:bg-black/75 transition-colors">
+                                    <i data-lucide="download" class="w-5 h-5"></i>
+                                </button>
+                            </div>
+                            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-1 rounded-b-lg text-sm font-semibold">${itemName}</div>
+                        `);
+                    } else {
+                        const errorMessage = result.reason.message || 'Generation failed.';
+                        $itemWrapper.html(`<div class="w-full h-full bg-red-100 dark:bg-red-900/50 border-2 border-dashed border-red-400 dark:border-red-600 rounded-lg flex flex-col items-center justify-center p-2 text-center text-red-500 dark:text-red-300"><i data-lucide="alert-circle" class="w-8 h-8 mb-2"></i><p class="font-semibold">${itemName}</p><p class="text-xs">${errorMessage}</p></div>`);
+                    }
+                    $grid.append($itemWrapper);
+                });
+
+                container.append($grid);
+                if (successCount > 0) {
+                    downloadWrapper.removeClass('hidden');
                 }
-            });
+                lucide.createIcons();
+            };
 
+            // --- Upload Helpers ---
+            const setupSingleImageUpload = (input, previewContainer, stateUpdater, button, buttonTextKey) => {
+                const originalHtml = previewContainer.html(); // Store original placeholder
 
-            // --- Element References ---
-            const generatorUI = document.getElementById('generator-ui');
-            const imageUploader = document.getElementById('image-uploader');
-            const fileInput = document.getElementById('file-input');
-            const imagePreviewContainer = document.getElementById('image-preview-container');
-            const photoStyleSelect = document.getElementById('photo-style');
-            const negativePromptInput = document.getElementById('negative-prompt');
-            const promptInput = document.getElementById('prompt');
-            const magicPromptBtn = document.getElementById('magic-prompt-btn');
-            const magicPromptText = document.getElementById('magic-prompt-text');
-            const magicPromptSpinner = document.getElementById('magic-prompt-spinner');
-            const generateBtn = document.getElementById('generate-btn');
-            const generateBtnText = document.getElementById('generate-btn-text');
-            const generateBtnSpinner = document.getElementById('generate-btn-spinner');
-            const outputContainer = document.getElementById('output-container');
-            const errorBox = document.getElementById('error-box');
-            const errorMessage = document.getElementById('error-message');
+                input.on('change', function(e) {
+                    const file = e.target.files[0];
+                    if (!file) return;
 
-            const apiKey = ""; // API key will be injected by the environment.
-            
-            let uploadedFile = null;
-
-            // --- Photo Styles ---
-            const photoStyles = [
-                "Splash Action", "Luxury Dark & Moody", "Minimalist Flat Lay", "Dynamic 45° View", "Natural & Organic",
-                "Cinematic Product Shot", "Geometric & Abstract", "Industrial & Gritty", "Pastel & Soft", "High-Tech & Futuristic",
-                "Vintage & Retro", "Surreal & Dreamy", "Hero Shot on Pedestal", "Product in Nature", "Monochromatic Scheme",
-                "High-Contrast B&W", "Deconstructed / Exploded View", "Lifestyle In-Context", "Studio Shot with Color Gels", "Textured Background",
-                "Floating / Zero Gravity", "Reflective Surface", "Close-up Macro Detail", "Symmetrical Arrangement", "Asymmetrical Balance",
-                "Product with Smoke/Fog", "Neon & Cyberpunk", "Bohemian & Earthy", "Clean & Clinical", "Playful & Colorful",
-                "Hand-held Product Shot", "Architectural Background", "Minimalist with Single Shadow", "Cosmic & Galactic", "Underwater Effect",
-                "Gourmet & Foodie Style", "Brutalist Concrete Setting", "Art Deco Elegance", "Product with Fabric Drapes", "Pop Art Style",
-                "Steampunk Aesthetic", "Golden Hour Glow", "Product in Motion (Blur)", "Storytelling Scene", "Infographic Style",
-                "Product with Botanical Elements", "Icy & Frosted Look", "Warm & Cozy Atmosphere", "Urban Street Style", "Paper Art & Craft"
-            ];
-
-            // Populate the dropdown
-            photoStyles.sort().forEach(style => {
-                const option = document.createElement('option');
-                option.value = style;
-                option.textContent = style;
-                photoStyleSelect.appendChild(option);
-            });
-
-            // --- Event Listeners ---
-            imageUploader.addEventListener('click', () => fileInput.click());
-
-            fileInput.addEventListener('change', (event) => {
-                const file = event.target.files[0];
-                if (file) {
-                    uploadedFile = file;
                     const reader = new FileReader();
-                    reader.onload = (e) => {
-                        imagePreviewContainer.innerHTML = `<img src="${e.target.result}" alt="Product Preview" class="max-h-32 rounded-lg"/>`;
-                    };
-                    reader.readAsDataURL(file);
-                }
-            });
-
-            magicPromptBtn.addEventListener('click', handleMagicPrompt);
-            generateBtn.addEventListener('click', handleImageGeneration);
-
-            // --- API Call Functions ---
-
-            // A helper function to call the API with exponential backoff
-            async function callApiWithRetries(url, payload, retries = 3, delay = 1000) {
-                for (let i = 0; i < retries; i++) {
-                    try {
-                        const response = await fetch(url, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify(payload)
+                    reader.onload = function(event) {
+                        const $previewWrapper = $(`<div class="relative w-full h-full preview-item"></div>`);
+                        const $img = $('<img>').attr('src', event.target.result).addClass('w-full h-full object-contain rounded-lg');
+                        const $removeBtn = $(`<button class="remove-image-btn" title="Remove image"><i data-lucide="x" class="w-4 h-4"></i></button>`);
+                        
+                        $removeBtn.on('click', (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            stateUpdater(null);
+                            previewContainer.html(originalHtml);
+                            lucide.createIcons();
+                            input.val(''); // Reset file input
+                            updateGenerateButton('idle', buttonTextKey, button);
                         });
 
-                        const responseText = await response.text();
-
-                        if (!response.ok) {
-                            let errorMessage = `HTTP error! status: ${response.status}`;
-                            // Try to parse the response as JSON to get a more specific error message
-                            try {
-                                const errorJson = JSON.parse(responseText);
-                                errorMessage = errorJson.error?.message || errorMessage;
-                            } catch (e) {
-                                // If parsing fails, the responseText might be HTML or plain text.
-                                if (responseText && responseText.length < 500) {
-                                    errorMessage = responseText;
-                                }
-                            }
-                            throw new Error(errorMessage);
-                        }
+                        $previewWrapper.append($img).append($removeBtn);
+                        previewContainer.html($previewWrapper);
+                        lucide.createIcons();
                         
-                        // If the response is successful but empty, return null to avoid parsing errors.
-                        if (!responseText) {
-                           return null; 
-                        }
-                        
-                        return JSON.parse(responseText);
-
-                    } catch (error) {
-                        console.error(`API call attempt ${i + 1} failed for URL ${url}. Error: ${error.message}`);
-                        if (i === retries - 1) {
-                            // After the last retry, re-throw the original error to be caught by the calling function.
-                            throw error;
-                        }
-                        await new Promise(resolve => setTimeout(resolve, delay * Math.pow(2, i)));
+                        stateUpdater(event.target.result.split(',')[1]);
+                        updateGenerateButton('idle', buttonTextKey, button);
                     }
-                }
-            }
-
-
-            async function handleMagicPrompt() {
-                if (!uploadedFile) {
-                    showError(translations[currentLanguage].errorNoImage);
-                    return;
-                }
-
-                showLoadingState(magicPromptBtn, magicPromptText, magicPromptSpinner, translations[currentLanguage].magicPromptBtn, true);
-                hideError();
-                
-                const selectedStyle = photoStyleSelect.value;
-                const examplePrompt = `Professional studio product photography. The product is placed on a clean, reflective surface against a seamless, neutral-colored studio background. Analyze the main product and place a few thematically relevant, smaller objects or props around it to create an appealing composition. The lighting should be soft, multi-point studio lighting that eliminates harsh shadows and highlights the product's details and texture. The final image must be ultra-realistic, sharp, and high-resolution`;
-                
-                const instructionToModel = `You are a creative director for product photography. Your task is to generate a new, highly detailed photo shoot prompt that matches the style, format, and level of detail as the example provided below. 
-                    
-                    First, analyze the user's uploaded product image to understand its characteristics. Then, create a completely new and unique prompt for it, specifically tailored to the selected photography style: "${selectedStyle}".
-
-                    This new prompt must be as descriptive and comprehensive as the example, detailing the background, lighting, composition, and placement of complementary elements. These details must be inspired by and consistent with both the uploaded product and the chosen style ("${selectedStyle}").
-
-                    Do not just fill in the blanks of the example. Create a fresh concept. For example, if the product is a watch and the style is "Industrial & Gritty," describe a scene on a rusted metal surface with gears and dramatic shadows, not a scene with citrus fruits.
-
-                    Respond ONLY with the final, complete, newly generated prompt.
-
-                    ---
-                    HERE IS AN EXAMPLE OF THE DESIRED STYLE AND FORMAT (your output should be similarly detailed but unique):
-                    ${examplePrompt}
-                    ---
-
-                    Now, using the uploaded image and the chosen style ("${selectedStyle}"), generate a new, original prompt in that same detailed style.`;
-                
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
-
-                try {
-                    const base64Data = await fileToBase64(uploadedFile);
-                    const payload = {
-                        contents: [{
-                            parts: [
-                                { text: instructionToModel },
-                                { inlineData: { mimeType: uploadedFile.type, data: base64Data } }
-                            ]
-                        }]
+                    reader.onerror = function() {
+                        previewContainer.html($(`<div class="text-center text-red-500 p-4"><p>${$.i18n('error-file-read')}</p></div>`));
                     };
-
-                    const result = await callApiWithRetries(apiUrl, payload);
-                    const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
-                    if (text) {
-                        promptInput.value = text.trim();
-                        promptInput.rows = 8; // Expand textarea for longer prompt
-                    } else {
-                        throw new Error("Invalid response from API for magic prompt.");
-                    }
-                } catch (error) {
-                    console.error("Magic Prompt Error:", error);
-                    showError(translations[currentLanguage].errorMagicPrompt);
-                } finally {
-                    showLoadingState(magicPromptBtn, magicPromptText, magicPromptSpinner, translations[currentLanguage].magicPromptBtn, false);
-                }
-            }
-
-            async function handleImageGeneration() {
-                if (!uploadedFile) {
-                    showError(translations[currentLanguage].errorNoImage);
-                    return;
-                }
-                
-                showLoadingState(generateBtn, generateBtnText, generateBtnSpinner, translations[currentLanguage].generateBtn, true, true);
-                hideError();
-
-                outputContainer.innerHTML = `
-                    <div class="flex flex-col items-center justify-center h-full">
-                        <div class="spinner w-12 h-12 rounded-full mb-4"></div>
-                        <p class="font-semibold text-slate-600">${translations[currentLanguage].generatingStatus}</p>
-                        <p class="text-sm text-slate-500">${translations[currentLanguage].generatingTime}</p>
-                    </div>`;
-
-                try {
-                    const base64Data = await fileToBase64(uploadedFile);
-                    const userPrompt = promptInput.value || "A professional product photo on a clean, white background.";
-                    const negativePrompt = negativePromptInput.value.trim();
-                    const selectedRatio = document.querySelector('input[name="ratio"]:checked').value;
-                    
-                    let finalPrompt = `${userPrompt} The final image must have an aspect ratio of ${selectedRatio}.`;
-                    if (negativePrompt) {
-                        finalPrompt += ` Strictly avoid the following elements in the image: ${negativePrompt}.`;
-                    }
-                    
-                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key=${apiKey}`;
-                    const payload = {
-                        contents: [{
-                            parts: [
-                                { text: finalPrompt },
-                                { inlineData: { mimeType: uploadedFile.type, data: base64Data } }
-                            ]
-                        }],
-                        generationConfig: {
-                            responseModalities: ['IMAGE']
-                        }
-                    };
-                    
-                    const result = await callApiWithRetries(apiUrl, payload);
-                    const generatedImageData = result?.candidates?.[0]?.content?.parts?.find(p => p.inlineData)?.inlineData?.data;
-
-                    if (generatedImageData) {
-                        const imageUrl = `data:image/png;base64,${generatedImageData}`;
-                        outputContainer.innerHTML = `<img src="${imageUrl}" alt="Generated product photo" class="w-full h-auto object-contain rounded-lg"/>`;
-                    } else {
-                        throw new Error("No image data found in the API response.");
-                    }
-
-                } catch (error) {
-                    console.error("Image Generation Error:", error);
-                    showError(error.message || translations[currentLanguage].errorGeneration);
-                    outputContainer.innerHTML = `<p class="font-semibold">${translations[currentLanguage].generationFailed}</p>`;
-                } finally {
-                    showLoadingState(generateBtn, generateBtnText, generateBtnSpinner, translations[currentLanguage].generateBtn, false, true);
-                }
-            }
-            
-            // --- UI Helper Functions ---
-            
-            function showLoadingState(button, textElement, spinnerElement, defaultText, isLoading, isMainGenerator = false) {
-                button.disabled = isLoading;
-                if (isLoading) {
-                    textElement.textContent = isMainGenerator ? translations[currentLanguage].generateBtn.replace('...', '') : '';
-                    spinnerElement.classList.remove('hidden');
-                    if (isMainGenerator) generatorUI.classList.add('generating');
-                } else {
-                    textElement.textContent = defaultText;
-                    spinnerElement.classList.add('hidden');
-                     if (isMainGenerator) generatorUI.classList.remove('generating');
-                }
-            }
-
-            function showError(message) {
-                errorMessage.textContent = message;
-                errorBox.classList.remove('hidden');
-            }
-
-            function hideError() {
-                errorBox.classList.add('hidden');
-            }
-
-            function fileToBase64(file) {
-                return new Promise((resolve, reject) => {
-                    const reader = new FileReader();
                     reader.readAsDataURL(file);
-                    reader.onload = () => {
-                        // Return only the base64 part
-                        resolve(reader.result.split(',')[1]);
-                    };
-                    reader.onerror = error => reject(error);
                 });
+            };
+
+            const setupMultiImageUpload = (input, previewContainer, dataArray, button, buttonTextKey) => {
+                const addPreview = (imgDataUrl) => {
+                    if (dataArray.find(item => item.url === imgDataUrl)) return; // Avoid duplicates
+
+                    const imageData = { id: Date.now() + Math.random(), url: imgDataUrl };
+                    dataArray.push(imageData);
+
+                    const $previewItem = $(`<div class="preview-item aspect-square rounded-lg overflow-hidden relative"></div>`);
+                    const $img = $(`<img src="${imgDataUrl}" class="w-full h-full object-cover">`);
+                    const $removeBtn = $(`<button class="remove-image-btn" title="Remove image"><i data-lucide="x" class="w-4 h-4"></i></button>`);
+
+                    $removeBtn.on('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        // Remove from data array by id
+                        const index = dataArray.findIndex(item => item.id === imageData.id);
+                        if (index > -1) {
+                            dataArray.splice(index, 1);
+                        }
+                        
+                        // Remove from DOM
+                        $previewItem.remove();
+                        
+                        updateGenerateButton('idle', buttonTextKey, button);
+                    });
+
+                    $previewItem.append($img).append($removeBtn);
+                    previewContainer.prepend($previewItem);
+                    lucide.createIcons();
+                    updateGenerateButton('idle', buttonTextKey, button);
+                };
+
+                input.on('change', function(e) {
+                    const files = Array.from(e.target.files);
+                    files.forEach(file => {
+                        const reader = new FileReader();
+                        reader.onload = function(event) {
+                            addPreview(event.target.result);
+                        }
+                        reader.readAsDataURL(file);
+                    });
+                    // Reset file input to allow re-uploading the same file after removing it
+                    $(this).val('');
+                });
+            };
+            
+            // --- API Call Logic ---
+            const fetchImageWithBackoff = async (payload, retries = 3, delay = 1000) => {
+                try {
+                    const response = await fetch(apiUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+                    if (!response.ok) throw new Error(`API Error: ${response.status}`);
+                    const result = await response.json();
+                    const base64Data = result?.candidates?.[0]?.content?.parts?.find(p => p.inlineData)?.inlineData?.data;
+                    if (!base64Data) throw new Error("Invalid response structure from API.");
+                    return base64Data;
+                } catch (error) {
+                    console.error(`Attempt failed: ${error.message}`);
+                    if (retries > 0) { await new Promise(resolve => setTimeout(resolve, delay)); return fetchImageWithBackoff(payload, retries - 1, delay * 2); } 
+                    else { throw new Error("Max retries reached."); }
+                }
+            };
+
+            // --- Editor Canvas Logic (Generic Functions) ---
+            function getMousePos(canvas, evt) { const rect = canvas.getBoundingClientRect(); return { x: evt.clientX - rect.left, y: evt.clientY - rect.top }; }
+            function getTouchPos(canvas, evt) { const rect = canvas.getBoundingClientRect(); return { x: evt.touches[0].clientX - rect.left, y: evt.touches[0].clientY - rect.top }; }
+            
+            function draw(e, canvas, ctx, state) {
+                if (!state.isDrawing) return;
+                const pos = e.touches ? getTouchPos(canvas, e) : getMousePos(canvas, e);
+                ctx.beginPath();
+                ctx.moveTo(state.lastX, state.lastY);
+                ctx.lineTo(pos.x, pos.y);
+                ctx.stroke();
+                [state.lastX, state.lastY] = [pos.x, pos.y];
+            }
+            
+            function startDrawing(e, canvas, ctx, state) {
+                state.isDrawing = true;
+                const pos = e.touches ? getTouchPos(canvas, e) : getMousePos(canvas, e);
+                [state.lastX, state.lastY] = [pos.x, pos.y];
+                
+                ctx.globalCompositeOperation = state.isErasing ? 'destination-out' : 'source-over';
+                ctx.strokeStyle = hexToRgba(state.brushColor, state.isErasing ? 1.0 : 0.2);
+                ctx.lineWidth = state.brushSize;
+                ctx.lineJoin = 'round';
+                ctx.lineCap = 'round';
             }
 
-            // Initialize the app with the default language
-            setLanguage(currentLanguage);
+            const saveState = (canvas, ctx, state, undoBtn) => {
+                state.drawingHistory.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+                undoBtn.prop('disabled', state.drawingHistory.length <= 1);
+            };
 
+            const undoLast = (ctx, state, undoBtn) => {
+                if (state.drawingHistory.length > 1) {
+                    state.drawingHistory.pop();
+                    const lastState = state.drawingHistory[state.drawingHistory.length - 1];
+                    ctx.putImageData(lastState, 0, 0);
+                }
+                undoBtn.prop('disabled', state.drawingHistory.length <= 1);
+            };
+
+            const stopDrawing = (state, canvas, ctx, undoBtn) => { if(state.isDrawing) { state.isDrawing = false; saveState(canvas, ctx, state, undoBtn); } };
+            
+            // --- Modal Editor Event Handlers ---
+            $editorCanvas.on('mousedown', (e) => startDrawing(e, $editorCanvas[0], editorCtx, editorState));
+            $editorCanvas.on('mousemove', (e) => draw(e, $editorCanvas[0], editorCtx, editorState));
+            $editorCanvas.on('mouseup', () => stopDrawing(editorState, $editorCanvas[0], editorCtx, $undoBtn));
+            $editorCanvas.on('mouseout', () => stopDrawing(editorState, $editorCanvas[0], editorCtx, $undoBtn));
+            $editorCanvas.on('touchstart', (e) => { e.preventDefault(); startDrawing(e, $editorCanvas[0], editorCtx, editorState); });
+            $editorCanvas.on('touchmove', (e) => { e.preventDefault(); draw(e, $editorCanvas[0], editorCtx, editorState); });
+            $editorCanvas.on('touchend', () => stopDrawing(editorState, $editorCanvas[0], editorCtx, $undoBtn));
+
+            // --- Page Editor Event Handlers ---
+             $pageEditorCanvas.on('mousedown', (e) => startDrawing(e, $pageEditorCanvas[0], pageEditorCtx, pageEditorState));
+             $pageEditorCanvas.on('mousemove', (e) => draw(e, $pageEditorCanvas[0], pageEditorCtx, pageEditorState));
+             $pageEditorCanvas.on('mouseup', () => stopDrawing(pageEditorState, $pageEditorCanvas[0], pageEditorCtx, $pageUndoBtn));
+             $pageEditorCanvas.on('mouseout', () => stopDrawing(pageEditorState, $pageEditorCanvas[0], pageEditorCtx, $pageUndoBtn));
+             $pageEditorCanvas.on('touchstart', (e) => { e.preventDefault(); startDrawing(e, $pageEditorCanvas[0], pageEditorCtx, pageEditorState); });
+             $pageEditorCanvas.on('touchmove', (e) => { e.preventDefault(); draw(e, $pageEditorCanvas[0], pageEditorCtx, pageEditorState); });
+             $pageEditorCanvas.on('touchend', () => stopDrawing(pageEditorState, $pageEditorCanvas[0], pageEditorCtx, $pageUndoBtn));
+
+
+            // --- Event Handlers ---
+            $('body').on('click', '.remove-item-btn', function() {
+                const itemKey = $(this).closest('.theme-pill').data('item-key');
+                const type = $(this).data('type');
+
+                switch(type) {
+                    case 'printPositions':
+                        selectedPrintPosition = null;
+                        break;
+                    case 'photoStyles':
+                        const styleIndex = selectedPhotoStyles.indexOf(itemKey);
+                        if (styleIndex > -1) selectedPhotoStyles.splice(styleIndex, 1);
+                        break;
+                    default: // themes, graphicStyles
+                        const itemIndex = selectedItems.indexOf(itemKey);
+                        if (itemIndex > -1) selectedItems.splice(itemIndex, 1);
+                        break;
+                }
+                
+                renderSelectedItemsOnMain();
+                updateGenerateButton('idle', 'btn-generate', $generateBtn);
+                updateGenerateButton('idle', 'btn-remix', $remixGenerateBtn);
+                updateGenerateButton('idle', 'btn-ai-graphic', $aiGraphicGenerateBtn);
+                updateGenerateButton('idle', 'btn-ai-mockup', $aiMockupGenerateBtn);
+            });
+            
+            setupSingleImageUpload($imageUploadInput, $imagePreviewContainer, (data) => uploadedImageData = data, $generateBtn, 'btn-generate');
+            setupSingleImageUpload($virtualModelUploadInput, $virtualModelPreviewContainer, (data) => virtualModelImage = data, $virtualGenerateBtn, 'btn-virtual-try-on');
+            setupSingleImageUpload($aiMockupClothesInput, $aiMockupClothesPreview, (data) => aiMockupClothesImage = data, $aiMockupGenerateBtn, 'btn-ai-mockup');
+            setupSingleImageUpload($aiMockupDesignInput, $aiMockupDesignPreview, (data) => aiMockupDesignImage = data, $aiMockupGenerateBtn, 'btn-ai-mockup');
+
+            setupMultiImageUpload($remixUploadInput, $remixPreviewContainer, remixUploadedImages, $remixGenerateBtn, 'btn-remix');
+            setupMultiImageUpload($virtualClothesUploadInput, $virtualClothesPreviewContainer, virtualClothesImages, $virtualGenerateBtn, 'btn-virtual-try-on');
+            setupMultiImageUpload($aiGraphicAssetsUploadInput, $aiGraphicAssetsPreviewContainer, aiGraphicAssets, $aiGraphicGenerateBtn, 'btn-ai-graphic');
+
+            // Setup for the new AI Free Edit page
+            $aiFreeEditUploadInput.on('change', function(e) {
+                const file = e.target.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    const imgSrc = event.target.result;
+                    const img = new Image();
+                    img.onload = () => {
+                        $aiFreeEditUploadWrapper.addClass('hidden');
+                        $aiFreeEditEditorWrapper.removeClass('hidden');
+
+                        pageEditorState.originalImage = img;
+                        pageEditorState.originalImageDataBase64 = imgSrc.split(',')[1];
+                        pageEditorState.originalImageDataUrl = imgSrc;
+                        pageEditorState.itemKey = file.name.split('.')[0] || 'free-edit';
+                        pageEditorState.regenerationHistory = [imgSrc];
+                        $pageUndoRegenerationBtn.prop('disabled', true);
+                        
+                        const canvasSize = $pageEditorCanvas.parent().width();
+                        $pageEditorCanvas[0].width = canvasSize;
+                        $pageEditorCanvas[0].height = canvasSize;
+                        pageEditorCtx.drawImage(img, 0, 0, canvasSize, canvasSize);
+
+                        pageEditorState.drawingHistory = [];
+                        saveState($pageEditorCanvas[0], pageEditorCtx, pageEditorState, $pageUndoBtn);
+                    };
+                    img.src = imgSrc;
+                };
+                reader.readAsDataURL(file);
+            });
+
+
+            $('#ai-graphic-format-selector, #ai-graphic-content').on('change keyup', () => updateGenerateButton('idle', 'btn-ai-graphic', $aiGraphicGenerateBtn));
+
+            $aiMockupPositionSelect.on('change', function() {
+                selectedPrintPosition = $(this).val() || null;
+                updateGenerateButton('idle', 'btn-ai-mockup', $aiMockupGenerateBtn);
+            });
+
+            $generateBtn.on('click', async function() {
+                if (!uploadedImageData || selectedItems.length === 0) { alert($.i18n('alert-select-all')); return; }
+                const isMultiple = selectedItems.length > 1;
+                updateGenerateButton('loading', isMultiple ? 'btn-generating-plural' : 'btn-generating', $generateBtn);
+                $placeholder.addClass('hidden');
+                $imageContainer.children('.results-grid').remove();
+                $downloadAllWrapper.addClass('hidden');
+                $loader.removeClass('hidden');
+                $loader.find('p').text($.i18n(isMultiple ? 'loader-main-plural' : 'loader-main'));
+                $('h3[data-i18n="creation-title"]').text($.i18n(isMultiple ? 'creation-title-plural' : 'creation-title'));
+                try {
+                    const imagePromises = selectedItems.map(itemKey => {
+                        const item = getItemByKey(itemKey, 'themes');
+                        const payload = { contents: [{ parts: [ { text: item.prompt }, { inlineData: { mimeType: "image/jpeg", data: uploadedImageData } } ] }], generationConfig: { responseModalities: ['IMAGE'] }, };
+                        return fetchImageWithBackoff(payload);
+                    });
+                    const results = await Promise.allSettled(imagePromises);
+                    displayResults(results, $imageContainer, $downloadAllWrapper);
+                } catch (error) {
+                    $loader.addClass('hidden');
+                    const $error = $(`<div class="error-message text-center text-red-500"><i data-lucide="alert-triangle" class="w-16 h-16 mx-auto mb-4"></i><p class="font-semibold">${$.i18n('error-title')}</p><p class="text-sm">${error.message}</p></div>`);
+                    $imageContainer.append($error);
+                    lucide.createIcons();
+                } finally { updateGenerateButton('idle', 'btn-generate', $generateBtn); }
+            });
+
+             $aiMockupGenerateBtn.on('click', async function() {
+                if (!aiMockupClothesImage || !aiMockupDesignImage || !selectedPrintPosition || selectedPhotoStyles.length === 0) {
+                    alert($.i18n('alert-select-all-ai-mockup'));
+                    return;
+                }
+                updateGenerateButton('loading', 'loader-ai-mockup', $aiMockupGenerateBtn);
+                $aiMockupPlaceholder.addClass('hidden');
+                $aiMockupImageContainer.children('.results-grid').remove();
+                $aiMockupDownloadAllWrapper.addClass('hidden');
+                $aiMockupLoader.removeClass('hidden');
+
+                const position = getItemByKey(selectedPrintPosition, 'printPositions');
+
+                try {
+                    const imagePromises = selectedPhotoStyles.map(styleKey => {
+                        const style = getItemByKey(styleKey, 'photoStyles');
+                        const prompt = `
+                            **ROLE:** You are a hyper-realistic AI Mockup Specialist. Your sole purpose is to apply a given design onto a garment image with absolute precision and then re-render the scene in a new photographic style.
+
+                            **INPUTS:**
+                            - **[IMAGE 1]:** The base image containing the garment, which may be on a model or flat-lay.
+                            - **[IMAGE 2]:** The design graphic to be applied to the garment.
+
+                            **PARAMETERS:**
+                            - **Print Position:** ${position.prompt}
+                            - **Photographic Style:** ${style.prompt}
+
+                            **CORE TASK:**
+                            Apply the Design ([IMAGE 2]) onto the Garment ([IMAGE 1]) at the specified Print Position, making it look like a natural part of the fabric. Then, re-imagine the entire photograph in the specified Photographic Style.
+
+                            **CRITICAL DIRECTIVES & STRICT RULES (NON-NEGOTIABLE):**
+
+                            1.  **UNCHANGEABLE ELEMENTS:** The following elements from [IMAGE 1] and [IMAGE 2] MUST remain IDENTICAL in the final output. DO NOT change, alter, or reinterpret them in any way:
+                                -   **The Design Graphic ([IMAGE 2]):** The colors, shapes, and content of the design are absolute. Apply it exactly as provided.
+                                -   **The Garment's Base Color:** If the shirt in [IMAGE 1] is blue, it MUST remain blue. Do not change its color.
+                                -   **The Human Model (if present):** The model's face, body, pose, skin tone, and hair must not be altered. You are only changing what they are wearing.
+
+                            2.  **REALISTIC INTEGRATION:**
+                                - The applied Design must conform realistically to the garment's texture, folds, shadows, and lighting. It should not look like a flat sticker but must appear as if it is printed on the fabric.
+                                - The Design must inherit the shadows and highlights present on the fabric's surface.
+
+                            3.  **STYLISTIC TRANSFORMATION:**
+                                - Your ONLY creative task is to apply the **Photographic Style** ("${style.prompt}") to the *entire composed scene* (background, model, garment with the newly applied design). The final output should be a professional photograph taken in that specific style.
+                        `;
+                        const payload = {
+                            contents: [{
+                                parts: [
+                                    { text: prompt },
+                                    { inlineData: { mimeType: "image/jpeg", data: aiMockupClothesImage } },
+                                    { inlineData: { mimeType: "image/png", data: aiMockupDesignImage } }
+                                ]
+                            }],
+                            generationConfig: { responseModalities: ['IMAGE'] },
+                        };
+                        return fetchImageWithBackoff(payload);
+                    });
+
+                    const results = await Promise.allSettled(imagePromises);
+                    displayResults(results, $aiMockupImageContainer, $aiMockupDownloadAllWrapper, true);
+                } catch (error) {
+                    const $error = $(`<div class="error-message text-center text-red-500"><i data-lucide="alert-triangle" class="w-16 h-16 mx-auto mb-4"></i><p class="font-semibold">${$.i18n('error-title')}</p><p class="text-sm">${error.message}</p></div>`);
+                    $aiMockupImageContainer.html($error);
+                    lucide.createIcons();
+                } finally {
+                    $aiMockupLoader.addClass('hidden');
+                    updateGenerateButton('idle', 'btn-ai-mockup', $aiMockupGenerateBtn);
+                }
+            });
+
+            $remixGenerateBtn.on('click', async function() {
+                if (remixUploadedImages.length < 2 || selectedItems.length === 0) { alert($.i18n('alert-select-all-remix')); return; }
+                const isMultipleThemes = selectedItems.length > 1;
+                updateGenerateButton('loading', 'loader-remixing', $remixGenerateBtn);
+                $remixPlaceholder.addClass('hidden');
+                $remixImageContainer.children('.results-grid').remove();
+                $remixDownloadAllWrapper.addClass('hidden');
+                $remixLoader.removeClass('hidden');
+                $('h3[data-i18n="remix-creation-title"]').text($.i18n(isMultipleThemes ? 'remix-creation-title-plural' : 'remix-creation-title'));
+                
+                try {
+                    const imagePromises = selectedItems.map(itemKey => {
+                        const item = getItemByKey(itemKey, 'themes');
+                        const prompt = `Creatively merge the provided images into a single, cohesive masterpiece, using the following artistic style as inspiration: ${item.prompt}`;
+                        const parts = [{ text: prompt }];
+                        remixUploadedImages.forEach(imgData => {
+                            parts.push({ inlineData: { mimeType: "image/jpeg", data: imgData.url.split(',')[1] } });
+                        });
+                        const payload = { contents: [{ parts: parts }], generationConfig: { responseModalities: ['IMAGE'] } };
+                        return fetchImageWithBackoff(payload);
+                    });
+                    const results = await Promise.allSettled(imagePromises);
+                    displayResults(results, $remixImageContainer, $remixDownloadAllWrapper);
+                } catch(error) {
+                    const $error = $(`<div class="error-message text-center text-red-500"><i data-lucide="alert-triangle" class="w-16 h-16 mx-auto mb-4"></i><p class="font-semibold">${$.i18n('error-title')}</p><p class="text-sm">${error.message}</p></div>`);
+                    $remixImageContainer.html($error);
+                    lucide.createIcons();
+                } finally {
+                    $remixLoader.addClass('hidden');
+                    updateGenerateButton('idle', 'btn-remix', $remixGenerateBtn);
+                }
+            });
+            
+            $virtualGenerateBtn.on('click', async function() {
+                if (!virtualModelImage || virtualClothesImages.length === 0) { alert($.i18n('alert-select-all-virtual-try-on')); return; }
+                updateGenerateButton('loading', 'loader-virtual-try-on', $virtualGenerateBtn);
+                $virtualPlaceholder.addClass('hidden');
+                $virtualImageContainer.children('.results-grid').remove();
+                $virtualDownloadAllWrapper.addClass('hidden');
+                $virtualLoader.removeClass('hidden');
+                
+                try {
+                    const imagePromises = virtualClothesImages.map(clothImg => {
+                        const prompt = `
+                            **ROLE:** You are a professional AI virtual try-on stylist.
+                            
+                            **OBJECTIVE:** Your task is to realistically and seamlessly dress the person in the first image (the model) with the clothing item from the second image (the apparel).
+
+                            **PROCESS:**
+                            1.  **Analyze Model:** Identify the person in the first image, including their pose, body shape, and existing clothing.
+                            2.  **Analyze Apparel:** Identify the clothing item in the second image.
+                            3.  **Perform Try-On:** Generate a new image where the clothing from the second image is worn by the person from the first image. The new clothing must realistically conform to the model's body, including folds, shadows, and lighting.
+
+                            **STRICT RULES:**
+                            -   **RULE 1: PRESERVE IDENTITY AND POSE.** You MUST NOT change the model's physical appearance (face, hair, skin tone, body type) or their pose and expression.
+                            -   **RULE 2: PRESERVE BACKGROUND.** The background of the model's image MUST remain 100% identical and unchanged.
+                            -   **RULE 3: SEAMLESS FIT.** The apparel must be rendered with realistic lighting, shadows, and draping that matches the original photo's context perfectly. The transition between the model's body and the new clothing must be undetectable.
+                        `;
+                        const parts = [{ text: prompt }];
+                        parts.push({ inlineData: { mimeType: "image/jpeg", data: virtualModelImage } });
+                        parts.push({ inlineData: { mimeType: "image/jpeg", data: clothImg.url.split(',')[1] } });
+
+                        const payload = { contents: [{ parts: parts }], generationConfig: { responseModalities: ['IMAGE'] } };
+                        return fetchImageWithBackoff(payload);
+                    });
+                    const results = await Promise.allSettled(imagePromises);
+                    displayResults(results, $virtualImageContainer, $virtualDownloadAllWrapper);
+
+                } catch(error) {
+                    const $error = $(`<div class="error-message text-center text-red-500"><i data-lucide="alert-triangle" class="w-16 h-16 mx-auto mb-4"></i><p class="font-semibold">${$.i18n('error-title')}</p><p class="text-sm">${error.message}</p></div>`);
+                    $virtualImageContainer.html($error);
+                    lucide.createIcons();
+                } finally {
+                    $virtualLoader.addClass('hidden');
+                    updateGenerateButton('idle', 'btn-virtual-try-on', $virtualGenerateBtn);
+                }
+            });
+
+            $aiGraphicGenerateBtn.on('click', async function() {
+                const format = $('#ai-graphic-format-selector input:checked').val();
+                const content = $('#ai-graphic-content').val();
+                if (!format || !content || selectedItems.length === 0) { alert($.i18n('alert-select-all-ai-graphic')); return; }
+                
+                updateGenerateButton('loading', 'loader-ai-graphic', $aiGraphicGenerateBtn);
+                $aiGraphicPlaceholder.addClass('hidden');
+                $aiGraphicImageContainer.children('.results-grid').remove();
+                $aiGraphicDownloadAllWrapper.addClass('hidden');
+                $aiGraphicLoader.removeClass('hidden');
+
+                try {
+                    const imagePromises = selectedItems.map(itemKey => {
+                        const style = getItemByKey(itemKey, 'graphicStyles');
+                        const prompt = `
+                            **ROLE:** You are an expert AI Graphic Designer.
+
+                            **OBJECTIVE:** Create a visually stunning graphic design based on the user's specifications.
+
+                            **SPECIFICATIONS:**
+                            - **Aspect Ratio:** ${format}
+                            - **Content/Text:** "${content}"
+                            - **Style:** ${style.prompt}
+
+                            **PROCESS:**
+                            1.  **Interpret Content:** Understand the core message and hierarchy of the provided text.
+                            2.  **Integrate Assets:** If user-provided assets (images) are included, incorporate them naturally into the design. If no assets are provided, generate relevant graphical elements.
+                            3.  **Apply Style:** Apply the specified artistic style across the entire design for a cohesive look.
+                            4.  **Compose:** Create a balanced and professional layout, ensuring text is legible and visually appealing.
+
+                            **STRICT RULES:**
+                            - **RULE 1: ADHERE TO FORMAT.** The final output must strictly match the requested format (${format}).
+                            - **RULE 2: TEXT ACCURACY.** All text from the user's content must be included and spelled correctly.
+                            - **RULE 3: COHESIVE DESIGN.** All elements (text, assets, generated graphics) must blend together seamlessly under the chosen style.
+                        `;
+
+                        const parts = [{ text: prompt }];
+                        aiGraphicAssets.forEach(imgData => {
+                            parts.push({ inlineData: { mimeType: "image/jpeg", data: imgData.url.split(',')[1] } });
+                        });
+                        
+                        const payload = { contents: [{ parts }], generationConfig: { responseModalities: ['IMAGE'] } };
+                        return fetchImageWithBackoff(payload);
+                    });
+                    const results = await Promise.allSettled(imagePromises);
+                    displayResults(results, $aiGraphicImageContainer, $aiGraphicDownloadAllWrapper);
+                } catch(error) {
+                    const $error = $(`<div class="error-message text-center text-red-500"><i data-lucide="alert-triangle" class="w-16 h-16 mx-auto mb-4"></i><p class="font-semibold">${$.i18n('error-title')}</p><p class="text-sm">${error.message}</p></div>`);
+                    $aiGraphicImageContainer.html($error);
+                    lucide.createIcons();
+                } finally {
+                    $aiGraphicLoader.addClass('hidden');
+                    updateGenerateButton('idle', 'btn-ai-graphic', $aiGraphicGenerateBtn);
+                }
+            });
+            
+            // --- Editor Modal Handlers ---
+            $('body').on('click', '.results-grid .group', function(e) {
+                if ($(e.target).closest('.download-item-btn').length) {
+                    return; // Prevent modal from opening if download is clicked
+                }
+                const imgSrc = $(this).data('img-src');
+                const itemKey = $(this).data('item-key');
+                if (!imgSrc || !itemKey) return;
+                
+                editorState.targetElement = $(this);
+                editorState.itemKey = itemKey;
+                editorState.originalImageDataUrl = imgSrc;
+                editorState.regenerationHistory = [imgSrc]; // Initialize history
+                $undoRegenerationBtn.prop('disabled', true); // Disable undo button initially
+                
+                let itemType;
+                if(activePage === 'ai-graphic-page') itemType = 'graphicStyles';
+                else if (activePage === 'ai-mockup-page') itemType = 'photoStyles';
+                else itemType = 'themes';
+
+                const item = getItemByKey(itemKey, itemType);
+                
+                const itemName = item ? item[currentLang] : (itemKey.startsWith('cloth-') ? `Outfit ${parseInt(itemKey.split('-')[1]) + 1}` : 'Result');
+                const titlePrefix = $.i18n('editor-title-prefix');
+                $('#editor-title-text').text(`${titlePrefix} ${itemName}`);
+                $adjustmentPrompt.val('');
+
+                const img = new Image();
+                img.onload = () => {
+                    editorState.originalImage = img;
+                    editorState.originalImageDataBase64 = imgSrc.split(',')[1];
+                    const canvasSize = $editorCanvas.parent().width();
+                    $editorCanvas[0].width = canvasSize;
+                    $editorCanvas[0].height = canvasSize;
+                    editorCtx.drawImage(img, 0, 0, canvasSize, canvasSize);
+                    editorState.drawingHistory = [];
+                    saveState($editorCanvas[0], editorCtx, editorState, $undoBtn);
+                };
+                img.src = imgSrc;
+                $editorModal.removeClass('hidden');
+            });
+
+            $brushSizeSlider.on('input', function() { editorState.brushSize = $(this).val(); });
+            $pageBrushSizeSlider.on('input', function() { pageEditorState.brushSize = $(this).val(); });
+
+            $colorPalette.on('click', '.color-swatch', function() {
+                editorState.isErasing = false;
+                $eraserBtn.removeClass('active');
+                editorState.brushColor = $(this).data('color');
+                $('#color-palette .color-swatch').removeClass('active');
+                $(this).addClass('active');
+            });
+            $pageColorPalette.on('click', '.color-swatch', function() {
+                pageEditorState.isErasing = false;
+                $pageEraserBtn.removeClass('active');
+                pageEditorState.brushColor = $(this).data('color');
+                $('#page-color-palette .color-swatch').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            $('#close-editor-modal-btn').on('click', () => {
+                editorCtx.clearRect(0, 0, $editorCanvas[0].width, $editorCanvas[0].height);
+                editorState.regenerationHistory = []; // Reset history
+                $editorModal.addClass('hidden');
+            });
+            
+            $undoBtn.on('click', () => undoLast(editorCtx, editorState, $undoBtn));
+            $pageUndoBtn.on('click', () => undoLast(pageEditorCtx, pageEditorState, $pageUndoBtn));
+
+            $eraserBtn.on('click', () => {
+                editorState.isErasing = !editorState.isErasing;
+                $eraserBtn.toggleClass('active', editorState.isErasing);
+                if(editorState.isErasing) {
+                    $('#color-palette .color-swatch').removeClass('active');
+                } else if (!$('#color-palette .color-swatch.active').length) {
+                    $('#color-palette .color-swatch[data-color="' + editorState.brushColor + '"]').addClass('active');
+                }
+            });
+            $pageEraserBtn.on('click', () => {
+                pageEditorState.isErasing = !pageEditorState.isErasing;
+                $pageEraserBtn.toggleClass('active', pageEditorState.isErasing);
+                if(pageEditorState.isErasing) {
+                    $('#page-color-palette .color-swatch').removeClass('active');
+                } else if (!$('#page-color-palette .color-swatch.active').length) {
+                    $('#page-color-palette .color-swatch[data-color="' + pageEditorState.brushColor + '"]').addClass('active');
+                }
+            });
+
+            $clearBtn.on('click', () => {
+                editorCtx.clearRect(0, 0, $editorCanvas[0].width, $editorCanvas[0].height);
+                editorCtx.drawImage(editorState.originalImage, 0, 0, $editorCanvas[0].width, $editorCanvas[0].height);
+                editorState.drawingHistory = []; // Reset history
+                saveState($editorCanvas[0], editorCtx, editorState, $undoBtn); // Save the cleared state
+            });
+             $pageClearBtn.on('click', () => {
+                pageEditorCtx.clearRect(0, 0, $pageEditorCanvas[0].width, $pageEditorCanvas[0].height);
+                pageEditorCtx.drawImage(pageEditorState.originalImage, 0, 0, $pageEditorCanvas[0].width, $pageEditorCanvas[0].height);
+                pageEditorState.drawingHistory = []; // Reset history
+                saveState($pageEditorCanvas[0], pageEditorCtx, pageEditorState, $pageUndoBtn); // Save the cleared state
+            });
+            
+            async function handleRegeneration(state, canvas, ctx, undoBtn, regenBtn, promptEl, idleTextKey = 'btn-regenerate') {
+                updateGenerateButton('loading', 'btn-generating', regenBtn);
+                const isMarked = state.drawingHistory.length > 1;
+                const userPromptText = promptEl.val();
+                let finalPrompt = userPromptText;
+                let payload;
+                if (isMarked) {
+                    finalPrompt = `
+                        **ROLE:** You are an expert digital image inpainting model.
+                        **OBJECTIVE:** Your task is to perform a seamless, context-aware inpainting on the masked region of the provided image.
+                        **PROCESS:**
+                        1.  **Analyze Context:** First, meticulously analyze the unmasked areas surrounding the mask to understand the lighting, shadows, textures, colors, and perspective of the original image.
+                        2.  **Interpret Instruction:** Read the user's text instruction to understand what content needs to be generated within the mask.
+                        3.  **Generate & Blend:** Generate new content ONLY for the masked region that flawlessly blends with the surrounding context and fulfills the user's instruction.
+                        **STRICT RULES:**
+                        -   **RULE 1: MASK IS ABSOLUTE.** You MUST NOT alter, change, or affect any pixel outside of the provided mask. The unmasked area must remain 100% identical to the original image.
+                        -   **RULE 2: MATCH STYLE.** The generated content must perfectly match the photographic style, including lighting conditions, color grading, noise, and grain of the original image.
+                        -   **RULE 3: SEAMLESS TRANSITION.** The boundary between the original pixels and your generated pixels must be completely undetectable.
+                        **USER INSTRUCTION:** "${userPromptText}"
+                        Now, execute the inpainting task based on these rules and the user instruction.
+                    `;
+                    
+                    const maskCanvas = document.createElement('canvas');
+                    const maskCtx = maskCanvas.getContext('2d');
+                    const canvasSize = canvas.width;
+                    maskCanvas.width = canvasSize;
+                    maskCanvas.height = canvasSize;
+
+                    const tempCanvas = document.createElement('canvas');
+                    const tempCtx = tempCanvas.getContext('2d');
+                    tempCanvas.width = canvasSize;
+                    tempCanvas.height = canvasSize;
+                    tempCtx.drawImage(state.originalImage, 0, 0, canvasSize, canvasSize);
+                    const originalImageData = tempCtx.getImageData(0, 0, canvasSize, canvasSize).data;
+                    const currentImageData = ctx.getImageData(0, 0, canvasSize, canvasSize);
+                    const currentData = currentImageData.data;
+                    const maskImageData = maskCtx.createImageData(canvasSize, canvasSize);
+                    const maskData = maskImageData.data;
+
+                    for (let i = 0; i < currentData.length; i += 4) {
+                        if (currentData[i] !== originalImageData[i] || currentData[i + 1] !== originalImageData[i + 1] || currentData[i + 2] !== originalImageData[i + 2] || currentData[i + 3] !== originalImageData[i + 3]) {
+                            maskData[i] = 255; maskData[i + 1] = 255; maskData[i + 2] = 255; maskData[i + 3] = 255;
+                        }
+                    }
+                    maskCtx.putImageData(maskImageData, 0, 0);
+
+                    const maskDataBase64 = maskCanvas.toDataURL('image/png').split(',')[1];
+                    payload = { contents: [ { parts: [ { text: finalPrompt }, { inlineData: { mimeType: "image/png", data: state.originalImageDataBase64 } }, { inlineData: { mimeType: "image/png", data: maskDataBase64 } } ] } ], generationConfig: { responseModalities: ['IMAGE'] }, };
+                } else {
+                    payload = { contents: [ { parts: [ { text: finalPrompt }, { inlineData: { mimeType: "image/png", data: state.originalImageDataBase64 } } ] } ], generationConfig: { responseModalities: ['IMAGE'] }, };
+                }
+                try {
+                    const newBase64 = await fetchImageWithBackoff(payload);
+                    const newImgSrc = `data:image/png;base64,${newBase64}`;
+
+                    state.regenerationHistory.push(newImgSrc);
+                    const undoRegenBtn = regenBtn.parent().parent().find('button[title="Undo Regeneration"]');
+                    undoRegenBtn.prop('disabled', false);
+
+                    const img = new Image();
+                    img.onload = () => {
+                        state.originalImage = img;
+                        state.originalImageDataBase64 = newBase64;
+                        state.originalImageDataUrl = newImgSrc;
+                        const canvasSize = canvas.width;
+                        ctx.clearRect(0, 0, canvasSize, canvasSize);
+                        ctx.drawImage(img, 0, 0, canvasSize, canvasSize);
+                        state.drawingHistory = [];
+                        saveState(canvas, ctx, state, undoBtn);
+                        if (state.targetElement) {
+                            state.targetElement.data('img-src', newImgSrc).find('img').attr('src', newImgSrc);
+                        }
+                        promptEl.val('');
+                    };
+                    img.src = newImgSrc;
+                } catch(error) {
+                    alert('Failed to regenerate image. ' + error.message);
+                } finally {
+                    updateGenerateButton('idle', idleTextKey, regenBtn);
+                }
+            }
+            
+            $regenerateBtn.on('click', () => handleRegeneration(editorState, $editorCanvas[0], editorCtx, $undoBtn, $regenerateBtn, $adjustmentPrompt, 'btn-regenerate'));
+            $pageRegenerateBtn.on('click', () => handleRegeneration(pageEditorState, $pageEditorCanvas[0], pageEditorCtx, $pageUndoBtn, $pageRegenerateBtn, $pageAdjustmentPrompt, 'btn-generate'));
+
+
+            const undoLastRegeneration = (state, canvas, ctx, undoBtn, undoRegenBtn, promptEl) => {
+                if (state.regenerationHistory.length <= 1) return;
+
+                state.regenerationHistory.pop(); // Remove the current image
+                const previousImgSrc = state.regenerationHistory[state.regenerationHistory.length - 1]; // Get the previous one
+
+                const img = new Image();
+                img.onload = () => {
+                    const newBase64 = previousImgSrc.split(',')[1];
+                    state.originalImage = img;
+                    state.originalImageDataBase64 = newBase64;
+                    state.originalImageDataUrl = previousImgSrc;
+
+                    const canvasSize = canvas.width;
+                    ctx.clearRect(0, 0, canvasSize, canvasSize);
+                    ctx.drawImage(img, 0, 0, canvasSize, canvasSize);
+
+                    state.drawingHistory = [];
+                    saveState(canvas, ctx, state, undoBtn);
+
+                    if (state.targetElement) {
+                        state.targetElement.data('img-src', previousImgSrc).find('img').attr('src', previousImgSrc);
+                    }
+
+                    promptEl.val('');
+                    undoRegenBtn.prop('disabled', state.regenerationHistory.length <= 1);
+                };
+                img.src = previousImgSrc;
+            };
+            
+            $undoRegenerationBtn.on('click', () => undoLastRegeneration(editorState, $editorCanvas[0], editorCtx, $undoBtn, $undoRegenerationBtn, $adjustmentPrompt));
+            $pageUndoRegenerationBtn.on('click', () => undoLastRegeneration(pageEditorState, $pageEditorCanvas[0], pageEditorCtx, $pageUndoBtn, $pageUndoRegenerationBtn, $pageAdjustmentPrompt));
+
+            
+            // --- Download Handlers ---
+            $('body').on('click', '.results-grid .download-item-btn', function(e) {
+                e.stopPropagation();
+                const $itemWrapper = $(this).closest('.group');
+                const imgSrc = $itemWrapper.data('img-src');
+                const itemKey = $itemWrapper.data('item-key');
+                const filename = `solo-studio-${itemKey}.png`;
+                triggerDownload(imgSrc, filename);
+            });
+
+            $downloadEditorBtn.on('click', function() {
+                if (editorState.originalImageDataUrl) {
+                    const filename = `solo-studio-${editorState.itemKey}-edited.png`;
+                    triggerDownload(editorState.originalImageDataUrl, filename);
+                }
+            });
+
+            $pageDownloadEditorBtn.on('click', function() {
+                if (pageEditorState.originalImageDataUrl) {
+                    const filename = `solo-studio-${pageEditorState.itemKey}-edited.png`;
+                    triggerDownload(pageEditorState.originalImageDataUrl, filename);
+                }
+            });
+
+            $('#download-all-btn, #remix-download-all-btn, #virtual-download-all-btn, #ai-graphic-download-all-btn, #ai-mockup-download-all-btn').on('click', function() {
+                const zip = new JSZip();
+                let containerId, prefix;
+
+                if ($(this).is('#remix-download-all-btn')) { containerId = '#remix-image-container'; prefix = 'remix'; }
+                else if ($(this).is('#virtual-download-all-btn')) { containerId = '#virtual-image-container'; prefix = 'virtual-try-on'; }
+                else if ($(this).is('#ai-graphic-download-all-btn')) { containerId = '#ai-graphic-image-container'; prefix = 'ai-graphic'; }
+                else if ($(this).is('#ai-mockup-download-all-btn')) { containerId = '#ai-mockup-image-container'; prefix = 'ai-mockup'; }
+                else { containerId = '#image-container'; prefix = 'photoshoot'; }
+                
+                $(`${containerId} .group`).each(function(index) {
+                    const imgSrc = $(this).data('img-src');
+                    const itemKey = $(this).data('item-key');
+                    if (imgSrc) {
+                        const base64Data = imgSrc.split(',')[1];
+                        zip.file(`solo-studio-${prefix}-${itemKey}-${index + 1}.png`, base64Data, { base64: true });
+                    }
+                });
+                zip.generateAsync({ type: "blob" }).then(function(content) {
+                    saveAs(content, `solo-studio-${prefix}-images.zip`);
+                });
+            });
+
+            // --- Page Switching ---
+            $('#main-nav').on('click', '.nav-link', function(e) {
+                e.preventDefault();
+                const targetPage = $(this).data('page');
+                if (!targetPage || targetPage === activePage) return;
+                
+                activePage = targetPage;
+                selectedItems = []; 
+                selectedPrintPosition = null;
+                selectedPhotoStyles = [];
+                
+                // Reset free edit page if navigating away from it
+                if (targetPage !== 'ai-free-edit-page') {
+                    $aiFreeEditUploadWrapper.removeClass('hidden');
+                    $aiFreeEditEditorWrapper.addClass('hidden');
+                    pageEditorCtx.clearRect(0, 0, $pageEditorCanvas[0].width, $pageEditorCanvas[0].height);
+                    $aiFreeEditUploadInput.val('');
+                    pageEditorState = { ...baseEditorState }; // Reset state
+                }
+
+                renderSelectedItemsOnMain();
+                
+                $('.page-content').addClass('hidden');
+                $(`#${targetPage}`).removeClass('hidden');
+
+                $('.nav-link').removeClass('active md-active');
+                $(this).addClass('active md-active');
+            });
+
+            // --- Other Modals Control ---
+            $('#open-themes-modal-btn, .remix-open-themes-modal-btn').on('click', () => { currentModalContext = 'themes'; renderItemsInModal(); $themesModal.removeClass('hidden'); });
+            $('#open-photo-styles-modal-btn').on('click', () => { currentModalContext = 'photoStyles'; renderItemsInModal(); $themesModal.removeClass('hidden'); });
+            $('.ai-graphic-open-styles-modal-btn').on('click', () => { currentModalContext = 'graphicStyles'; renderItemsInModal(); $themesModal.removeClass('hidden'); });
+            
+            const closeThemesModal = () => $themesModal.addClass('hidden');
+            $('#close-themes-modal-btn').on('click', closeThemesModal);
+            
+            $('#confirm-themes-btn').on('click', () => { 
+                closeThemesModal(); 
+                renderSelectedItemsOnMain(); 
+                updateGenerateButton('idle', 'btn-generate', $generateBtn);
+                updateGenerateButton('idle', 'btn-remix', $remixGenerateBtn);
+                updateGenerateButton('idle', 'btn-ai-graphic', $aiGraphicGenerateBtn);
+                updateGenerateButton('idle', 'btn-ai-mockup', $aiMockupGenerateBtn);
+            });
+
+            $modalThemeList.on('click', '.modal-theme-item', function(e) { 
+                if ($(e.target).closest('.favorite-btn').length) return; 
+                const itemKey = $(this).data('item'); 
+                
+                if (currentModalContext === 'printPositions') {
+                    // This logic is now handled by the dropdown, but we keep the modal structure for other types
+                } else {
+                     let selectionArray;
+                     if(currentModalContext === 'photoStyles') {
+                         selectionArray = selectedPhotoStyles;
+                     } else {
+                         selectionArray = selectedItems;
+                     }
+                     const itemIndex = selectionArray.indexOf(itemKey); 
+                     if (itemIndex > -1) { 
+                         selectionArray.splice(itemIndex, 1); 
+                     } else { 
+                         selectionArray.push(itemKey); 
+                     }
+                     renderItemsInModal();
+                }
+            });
+
+            $modalThemeList.on('click', '.favorite-btn', function(e) { 
+                e.stopPropagation(); 
+                const itemKey = $(this).data('item-key'); 
+                const favorites = favoriteItems[currentModalContext];
+                if(!favorites) return;
+
+                const favIndex = favorites.indexOf(itemKey); 
+                if (favIndex > -1) { favorites.splice(favIndex, 1); } 
+                else { favorites.push(itemKey); } 
+                saveFavorites(); 
+                renderItemsInModal(); 
+            });
+
+            $('#settings-btn').on('click', (e) => { e.preventDefault(); $settingsModal.removeClass('hidden'); });
+            const closeModal = () => $settingsModal.addClass('hidden');
+            $('#close-modal-btn').on('click', closeModal);
+            $settingsModal.on('click', (e) => { if (e.target === $settingsModal[0]) closeModal(); });
+            $('#lang-switcher').on('click', '.lang-btn', function() { setLanguage($(this).data('lang')); $('.lang-btn').removeClass('active'); $(this).addClass('active'); });
+
+            // --- Initial Load ---
+            const init = () => {
+                lucide.createIcons();
+                loadFavorites();
+                setLanguage('id');
+                updateGenerateButton('idle', 'btn-generate', $generateBtn);
+                updateGenerateButton('idle', 'btn-remix', $remixGenerateBtn);
+                updateGenerateButton('idle', 'btn-virtual-try-on', $virtualGenerateBtn);
+                updateGenerateButton('idle', 'btn-ai-graphic', $aiGraphicGenerateBtn);
+                updateGenerateButton('idle', 'btn-ai-mockup', $aiMockupGenerateBtn);
+            };
+            
+            const loadTranslations = () => {
+                return new Promise((resolve, reject) => {
+                    fetch('https://raw.githubusercontent.com/bdxygy/solo-studio/refs/heads/main/i18n.json')
+                        .then(response => { if (!response.ok) { throw new Error('Network response was not ok for translations'); } return response.json(); })
+                        .then(translations => {
+                             // Add new translations for the AI Free Edit page
+                            if(translations.en) {
+                                translations.en['menu-ai-free-edit'] = 'AI Free Edit';
+                                translations.en['ai-free-edit-title'] = 'AI Free Edit';
+                                translations.en['ai-free-edit-subtitle'] = 'Upload an image and use the brush tool to edit it with AI.';
+                                translations.en['upload-image-to-edit'] = 'Upload Image to Edit';
+                            }
+                             if(translations.id) {
+                                translations.id['menu-ai-free-edit'] = 'Edit Bebas AI';
+                                translations.id['ai-free-edit-title'] = 'Edit Bebas AI';
+                                translations.id['ai-free-edit-subtitle'] = 'Unggah gambar dan gunakan alat kuas untuk mengeditnya dengan AI.';
+                                translations.id['upload-image-to-edit'] = 'Unggah Gambar untuk Diedit';
+                            }
+                             if(translations.ms) {
+                                translations.ms['menu-ai-free-edit'] = 'Edit AI Percuma';
+                                translations.ms['ai-free-edit-title'] = 'Edit AI Percuma';
+                                translations.ms['ai-free-edit-subtitle'] = 'Muat naik imej dan gunakan alat berus untuk mengeditnya dengan AI.';
+                                translations.ms['upload-image-to-edit'] = 'Muat Naik Imej untuk Diedit';
+                            }
+
+                            for (const lang in translations) {
+                                $.i18n().load(translations[lang], lang);
+                            }
+                            resolve();
+                        })
+                        .catch(error => {
+                            console.error('Failed to fetch translations:', error);
+                            alert('Could not load language data.');
+                            reject(error);
+                        });
+                });
+            };
+
+            const loadData = (key, url) => {
+                return new Promise((resolve, reject) => {
+                    const cacheKey = `soloStudio-${key}-Cache`;
+                    const thirtyMinutes = 30 * 60 * 1000;
+
+                    const setData = (data) => {
+                        if (key === 'themes') themes = data;
+                        else if (key === 'graphicStyles') graphicStyles = data;
+                        else if (key === 'printPositions') printPositions = data;
+                        else if (key === 'photoStyles') photoStyles = data;
+                    };
+
+                    try {
+                        const cachedItem = localStorage.getItem(cacheKey);
+                        if (cachedItem) {
+                            const { expiry, data } = JSON.parse(cachedItem);
+                            if (new Date().getTime() < expiry) {
+                                console.log(`Loading ${key} from cache.`);
+                                setData(data);
+                                resolve();
+                                return;
+                            }
+                        }
+                    } catch (e) { console.error(`Could not read ${key} cache from localStorage.`, e); }
+
+                    console.log(`Fetching new ${key} from server.`);
+                    fetch(url)
+                        .then(response => { if (!response.ok) { throw new Error('Network response was not ok for ' + key); } return response.json(); })
+                        .then(data => {
+                            setData(data);
+                            try {
+                                const cachePayload = { expiry: new Date().getTime() + thirtyMinutes, data: data };
+                                localStorage.setItem(cacheKey, JSON.stringify(cachePayload));
+                            } catch (e) { console.error(`Failed to save ${key} to localStorage.`, e); }
+                            resolve();
+                        })
+                        .catch(error => {
+                            console.error(`Failed to fetch ${key}:`, error);
+                            alert(`Could not load ${key}.`);
+                            reject(error);
+                        });
+                });
+            };
+
+            Promise.all([
+                loadTranslations(),
+                loadData('themes', 'https://raw.githubusercontent.com/bdxygy/solo-studio/refs/heads/main/prompts.json'),
+                loadData('graphicStyles', 'https://raw.githubusercontent.com/bdxygy/solo-studio/refs/heads/main/graphs.json'),
+                loadData('printPositions', 'https://raw.githubusercontent.com/bdxygy/solo-studio/refs/heads/main/print_positions.json'),
+                loadData('photoStyles', 'https://raw.githubusercontent.com/bdxygy/solo-studio/refs/heads/main/clothes_style.json')
+            ]).then(() => {
+                init();
+            }).catch(error => {
+                 console.error("Failed to load initial app data:", error);
+                 // Optionally, display a more prominent error message to the user
+            });
         });
     </script>
 </body>
 </html>
+
+
 
 

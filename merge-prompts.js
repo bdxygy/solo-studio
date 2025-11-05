@@ -117,15 +117,25 @@ function mergeThemeFiles(inputDir, outputFile) {
         const prompts = readJsonFile(filePath);
 
         if (Array.isArray(prompts)) {
-            // Add category prefix to each prompt key
-            const categorizedPrompts = prompts.map(prompt => ({
-                ...prompt,
-                key: `${themeName}-${prompt.key}`,
-                category: themeName
-            }));
+            // Add category prefix to each prompt key and add Sharia compliance constraints
+            const categorizedPrompts = prompts.map(prompt => {
+                const shariaConstraints = " STRICT CONSTRAINTS: No humans, no animals, no living creatures, no religious symbols, no human figures, no faces, no bodies. Only furniture, decor items, architectural elements, wall art, plants, and inanimate objects allowed. Must comply with Sharia law principles.";
+
+                // Add constraints to the prompt if not already present
+                const enhancedPrompt = prompt.prompt.includes("STRICT CONSTRAINTS")
+                    ? prompt.prompt
+                    : prompt.prompt + shariaConstraints;
+
+                return {
+                    ...prompt,
+                    key: `${themeName}-${prompt.key}`,
+                    category: themeName,
+                    prompt: enhancedPrompt
+                };
+            });
 
             allPrompts = allPrompts.concat(categorizedPrompts);
-            console.log(`Added ${categorizedPrompts.length} prompts from ${themeName}`);
+            console.log(`Added ${categorizedPrompts.length} prompts from ${themeName} (with Sharia compliance)`);
         } else {
             console.warn(`No valid prompts found in ${file}`);
         }

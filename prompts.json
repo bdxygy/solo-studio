@@ -96,14 +96,6 @@
     "category": "indoors"
   },
   {
-    "key": "indoors-indoor-wine-cellar",
-    "en": "Indoor - Wine Cellar",
-    "id": "Indoor - Gudang Anggur",
-    "ms": "Indoor - Gua Anggur",
-    "prompt": "Product placed in elegant wine cellar with warm, atmospheric lighting. Wine racks and stone walls creating sophisticated, aged atmosphere. Indoor photography with warm ambient lighting and rich textures. The mood is sophisticated, aged, and luxurious. Indoor wine cellar photography with warm lighting, wine racks, luxurious atmosphere, photorealistic, 8K, premium quality.",
-    "category": "indoors"
-  },
-  {
     "key": "indoors-indoor-coffee-station",
     "en": "Indoor - Coffee Station",
     "id": "Indoor - Stasiun Kopi",
@@ -624,14 +616,6 @@
     "category": "indoors"
   },
   {
-    "key": "indoors-indoor-wine-cellar-tasting-room",
-    "en": "Indoor - Wine Cellar Tasting Room",
-    "id": "Indoor - Ruang Menjual Anggur",
-    "ms": "Indoor - Bilik Rasa Anggur",
-    "prompt": "Product placed in elegant wine cellar with oak barrels and tasting area. Warm ambient lighting and stone walls creating sophisticated atmosphere. Wine cellar photography with intimate lighting and luxury wine storage. The mood is sophisticated, intimate, and luxurious. Wine cellar photography with oak barrels, stone walls, tasting room ambiance, photorealistic, 8K, luxury quality.",
-    "category": "indoors"
-  },
-  {
     "key": "indoors-indoor-professional-recording-studio",
     "en": "Indoor - Professional Recording Studio",
     "id": "Indoor - Studio Rekaman Profesional",
@@ -1045,30 +1029,6 @@
     "id": "Indoor - Lounge Ruang Pameran Ferrari",
     "ms": "Indoor - Lounge Ruang Pameran Ferrari",
     "prompt": "Product positioned in Ferrari showroom lounge with red leather and racing elements. Dramatic Italian lighting with luxury sports cars creating exclusive atmosphere. Ferrari showroom photography with luxury vehicles and racing elements. The mood is exclusive, sporty, and luxurious. Ferrari showroom photography with luxury sports cars, red leather, dramatic lighting, photorealistic, 8K, automotive quality.",
-    "category": "indoors"
-  },
-  {
-    "key": "indoors-indoor-diamond-trading-room",
-    "en": "Indoor - Diamond Trading Room",
-    "id": "Indoor - Ruang Perdagangan Berlian",
-    "ms": "Indoor - Bilik Dagangan Berlian",
-    "prompt": "Product positioned in diamond trading room with secure displays and bright lighting. Professional gemstone lighting with security features creating exclusive trading atmosphere. Diamond trading photography with secure displays and gemstone elements. The mood is exclusive, secure, and professional. Diamond trading room photography with gemstone displays, security features, professional lighting, photorealistic, 8K, luxury quality.",
-    "category": "indoors"
-  },
-  {
-    "key": "indoors-indoor-vintage-wine-cellar-tasting",
-    "en": "Indoor - Vintage Wine Cellar Tasting",
-    "id": "Indoor - Ruang Menjual Anggur Vintage",
-    "ms": "Indoor - Bilik Rasa Anggur Vintage",
-    "prompt": "Product positioned in vintage wine cellar with aged bottles and tasting area. Wine cellar lighting with historic bottles creating exclusive atmosphere. Vintage wine cellar photography with aged bottles and tasting elements. The mood is vintage, exclusive, and sophisticated. Vintage wine cellar photography with historic bottles, tasting area, cellar lighting, photorealistic, 8K, wine quality.",
-    "category": "indoors"
-  },
-  {
-    "key": "indoors-indoor-champagne-lounge-vip",
-    "en": "Indoor - Champagne Lounge VIP",
-    "id": "Indoor - Lounge Champagne VIP",
-    "ms": "Indoor - Lounge Champagne VIP",
-    "prompt": "Product positioned in champagne VIP lounge with crystal glass displays and elegant seating. Celebration lighting with premium champagne elements creating exclusive atmosphere. Champagne lounge photography with crystal displays and VIP elements. The mood is celebratory, exclusive, and elegant. Champagne VIP lounge photography with crystal glass displays, elegant seating, celebration lighting, photorealistic, 8K, luxury quality.",
     "category": "indoors"
   },
   {
@@ -1533,6 +1493,158 @@
     "id": "Indoor - Lounge Ruang Pameran Acura",
     "ms": "Indoor - Lounge Ruang Pameran Acura",
     "prompt": "Product positioned in Acura showroom with Japanese design and performance elements. Performance Japanese lighting with vehicles creating sporty atmosphere. Acura showroom photography with vehicles and Japanese design. The mood is Japanese, performance, and sporty. Acura showroom photography with vehicles, Japanese design, performance lighting, photorealistic, 8K, automotive quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-children-playroom",
+    "en": "Indoor - Children's Playroom",
+    "id": "Indoor - Ruang Bermain Anak",
+    "ms": "Indoor - Bilik Main Kanak-kanak",
+    "prompt": "Product placed in colorful children's playroom with toys and educational elements. Bright, cheerful lighting with vibrant colors creating playful atmosphere. Professional indoor photography with child-friendly elements and energetic mood. The mood is playful, colorful, and educational. Indoor children's photography with bright lighting, toys, playful atmosphere, photorealistic, 8K, family quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-bedroom",
+    "en": "Indoor - Kids Bedroom",
+    "id": "Indoor - Kamar Tidur Anak",
+    "ms": "Indoor - Bilik Tidur Kanak-kanak",
+    "prompt": "Product positioned in cozy children's bedroom with themed decorations and soft furnishings. Warm, gentle lighting creating comfortable and safe atmosphere. Indoor photography with child-friendly elements and peaceful mood. The mood is comfortable, safe, and imaginative. Indoor kids' bedroom photography with warm lighting, themed decor, cozy atmosphere, photorealistic, 8K, family quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-art-corner",
+    "en": "Indoor - Kids Art Corner",
+    "id": "Indoor - Sudut Seni Anak",
+    "ms": "Indoor - Sudut Seni Kanak-kanak",
+    "prompt": "Product positioned in creative art space with children's drawings and art supplies. Bright, inspiring lighting for creative activities and artistic expression. Indoor photography with colorful, artistic elements and creative mood. The mood is creative, colorful, and inspiring. Indoor art corner photography with bright lighting, art supplies, creative atmosphere, photorealistic, 8K, educational quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-library",
+    "en": "Indoor - Children's Library",
+    "id": "Indoor - Perpustakaan Anak",
+    "ms": "Indoor - Perpustakaan Kanak-kanak",
+    "prompt": "Product placed in mini library with colorful books and cozy reading nook. Warm, focused lighting for reading atmosphere and educational activities. Professional indoor photography with learning-focused elements and intellectual mood. The mood is educational, quiet, and imaginative. Indoor children's library photography with warm lighting, books, educational atmosphere, photorealistic, 8K, learning quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-play-kitchen-area",
+    "en": "Indoor - Play Kitchen Area",
+    "id": "Indoor - Area Dapur Mainan",
+    "ms": "Indoor - Kawasan Dapur Mainan",
+    "prompt": "Product positioned in children's play kitchen with toy food and utensils. Bright, playful lighting mimicking real kitchen atmosphere for imaginative play. Indoor photography with role-playing elements and creative mood. The mood is imaginative, playful, and social. Indoor play kitchen photography with bright lighting, toy food, playful atmosphere, photorealistic, 8K, children's quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-science-corner",
+    "en": "Indoor - Kids Science Corner",
+    "id": "Indoor - Sudut Sains Anak",
+    "ms": "Indoor - Sudut Sains Kanak-kanak",
+    "prompt": "Product placed in educational science area with experiments and colorful posters. Bright, curious lighting for discovery atmosphere and learning activities. Professional indoor photography with educational elements and experimental mood. The mood is educational, curious, and discovery-focused. Indoor science corner photography with bright lighting, experiments, educational atmosphere, photorealistic, 8K, learning quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-music-room",
+    "en": "Indoor - Children's Music Room",
+    "id": "Indoor - Ruang Musik Anak",
+    "ms": "Indoor - Bilik Muzik Kanak-kanak",
+    "prompt": "Product positioned in colorful music room with instruments and sound elements. Dynamic, energetic lighting for creative expression and musical activities. Indoor photography with rhythmic, musical elements and artistic mood. The mood is creative, musical, and energetic. Indoor children's music room photography with dynamic lighting, instruments, creative atmosphere, photorealistic, 8K, artistic quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-gaming-zone",
+    "en": "Indoor - Kids Gaming Zone",
+    "id": "Indoor - Zona Game Anak",
+    "ms": "Indoor - Zona Game Kanak-kanak",
+    "prompt": "Product placed in modern gaming setup with child-friendly technology and colorful decor. Exciting, vibrant lighting for entertainment atmosphere and digital fun. Professional indoor photography with tech-savvy elements and energetic mood. The mood is exciting, modern, and entertaining. Indoor gaming zone photography with vibrant lighting, technology, entertainment atmosphere, photorealistic, 8K, digital quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-dressup-area",
+    "en": "Indoor - Children's Dress-up Area",
+    "id": "Indoor - Area Berdandan Anak",
+    "ms": "Indoor - Kawasan Berpakaian Kanak-kanak",
+    "prompt": "Product positioned in costume corner with dress-up clothes and child-safe mirror. Fun, theatrical lighting for imaginative play and creative expression. Indoor photography with theatrical, playful elements and imaginative mood. The mood is imaginative, theatrical, and playful. Indoor dress-up area photography with fun lighting, costumes, creative atmosphere, photorealistic, 8K, children's quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-building-blocks-space",
+    "en": "Indoor - Kids Building Blocks Space",
+    "id": "Indoor - Area Balok Konstruksi Anak",
+    "ms": "Indoor - Kawasan Blok Binaan Kanak-kanak",
+    "prompt": "Product placed in construction area with colorful blocks and building toys. Creative, focused lighting for building activities and constructive play. Professional indoor photography with educational elements and constructive mood. The mood is constructive, educational, and creative. Indoor building blocks photography with focused lighting, construction toys, educational atmosphere, photorealistic, 8K, developmental quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-reading-tent",
+    "en": "Indoor - Children's Reading Tent",
+    "id": "Indoor - Tenda Membaca Anak",
+    "ms": "Indoor - Khemah Membaca Kanak-kanak",
+    "prompt": "Product positioned in cozy tent setup with pillows, books and soft lighting. Soft, intimate lighting for reading adventures and quiet time activities. Indoor photography with cozy, adventurous elements and peaceful mood. The mood is cozy, adventurous, and peaceful. Indoor reading tent photography with soft lighting, books, cozy atmosphere, photorealistic, 8K, comfort quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-science-lab",
+    "en": "Indoor - Kids Science Lab",
+    "id": "Indoor - Laboratorium Sains Anak",
+    "ms": "Indoor - Makmal Sains Kanak-kanak",
+    "prompt": "Product placed in mini laboratory with safe experiments and child-friendly microscopes. Bright, scientific lighting for discovery atmosphere and hands-on learning. Professional indoor photography with educational elements and experimental mood. The mood is educational, experimental, and discovery-focused. Indoor science lab photography with bright lighting, experiments, educational atmosphere, photorealistic, 8K, laboratory quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-theater-stage",
+    "en": "Indoor - Children's Theater Stage",
+    "id": "Indoor - Panggung Teater Anak",
+    "ms": "Indoor - Panggung Teater Kanak-kanak",
+    "prompt": "Product positioned on small stage with colorful curtains and performance space. Dramatic, theatrical lighting for performances and creative expression. Indoor photography with entertainment, creative elements and artistic mood. The mood is artistic, entertaining, and expressive. Indoor children's theater photography with dramatic lighting, stage, creative atmosphere, photorealistic, 8K, performance quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-puzzle-corner",
+    "en": "Indoor - Kids Puzzle Corner",
+    "id": "Indoor - Sudut Teka-Teki Anak",
+    "ms": "Indoor - Sudut Teka-Teki Kanak-kanak",
+    "prompt": "Product placed in quiet puzzle area with various brain games and educational toys. Focused, calm lighting for concentration and cognitive development activities. Professional indoor photography with intellectual, peaceful elements and learning mood. The mood is intellectual, peaceful, and focused. Indoor puzzle corner photography with calm lighting, educational toys, learning atmosphere, photorealistic, 8K, developmental quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-pet-play-area",
+    "en": "Indoor - Children's Pet Play Area",
+    "id": "Indoor - Area Bermain Peliharaan Anak",
+    "ms": "Indoor - Kawasan Main Haiwan Peliharaan Kanak-kanak",
+    "prompt": "Product positioned in safe space for children to interact with pets and animals. Warm, friendly lighting for gentle interactions and nurturing activities. Indoor photography with caring, gentle elements and loving mood. The mood is caring, gentle, and nurturing. Indoor pet play area photography with warm lighting, pets, caring atmosphere, photorealistic, 8K, family quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-cooking-class",
+    "en": "Indoor - Kids Cooking Class",
+    "id": "Indoor - Kelas Memasak Anak",
+    "ms": "Indoor - Kelas Memasak Kanak-kanak",
+    "prompt": "Product positioned in child-safe cooking area with ingredients and colorful utensils. Bright, educational lighting for learning activities and hands-on cooking. Professional indoor photography with educational, fun elements and learning mood. The mood is educational, fun, and hands-on. Indoor cooking class photography with bright lighting, cooking tools, educational atmosphere, photorealistic, 8K, learning quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-dance-studio",
+    "en": "Indoor - Children's Dance Studio",
+    "id": "Indoor - Studio Tari Anak",
+    "ms": "Indoor - Studio Tarian Kanak-kanak",
+    "prompt": "Product placed in dance floor with mirrors and colorful dance decorations. Energetic, dynamic lighting for movement activities and creative expression. Indoor photography with active, creative elements and energetic mood. The mood is energetic, creative, and active. Indoor dance studio photography with dynamic lighting, dance elements, active atmosphere, photorealistic, 8K, artistic quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-kids-story-time-circle",
+    "en": "Indoor - Kids Story Time Circle",
+    "id": "Indoor - Lingkaran Waktu Cerita Anak",
+    "ms": "Indoor - Bulatan Masa Cerita Kanak-kanak",
+    "prompt": "Product positioned in circular seating area for storytelling and group activities. Soft, engaging lighting for social interaction and educational activities. Professional indoor photography with social, educational elements and interactive mood. The mood is social, educational, and interactive. Indoor story time photography with soft lighting, books, social atmosphere, photorealistic, 8K, group quality.",
+    "category": "indoors"
+  },
+  {
+    "key": "indoors-indoor-childrens-sensory-play",
+    "en": "Indoor - Children's Sensory Play",
+    "id": "Indoor - Permainan Sensorik Anak",
+    "ms": "Indoor - Permainan Sensorik Kanak-kanak",
+    "prompt": "Product positioned in sensory table with various textures and materials for exploration. Gentle, stimulating lighting for sensory exploration and developmental activities. Indoor photography with developmental, educational elements and calming mood. The mood is developmental, calming, and educational. Indoor sensory play photography with gentle lighting, sensory materials, developmental atmosphere, photorealistic, 8K, therapeutic quality.",
     "category": "indoors"
   },
   {
@@ -3272,11 +3384,171 @@
     "category": "outdoors"
   },
   {
+    "key": "outdoors-outdoor-childrens-playground",
+    "en": "Outdoor - Children's Playground",
+    "id": "Outdoor - Taman Bermain Anak",
+    "ms": "Outdoor - Taman Permainan Kanak-kanak",
+    "prompt": "Product placed in modern playground with colorful equipment and safe structures. Bright, sunny lighting for active play and joyful activities. Outdoor photography with energetic, playful elements and happy atmosphere. The mood is playful, energetic, and joyful. Children's playground photography with bright lighting, colorful equipment, active atmosphere, photorealistic, 8K, family quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-garden-adventure",
+    "en": "Outdoor - Kids Garden Adventure",
+    "id": "Outdoor - Petualangan Kebun Anak",
+    "ms": "Outdoor - Pengembaraan Taman Kanak-kanak",
+    "prompt": "Product positioned in child-friendly garden with vegetables, flowers and educational plants. Natural, bright lighting for outdoor learning and nature exploration. Outdoor photography with educational, natural elements and discovery atmosphere. The mood is educational, natural, and adventurous. Kids' garden photography with natural lighting, plants, learning atmosphere, photorealistic, 8K, educational quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-splash-pad",
+    "en": "Outdoor - Children's Splash Pad",
+    "id": "Outdoor - Area Semprot Air Anak",
+    "ms": "Outdoor - Kawasan Percik Air Kanak-kanak",
+    "prompt": "Product placed in water play area with safe spraying features and colorful water elements. Refreshing, bright lighting for summer fun and cooling activities. Outdoor photography with water elements, playful mood and refreshing atmosphere. The mood is refreshing, playful, and cooling. Children's splash pad photography with bright lighting, water features, summer atmosphere, photorealistic, 8K, water quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-sports-field",
+    "en": "Outdoor - Kids Sports Field",
+    "id": "Outdoor - Lapangan Olahraga Anak",
+    "ms": "Outdoor - Padang Sukan Kanak-kanak",
+    "prompt": "Product positioned on mini sports field designed for children's games and activities. Dynamic, active lighting for sports activities and energetic play. Outdoor photography with sports elements, competitive atmosphere and healthy lifestyle. The mood is energetic, competitive, and healthy. Kids' sports field photography with dynamic lighting, sports equipment, active atmosphere, photorealistic, 8K, sports quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-treehouse",
+    "en": "Outdoor - Children's Treehouse",
+    "id": "Outdoor - Rumah Pohon Anak",
+    "ms": "Outdoor - Rumah Pokok Kanak-kanak",
+    "prompt": "Product positioned in safe treehouse with adventurous elements and natural surroundings. Dappled sunlight through tree canopy creating magical atmosphere. Outdoor photography with adventurous, imaginative elements and natural setting. The mood is adventurous, imaginative, and natural. Children's treehouse photography with dappled lighting, natural wood, adventurous atmosphere, photorealistic, 8K, outdoor quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-nature-trail",
+    "en": "Outdoor - Kids Nature Trail",
+    "id": "Outdoor - Jejak Alam Anak",
+    "ms": "Outdoor - Jejak Alam Kanak-kanak",
+    "prompt": "Product placed on child-safe nature path with educational markers and natural elements. Natural, filtered sunlight through trees creating peaceful learning environment. Outdoor photography with educational, exploratory elements and nature discovery. The mood is educational, peaceful, and exploratory. Kids' nature trail photography with filtered lighting, natural elements, educational atmosphere, photorealistic, 8K, nature quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-beach-play",
+    "en": "Outdoor - Children's Beach Play",
+    "id": "Outdoor - Bermain Pantai Anak",
+    "ms": "Outdoor - Main Pantai Kanak-kanak",
+    "prompt": "Product positioned on safe beach area with sand and gentle waves for children. Bright, coastal lighting for seaside fun and beach activities. Outdoor photography with tropical, playful elements and coastal atmosphere. The mood is tropical, playful, and seaside. Children's beach photography with bright lighting, sand, coastal atmosphere, photorealistic, 8K, beach quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-picnic-area",
+    "en": "Outdoor - Kids Picnic Area",
+    "id": "Outdoor - Area Piknik Anak",
+    "ms": "Outdoor - Kawasan Picnic Kanak-kanak",
+    "prompt": "Product positioned in colorful picnic setup with blankets, baskets and outdoor dining elements. Warm, pleasant lighting for outdoor dining and social activities. Outdoor photography with social, cheerful elements and family atmosphere. The mood is social, cheerful, and family-oriented. Kids' picnic area photography with warm lighting, picnic elements, social atmosphere, photorealistic, 8K, family quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-butterfly-garden",
+    "en": "Outdoor - Children's Butterfly Garden",
+    "id": "Outdoor - Kebun Kupu-Kupu Anak",
+    "ms": "Outdoor - Taman Rama-rama Kanak-kanak",
+    "prompt": "Product positioned in garden with flowers attracting butterflies and educational insects. Soft, natural lighting for nature observation and gentle learning activities. Outdoor photography with educational, gentle elements and nature appreciation. The mood is educational, gentle, and nature-focused. Children's butterfly garden photography with soft lighting, flowers, nature atmosphere, photorealistic, 8K, educational quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-fort-building",
+    "en": "Outdoor - Kids Fort Building",
+    "id": "Outdoor - Membuat Benteng Anak",
+    "ms": "Outdoor - Membina Kubu Kanak-kanak",
+    "prompt": "Product positioned in natural area for building stick forts and constructive play. Dappled sunlight through forest canopy creating adventurous building environment. Outdoor photography with constructive, adventurous elements and creative building. The mood is constructive, adventurous, and creative. Kids' fort building photography with dappled lighting, natural materials, constructive atmosphere, photorealistic, 8K, creative quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-frog-pond",
+    "en": "Outdoor - Children's Frog Pond",
+    "id": "Outdoor - Kolam Katak Anak",
+    "ms": "Outdoor - Kolam Kodok Kanak-kanak",
+    "prompt": "Product positioned near small pond with safe water access for frog observation. Soft, reflective lighting for nature study and wildlife observation. Outdoor photography with educational, peaceful elements and wildlife learning. The mood is educational, peaceful, and wildlife-focused. Children's frog pond photography with soft lighting, water, nature atmosphere, photorealistic, 8K, wildlife quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-flying-kites",
+    "en": "Outdoor - Kids Flying Kites",
+    "id": "Outdoor - Terbang Layang-Layang Anak",
+    "ms": "Outdoor - Terbang Layang-layang Kanak-kanak",
+    "prompt": "Product positioned in open field perfect for kite flying with wind and sky elements. Bright, windy day lighting for aerial activities and outdoor adventure. Outdoor photography with joyful, uplifting elements and sky activities. The mood is joyful, uplifting, and adventurous. Kids' kite flying photography with bright lighting, sky, adventurous atmosphere, photorealistic, 8K, outdoor quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-sandbox",
+    "en": "Outdoor - Children's Sandbox",
+    "id": "Outdoor - Kotak Pasir Anak",
+    "ms": "Outdoor - Kotak Pasir Kanak-kanak",
+    "prompt": "Product positioned in large sandbox with toys and shade structure for safe play. Bright, filtered lighting for creative play and constructive activities. Outdoor photography with imaginative, constructive elements and creative building. The mood is imaginative, constructive, and creative. Children's sandbox photography with filtered lighting, sand toys, creative atmosphere, photorealistic, 8K, play quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-bird-watching",
+    "en": "Outdoor - Kids Bird Watching",
+    "id": "Outdoor - Mengamati Burung Anak",
+    "ms": "Outdoor - Memerhati Burung Kanak-kanak",
+    "prompt": "Product positioned near bird feeding stations with observation areas and educational elements. Soft, natural lighting for wildlife watching and peaceful nature study. Outdoor photography with educational, peaceful elements and wildlife appreciation. The mood is educational, peaceful, and wildlife-focused. Kids' bird watching photography with natural lighting, birds, educational atmosphere, photorealistic, 8K, nature quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-bike-path",
+    "en": "Outdoor - Children's Bike Path",
+    "id": "Outdoor - Jalur Sepeda Anak",
+    "ms": "Outdoor - Laluan Basikal Kanak-kanak",
+    "prompt": "Product positioned on safe bike trail with child-friendly obstacles and cycling features. Bright, active lighting for cycling adventures and healthy lifestyle activities. Outdoor photography with active, healthy elements and outdoor exercise. The mood is active, healthy, and adventurous. Children's bike path photography with bright lighting, cycling elements, active atmosphere, photorealistic, 8K, outdoor quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-rock-climbing-wall",
+    "en": "Outdoor - Kids Rock Climbing Wall",
+    "id": "Outdoor - Dinding Panjat Tebing Anak",
+    "ms": "Outdoor - Dinding Panjak Batu Kanak-kanak",
+    "prompt": "Product positioned near child-safe climbing wall with colorful holds and safety features. Dynamic, adventurous lighting for climbing activities and confidence building. Outdoor photography with challenging, confident elements and physical achievement. The mood is challenging, confident, and adventurous. Kids' rock climbing photography with dynamic lighting, climbing elements, confident atmosphere, photorealistic, 8K, adventure quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-maze",
+    "en": "Outdoor - Children's Maze",
+    "id": "Outdoor - Labirin Anak",
+    "ms": "Outdoor - Labirin Kanak-kanak",
+    "prompt": "Product positioned in hedge maze designed for children's navigation and puzzle-solving. Dappled sunlight through maze walls creating mysterious adventure environment. Outdoor photography with puzzle-solving, adventurous elements and navigation challenges. The mood is mysterious, adventurous, and puzzle-focused. Children's maze photography with dappled lighting, hedge walls, adventurous atmosphere, photorealistic, 8K, puzzle quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-outdoor-classroom",
+    "en": "Outdoor - Kids Outdoor Classroom",
+    "id": "Outdoor - Kelas Luar Ruangan Anak",
+    "ms": "Outdoor - Kelas Luar Kanak-kanak",
+    "prompt": "Product positioned in natural setting with logs for seating and educational chalkboard. Bright, educational lighting for outdoor learning and nature education. Outdoor photography with educational, natural elements and learning activities. The mood is educational, natural, and learning-focused. Kids' outdoor classroom photography with bright lighting, natural seating, educational atmosphere, photorealistic, 8K, learning quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-childrens-camping-area",
+    "en": "Outdoor - Children's Camping Area",
+    "id": "Outdoor - Area Berkemah Anak",
+    "ms": "Outdoor - Kawasan Kemah Kanak-kanak",
+    "prompt": "Product positioned in safe camping setup with tents and controlled campfire area. Warm, evening lighting for outdoor adventures and camping experiences. Outdoor photography with adventurous, cozy elements and outdoor living. The mood is adventurous, cozy, and outdoor-living focused. Children's camping area photography with warm lighting, tents, camping atmosphere, photorealistic, 8K, adventure quality.",
+    "category": "outdoors"
+  },
+  {
+    "key": "outdoors-outdoor-kids-farmers-market",
+    "en": "Outdoor - Kids Farmers Market",
+    "id": "Outdoor - Pasar Petani Anak",
+    "ms": "Outdoor - Pasar Petani Kanak-kanak",
+    "prompt": "Product positioned at child-sized market stand with garden produce and educational elements. Bright, cheerful lighting for entrepreneurial play and learning about food. Outdoor photography with educational, social elements and market activities. The mood is educational, social, and entrepreneurial. Kids' farmers market photography with bright lighting, market stand, educational atmosphere, photorealistic, 8K, social quality.",
+    "category": "outdoors"
+  },
+  {
     "key": "splashs-splash-adaptive-product-particles",
     "en": "Splash - Adaptive Product Particles",
     "id": "Splash - Partikel Produk Adaptif",
     "ms": "Splash - Zarah Produk Adaptif",
-    "prompt": "Product captured mid-air frozen in time with automatically generated particles that match the product's material and properties. The AI will analyze the uploaded product photo to determine if it's organic, metallic, liquid, crystalline, wooden, textile, glass, or other material type. Product-appropriate particles will then explode outward in a dynamic pattern, never in front of the item. The particles will be color-coordinated and contextually relevant to the specific product (e.g., coffee grounds for coffee products, metal shavings for tools, glitter for cosmetics, wood splinters for wooden items, glass shards for glass products, fabric threads for textiles, etc.). Smart particle analysis creates perfect visual harmony between product and scattered elements. The mood is dynamic, intelligent, and perfectly matched. High-speed photography with adaptive product particles, frozen motion, intelligent lighting, 8K, smart product photography.",
+    "prompt": "Product captured mid-air frozen in time with automatically generated particles that match the product category and usage. The AI will analyze the uploaded product photo to determine if it's food, electronics, furniture, apparel, cosmetics, tools, books, sports equipment, or other product category. Category-appropriate particles will then explode outward in a dynamic pattern, never in front of the item. The particles will be color-coordinated and contextually relevant to the specific product (e.g., food ingredients for food products, electronic components for electronics, fabric threads for apparel, wood splinters for furniture, cosmetic powder for beauty products, etc.). The background seamlessly matches the product category - food gets kitchen/restaurant environments, electronics get tech showroom settings, furniture gets home interior backgrounds, apparel gets fashion boutique environments, cosmetics get beauty salon settings, tools get workshop backgrounds, books get library/study environments, sports equipment gets gym/field settings. Smart particle analysis creates perfect visual harmony between product, scattered elements, and category-appropriate environment. The mood is dynamic, intelligent, and perfectly matched. High-speed photography with adaptive category particles, frozen motion, intelligent lighting, seamless product-category integration, 8K, smart product photography.",
     "category": "splashs"
   },
   {
@@ -3284,7 +3556,7 @@
     "en": "Splash - Powder Burst",
     "id": "Splash - Ledakan Bubuk",
     "ms": "Splash - Letusan Bubuk",
-    "prompt": "Product captured mid-air frozen in time, fine powder particles from the product material scattered around in explosion pattern. Product-derived particles flying outward, never in front of the item. Fine dust particles frozen in light around the object. The mood is dynamic, explosive, and energetic. High-speed photography with frozen motion, product material particles, dramatic lighting, 8K, commercial quality.",
+    "prompt": "Product captured mid-air frozen in time, fine powder particles scattered around in explosion pattern. Category-relevant particles flying outward, never in front of the item. Fine dust particles frozen in light around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, cosmetics get beauty salon settings, cleaning products get bathroom/laundry backgrounds, health products get pharmacy/wellness environments, industrial products get workshop/factory settings. The background texture and color complement the powder particles creating unified visual harmony. The mood is dynamic, explosive, and energetic. High-speed photography with frozen motion, category-relevant particles, dramatic lighting, seamless powder-background integration, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3292,7 +3564,7 @@
     "en": "Splash - Liquid Droplets",
     "id": "Splash - Titik Cairan",
     "ms": "Splash - Titisan Cecair",
-    "prompt": "Product suspended in mid-air, liquid droplets from the product scattered around in circular pattern. Product liquid particles flying outward, never obstructing the item. Micro droplets frozen in spiral pattern around the object. The mood is refreshing, fluid, and dynamic. High-speed splash photography with liquid particles, frozen motion, dynamic composition, 8K, beverage advertising.",
+    "prompt": "Product suspended in mid-air, liquid droplets scattered around in circular pattern. Category-relevant liquid particles flying outward, never obstructing the item. Micro droplets frozen in spiral pattern around the object. The background seamlessly matches the product category - food/beverages get kitchen/restaurant environments, electronics get tech showroom settings, cosmetics get beauty salon environments, cleaning products get bathroom/laundry settings, health products get pharmacy/wellness backgrounds, automotive products get garage/workshop environments. The background colors and textures complement the liquid's properties creating fluid visual continuity. The mood is refreshing, fluid, and dynamic. High-speed splash photography with liquid particles, frozen motion, dynamic composition, seamless liquid-background harmony, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3300,7 +3572,7 @@
     "en": "Splash - Crystal Explosion",
     "id": "Splash - Ledakan Kristal",
     "ms": "Splash - Letupan Kristal",
-    "prompt": "Product captured mid-air, crystal fragments and sparkle particles from the product scattered in burst pattern. Product-derived crystalline pieces flying outward, never covering the item surface. Sparkle particles frozen in light beams around the object. The mood is magical, luxurious, and dazzling. High-speed photography with crystal particles, frozen motion, prismatic lighting, 8K, premium product.",
+    "prompt": "Product captured mid-air, crystal fragments and sparkle particles scattered in burst pattern. Category-relevant crystalline pieces flying outward, never covering the item surface. Sparkle particles frozen in light beams around the object. The background seamlessly matches the product category - jewelry gets luxury boutique environments, cosmetics get beauty salon settings, electronics get tech showroom backgrounds, home decor get elegant interior settings, luxury goods get premium retail environments, accessories get fashion store settings. The background's reflective quality and color palette complement the crystal's refractive properties creating dazzling visual unity. The mood is magical, luxurious, and dazzling. High-speed photography with crystal particles, frozen motion, prismatic lighting, seamless crystal-background radiance, 8K, premium product.",
     "category": "splashs"
   },
   {
@@ -3308,7 +3580,7 @@
     "en": "Splash - Smoke Essence",
     "id": "Splash - Ledakan Asap",
     "ms": "Splash - Letusan Asap",
-    "prompt": "Product frozen mid-air, smoke essence and aromatic particles from the product scattered around. Product scent particles floating outward, never obscuring the item details. Smoke wisps frozen in natural pattern around the object. The mood is mysterious, aromatic, and ethereal. High-speed photography with smoke particles, frozen motion, atmospheric lighting, 8K, luxury product.",
+    "prompt": "Product frozen mid-air, smoke essence and aromatic particles scattered around. Category-relevant scent particles floating outward, never obscuring the item details. Smoke wisps frozen in natural pattern around the object. The background seamlessly matches the product category - food/beverages get kitchen/restaurant environments, cosmetics get beauty salon settings, home fragrance get elegant living room backgrounds, wellness products get spa-like environments, religious items get tranquil temple settings, luxury products get sophisticated lounge environments. The background's atmospheric quality and color tones complement the smoke's density and movement creating ethereal visual continuity. The mood is mysterious, aromatic, and ethereal. High-speed photography with smoke particles, frozen motion, atmospheric lighting, seamless smoke-background atmosphere, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3316,7 +3588,7 @@
     "en": "Splash - Metal Shard",
     "id": "Splash - Ledakan Serpihan Logam",
     "ms": "Splash - Letupan Serpihan Logam",
-    "prompt": "Product captured mid-air, metallic fragments and spark particles from the product scattered around. Product metal pieces flying outward, never in front of the item. Metallic dust particles frozen in industrial pattern around the object. The mood is modern, industrial, and strong. High-speed photography with metal particles, frozen motion, industrial lighting, 8K, tech product.",
+    "prompt": "Product captured mid-air, metallic fragments and spark particles scattered around. Category-relevant metal pieces flying outward, never in front of the item. Metallic dust particles frozen in industrial pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, electronics get tech showroom settings, automotive get garage/dealership backgrounds, appliances get kitchen/home settings, furniture get manufacturing workshop environments, industrial equipment get factory settings. The background's industrial texture and metallic sheen complement the metal's reflective properties creating strong visual unity. The mood is modern, industrial, and strong. High-speed photography with metal particles, frozen motion, industrial lighting, seamless metal-background harmony, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3324,7 +3596,7 @@
     "en": "Splash - Organic Nature",
     "id": "Splash - Ledakan Organik Alam",
     "ms": "Splash - Letupan Organik Alam",
-    "prompt": "Product frozen mid-air, organic natural particles from the product scattered in burst pattern. Product-derived natural elements flying outward, never covering the item surface. Earth particles frozen in organic pattern around the object. The mood is natural, wholesome, and eco-friendly. High-speed photography with organic particles, frozen motion, natural lighting, 8K, natural product.",
+    "prompt": "Product frozen mid-air, organic natural particles scattered in burst pattern. Category-relevant natural elements flying outward, never covering the item surface. Earth particles frozen in organic pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, cosmetics get natural beauty settings, gardening supplies get garden/outdoor backgrounds, health products get wellness/natural environments, home goods get cozy interior settings, apparel get natural fashion environments. The background's natural textures and earth tones complement the organic material's origin creating wholesome visual harmony. The mood is natural, wholesome, and eco-friendly. High-speed photography with organic particles, frozen motion, natural lighting, seamless organic-background unity, 8K, natural product.",
     "category": "splashs"
   },
   {
@@ -3332,7 +3604,7 @@
     "en": "Splash - Flower Petal",
     "id": "Splash - Pancuran Kelopak Bunga",
     "ms": "Splash - Curahan Kelopak Bunga",
-    "prompt": "Product suspended mid-air, delicate petal particles from the product scattered in shower pattern. Product-derived flower elements floating downward around the item, never obstructing its details. Petal fragments frozen in natural fall pattern around the object. The mood is romantic, natural, and beautiful. High-speed photography with petal particles, frozen motion, soft lighting, 8K, floral product.",
+    "prompt": "Product suspended mid-air, delicate petal particles scattered in shower pattern. Category-relevant flower elements floating downward around the item, never obstructing its details. Petal fragments frozen in natural fall pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon settings, apparel get fashion boutique environments, jewelry get luxury store backgrounds, home decor get elegant interior settings, gifts get celebration/party environments, luxury goods get premium retail settings. The background's botanical atmosphere and color palette complement the flower's essence creating romantic visual unity. The mood is romantic, natural, and beautiful. High-speed photography with petal particles, frozen motion, soft lighting, seamless petal-background harmony, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3340,7 +3612,7 @@
     "en": "Splash - Energy Burst",
     "id": "Splash - Ledakan Tenaga",
     "ms": "Splash - Letupan Tenaga",
-    "prompt": "Product captured mid-air, energy particles and light bursts from the product scattered in dynamic pattern. Product energy rays flying outward, never in front of the item. Light particles frozen in energetic pattern around the object. The mood is powerful, energetic, and electrifying. High-speed photography with energy particles, frozen motion, dramatic lighting, 8K, performance product.",
+    "prompt": "Product captured mid-air, energy particles and light bursts scattered in dynamic pattern. Category-relevant energy rays flying outward, never in front of the item. Light particles frozen in energetic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, sports equipment get gym/field environments, automotive get performance workshop backgrounds, tools get active workshop settings, fitness equipment get energetic gym environments, performance gear get competitive sports settings. The background's energy field and luminosity complement the energy's intensity creating powerful visual continuity. The mood is powerful, energetic, and electrifying. High-speed photography with energy particles, frozen motion, dramatic lighting, seamless energy-background radiance, 8K, performance product.",
     "category": "splashs"
   },
   {
@@ -3348,7 +3620,7 @@
     "en": "Splash - Bubble Sphere",
     "id": "Splash - Sfera Gelembung",
     "ms": "Splash - Sfera Gelembung",
-    "prompt": "Product frozen in mid-air, bubble particles from the product scattered in spherical pattern. Product-derived bubbles floating outward, never obscuring the item details. Soap film particles frozen in light around the object. The mood is clean, light, and playful. High-speed photography with bubble particles, frozen motion, pristine lighting, 8K, cleaning product.",
+    "prompt": "Product frozen in mid-air, bubble particles scattered in spherical pattern. Category-relevant bubbles floating outward, never obscuring the item details. Soap film particles frozen in light around the object. The background seamlessly matches the product category - cleaning products get bathroom/laundry settings, beverages get kitchen/bar environments, cosmetics get beauty salon backgrounds, toys get playroom/recreational settings, health products get spa/wellness environments, party supplies get celebration/event settings. The background's transparent quality and light refraction complement the bubble's delicate nature creating clean visual harmony. The mood is clean, light, and playful. High-speed photography with bubble particles, frozen motion, pristine lighting, seamless bubble-background clarity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3356,7 +3628,7 @@
     "en": "Splash - Sand Grain",
     "id": "Splash - Ledakan Butir Pasir",
     "ms": "Splash - Letupan Butir Pasir",
-    "prompt": "Product captured mid-air, sand grain and mineral particles from the product scattered around. Product earth particles flying outward, never covering the item surface. Mineral dust frozen in beach pattern around the object. The mood is natural, coastal, and grounded. High-speed photography with sand particles, frozen motion, warm lighting, 8K, earth product.",
+    "prompt": "Product captured mid-air, sand grain and mineral particles scattered around. Category-relevant earth particles flying outward, never covering the item surface. Mineral dust frozen in beach pattern around the object. The background seamlessly matches the product category - construction materials get building site environments, gardening supplies get garden/outdoor settings, home decor beach items get coastal backgrounds, art supplies get creative studio settings, sports beach gear get seaside environments, outdoor equipment get natural adventure settings. The background's earthy texture and warm tones complement the sand's granular nature creating grounded visual continuity. The mood is natural, coastal, and grounded. High-speed photography with sand particles, frozen motion, warm lighting, seamless sand-background earthiness, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3364,7 +3636,7 @@
     "en": "Splash - Celebration",
     "id": "Splash - Sambutan",
     "ms": "Splash - Perayaan",
-    "prompt": "Product suspended mid-air, colorful confetti particles from the product scattered in celebration pattern. Product festive elements flying outward, never obstructing the main item. Celebration particles frozen in festive spiral around the object. The mood is joyful, exciting, and festive. High-speed photography with confetti particles, frozen motion, party lighting, 8K, event product.",
+    "prompt": "Product suspended mid-air, colorful confetti particles scattered in celebration pattern. Category-relevant festive elements flying outward, never obstructing the main item. Celebration particles frozen in festive spiral around the object. The background seamlessly matches the product category - party supplies get event/celebration environments, gifts get special occasion settings, apparel get festive party backgrounds, electronics get celebration tech environments, toys get birthday party settings, luxury goods get exclusive event environments. The background's festive atmosphere and colors complement the confetti's celebratory nature creating joyful visual unity. The mood is joyful, exciting, and festive. High-speed photography with confetti particles, frozen motion, party lighting, seamless confetti-background festivity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3372,7 +3644,7 @@
     "en": "Splash - Ice Storm",
     "id": "Splash - Ribut Ais",
     "ms": "Splash - Ribut Ais",
-    "prompt": "Product frozen mid-air, ice crystal particles and frost from the product scattered around. Product cold elements flying outward, never in front of the item. Frost particles frozen in winter pattern around the object. The mood is cool, refreshing, and crisp. High-speed photography with ice particles, frozen motion, cool lighting, 8K, cold product.",
+    "prompt": "Product frozen mid-air, ice crystal particles and frost scattered around. Category-relevant cold elements flying outward, never in front of the item. Frost particles frozen in winter pattern around the object. The background seamlessly matches the product category - beverages get bar/restaurant environments, food get kitchen/freezer settings, cosmetics get cool spa backgrounds, health products get wellness/clinic environments, sports drinks get gym/athletic settings, medical products get clinical/healthcare backgrounds. The background's cool tones and crystalline quality complement the ice's frozen nature creating crisp visual harmony. The mood is cool, refreshing, and crisp. High-speed photography with ice particles, frozen motion, cool lighting, seamless ice-background crystallinity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3380,7 +3652,7 @@
     "en": "Splash - Fire Ember",
     "id": "Splash - Ledakan Bara Api",
     "ms": "Splash - Letupan Bara Api",
-    "prompt": "Product captured mid-air, fire ember and spark particles from the product scattered in burst pattern. Product heat elements flying outward, never covering the item surface. Ember particles frozen in fiery pattern around the object. The mood is hot, passionate, and powerful. High-speed photography with fire particles, frozen motion, warm lighting, 8K, performance product.",
+    "prompt": "Product captured mid-air, fire ember and spark particles scattered in burst pattern. Category-relevant heat elements flying outward, never covering the item surface. Ember particles frozen in fiery pattern around the object. The background seamlessly matches the product category - cooking equipment get kitchen environments, tools get workshop settings, automotive get garage/workshop backgrounds, outdoor gear get camping/fire pit settings, heating appliances get home interiors, performance equipment get competitive sports environments. The background's warm glow and fiery tones complement the fire's passionate nature creating powerful visual unity. The mood is hot, passionate, and powerful. High-speed photography with fire particles, frozen motion, warm lighting, seamless fire-background intensity, 8K, performance product.",
     "category": "splashs"
   },
   {
@@ -3388,7 +3660,7 @@
     "en": "Splash - Water Explosion",
     "id": "Splash - Ledakan Air",
     "ms": "Splash - Letupan Air",
-    "prompt": "Product suspended in mid-air, water droplet particles from the product scattered in explosion pattern. Product water elements flying outward, never obscuring the item. Water splash particles frozen in circular pattern around the object. The mood is refreshing, pure, and dynamic. High-speed photography with water particles, frozen motion, clear lighting, 8K, fresh product.",
+    "prompt": "Product suspended in mid-air, water droplet particles scattered in explosion pattern. Category-relevant water elements flying outward, never obscuring the item. Water splash particles frozen in circular pattern around the object. The background seamlessly matches the product category - beverages get bar/restaurant environments, food products get kitchen/cooking settings, cleaning products get bathroom/laundry backgrounds, health products get spa/wellness environments, sports drinks get gym/athletic settings, gardening supplies get outdoor/garden environments. The background's aquatic quality and clarity complement the water's refreshing nature creating pure visual continuity. The mood is refreshing, pure, and dynamic. High-speed photography with water particles, frozen motion, clear lighting, seamless water-background purity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3396,7 +3668,7 @@
     "en": "Splash - Light Ray",
     "id": "Splash - Ledakan Cahaya",
     "ms": "Splash - Letupan Cahaya",
-    "prompt": "Product frozen mid-air, light ray particles and photon bursts from the product scattered around. Product illumination elements flying outward, never in front of the item. Light particles frozen in radiant pattern around the object. The mood is divine, illuminating, and magical. High-speed photography with light particles, frozen motion, bright lighting, 8K, premium product.",
+    "prompt": "Product frozen mid-air, light ray particles and photon bursts scattered around. Category-relevant illumination elements flying outward, never in front of the item. Light particles frozen in radiant pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, lighting fixtures get home interior environments, photography equipment get studio backgrounds, jewelry get luxury display settings, automotive get showroom environments, beauty products get salon lighting environments. The background's luminosity and quality complement the light's radiant nature creating divine visual harmony. The mood is divine, illuminating, and magical. High-speed photography with light particles, frozen motion, bright lighting, seamless light-background radiance, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3404,7 +3676,7 @@
     "en": "Splash - Seed Burst",
     "id": "Splash - Ledakan Biji",
     "ms": "Splash - Letupan Biji",
-    "prompt": "Product captured mid-air, seed particles and germ elements from the product scattered in organic pattern. Product growth elements flying outward, never covering the item surface. Seed particles frozen in natural pattern around the object. The mood is fertile, natural, and growth-oriented. High-speed photography with seed particles, frozen motion, earthy lighting, 8K, organic product.",
+    "prompt": "Product captured mid-air, seed particles and germ elements scattered in organic pattern. Category-relevant growth elements flying outward, never covering the item surface. Seed particles frozen in natural pattern around the object. The background seamlessly matches the product category - gardening supplies get garden/outdoor environments, food products get farm/agricultural settings, health products get wellness/garden backgrounds, home goods get natural living environments, agricultural tools get farming settings, pet food get animal care environments. The background's fertile quality and natural tones complement the seed's growth potential creating organic visual unity. The mood is fertile, natural, and growth-oriented. High-speed photography with seed particles, frozen motion, earthy lighting, seamless seed-background fertility, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3412,7 +3684,7 @@
     "en": "Splash - Feather Float",
     "id": "Splash - Apungan Bulu",
     "ms": "Splash - Apungan Bulu",
-    "prompt": "Product frozen mid-air, feather particles and soft elements from the product scattered around. Product light materials floating outward, never obscuring the item. Feather dust frozen in gentle spiral around the object. The mood is light, delicate, and ethereal. High-speed photography with feather particles, frozen motion, soft lighting, 8K, lightweight product.",
+    "prompt": "Product frozen mid-air, feather particles and soft elements scattered around. Category-relevant light materials floating outward, never obscuring the item. Feather dust frozen in gentle spiral around the object. The background seamlessly matches the product category - apparel/clothing get fashion boutique environments, bedding get cozy bedroom settings, luxury goods get elegant display backgrounds, crafts supplies get creative studio environments, accessories get fashion store settings, home decor get interior design environments. The background's airy quality and soft tones complement the feather's delicate nature creating ethereal visual harmony. The mood is light, delicate, and ethereal. High-speed photography with feather particles, frozen motion, soft lighting, seamless feather-background delicacy, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3420,7 +3692,7 @@
     "en": "Splash - Stone Chip",
     "id": "Splash - Ledakan Serpihan Batu",
     "ms": "Splash - Letupan Serpihan Batu",
-    "prompt": "Product captured mid-air, stone chip fragments and mineral particles from the product scattered around. Product solid elements flying outward, never in front of the item. Stone particles frozen in earthy pattern around the object. The mood is solid, dependable, and natural. High-speed photography with stone particles, frozen motion, natural lighting, 8K, construction product.",
+    "prompt": "Product captured mid-air, stone chip fragments and mineral particles scattered around. Category-relevant solid elements flying outward, never in front of the item. Stone particles frozen in earthy pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, construction materials get building site settings, home improvement get DIY workshop backgrounds, landscaping supplies get garden/outdoor environments, masonry tools get construction settings, outdoor gear get natural adventure environments. The background's geological texture and earth tones complement the stone's solid nature creating dependable visual unity. The mood is solid, dependable, and natural. High-speed photography with stone particles, frozen motion, natural lighting, seamless stone-background solidity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3428,7 +3700,7 @@
     "en": "Splash - Thread Fiber",
     "id": "Splash - Ledakan Benang Serat",
     "ms": "Splash - Letupan Benang Serat",
-    "prompt": "Product suspended mid-air, thread particles and fiber elements from the product scattered in woven pattern. Product textile materials flying outward, never obstructing the item details. Fiber particles frozen in fabric pattern around the object. The mood is woven, textured, and detailed. High-speed photography with thread particles, frozen motion, textured lighting, 8K, textile product.",
+    "prompt": "Product suspended mid-air, thread particles and fiber elements scattered in woven pattern. Category-relevant textile materials flying outward, never obstructing the item details. Fiber particles frozen in fabric pattern around the object. The background seamlessly matches the product category - apparel/clothing get fashion boutique environments, crafts supplies get creative studio settings, home textiles get cozy interior backgrounds, sewing supplies get workshop environments, fashion accessories get boutique settings, upholstery get furniture workshop backgrounds. The background's textile quality and woven texture complement the thread's detailed nature creating intricate visual harmony. The mood is woven, textured, and detailed. High-speed photography with thread particles, frozen motion, textured lighting, seamless thread-background intricacy, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3436,7 +3708,7 @@
     "en": "Splash - Organic Leaf",
     "id": "Splash - Guguran Daun Organik",
     "ms": "Splash - Jatuh Daun Organik",
-    "prompt": "Product frozen mid-air, leaf particles and organic elements from the product scattered in natural fall pattern. Product foliage materials floating downward around the item, never covering its surface. Leaf fragments frozen in seasonal pattern around the object. The mood is natural, seasonal, and earthy. High-speed photography with leaf particles, frozen motion, seasonal lighting, 8K, outdoor product.",
+    "prompt": "Product frozen mid-air, leaf particles and organic elements scattered in natural fall pattern. Category-relevant foliage materials floating downward around the item, never covering its surface. Leaf fragments frozen in seasonal pattern around the object. The background seamlessly matches the product category - food products get kitchen/garden environments, health products get natural wellness settings, home decor get interior design backgrounds, gardening supplies get outdoor/garden environments, tea products get herbal garden settings, natural cosmetics get organic spa backgrounds. The background's seasonal atmosphere and natural tones complement the leaf's organic nature creating earthy visual continuity. The mood is natural, seasonal, and earthy. High-speed photography with leaf particles, frozen motion, seasonal lighting, seamless leaf-background organicity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3444,7 +3716,7 @@
     "en": "Splash - Wood Splinter",
     "id": "Splash - Ledakan Pecahan Kayu",
     "ms": "Splash - Letupan Pecahan Kayu",
-    "prompt": "Product captured mid-air, wood splinter particles and grain elements from the product scattered around. Product wooden materials flying outward, never in front of the item. Wood particles frozen in natural pattern around the object. The mood is rustic, natural, and crafted. High-speed photography with wood particles, frozen motion, warm lighting, 8K, wooden product.",
+    "prompt": "Product captured mid-air, wood splinter particles and grain elements scattered around. Category-relevant wooden materials flying outward, never in front of the item. Wood particles frozen in natural pattern around the object. The background seamlessly matches the product category - furniture get home interior/showroom environments, tools get workshop settings, construction materials get building site backgrounds, home decor get interior design settings, sporting goods get equipment workshop environments, crafts supplies get creative studio settings. The background's woodsy atmosphere and grain patterns complement the wood's crafted nature creating rustic visual harmony. The mood is rustic, natural, and crafted. High-speed photography with wood particles, frozen motion, warm lighting, seamless wood-background craftsmanship, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3452,7 +3724,7 @@
     "en": "Splash - Glass Shatter",
     "id": "Splash - Ledakan Kaca Pecah",
     "ms": "Splash - Letupan Kaca Pecah",
-    "prompt": "Product frozen mid-air, glass shard particles and crystal fragments from the product scattered in reflective pattern. Product transparent elements flying outward, never covering the item surface. Glass particles frozen in prismatic pattern around the object. The mood is fragile, beautiful, and reflective. High-speed photography with glass particles, frozen motion, prismatic lighting, 8K, glass product.",
+    "prompt": "Product frozen mid-air, glass shard particles and crystal fragments scattered in reflective pattern. Category-relevant transparent elements flying outward, never covering the item surface. Glass particles frozen in prismatic pattern around the object. The background seamlessly matches the product category - home decor get interior design environments, tableware get dining room settings, electronics get tech showcase backgrounds, cosmetics get beauty display environments, beverage containers get bar/restaurant settings, decorative items get luxury display backgrounds. The background's transparent quality and light refraction complement the glass's fragile nature creating beautiful visual continuity. The mood is fragile, beautiful, and reflective. High-speed photography with glass particles, frozen motion, prismatic lighting, seamless glass-background transparency, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3460,7 +3732,7 @@
     "en": "Splash - Foam Bubble",
     "id": "Splash - Ledakan Busa Gelembung",
     "ms": "Splash - Letupan Busa Gelembung",
-    "prompt": "Product suspended in mid-air, foam bubble particles from the product scattered in airy pattern. Product foam elements floating outward, never obscuring the item details. Bubble particles frozen in light pattern around the object. The mood is light, airy, and refreshing. High-speed photography with foam particles, frozen motion, bright lighting, 8K, foam product.",
+    "prompt": "Product suspended in mid-air, foam bubble particles scattered in airy pattern. Category-relevant foam elements floating outward, never obscuring the item details. Bubble particles frozen in light pattern around the object. The background seamlessly matches the product category - cleaning products get bathroom/laundry settings, personal care get grooming/salon backgrounds, food/beverages get café/kitchen environments, packaging materials get shipping/industrial settings, toys get playroom/recreational backgrounds, beauty products get spa environments. The background's airy quality and light texture complement the foam's refreshing nature creating clean visual harmony. The mood is light, airy, and refreshing. High-speed photography with foam particles, frozen motion, bright lighting, seamless foam-background airiness, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3468,7 +3740,7 @@
     "en": "Splash - Metal Flake",
     "id": "Splash - Ledakan Serpihan Logam",
     "ms": "Splash - Letupan Serpihan Logam",
-    "prompt": "Product captured mid-air, metal flake particles and shimmer elements from the product scattered in metallic pattern. Product metallic materials flying outward, never in front of the item. Metal particles frozen in reflective pattern around the object. The mood is modern, sleek, and industrial. High-speed photography with metal flake particles, frozen motion, metallic lighting, 8K, metal product.",
+    "prompt": "Product captured mid-air, metal flake particles and shimmer elements scattered in metallic pattern. Category-relevant metallic materials flying outward, never in front of the item. Metal particles frozen in reflective pattern around the object. The background seamlessly matches the product category - automotive get garage/dealership environments, cosmetics get beauty salon settings, crafts supplies get creative studio backgrounds, tools get workshop environments, electronics get tech showroom settings, luxury goods get premium retail environments. The background's reflective quality and metallic sheen complement the flake's shimmering nature creating sleek visual continuity. The mood is modern, sleek, and industrial. High-speed photography with metal flake particles, frozen motion, metallic lighting, seamless metal-flake-background shimmer, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3476,7 +3748,7 @@
     "en": "Splash - Delicate Petal",
     "id": "Splash - Guguran Kelopak Halus",
     "ms": "Splash - Jatuh Kelopak Halus",
-    "prompt": "Product frozen mid-air, delicate petal particles and soft elements from the product scattered in gentle pattern. Product flower materials floating downward around the item, never covering its details. Petal particles frozen in romantic pattern around the object. The mood is delicate, romantic, and natural. High-speed photography with petal particles, frozen motion, soft lighting, 8K, floral product.",
+    "prompt": "Product frozen mid-air, delicate petal particles and soft elements scattered in gentle pattern. Category-relevant flower materials floating downward around the item, never covering its details. Petal particles frozen in romantic pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon settings, apparel get fashion boutique environments, gifts get special occasion backgrounds, luxury goods get premium display environments, home decor get interior design settings, wedding items get romantic event environments. The background's botanical delicacy and romantic atmosphere complement the petal's gentle nature creating beautiful visual harmony. The mood is delicate, romantic, and natural. High-speed photography with petal particles, frozen motion, soft lighting, seamless petal-background delicacy, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3484,7 +3756,7 @@
     "en": "Splash - Crystal Formation",
     "id": "Splash - Ledakan Pembentukan Kristal",
     "ms": "Splash - Letupan Pembentukan Kristal",
-    "prompt": "Product captured mid-air, crystal formation particles and geometric elements from the product scattered in structured pattern. Product crystalline materials flying outward, never obscuring the item. Crystal particles frozen in geometric pattern around the object. The mood is structured, precise, and elegant. High-speed photography with crystal particles, frozen motion, geometric lighting, 8K, crystal product.",
+    "prompt": "Product captured mid-air, crystal formation particles and geometric elements scattered in structured pattern. Category-relevant crystalline materials flying outward, never obscuring the item. Crystal particles frozen in geometric pattern around the object. The background seamlessly matches the product category - jewelry get luxury boutique environments, cosmetics get beauty salon settings, home decor get interior design backgrounds, electronics get tech showcase settings, luxury goods get premium retail environments, scientific equipment get laboratory/research settings. The background's geometric precision and crystalline structure complement the crystal's elegant nature creating structured visual harmony. The mood is structured, precise, and elegant. High-speed photography with crystal particles, frozen motion, geometric lighting, seamless crystal-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3492,7 +3764,7 @@
     "en": "Splash - Dust Explosion",
     "id": "Splash - Ledakan Debu",
     "ms": "Splash - Letupan Debu",
-    "prompt": "Product frozen mid-air, dust particles and micro elements from the product scattered in fine pattern. Product particulate materials flying outward, never in front of the item. Dust particles frozen in atmospheric pattern around the object. The mood is atmospheric, fine, and detailed. High-speed photography with dust particles, frozen motion, atmospheric lighting, 8K, detailed product.",
+    "prompt": "Product frozen mid-air, dust particles and micro elements scattered in fine pattern. Category-relevant particulate materials flying outward, never in front of the item. Dust particles frozen in atmospheric pattern around the object. The background seamlessly matches the product category - cleaning supplies get home environments, construction tools get building site settings, books/media get library/study backgrounds, art supplies get creative studio environments, collectibles get display case settings, vintage items get antique shop environments. The background's atmospheric quality and fine texture complement the dust's detailed nature creating subtle visual continuity. The mood is atmospheric, fine, and detailed. High-speed photography with dust particles, frozen motion, atmospheric lighting, seamless dust-background subtlety, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3500,7 +3772,7 @@
     "en": "Splash - Energy Wave",
     "id": "Splash - Ledakan Gelombang Tenaga",
     "ms": "Splash - Letupan Gelombang Tenaga",
-    "prompt": "Product suspended in mid-air, energy wave particles and force elements from the product scattered in wave pattern. Product power elements radiating outward, never obstructing the item details. Energy waves frozen in dynamic pattern around the object. The mood is powerful, dynamic, and energetic. High-speed photography with energy wave particles, frozen motion, dramatic lighting, 8K, performance product.",
+    "prompt": "Product suspended in mid-air, energy wave particles and force elements scattered in wave pattern. Category-relevant power elements radiating outward, never obstructing the item details. Energy waves frozen in dynamic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, audio equipment get concert/stage environments, sports equipment get athletic field backgrounds, automotive get performance workshop settings, fitness gear get energetic gym environments, tools get active workshop settings. The background's dynamic quality and wave patterns complement the energy's powerful nature creating energetic visual harmony. The mood is powerful, dynamic, and energetic. High-speed photography with energy wave particles, frozen motion, dramatic lighting, seamless wave-background dynamism, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3508,7 +3780,7 @@
     "en": "Splash - Organic Debris",
     "id": "Splash - Ledakan Serpihan Organik",
     "ms": "Splash - Letupan Serpihan Organik",
-    "prompt": "Product frozen mid-air, organic debris particles and natural elements from the product scattered in earthy pattern. Product natural materials flying outward, never covering the item surface. Debris particles frozen in natural pattern around the object. The mood is earthy, natural, and rustic. High-speed photography with organic debris particles, frozen motion, natural lighting, 8K, natural product.",
+    "prompt": "Product frozen mid-air, organic debris particles and natural elements scattered in earthy pattern. Category-relevant natural materials flying outward, never covering the item surface. Debris particles frozen in natural pattern around the object. The background seamlessly matches the product category - gardening supplies get garden/outdoor environments, food products get farm/agricultural settings, outdoor gear get natural adventure backgrounds, health products get organic/wellness environments, home goods get natural living settings, pet supplies get animal care environments. The background's earthy quality and natural textures complement the debris's rustic nature creating organic visual continuity. The mood is earthy, natural, and rustic. High-speed photography with organic debris particles, frozen motion, natural lighting, seamless debris-background earthiness, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3516,7 +3788,7 @@
     "en": "Splash - Plasma Energy",
     "id": "Splash - Ledakan Tenaga Plasma",
     "ms": "Splash - Letupan Tenaga Plasma",
-    "prompt": "Product captured mid-air, plasma energy particles and ionized elements from the product scattered in electric pattern. Product energy materials flying outward, never in front of the item. Plasma particles frozen in energetic pattern around the object. The mood is futuristic, powerful, and technological. High-speed photography with plasma particles, frozen motion, electric lighting, 8K, tech product.",
+    "prompt": "Product captured mid-air, plasma energy particles and ionized elements scattered in electric pattern. Category-relevant energy materials flying outward, never in front of the item. Plasma particles frozen in energetic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, tools get workshop environments, automotive get garage/dealership backgrounds, lighting equipment get modern interior settings, scientific equipment get laboratory/research environments, industrial equipment get manufacturing/factory settings. The background's electric quality and ionized atmosphere complement the plasma's technological nature creating futuristic visual harmony. The mood is futuristic, powerful, and technological. High-speed photography with plasma particles, frozen motion, electric lighting, seamless plasma-background technology, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3524,7 +3796,7 @@
     "en": "Splash - Fiber Thread",
     "id": "Splash - Ledakan Benang Serat",
     "ms": "Splash - Letupan Benang Serat",
-    "prompt": "Product suspended mid-air, fiber thread particles and textile elements from the product scattered in woven pattern. Product fabric materials flying outward, never obscuring the item details. Thread particles frozen in textile pattern around the object. The mood is woven, detailed, and textured. High-speed photography with fiber particles, frozen motion, textured lighting, 8K, textile product.",
+    "prompt": "Product suspended mid-air, fiber thread particles and textile elements scattered in woven pattern. Category-relevant textile materials flying outward, never obscuring the item details. Thread particles frozen in textile pattern around the object. The background seamlessly matches the product category - apparel/clothing get fashion boutique environments, home textiles get cozy interior settings, crafts supplies get creative studio backgrounds, sewing supplies get workshop environments, fashion accessories get boutique settings, upholstery get furniture workshop backgrounds. The background's textile quality and woven texture complement the thread's detailed nature creating intricate visual continuity. The mood is woven, detailed, and textured. High-speed photography with fiber particles, frozen motion, textured lighting, seamless fiber-background intricacy, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3532,7 +3804,7 @@
     "en": "Splash - Particle Field",
     "id": "Splash - Ledakan Medan Zarah",
     "ms": "Splash - Letupan Medan Zarah",
-    "prompt": "Product frozen mid-air, particle field elements and micro materials from the product scattered in dense pattern. Product micro elements flying outward, never covering the item surface. Particle field frozen in detailed pattern around the object. The mood is intricate, detailed, and scientific. High-speed photography with particle field particles, frozen motion, microscopic lighting, 8K, precision product.",
+    "prompt": "Product frozen mid-air, particle field elements and micro materials scattered in dense pattern. Category-relevant micro elements flying outward, never covering the item surface. Particle field frozen in detailed pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, medical equipment get clinical/healthcare environments, scientific instruments get laboratory/research backgrounds, precision tools get workshop environments, beauty devices get salon/spa settings, computer hardware get office/tech environments. The background's scientific quality and detailed complexity complement the particle field's intricate nature creating precise visual harmony. The mood is intricate, detailed, and scientific. High-speed photography with particle field particles, frozen motion, microscopic lighting, seamless field-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3540,7 +3812,7 @@
     "en": "Splash - Elemental Force",
     "id": "Splash - Ledakan Unsur",
     "ms": "Splash - Letupan Unsur",
-    "prompt": "Product captured mid-air, elemental force particles and natural energy from the product scattered in powerful pattern. Product elemental materials flying outward, never in front of the item. Force particles frozen in elemental pattern around the object. The mood is powerful, natural, and elemental. High-speed photography with elemental particles, frozen motion, raw lighting, 8K, elemental product.",
+    "prompt": "Product captured mid-air, elemental force particles and natural energy scattered in powerful pattern. Category-relevant powerful elements flying outward, never in front of the item. Force particles frozen in elemental pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, automotive get garage/dealership backgrounds, electronics get tech showroom settings, fitness equipment get gym/athletic environments, outdoor gear get adventure/sports settings, industrial equipment get manufacturing/factory environments. The background's raw quality and elemental atmosphere complement the force's powerful nature creating primal visual continuity. The mood is powerful, natural, and elemental. High-speed photography with elemental particles, frozen motion, raw lighting, seamless elemental-background power, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3548,7 +3820,7 @@
     "en": "Splash - Liquid Splash",
     "id": "Splash - Ledakan Cecairan",
     "ms": "Splash - Letupan Cecairan",
-    "prompt": "Product suspended in mid-air, liquid splash particles and fluid elements from the product scattered in dynamic pattern. Product liquid materials flying outward, never obscuring the item details. Liquid droplets frozen in fluid pattern around the object. The mood is fluid, dynamic, and refreshing. High-speed photography with liquid splash particles, frozen motion, fluid lighting, 8K, liquid product.",
+    "prompt": "Product suspended in mid-air, liquid splash particles and fluid elements scattered in dynamic pattern. Category-relevant liquid materials flying outward, never obscuring the item details. Liquid droplets frozen in fluid pattern around the object. The background seamlessly matches the product category - food/beverages get kitchen/restaurant environments, cleaning products get bathroom/laundry settings, cosmetics get beauty salon environments, health products get spa/wellness backgrounds, automotive products get garage/workshop environments, medical supplies get clinical/healthcare settings. The background's fluid quality and dynamic texture complement the splash's refreshing nature creating fluid visual harmony. The mood is fluid, dynamic, and refreshing. High-speed photography with liquid splash particles, frozen motion, fluid lighting, seamless splash-background fluidity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3556,7 +3828,7 @@
     "en": "Splash - Nature Element",
     "id": "Splash - Ledakan Unsur Alam",
     "ms": "Splash - Letupan Unsur Alam",
-    "prompt": "Product frozen mid-air, nature element particles and organic materials from the product scattered in natural pattern. Product environmental elements flying outward, never covering the item surface. Natural particles frozen in earthy pattern around the object. The mood is natural, organic, and balanced. High-speed photography with nature element particles, frozen motion, natural lighting, 8K, organic product.",
+    "prompt": "Product frozen mid-air, nature element particles and organic materials scattered in natural pattern. Category-relevant natural materials flying outward, never covering the item surface. Natural particles frozen in earthy pattern around the object. The background seamlessly matches the product category - gardening supplies get outdoor/garden environments, outdoor gear get natural adventure backgrounds, home decor get interior design settings, natural products get eco-friendly store environments, health products get wellness/clinic settings, camping equipment get outdoor/recreational backgrounds. The background's organic quality and natural atmosphere complement the element's balanced nature creating earthy visual continuity. The mood is natural, organic, and balanced. High-speed photography with nature element particles, frozen motion, natural lighting, seamless nature-background harmony, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3564,7 +3836,7 @@
     "en": "Splash - Quantum Particle",
     "id": "Splash - Ledakan Zarah Kuantum",
     "ms": "Splash - Letupan Zarah Kuantum",
-    "prompt": "Product captured mid-air, quantum particle effects and micro elements from the product scattered in scientific pattern. Product quantum materials flying outward, never in front of the item. Quantum particles frozen in microscopic pattern around the object. The mood is futuristic, scientific, and precise. High-speed photography with quantum particles, frozen motion, scientific lighting, 8K, advanced product.",
+    "prompt": "Product captured mid-air, quantum particle effects and micro elements scattered in scientific pattern. Category-relevant advanced materials flying outward, never in front of the item. Quantum particles frozen in microscopic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, medical devices get clinical/healthcare environments, scientific equipment get laboratory/research backgrounds, computer hardware get office/tech environments, precision instruments get manufacturing/facility settings, advanced technology get innovation lab environments. The background's scientific quality and microscopic complexity complement the quantum's precise nature creating futuristic visual harmony. The mood is futuristic, scientific, and precise. High-speed photography with quantum particles, frozen motion, scientific lighting, seamless quantum-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3572,7 +3844,7 @@
     "en": "Splash - Raw Material",
     "id": "Splash - Ledakan Bahan Mentah",
     "ms": "Splash - Letupan Bahan Mentah",
-    "prompt": "Product suspended in mid-air, raw material particles and base elements from the product scattered in organic pattern. Product base materials flying outward, never obscuring the item details. Raw particles frozen in natural pattern around the object. The mood is authentic, natural, and unrefined. High-speed photography with raw material particles, frozen motion, authentic lighting, 8K, natural product.",
+    "prompt": "Product suspended in mid-air, raw material particles and base elements scattered in organic pattern. Category-relevant natural materials flying outward, never obscuring the item details. Raw particles frozen in natural pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, home goods get interior design settings, tools get workshop backgrounds, gardening supplies get outdoor/garden environments, construction materials get building site settings, crafts supplies get creative studio environments. The background's authentic quality and natural texture complement the material's unrefined nature creating genuine visual continuity. The mood is authentic, natural, and unrefined. High-speed photography with raw material particles, frozen motion, authentic lighting, seamless raw-background authenticity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3580,7 +3852,7 @@
     "en": "Splash - Essence Oil",
     "id": "Splash - Ledakan Minyak Pati",
     "ms": "Splash - Letupan Minyak Pati",
-    "prompt": "Product frozen mid-air, essence oil particles and aromatic elements from the product scattered in fragrant pattern. Product oil materials flying outward, never covering the item surface. Oil droplets frozen in aromatic pattern around the object. The mood is fragrant, natural, and therapeutic. High-speed photography with essence oil particles, frozen motion, aromatic lighting, 8K, essential product.",
+    "prompt": "Product frozen mid-air, essence oil particles and aromatic elements scattered in fragrant pattern. Category-relevant aromatic materials flying outward, never covering the item surface. Oil droplets frozen in aromatic pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon/spa environments, health products get wellness/clinic settings, aromatherapy products get relaxation room backgrounds, home fragrance get elegant living room settings, personal care get grooming/salon environments, wellness products get spa/meditation backgrounds. The background's fragrant quality and natural atmosphere complement the oil's therapeutic nature creating aromatic visual harmony. The mood is fragrant, natural, and therapeutic. High-speed photography with essence oil particles, frozen motion, aromatic lighting, seamless oil-background fragrance, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3588,7 +3860,7 @@
     "en": "Splash - Molecular Bond",
     "id": "Splash - Ledakan Ikatan Molekul",
     "ms": "Splash - Letupan Ikatan Molekul",
-    "prompt": "Product captured mid-air, molecular bond particles and chemical elements from the product scattered in scientific pattern. Product molecular materials flying outward, never in front of the item. Molecular particles frozen in chemical pattern around the object. The mood is scientific, precise, and innovative. High-speed photography with molecular particles, frozen motion, laboratory lighting, 8K, chemical product.",
+    "prompt": "Product captured mid-air, molecular bond particles and chemical elements scattered in scientific pattern. Category-relevant scientific materials flying outward, never in front of the item. Molecular particles frozen in chemical pattern around the object. The background seamlessly matches the product category - medical products get clinical/healthcare environments, cleaning supplies get laboratory/research settings, cosmetics get beauty lab environments, health supplements get pharmacy/wellness backgrounds, industrial chemicals get manufacturing/factory settings, educational materials get classroom/laboratory environments. The background's scientific quality and molecular structure complement the bond's precise nature creating innovative visual harmony. The mood is scientific, precise, and innovative. High-speed photography with molecular particles, frozen motion, laboratory lighting, seamless molecular-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3596,7 +3868,7 @@
     "en": "Splash - Texture Grain",
     "id": "Splash - Ledakan Butir Tekstur",
     "ms": "Splash - Letupan Butir Tekstur",
-    "prompt": "Product suspended in mid-air, texture grain particles and surface elements from the product scattered in tactile pattern. Product texture materials flying outward, never obscuring the item details. Grain particles frozen in textured pattern around the object. The mood is tactile, detailed, and sensory. High-speed photography with texture grain particles, frozen motion, tactile lighting, 8K, textured product.",
+    "prompt": "Product suspended in mid-air, texture grain particles and surface elements scattered in tactile pattern. Category-relevant textured materials flying outward, never obscuring the item details. Grain particles frozen in textured pattern around the object. The background seamlessly matches the product category - furniture get home interior/showroom environments, home decor get interior design settings, tools get workshop backgrounds, building materials get construction site environments, crafts supplies get creative studio settings, paper goods get office/stationery backgrounds. The background's tactile quality and surface texture complement the grain's detailed nature creating sensory visual continuity. The mood is tactile, detailed, and sensory. High-speed photography with texture grain particles, frozen motion, tactile lighting, seamless texture-background tactility, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3604,7 +3876,7 @@
     "en": "Splash - Mineral Crystal",
     "id": "Splash - Ledakan Kristal Mineral",
     "ms": "Splash - Letupan Kristal Mineral",
-    "prompt": "Product frozen mid-air, mineral crystal particles and geological elements from the product scattered in earthy pattern. Product mineral materials flying outward, never covering the item surface. Crystal particles frozen in geological pattern around the object. The mood is natural, precious, and geological. High-speed photography with mineral particles, frozen motion, earthy lighting, 8K, mineral product.",
+    "prompt": "Product frozen mid-air, mineral crystal particles and geological elements scattered in earthy pattern. Category-relevant crystalline materials flying outward, never covering the item surface. Crystal particles frozen in geological pattern around the object. The background seamlessly matches the product category - jewelry get luxury boutique environments, cosmetics get beauty salon settings, home decor get interior design backgrounds, electronics get tech showcase settings, luxury goods get premium retail environments, scientific equipment get laboratory/research settings. The background's geological quality and crystalline structure complement the mineral's precious nature creating earthy visual harmony. The mood is natural, precious, and geological. High-speed photography with mineral particles, frozen motion, earthy lighting, seamless mineral-background geology, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3612,7 +3884,7 @@
     "en": "Splash - Organic Pulp",
     "id": "Splash - Ledakan Pulpa Organik",
     "ms": "Splash - Letupan Pulpa Organik",
-    "prompt": "Product captured mid-air, organic pulp particles and fibrous elements from the product scattered in natural pattern. Product pulp materials flying outward, never in front of the item. Fibrous particles frozen in organic pattern around the object. The mood is natural, fibrous, and authentic. High-speed photography with organic pulp particles, frozen motion, natural lighting, 8K, organic product.",
+    "prompt": "Product captured mid-air, organic pulp particles and fibrous elements scattered in natural pattern. Category-relevant organic materials flying outward, never in front of the item. Fibrous particles frozen in organic pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, paper goods get office/stationery settings, crafts supplies get creative studio backgrounds, health products get wellness/clinic environments, home goods get interior design settings, garden supplies get outdoor/garden environments. The background's fibrous quality and natural texture complement the pulp's authentic nature creating organic visual continuity. The mood is natural, fibrous, and authentic. High-speed photography with organic pulp particles, frozen motion, natural lighting, seamless pulp-background authenticity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3620,7 +3892,7 @@
     "en": "Splash - Synthetic Fiber",
     "id": "Splash - Ledakan Serat Sintetik",
     "ms": "Splash - Letupan Serat Sintetik",
-    "prompt": "Product suspended in mid-air, synthetic fiber particles and man-made elements from the product scattered in artificial pattern. Product synthetic materials flying outward, never obscuring the item details. Fiber particles frozen in manufactured pattern around the object. The mood is modern, manufactured, and innovative. High-speed photography with synthetic particles, frozen motion, artificial lighting, 8K, synthetic product.",
+    "prompt": "Product suspended in mid-air, synthetic fiber particles and man-made elements scattered in artificial pattern. Category-relevant synthetic materials flying outward, never obscuring the item details. Fiber particles frozen in manufactured pattern around the object. The background seamlessly matches the product category - apparel/clothing get fashion boutique environments, sports equipment get athletic/fitness settings, outdoor gear get adventure/sports backgrounds, home goods get modern interior settings, automotive get workshop/dealership environments, industrial products get manufacturing/factory settings. The background's manufactured quality and artificial texture complement the fiber's innovative nature creating modern visual harmony. The mood is modern, manufactured, and innovative. High-speed photography with synthetic particles, frozen motion, artificial lighting, seamless synthetic-background innovation, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3628,7 +3900,7 @@
     "en": "Splash - Liquid Metal",
     "id": "Splash - Ledakan Logam Cecair",
     "ms": "Splash - Letupan Logam Cecair",
-    "prompt": "Product frozen mid-air, liquid metal particles and fluid elements from the product scattered in metallic pattern. Product liquid metal materials flying outward, never covering the item surface. Metal particles frozen in fluid pattern around the object. The mood is futuristic, fluid, and metallic. High-speed photography with liquid metal particles, frozen motion, metallic lighting, 8K, advanced product.",
+    "prompt": "Product frozen mid-air, liquid metal particles and fluid elements scattered in metallic pattern. Category-relevant metallic materials flying outward, never covering the item surface. Metal particles frozen in fluid pattern around the object. The background seamlessly matches the product category - automotive get garage/dealership environments, tools get workshop settings, electronics get tech showroom backgrounds, industrial equipment get manufacturing/factory settings, jewelry get luxury boutique environments, hardware supplies get construction/workshop settings. The background's fluid quality and metallic texture complement the metal's futuristic nature creating advanced visual continuity. The mood is futuristic, fluid, and metallic. High-speed photography with liquid metal particles, frozen motion, metallic lighting, seamless liquid-metal-background fluidity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3636,7 +3908,7 @@
     "en": "Splash - Bio-Organic",
     "id": "Splash - Ledakan Bio-Organik",
     "ms": "Splash - Letupan Bio-Organik",
-    "prompt": "Product captured mid-air, bio-organic particles and living elements from the product scattered in biological pattern. Product biological materials flying outward, never in front of the item. Bio particles frozen in living pattern around the object. The mood is living, organic, and natural. High-speed photography with bio-organic particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product captured mid-air, bio-organic particles and living elements scattered in biological pattern. Category-relevant organic materials flying outward, never in front of the item. Bio particles frozen in living pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, health products get wellness/clinic settings, cosmetics get beauty salon/spa environments, gardening supplies get outdoor/garden backgrounds, pet supplies get animal care environments, natural products get eco-friendly store settings. The background's living quality and organic texture complement the bio's natural nature creating biological visual harmony. The mood is living, organic, and natural. High-speed photography with bio-organic particles, frozen motion, biological lighting, seamless bio-background vitality, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3644,7 +3916,7 @@
     "en": "Splash - Crystalline Structure",
     "id": "Splash - Ledakan Struktur Hablur",
     "ms": "Splash - Letupan Struktur Hablur",
-    "prompt": "Product suspended in mid-air, crystalline structure particles and geometric elements from the product scattered in ordered pattern. Product crystal materials flying outward, never obscuring the item details. Structure particles frozen in geometric pattern around the object. The mood is structured, precise, and elegant. High-speed photography with crystalline particles, frozen motion, structured lighting, 8K, crystal product.",
+    "prompt": "Product suspended in mid-air, crystalline structure particles and geometric elements scattered in ordered pattern. Category-relevant crystalline materials flying outward, never obscuring the item details. Structure particles frozen in geometric pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, home decor get interior design backgrounds, jewelry get luxury boutique settings, cosmetics get beauty salon environments, scientific equipment get laboratory/research settings, luxury goods get premium retail environments. The background's structured quality and geometric precision complement the crystal's elegant nature creating refined visual continuity. The mood is structured, precise, and elegant. High-speed photography with crystalline particles, frozen motion, structured lighting, seamless crystalline-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3652,7 +3924,7 @@
     "en": "Splash - Organic Essence",
     "id": "Splash - Ledakan Pati Organik",
     "ms": "Splash - Letupan Pati Organik",
-    "prompt": "Product frozen mid-air, organic essence particles and natural oils from the product scattered in aromatic pattern. Product essence materials flying outward, never covering the item surface. Essence particles frozen in natural pattern around the object. The mood is natural, aromatic, and pure. High-speed photography with organic essence particles, frozen motion, natural lighting, 8K, essence product.",
+    "prompt": "Product frozen mid-air, organic essence particles and natural oils scattered in aromatic pattern. Category-relevant aromatic materials flying outward, never covering the item surface. Essence particles frozen in natural pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon/spa environments, health products get wellness/clinic settings, aromatherapy products get relaxation room backgrounds, home fragrance get elegant living room settings, personal care get grooming/salon environments, food products get kitchen/restaurant settings. The background's aromatic quality and natural texture complement the essence's pure nature creating organic visual harmony. The mood is natural, aromatic, and pure. High-speed photography with organic essence particles, frozen motion, natural lighting, seamless essence-background purity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3660,7 +3932,7 @@
     "en": "Splash - Elemental Dust",
     "id": "Splash - Ledakan Debu Unsur",
     "ms": "Splash - Letupan Debu Unsur",
-    "prompt": "Product captured mid-air, elemental dust particles and base materials from the product scattered in fundamental pattern. Product elemental materials flying outward, never in front of the item. Dust particles frozen in elemental pattern around the object. The mood is fundamental, basic, and essential. High-speed photography with elemental dust particles, frozen motion, basic lighting, 8K, elemental product.",
+    "prompt": "Product captured mid-air, elemental dust particles and base materials scattered in fundamental pattern. Category-relevant fundamental materials flying outward, never in front of the item. Dust particles frozen in elemental pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, construction materials get building site settings, gardening supplies get outdoor/garden backgrounds, home goods get interior design settings, cleaning supplies get home/industrial environments, industrial equipment get manufacturing/factory settings. The background's fundamental quality and elemental texture complement the dust's essential nature creating basic visual continuity. The mood is fundamental, basic, and essential. High-speed photography with elemental dust particles, frozen motion, basic lighting, seamless elemental-background fundamentals, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3668,7 +3940,7 @@
     "en": "Splash - Fibrous Matter",
     "id": "Splash - Ledakan Materi Berserat",
     "ms": "Splash - Letupan Materi Berserat",
-    "prompt": "Product suspended in mid-air, fibrous matter particles and thread elements from the product scattered in woven pattern. Product fibrous materials flying outward, never obscuring the item details. Fiber particles frozen in woven pattern around the object. The mood is natural, textured, and fibrous. High-speed photography with fibrous particles, frozen motion, textured lighting, 8K, fibrous product.",
+    "prompt": "Product suspended in mid-air, fibrous matter particles and thread elements scattered in woven pattern. Category-relevant fibrous materials flying outward, never obscuring the item details. Fiber particles frozen in woven pattern around the object. The background seamlessly matches the product category - apparel/clothing get fashion boutique environments, home textiles get cozy interior settings, crafts supplies get creative studio backgrounds, furniture get upholstery workshop settings, paper goods get office/stationery environments, gardening supplies get outdoor/garden settings. The background's textured quality and woven surface complement the fiber's fibrous nature creating tactile visual harmony. The mood is natural, textured, and fibrous. High-speed photography with fibrous particles, frozen motion, textured lighting, seamless fibrous-background tactility, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3676,7 +3948,7 @@
     "en": "Splash - Nano Particle",
     "id": "Splash - Ledakan Zarah Nano",
     "ms": "Splash - Letupan Zarah Nano",
-    "prompt": "Product frozen mid-air, nano particle effects and microscopic elements from the product scattered in tiny pattern. Product nanomaterials flying outward, never covering the item surface. Nano particles frozen in microscopic pattern around the object. The mood is microscopic, precise, and advanced. High-speed photography with nano particles, frozen motion, microscopic lighting, 8K, nano product.",
+    "prompt": "Product frozen mid-air, nano particle effects and microscopic elements scattered in tiny pattern. Category-relevant advanced materials flying outward, never covering the item surface. Nano particles frozen in microscopic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, medical devices get clinical/healthcare environments, scientific equipment get laboratory/research backgrounds, beauty devices get salon/spa settings, computer hardware get office/tech environments, precision instruments get manufacturing/facility settings. The background's microscopic quality and tiny texture complement the nano's advanced nature creating precise visual continuity. The mood is microscopic, precise, and advanced. High-speed photography with nano particles, frozen motion, microscopic lighting, seamless nano-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3684,7 +3956,7 @@
     "en": "Splash - Bio-Luminescent",
     "id": "Splash - Ledakan Bio-Luminesen",
     "ms": "Splash - Letupan Bio-Luminesen",
-    "prompt": "Product captured mid-air, bio-luminescent particles and organic light from the product scattered in glowing pattern. Product living light materials flying outward, never in front of the item. Glow particles frozen in biological pattern around the object. The mood is living, glowing, and natural. High-speed photography with bio-luminescent particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product captured mid-air, bio-luminescent particles and organic light scattered in glowing pattern. Category-relevant glowing materials flying outward, never in front of the item. Glow particles frozen in biological pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon/spa environments, health products get wellness/clinic settings, home lighting get elegant interior backgrounds, decorative items get luxury display settings, entertainment products get ambient environments, specialty lighting get modern showcase settings. The background's living quality and natural luminescence complement the bio's glowing nature creating radiant visual harmony. The mood is living, glowing, and natural. High-speed photography with bio-luminescent particles, frozen motion, biological lighting, seamless bio-background radiance, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3692,7 +3964,7 @@
     "en": "Splash - Molecular Structure",
     "id": "Splash - Ledakan Struktur Molekul",
     "ms": "Splash - Letupan Struktur Molekul",
-    "prompt": "Product suspended in mid-air, molecular structure particles and atomic elements from the product scattered in scientific pattern. Product molecular materials flying outward, never obscuring the item details. Structure particles frozen in atomic pattern around the object. The mood is scientific, precise, and molecular. High-speed photography with molecular particles, frozen motion, scientific lighting, 8K, molecular product.",
+    "prompt": "Product suspended in mid-air, molecular structure particles and atomic elements scattered in scientific pattern. Category-relevant scientific materials flying outward, never obscuring the item details. Structure particles frozen in atomic pattern around the object. The background seamlessly matches the product category - medical products get clinical/healthcare environments, cosmetics get beauty lab settings, health supplements get pharmacy/wellness backgrounds, educational materials get classroom/laboratory environments, cleaning supplies get research settings, industrial chemicals get manufacturing/factory environments. The background's scientific quality and molecular precision complement the structure's complex nature creating molecular visual harmony. The mood is scientific, precise, and molecular. High-speed photography with molecular particles, frozen motion, scientific lighting, seamless molecular-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3700,7 +3972,7 @@
     "en": "Splash - Organic Compound",
     "id": "Splash - Ledakan Sebatian Organik",
     "ms": "Splash - Letupan Sebatian Organik",
-    "prompt": "Product frozen mid-air, organic compound particles and chemical elements from the product scattered in natural pattern. Product organic materials flying outward, never covering the item surface. Compound particles frozen in chemical pattern around the object. The mood is natural, chemical, and organic. High-speed photography with organic compound particles, frozen motion, chemical lighting, 8K, organic product.",
+    "prompt": "Product frozen mid-air, organic compound particles and chemical elements scattered in natural pattern. Category-relevant organic materials flying outward, never covering the item surface. Compound particles frozen in chemical pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, health products get wellness/clinic settings, cosmetics get beauty salon/spa environments, cleaning supplies get laboratory/research settings, gardening supplies get outdoor/garden environments, pharmaceuticals get pharmacy/clinical backgrounds. The background's natural quality and chemical texture complement the compound's organic nature creating scientific visual harmony. The mood is natural, chemical, and organic. High-speed photography with organic compound particles, frozen motion, chemical lighting, seamless compound-background chemistry, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3708,7 +3980,7 @@
     "en": "Splash - Elemental Force Field",
     "id": "Splash - Medan Daya Unsur",
     "ms": "Splash - Medan Kuasa Unsur",
-    "prompt": "Product captured mid-air, elemental force field particles and energy waves from the product scattered in powerful pattern. Product force field materials radiating outward, never in front of the item. Force particles frozen in energetic pattern around the object. The mood is powerful, energetic, and elemental. High-speed photography with force field particles, frozen motion, power lighting, 8K, elemental product.",
+    "prompt": "Product captured mid-air, elemental force field particles and energy waves scattered in powerful pattern. Category-relevant energy materials radiating outward, never in front of the item. Force particles frozen in energetic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, tools get workshop environments, automotive get garage/dealership backgrounds, fitness equipment get gym/athletic environments, industrial equipment get manufacturing/factory settings, scientific instruments get laboratory/research environments. The background's energetic quality and force field texture complement the field's powerful nature creating elemental visual harmony. The mood is powerful, energetic, and elemental. High-speed photography with force field particles, frozen motion, power lighting, seamless force-background energy, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3716,7 +3988,7 @@
     "en": "Splash - Bio-Luminous",
     "id": "Splash - Ledakan Bio-Bercahaya",
     "ms": "Splash - Letupan Bio-Bersinar",
-    "prompt": "Product suspended in mid-air, bio-luminous particles and natural glow from the product scattered in living pattern. Product biological light materials flying outward, never obscuring the item details. Luminous particles frozen in organic pattern around the object. The mood is living, glowing, and biological. High-speed photography with bio-luminous particles, frozen motion, living lighting, 8K, bio product.",
+    "prompt": "Product suspended in mid-air, bio-luminous particles and natural glow scattered in living pattern. Category-relevant glowing materials flying outward, never obscuring the item details. Luminous particles frozen in organic pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon/spa environments, home lighting get elegant interior backgrounds, decorative items get luxury display settings, entertainment products get ambient environments, specialty lighting get modern showcase settings, health products get wellness/clinic backgrounds. The background's living quality and natural radiance complement the bio's luminous nature creating biological visual continuity. The mood is living, glowing, and biological. High-speed photography with bio-luminous particles, frozen motion, living lighting, seamless bio-luminous-background vitality, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3724,7 +3996,7 @@
     "en": "Splash - Atomic Structure",
     "id": "Splash - Ledakan Struktur Atom",
     "ms": "Splash - Letupan Struktur Atom",
-    "prompt": "Product frozen mid-air, atomic structure particles and subatomic elements from the product scattered in fundamental pattern. Product atomic materials flying outward, never covering the item surface. Atomic particles frozen in subatomic pattern around the object. The mood is fundamental, scientific, and atomic. High-speed photography with atomic particles, frozen motion, atomic lighting, 8K, atomic product.",
+    "prompt": "Product frozen mid-air, atomic structure particles and subatomic elements scattered in fundamental pattern. Category-relevant fundamental materials flying outward, never covering the item surface. Atomic particles frozen in subatomic pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, medical devices get clinical/healthcare environments, scientific equipment get laboratory/research backgrounds, industrial products get manufacturing/factory settings, educational materials get classroom/laboratory environments, precision instruments get advanced facility settings. The background's fundamental quality and atomic precision complement the structure's microscopic nature creating scientific visual continuity. The mood is fundamental, scientific, and atomic. High-speed photography with atomic particles, frozen motion, atomic lighting, seamless atomic-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3732,7 +4004,7 @@
     "en": "Splash - Bio-Elemental",
     "id": "Splash - Ledakan Bio-Unsur",
     "ms": "Splash - Letupan Bio-Unsur",
-    "prompt": "Product captured mid-air, bio-elemental particles and living materials from the product scattered in biological pattern. Product living elements flying outward, never in front of the item. Bio particles frozen in living pattern around the object. The mood is biological, natural, and elemental. High-speed photography with bio-elemental particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product captured mid-air, bio-elemental particles and living materials scattered in biological pattern. Category-relevant organic materials flying outward, never in front of the item. Bio particles frozen in living pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, health products get wellness/clinic settings, cosmetics get beauty salon/spa environments, gardening supplies get outdoor/garden backgrounds, pet supplies get animal care environments, natural products get eco-friendly store settings. The background's living quality and natural atmosphere complement the bio-elemental's organic nature creating biological visual harmony. The mood is biological, natural, and elemental. High-speed photography with bio-elemental particles, frozen motion, biological lighting, seamless bio-elemental-background vitality, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3740,7 +4012,7 @@
     "en": "Splash - Synthetic Crystal",
     "id": "Splash - Ledakan Kristal Sintetik",
     "ms": "Splash - Letupan Kristal Sintetik",
-    "prompt": "Product suspended in mid-air, synthetic crystal particles and man-made elements from the product scattered in artificial pattern. Product crystal materials flying outward, never obscuring the item details. Crystal particles frozen in manufactured pattern around the object. The mood is artificial, precise, and modern. High-speed photography with synthetic crystal particles, frozen motion, artificial lighting, 8K, synthetic product.",
+    "prompt": "Product suspended in mid-air, synthetic crystal particles and man-made elements scattered in artificial pattern. Category-relevant crystalline materials flying outward, never obscuring the item details. Crystal particles frozen in manufactured pattern around the object. The background seamlessly matches the product category - jewelry get luxury boutique environments, electronics get tech showroom settings, home decor get interior design backgrounds, cosmetics get beauty salon environments, scientific equipment get laboratory/research settings, luxury goods get premium retail environments. The background's manufactured quality and artificial precision complement the crystal's engineered nature creating modern visual harmony. The mood is artificial, precise, and modern. High-speed photography with synthetic crystal particles, frozen motion, artificial lighting, seamless synthetic-crystal-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3748,7 +4020,7 @@
     "en": "Splash - Organic Matrix",
     "id": "Splash - Ledakan Matriks Organik",
     "ms": "Splash - Letupan Matriks Organik",
-    "prompt": "Product frozen mid-air, organic matrix particles and natural materials from the product scattered in complex pattern. Product matrix materials flying outward, never covering the item surface. Matrix particles frozen in organic pattern around the object. The mood is complex, natural, and structured. High-speed photography with organic matrix particles, frozen motion, complex lighting, 8K, organic product.",
+    "prompt": "Product frozen mid-air, organic matrix particles and natural materials scattered in complex pattern. Category-relevant complex materials flying outward, never covering the item surface. Matrix particles frozen in organic pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, health products get wellness/clinic settings, cosmetics get beauty salon/spa environments, home goods get interior design settings, gardening supplies get outdoor/garden backgrounds, crafts supplies get creative studio environments. The background's structural quality and organic complexity complement the matrix's sophisticated nature creating intricate visual continuity. The mood is complex, natural, and structured. High-speed photography with organic matrix particles, frozen motion, complex lighting, seamless matrix-background complexity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3756,7 +4028,7 @@
     "en": "Splash - Elemental Energy",
     "id": "Splash - Ledakan Tenaga Unsur",
     "ms": "Splash - Letupan Tenaga Unsur",
-    "prompt": "Product captured mid-air, elemental energy particles and natural forces from the product scattered in powerful pattern. Product elemental materials radiating outward, never in front of the item. Energy particles frozen in elemental pattern around the object. The mood is powerful, natural, and energetic. High-speed photography with elemental energy particles, frozen motion, elemental lighting, 8K, elemental product.",
+    "prompt": "Product captured mid-air, elemental energy particles and natural forces scattered in powerful pattern. Category-relevant energy materials radiating outward, never in front of the item. Energy particles frozen in elemental pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, automotive get garage/dealership backgrounds, electronics get tech showroom settings, fitness equipment get gym/athletic environments, outdoor gear get adventure/sports settings, industrial equipment get manufacturing/factory environments. The background's energetic quality and elemental atmosphere complement the energy's powerful nature creating elemental visual continuity. The mood is powerful, natural, and energetic. High-speed photography with elemental energy particles, frozen motion, elemental lighting, seamless elemental-energy-background power, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3764,7 +4036,7 @@
     "en": "Splash - Bio-Molecular",
     "id": "Splash - Ledakan Bio-Molekul",
     "ms": "Splash - Letupan Bio-Molekul",
-    "prompt": "Product suspended in mid-air, bio-molecular particles and living compounds from the product scattered in biological pattern. Product biological materials flying outward, never obscuring the item details. Molecular particles frozen in living pattern around the object. The mood is biological, complex, and living. High-speed photography with bio-molecular particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product suspended in mid-air, bio-molecular particles and living compounds scattered in biological pattern. Category-relevant biological materials flying outward, never obscuring the item details. Molecular particles frozen in living pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, health products get wellness/clinic settings, cosmetics get beauty salon/spa environments, gardening supplies get outdoor/garden backgrounds, medical supplies get clinical/healthcare environments, sports nutrition get gym/fitness backgrounds. The background's molecular quality and biological precision complement the bio-molecular's complex nature creating scientific visual harmony. The mood is biological, complex, and living. High-speed photography with bio-molecular particles, frozen motion, biological lighting, seamless bio-molecular-background complexity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3772,7 +4044,7 @@
     "en": "Splash - Quantum Field",
     "id": "Splash - Ledakan Medan Kuantum",
     "ms": "Splash - Letupan Medan Kuantum",
-    "prompt": "Product frozen mid-air, quantum field particles and subatomic elements from the product scattered in quantum pattern. Product quantum materials flying outward, never covering the item surface. Field particles frozen in quantum pattern around the object. The mood is quantum, futuristic, and scientific. High-speed photography with quantum field particles, frozen motion, quantum lighting, 8K, quantum product.",
+    "prompt": "Product frozen mid-air, quantum field particles and subatomic elements scattered in quantum pattern. Category-relevant advanced materials flying outward, never covering the item surface. Field particles frozen in quantum pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, medical devices get clinical/healthcare environments, scientific equipment get laboratory/research backgrounds, computer hardware get office/tech environments, precision instruments get manufacturing/facility settings, advanced technology get innovation lab environments. The background's quantum quality and scientific atmosphere complement the field's futuristic nature creating advanced visual harmony. The mood is quantum, futuristic, and scientific. High-speed photography with quantum field particles, frozen motion, quantum lighting, seamless quantum-field-background precision, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3780,7 +4052,7 @@
     "en": "Splash - Natural Essence",
     "id": "Splash - Ledakan Pati Semula Jadi",
     "ms": "Splash - Letupan Pati Asli",
-    "prompt": "Product captured mid-air, natural essence particles and pure oils from the product scattered in aromatic pattern. Product essence materials floating outward, never in front of the item. Essence particles frozen in natural pattern around the object. The mood is natural, aromatic, and pure. High-speed photography with natural essence particles, frozen motion, natural lighting, 8K, essence product.",
+    "prompt": "Product captured mid-air, natural essence particles and pure oils scattered in aromatic pattern. Category-relevant aromatic materials floating outward, never in front of the item. Essence particles frozen in natural pattern around the object. The background seamlessly matches the product category - cosmetics get beauty salon/spa environments, health products get wellness/clinic settings, aromatherapy products get relaxation room backgrounds, home fragrance get elegant living room settings, personal care get grooming/salon environments, food products get kitchen/restaurant settings. The background's aromatic quality and natural atmosphere complement the essence's pure nature creating organic visual continuity. The mood is natural, aromatic, and pure. High-speed photography with natural essence particles, frozen motion, natural lighting, seamless essence-background purity, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3788,7 +4060,7 @@
     "en": "Splash - Bio-Structural",
     "id": "Splash - Ledakan Bio-Struktur",
     "ms": "Splash - Letupan Bio-Struktur",
-    "prompt": "Product suspended in mid-air, bio-structural particles and living frameworks from the product scattered in biological pattern. Product biological structures flying outward, never obscuring the item details. Structural particles frozen in living pattern around the object. The mood is biological, structured, and natural. High-speed photography with bio-structural particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product suspended in mid-air, bio-structural particles and living frameworks scattered in biological pattern. Category-relevant biological materials flying outward, never obscuring the item details. Structural particles frozen in living pattern around the object. The background seamlessly matches the product category - medical products get clinical/healthcare environments, health supplements get pharmacy/wellness backgrounds, cosmetics get beauty salon/spa settings, food products get kitchen/restaurant environments, gardening supplies get outdoor/garden backgrounds, educational materials get classroom/laboratory environments. The background's structural quality and biological precision complement the framework's organized nature creating scientific visual harmony. The mood is biological, structured, and natural. High-speed photography with bio-structural particles, frozen motion, biological lighting, seamless bio-structural-background organization, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3796,7 +4068,7 @@
     "en": "Splash - Elemental Matter",
     "id": "Splash - Ledakan Jirim Unsur",
     "ms": "Splash - Letupan Jirim Unsur",
-    "prompt": "Product frozen mid-air, elemental matter particles and base materials from the product scattered in fundamental pattern. Product elemental materials flying outward, never covering the item surface. Matter particles frozen in elemental pattern around the object. The mood is fundamental, basic, and elemental. High-speed photography with elemental matter particles, frozen motion, elemental lighting, 8K, elemental product.",
+    "prompt": "Product frozen mid-air, elemental matter particles and base materials scattered in fundamental pattern. Category-relevant fundamental materials flying outward, never covering the item surface. Matter particles frozen in elemental pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, construction materials get building site settings, gardening supplies get outdoor/garden backgrounds, home goods get interior design settings, cleaning supplies get home/industrial environments, industrial equipment get manufacturing/factory settings. The background's fundamental quality and elemental texture complement the matter's essential nature creating basic visual continuity. The mood is fundamental, basic, and elemental. High-speed photography with elemental matter particles, frozen motion, elemental lighting, seamless elemental-matter-background fundamentals, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3804,7 +4076,7 @@
     "en": "Splash - Organic Energy",
     "id": "Splash - Ledakan Tenaga Organik",
     "ms": "Splash - Letupan Tenaga Organik",
-    "prompt": "Product captured mid-air, organic energy particles and natural forces from the product scattered in living pattern. Product natural energy materials radiating outward, never in front of the item. Energy particles frozen in organic pattern around the object. The mood is natural, energetic, and living. High-speed photography with organic energy particles, frozen motion, natural lighting, 8K, organic product.",
+    "prompt": "Product captured mid-air, organic energy particles and natural forces scattered in living pattern. Category-relevant organic materials radiating outward, never in front of the item. Energy particles frozen in organic pattern around the object. The background seamlessly matches the product category - food products get kitchen/restaurant environments, health products get wellness/clinic settings, cosmetics get beauty salon/spa environments, gardening supplies get outdoor/garden backgrounds, natural products get eco-friendly store settings, outdoor gear get natural adventure environments. The background's living quality and organic atmosphere complement the energy's natural nature creating vibrant visual continuity. The mood is natural, energetic, and living. High-speed photography with organic energy particles, frozen motion, natural lighting, seamless organic-energy-background vitality, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3812,7 +4084,7 @@
     "en": "Splash - Synthetic Matter",
     "id": "Splash - Ledakan Jirim Sintetik",
     "ms": "Splash - Letupan Jirim Sintetik",
-    "prompt": "Product suspended in mid-air, synthetic matter particles and artificial materials from the product scattered in man-made pattern. Product synthetic materials flying outward, never obscuring the item details. Matter particles frozen in artificial pattern around the object. The mood is artificial, modern, and synthetic. High-speed photography with synthetic matter particles, frozen motion, artificial lighting, 8K, synthetic product.",
+    "prompt": "Product suspended in mid-air, synthetic matter particles and artificial materials scattered in man-made pattern. Category-relevant synthetic materials flying outward, never obscuring the item details. Matter particles frozen in artificial pattern around the object. The background seamlessly matches the product category - electronics get tech showroom settings, automotive get workshop/dealership environments, industrial products get manufacturing/factory settings, home goods get modern interior backgrounds, sports equipment get athletic/fitness environments, hardware supplies get construction/workshop settings. The background's artificial quality and manufactured texture complement the matter's engineered nature creating modern visual harmony. The mood is artificial, modern, and synthetic. High-speed photography with synthetic matter particles, frozen motion, artificial lighting, seamless synthetic-matter-background innovation, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3820,7 +4092,7 @@
     "en": "Splash - Bio-Quantum",
     "id": "Splash - Ledakan Bio-Kuantum",
     "ms": "Splash - Letupan Bio-Kuantum",
-    "prompt": "Product frozen mid-air, bio-quantum particles and living quantum elements from the product scattered in quantum-biological pattern. Product quantum biological materials flying outward, never covering the item surface. Bio-quantum particles frozen in living quantum pattern around the object. The mood is futuristic, biological, and quantum. High-speed photography with bio-quantum particles, frozen motion, quantum lighting, 8K, bio-quantum product.",
+    "prompt": "Product frozen mid-air, bio-quantum particles and living quantum elements scattered in quantum-biological pattern. Category-relevant advanced materials flying outward, never covering the item surface. Bio-quantum particles frozen in living quantum pattern around the object. The background seamlessly matches the product category - medical devices get clinical/healthcare environments, electronics get tech showroom settings, scientific equipment get laboratory/research backgrounds, beauty devices get salon/spa settings, computer hardware get office/tech environments, precision instruments get manufacturing/facility settings. The background's quantum quality and biological atmosphere complement the bio-quantum's advanced nature creating futuristic visual harmony. The mood is futuristic, biological, and quantum. High-speed photography with bio-quantum particles, frozen motion, quantum lighting, seamless bio-quantum-background fusion, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3828,7 +4100,7 @@
     "en": "Splash - Elemental Structure",
     "id": "Splash - Ledakan Struktur Unsur",
     "ms": "Splash - Letupan Struktur Unsur",
-    "prompt": "Product captured mid-air, elemental structure particles and natural frameworks from the product scattered in ordered pattern. Product structural elements flying outward, never in front of the item. Structure particles frozen in elemental pattern around the object. The mood is structured, natural, and elemental. High-speed photography with elemental structure particles, frozen motion, structural lighting, 8K, elemental product.",
+    "prompt": "Product captured mid-air, elemental structure particles and natural frameworks scattered in ordered pattern. Category-relevant structural materials flying outward, never in front of the item. Structure particles frozen in elemental pattern around the object. The background seamlessly matches the product category - tools/hardware get workshop environments, construction materials get building site settings, jewelry get luxury boutique environments, electronics get tech showroom backgrounds, scientific equipment get laboratory/research settings, home decor get interior design environments. The background's structural quality and elemental precision complement the structure's organized nature creating geometric visual continuity. The mood is structured, natural, and elemental. High-speed photography with elemental structure particles, frozen motion, structural lighting, seamless elemental-structure-background order, 8K, commercial quality.",
     "category": "splashs"
   },
   {
@@ -3836,7 +4108,7 @@
     "en": "Splash - Organic Nano",
     "id": "Splash - Ledakan Nano Organik",
     "ms": "Splash - Letupan Nano Organik",
-    "prompt": "Product suspended in mid-air, organic nano particles and microscopic natural elements from the product scattered in nano-organic pattern. Product nanomaterials flying outward, never obscuring the item details. Nano particles frozen in organic pattern around the object. The mood is microscopic, natural, and advanced. High-speed photography with organic nano particles, frozen motion, microscopic lighting, 8K, nano product.",
+    "prompt": "Product suspended in mid-air, organic nano particles and microscopic natural elements from the product scattered in nano-organic pattern. Product nanomaterials flying outward, never obscuring the item details. Nano particles frozen in organic pattern around the object. The background seamlessly matches the organic nano type - plant nano gets botanical microscopy environments, animal nano gets cellular biology settings, microbial nano gets bacteriology laboratory backgrounds, enzyme nano gets biochemistry facility environments, protein nano gets structural biology settings. The background's microscopic quality and natural texture complement the nano's advanced nature creating precise visual continuity. The mood is microscopic, natural, and advanced. High-speed photography with organic nano particles, frozen motion, microscopic lighting, seamless organic-nano-background precision, 8K, nano product.",
     "category": "splashs"
   },
   {
@@ -3844,7 +4116,7 @@
     "en": "Splash - Bio-Crystalline",
     "id": "Splash - Ledakan Bio-Hablur",
     "ms": "Splash - Letupan Bio-Hablur",
-    "prompt": "Product frozen mid-air, bio-crystalline particles and living crystals from the product scattered in biological-crystal pattern. Product crystal biological materials flying outward, never covering the item surface. Crystalline particles frozen in living pattern around the object. The mood is biological, crystalline, and structured. High-speed photography with bio-crystalline particles, frozen motion, biological lighting, 8K, bio-crystal product.",
+    "prompt": "Product frozen mid-air, bio-crystalline particles and living crystals from the product scattered in biological-crystal pattern. Product crystal biological materials flying outward, never covering the item surface. Crystalline particles frozen in living pattern around the object. The background seamlessly matches the bio-crystalline type - protein crystals get biochemistry laboratory environments, virus crystals get virology research settings, enzyme crystals get pharmaceutical laboratory backgrounds, mineral crystals get biomineralization environments, sugar crystals get food processing settings. The background's crystalline quality and biological precision complement the bio-crystal's structured nature creating geometric visual harmony. The mood is biological, crystalline, and structured. High-speed photography with bio-crystalline particles, frozen motion, biological lighting, seamless bio-crystalline-background geometry, 8K, bio-crystal product.",
     "category": "splashs"
   },
   {
@@ -3852,7 +4124,7 @@
     "en": "Splash - Elemental Essence",
     "id": "Splash - Ledakan Pati Unsur",
     "ms": "Splash - Letupan Pati Unsur",
-    "prompt": "Product captured mid-air, elemental essence particles and fundamental oils from the product scattered in essential pattern. Product essence materials floating outward, never in front of the item. Essence particles frozen in elemental pattern around the object. The mood is essential, fundamental, and pure. High-speed photography with elemental essence particles, frozen motion, essential lighting, 8K, essence product.",
+    "prompt": "Product captured mid-air, elemental essence particles and fundamental oils from the product scattered in essential pattern. Product essence materials floating outward, never in front of the item. Essence particles frozen in elemental pattern around the object. The background seamlessly matches the elemental essence type - earth essence gets geological environments, water essence gets aquatic settings, fire essence gets volcanic backgrounds, air essence gets atmospheric environments, ether essence gets mystical settings. The background's essential quality and fundamental atmosphere complement the essence's pure nature creating elemental visual continuity. The mood is essential, fundamental, and pure. High-speed photography with elemental essence particles, frozen motion, essential lighting, seamless elemental-essence-background purity, 8K, essence product.",
     "category": "splashs"
   },
   {
@@ -3860,7 +4132,7 @@
     "en": "Splash - Synthetic Energy",
     "id": "Splash - Ledakan Tenaga Sintetik",
     "ms": "Splash - Letupan Tenaga Sintetik",
-    "prompt": "Product suspended in mid-air, synthetic energy particles and artificial forces from the product scattered in technological pattern. Product artificial energy materials radiating outward, never obscuring the item details. Energy particles frozen in artificial pattern around the object. The mood is technological, artificial, and energetic. High-speed photography with synthetic energy particles, frozen motion, technological lighting, 8K, synthetic product.",
+    "prompt": "Product suspended in mid-air, synthetic energy particles and artificial forces from the product scattered in technological pattern. Product artificial energy materials radiating outward, never obscuring the item details. Energy particles frozen in artificial pattern around the object. The background seamlessly matches the synthetic energy type - electrical energy gets power plant environments, chemical energy gets industrial facility settings, mechanical energy gets engineering workshop backgrounds, nuclear energy gets research reactor environments, solar energy gets renewable energy laboratory settings. The background's technological quality and artificial atmosphere complement the energy's engineered nature creating modern visual harmony. The mood is technological, artificial, and energetic. High-speed photography with synthetic energy particles, frozen motion, technological lighting, seamless synthetic-energy-background innovation, 8K, synthetic product.",
     "category": "splashs"
   },
   {
@@ -3868,7 +4140,7 @@
     "en": "Splash - Bio-Synthetic",
     "id": "Splash - Ledakan Bio-Sintetik",
     "ms": "Splash - Letupan Bio-Sintetik",
-    "prompt": "Product frozen mid-air, bio-synthetic particles and hybrid materials from the product scattered in hybrid pattern. Product hybrid biological materials flying outward, never covering the item surface. Bio-synthetic particles frozen in hybrid pattern around the object. The mood is hybrid, innovative, and advanced. High-speed photography with bio-synthetic particles, frozen motion, hybrid lighting, 8K, hybrid product.",
+    "prompt": "Product frozen mid-air, bio-synthetic particles and hybrid materials from the product scattered in hybrid pattern. Product hybrid biological materials flying outward, never covering the item surface. Bio-synthetic particles frozen in hybrid pattern around the object. The background seamlessly matches the bio-synthetic type - genetic engineering gets biotechnology laboratory environments, prosthetic materials get medical facility settings, bio-plastics get sustainable manufacturing backgrounds, synthetic tissues get regenerative medicine environments, hybrid organs get transplantation research settings. The background's hybrid quality and innovative atmosphere complement the bio-synthetic's advanced nature creating futuristic visual harmony. The mood is hybrid, innovative, and advanced. High-speed photography with bio-synthetic particles, frozen motion, hybrid lighting, seamless bio-synthetic-background innovation, 8K, hybrid product.",
     "category": "splashs"
   },
   {
@@ -3876,7 +4148,7 @@
     "en": "Splash - Quantum Structure",
     "id": "Splash - Ledakan Struktur Kuantum",
     "ms": "Splash - Letupan Struktur Kuantum",
-    "prompt": "Product captured mid-air, quantum structure particles and subatomic frameworks from the product scattered in quantum-structural pattern. Product quantum structural materials flying outward, never in front of the item. Structure particles frozen in quantum pattern around the object. The mood is quantum, structural, and futuristic. High-speed photography with quantum structure particles, frozen motion, quantum lighting, 8K, quantum product.",
+    "prompt": "Product captured mid-air, quantum structure particles and subatomic frameworks from the product scattered in quantum-structural pattern. Product quantum structural materials flying outward, never in front of the item. Structure particles frozen in quantum pattern around the object. The background seamlessly matches the quantum structure type - quantum computing gets advanced computing environments, quantum mechanics gets theoretical physics settings, quantum optics gets laser laboratory backgrounds, quantum cryptography gets security research environments, quantum teleportation gets advanced physics settings. The background's quantum quality and structural precision complement the structure's futuristic nature creating advanced visual continuity. The mood is quantum, structural, and futuristic. High-speed photography with quantum structure particles, frozen motion, quantum lighting, seamless quantum-structure-background precision, 8K, quantum product.",
     "category": "splashs"
   },
   {
@@ -3884,7 +4156,7 @@
     "en": "Splash - Organic Force",
     "id": "Splash - Ledakan Daya Organik",
     "ms": "Splash - Letupan Daya Organik",
-    "prompt": "Product frozen mid-air, organic force particles and natural energies from the product scattered in living pattern. Product natural force materials radiating outward, never covering the item surface. Force particles frozen in organic pattern around the object. The mood is natural, powerful, and living. High-speed photography with organic force particles, frozen motion, natural lighting, 8K, organic product.",
+    "prompt": "Product frozen mid-air, organic force particles and natural energies from the product scattered in living pattern. Product natural force materials radiating outward, never covering the item surface. Force particles frozen in organic pattern around the object. The background seamlessly matches the organic force type - growth force gets greenhouse environments, reproduction force gets biology laboratory settings, metabolic force gets cellular environments, evolutionary force gets natural history museum settings, ecological force gets ecosystem environments. The background's living quality and organic power complement the force's natural energy creating vibrant visual continuity. The mood is natural, powerful, and living. High-speed photography with organic force particles, frozen motion, natural lighting, seamless organic-force-background vitality, 8K, organic product.",
     "category": "splashs"
   },
   {
@@ -3892,7 +4164,7 @@
     "en": "Splash - Synthetic Structure",
     "id": "Splash - Ledakan Struktur Sintetik",
     "ms": "Splash - Letupan Struktur Sintetik",
-    "prompt": "Product captured mid-air, synthetic structure particles and artificial frameworks from the product scattered in manufactured pattern. Product artificial structural materials flying outward, never in front of the item. Structure particles frozen in synthetic pattern around the object. The mood is manufactured, structured, and modern. High-speed photography with synthetic structure particles, frozen motion, manufactured lighting, 8K, synthetic product.",
+    "prompt": "Product captured mid-air, synthetic structure particles and artificial frameworks from the product scattered in manufactured pattern. Product artificial structural materials flying outward, never in front of the item. Structure particles frozen in synthetic pattern around the object. The background seamlessly matches the synthetic structure type - architectural structures get modern building environments, engineering structures get construction site settings, mechanical structures get factory workshop backgrounds, electronic structures get semiconductor fabrication environments, chemical structures get research laboratory settings. The background's manufactured quality and engineered precision complement the structure's modern nature creating artificial visual harmony. The mood is manufactured, structured, and modern. High-speed photography with synthetic structure particles, frozen motion, manufactured lighting, seamless synthetic-structure-background engineering, 8K, synthetic product.",
     "category": "splashs"
   },
   {
@@ -3900,7 +4172,7 @@
     "en": "Splash - Bio-Elemental Force",
     "id": "Splash - Ledakan Daya Bio-Unsur",
     "ms": "Splash - Letupan Kuasa Bio-Unsur",
-    "prompt": "Product suspended in mid-air, bio-elemental force particles and living natural energies from the product scattered in biological-force pattern. Product biological force materials radiating outward, never obscuring the item details. Force particles frozen in living pattern around the object. The mood is biological, powerful, and natural. High-speed photography with bio-elemental force particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product suspended in mid-air, bio-elemental force particles and living natural energies from the product scattered in biological-force pattern. Product biological force materials radiating outward, never obscuring the item details. Force particles frozen in living pattern around the object. The background seamlessly matches the bio-elemental force type - genetic force gets genetics laboratory environments, cellular force gets microbiology settings, molecular force gets biochemistry facility backgrounds, evolutionary force get natural history environments, ecological force get ecosystem settings. The background's biological quality and elemental power complement the force's living nature creating organic visual harmony. The mood is biological, powerful, and natural. High-speed photography with bio-elemental force particles, frozen motion, biological lighting, seamless bio-elemental-force-background vitality, 8K, bio product.",
     "category": "splashs"
   },
   {
@@ -3908,7 +4180,7 @@
     "en": "Splash - Quantum Energy",
     "id": "Splash - Ledakan Tenaga Kuantum",
     "ms": "Splash - Letupan Tenaga Kuantum",
-    "prompt": "Product frozen mid-air, quantum energy particles and subatomic forces from the product scattered in quantum pattern. Product quantum energy materials radiating outward, never covering the item surface. Energy particles frozen in quantum pattern around the object. The mood is quantum, energetic, and futuristic. High-speed photography with quantum energy particles, frozen motion, quantum lighting, 8K, quantum product.",
+    "prompt": "Product frozen mid-air, quantum energy particles and subatomic forces from the product scattered in quantum pattern. Product quantum energy materials radiating outward, never covering the item surface. Energy particles frozen in quantum pattern around the object. The background seamlessly matches the quantum energy type - quantum fluctuations get particle accelerator environments, quantum entanglement gets quantum computing settings, quantum tunneling gets theoretical physics backgrounds, quantum coherence gets laser laboratory environments, quantum fields get space research settings. The background's quantum quality and energy precision complement the quantum's futuristic nature creating advanced visual continuity. The mood is quantum, energetic, and futuristic. High-speed photography with quantum energy particles, frozen motion, quantum lighting, seamless quantum-energy-background fusion, 8K, quantum product.",
     "category": "splashs"
   },
   {
@@ -3916,7 +4188,7 @@
     "en": "Splash - Bio-Organic Structure",
     "id": "Splash - Ledakan Struktur Bio-Organik",
     "ms": "Splash - Letupan Struktur Bio-Organik",
-    "prompt": "Product captured mid-air, bio-organic structure particles and living frameworks from the product scattered in biological-structured pattern. Product living structural materials flying outward, never in front of the item. Structure particles frozen in living pattern around the object. The mood is biological, structured, and natural. High-speed photography with bio-organic structure particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product captured mid-air, bio-organic structure particles and living frameworks from the product scattered in biological-structured pattern. Product living structural materials flying outward, never in front of the item. Structure particles frozen in living pattern around the object. The background seamlessly matches the bio-organic structure type - cellular structures get microscopy laboratory environments, tissue structures get medical research settings, organ structures get anatomy laboratory backgrounds, molecular structures get biochemistry facility environments, ecosystem structures get nature reserve settings. The background's biological quality and structural precision complement the structure's organized nature creating scientific visual harmony. The mood is biological, structured, and natural. High-speed photography with bio-organic structure particles, frozen motion, biological lighting, seamless bio-organic-structure-background organization, 8K, bio product.",
     "category": "splashs"
   },
   {
@@ -3924,7 +4196,7 @@
     "en": "Splash - Elemental Quantum",
     "id": "Splash - Ledakan Kuantum Unsur",
     "ms": "Splash - Letupan Kuantum Unsur",
-    "prompt": "Product suspended in mid-air, elemental quantum particles and fundamental quantum energies from the product scattered in quantum-elemental pattern. Product quantum elemental materials radiating outward, never obscuring the item details. Quantum particles frozen in elemental pattern around the object. The mood is quantum, fundamental, and elemental. High-speed photography with elemental quantum particles, frozen motion, quantum lighting, 8K, quantum product.",
+    "prompt": "Product suspended in mid-air, elemental quantum particles and fundamental quantum energies from the product scattered in quantum-elemental pattern. Product quantum elemental materials radiating outward, never obscuring the item details. Quantum particles frozen in elemental pattern around the object. The background seamlessly matches the elemental quantum type - subatomic particles get particle accelerator environments, quantum states get theoretical physics settings, quantum numbers get mathematical laboratory backgrounds, quantum levels get atomic physics environments, quantum jumps get energy level settings. The background's quantum quality and elemental precision complement the quantum's fundamental nature creating advanced visual harmony. The mood is quantum, fundamental, and elemental. High-speed photography with elemental quantum particles, frozen motion, quantum lighting, seamless elemental-quantum-background precision, 8K, quantum product.",
     "category": "splashs"
   },
   {
@@ -3932,7 +4204,7 @@
     "en": "Splash - Synthetic Essence",
     "id": "Splash - Ledakan Pati Sintetik",
     "ms": "Splash - Letupan Pati Sintetik",
-    "prompt": "Product frozen mid-air, synthetic essence particles and artificial oils from the product scattered in manufactured pattern. Product artificial essence materials floating outward, never covering the item surface. Essence particles frozen in synthetic pattern around the object. The mood is artificial, fragrant, and modern. High-speed photography with synthetic essence particles, frozen motion, artificial lighting, 8K, synthetic product.",
+    "prompt": "Product frozen mid-air, synthetic essence particles and artificial oils from the product scattered in manufactured pattern. Product artificial essence materials floating outward, never covering the item surface. Essence particles frozen in synthetic pattern around the object. The background seamlessly matches the synthetic essence type - chemical fragrances get perfume laboratory environments, artificial flavors get food science settings, synthetic aromas get manufacturing facility backgrounds, engineered scents get cosmetic laboratory environments, manufactured essences get industrial chemistry settings. The background's artificial quality and manufactured atmosphere complement the essence's modern nature creating engineered visual continuity. The mood is artificial, fragrant, and modern. High-speed photography with synthetic essence particles, frozen motion, artificial lighting, seamless synthetic-essence-background engineering, 8K, synthetic product.",
     "category": "splashs"
   },
   {
@@ -3940,7 +4212,7 @@
     "en": "Splash - Bio-Force Structure",
     "id": "Splash - Ledakan Struktur Daya Bio",
     "ms": "Splash - Letupan Struktur Kuasa Bio",
-    "prompt": "Product captured mid-air, bio-force structure particles and living force frameworks from the product scattered in biological-force pattern. Product living force materials flying outward, never in front of the item. Structure particles frozen in living pattern around the object. The mood is biological, powerful, and structured. High-speed photography with bio-force structure particles, frozen motion, biological lighting, 8K, bio product.",
+    "prompt": "Product captured mid-air, bio-force structure particles and living force frameworks from the product scattered in biological-force pattern. Product living force materials flying outward, never in front of the item. Structure particles frozen in living pattern around the object. The background seamlessly matches the bio-force structure type - muscle force gets biomechanics laboratory environments, growth force gets plant research settings, neural force gets brain research backgrounds, reproductive force gets genetics laboratory environments, metabolic force gets cellular biology settings. The background's force quality and biological precision complement the structure's living nature creating powerful visual harmony. The mood is biological, powerful, and structured. High-speed photography with bio-force structure particles, frozen motion, biological lighting, seamless bio-force-structure-background vitality, 8K, bio product.",
     "category": "splashs"
   },
   {
@@ -3948,7 +4220,7 @@
     "en": "Splash - Elemental Nano",
     "id": "Splash - Ledakan Nano Unsur",
     "ms": "Splash - Letupan Nano Unsur",
-    "prompt": "Product suspended in mid-air, elemental nano particles and fundamental micro elements from the product scattered in nano-elemental pattern. Product nanomaterials flying outward, never obscuring the item details. Nano particles frozen in elemental pattern around the object. The mood is microscopic, fundamental, and advanced. High-speed photography with elemental nano particles, frozen motion, microscopic lighting, 8K, nano product.",
+    "prompt": "Product suspended in mid-air, elemental nano particles and fundamental micro elements from the product scattered in nano-elemental pattern. Product nanomaterials flying outward, never obscuring the item details. Nano particles frozen in elemental pattern around the object. The background seamlessly matches the elemental nano type - atomic nano gets electron microscopy environments, molecular nano gets chemistry laboratory settings, crystalline nano gets materials science backgrounds, metallic nano gets nanotechnology facility environments, quantum nano gets advanced physics settings. The background's nano quality and elemental precision complement the nano's microscopic nature creating advanced visual continuity. The mood is microscopic, fundamental, and advanced. High-speed photography with elemental nano particles, frozen motion, microscopic lighting, seamless elemental-nano-background precision, 8K, nano product.",
     "category": "splashs"
   },
   {
@@ -3956,7 +4228,7 @@
     "en": "Splash - Quantum Essence",
     "id": "Splash - Ledakan Pati Kuantum",
     "ms": "Splash - Letupan Pati Kuantum",
-    "prompt": "Product frozen mid-air, quantum essence particles and subatomic oils from the product scattered in quantum-essence pattern. Product quantum essence materials floating outward, never covering the item surface. Essence particles frozen in quantum pattern around the object. The mood is quantum, essential, and futuristic. High-speed photography with quantum essence particles, frozen motion, quantum lighting, 8K, quantum product.",
+    "prompt": "Product frozen mid-air, quantum essence particles and subatomic oils from the product scattered in quantum-essence pattern. Product quantum essence materials floating outward, never covering the item surface. Essence particles frozen in quantum pattern around the object. The background seamlessly matches the quantum essence type - quantum information gets computing laboratory environments, quantum states get theoretical physics settings, quantum probability get mathematical facility backgrounds, quantum coherence get laser laboratory environments, quantum superposition get advanced research settings. The background's quantum quality and essential precision complement the essence's futuristic nature creating advanced visual harmony. The mood is quantum, essential, and futuristic. High-speed photography with quantum essence particles, frozen motion, quantum lighting, seamless quantum-essence-background fusion, 8K, quantum product.",
     "category": "splashs"
   },
   {
@@ -3964,7 +4236,7 @@
     "en": "Splash - Bio-Synthetic Structure",
     "id": "Splash - Ledakan Struktur Bio-Sintetik",
     "ms": "Splash - Letupan Struktur Bio-Sintetik",
-    "prompt": "Product captured mid-air, bio-synthetic structure particles and hybrid frameworks from the product scattered in hybrid-structured pattern. Product hybrid structural materials flying outward, never in front of the item. Structure particles frozen in hybrid pattern around the object. The mood is hybrid, structured, and advanced. High-speed photography with bio-synthetic structure particles, frozen motion, hybrid lighting, 8K, hybrid product.",
+    "prompt": "Product captured mid-air, bio-synthetic structure particles and hybrid frameworks from the product scattered in hybrid-structured pattern. Product hybrid structural materials flying outward, never in front of the item. Structure particles frozen in hybrid pattern around the object. The background seamlessly matches the bio-synthetic structure type - bioengineered structures get biotechnology facility environments, synthetic organs get medical research settings, hybrid materials get advanced manufacturing backgrounds, bio-integrated devices get biomedical engineering environments, genetically modified structures get genetics laboratory settings. The background's hybrid quality and structural precision complement the structure's advanced nature creating innovative visual harmony. The mood is hybrid, structured, and advanced. High-speed photography with bio-synthetic structure particles, frozen motion, hybrid lighting, seamless bio-synthetic-structure-background innovation, 8K, hybrid product.",
     "category": "splashs"
   },
   {
@@ -3972,7 +4244,7 @@
     "en": "Splash - Elemental Organic Nano",
     "id": "Splash - Ledakan Nano Organik Unsur",
     "ms": "Splash - Letupan Nano Organik Unsur",
-    "prompt": "Product suspended in mid-air, elemental organic nano particles and fundamental natural micro elements from the product scattered in complex pattern. Product complex nanomaterials flying outward, never obscuring the item details. Nano particles frozen in organic pattern around the object. The mood is complex, natural, and microscopic. High-speed photography with elemental organic nano particles, frozen motion, microscopic lighting, 8K, nano product.",
+    "prompt": "Product suspended in mid-air, elemental organic nano particles and fundamental natural micro elements from the product scattered in complex pattern. Product complex nanomaterials flying outward, never obscuring the item details. Nano particles frozen in organic pattern around the object. The background seamlessly matches the elemental organic nano type - biomolecular nano gets biochemistry laboratory environments, cellular nano gets microbiology settings, protein nano gets structural biology backgrounds, enzyme nano gets catalysis research environments, genetic nano gets molecular biology settings. The background's complex quality and microscopic texture complement the nano's advanced nature creating intricate visual continuity. The mood is complex, natural, and microscopic. High-speed photography with elemental organic nano particles, frozen motion, microscopic lighting, seamless elemental-organic-nano-background complexity, 8K, nano product.",
     "category": "splashs"
   },
   {
@@ -3980,7 +4252,7 @@
     "en": "Splash - Quantum Bio-Structure",
     "id": "Splash - Ledakan Struktur Kuantum Bio",
     "ms": "Splash - Letupan Struktur Kuantum Bio",
-    "prompt": "Product frozen mid-air, quantum bio-structure particles and living quantum frameworks from the product scattered in quantum-biological pattern. Product quantum living materials flying outward, never covering the item surface. Structure particles frozen in quantum pattern around the object. The mood is quantum, biological, and advanced. High-speed photography with quantum bio-structure particles, frozen motion, quantum lighting, 8K, quantum bio product.",
+    "prompt": "Product frozen mid-air, quantum bio-structure particles and living quantum frameworks from the product scattered in quantum-biological pattern. Product quantum living materials flying outward, never covering the item surface. Structure particles frozen in quantum pattern around the object. The background seamlessly matches the quantum bio-structure type - quantum biology gets advanced research environments, quantum consciousness gets neuroscience settings, quantum evolution gets theoretical biology backgrounds, quantum genetics gets quantum biotechnology environments, quantum medicine gets medical physics settings. The background's quantum quality and biological precision complement the structure's advanced nature creating futuristic visual harmony. The mood is quantum, biological, and advanced. High-speed photography with quantum bio-structure particles, frozen motion, quantum lighting, seamless quantum-bio-structure-background fusion, 8K, quantum bio product.",
     "category": "splashs"
   },
   {
@@ -3988,7 +4260,7 @@
     "en": "Splash - Elemental Synthetic Nano",
     "id": "Splash - Ledakan Nano Sintetik Unsur",
     "ms": "Splash - Letupan Nano Sintetik Unsur",
-    "prompt": "Product captured mid-air, elemental synthetic nano particles and artificial micro elements from the product scattered in technological pattern. Product advanced nanomaterials flying outward, never in front of the item. Nano particles frozen in synthetic pattern around the object. The mood is advanced, technological, and microscopic. High-speed photography with elemental synthetic nano particles, frozen motion, technological lighting, 8K, nano product.",
+    "prompt": "Product captured mid-air, elemental synthetic nano particles and artificial micro elements from the product scattered in technological pattern. Product advanced nanomaterials flying outward, never in front of the item. Nano particles frozen in synthetic pattern around the object. The background seamlessly matches the elemental synthetic nano type - nanotechnology gets advanced manufacturing environments, nanoelectronics get semiconductor fabrication settings, nanomaterials get materials science backgrounds, nanophotonics get optics laboratory environments, nanorobotics gets robotics research settings. The background's technological quality and synthetic precision complement the nano's advanced nature creating cutting-edge visual continuity. The mood is advanced, technological, and microscopic. High-speed photography with elemental synthetic nano particles, frozen motion, technological lighting, seamless elemental-synthetic-nano-background innovation, 8K, nano product.",
     "category": "splashs"
   },
   {
@@ -3996,7 +4268,7 @@
     "en": "Splash - Quantum Bio-Synthetic",
     "id": "Splash - Ledakan Bio-Sintetik Kuantum",
     "ms": "Splash - Letupan Bio-Sintetik Kuantum",
-    "prompt": "Product suspended in mid-air, quantum bio-synthetic particles and hybrid quantum living elements from the product scattered in hybrid-quantum pattern. Product hybrid quantum materials flying outward, never obscuring the item details. Bio-synthetic particles frozen in quantum pattern around the object. The mood is futuristic, hybrid, and advanced. High-speed photography with quantum bio-synthetic particles, frozen motion, quantum lighting, 8K, hybrid product.",
+    "prompt": "Product suspended in mid-air, quantum bio-synthetic particles and hybrid quantum living elements from the product scattered in hybrid-quantum pattern. Product hybrid quantum materials flying outward, never obscuring the item details. Bio-synthetic particles frozen in quantum pattern around the object. The background seamlessly matches the quantum bio-synthetic type - quantum computing gets advanced computing environments, synthetic biology gets biotechnology facility settings, quantum medicine gets medical physics backgrounds, bio-quantum engineering gets research facility environments, hybrid quantum systems get advanced laboratory settings. The background's hybrid quality and quantum atmosphere complement the bio-synthetic's advanced nature creating futuristic visual harmony. The mood is futuristic, hybrid, and advanced. High-speed photography with quantum bio-synthetic particles, frozen motion, quantum lighting, seamless quantum-bio-synthetic-background fusion, 8K, hybrid product.",
     "category": "splashs"
   },
   {
@@ -4004,7 +4276,7 @@
     "en": "Splash - Ultimate Elemental",
     "id": "Splash - Ledakan Unsur Utama",
     "ms": "Splash - Letupan Unsur Utama",
-    "prompt": "Product frozen mid-air, ultimate elemental particles and fundamental natural energies from the product scattered in supreme pattern. Product supreme elemental materials radiating outward, never covering the item surface. Elemental particles frozen in ultimate pattern around the object. The mood is supreme, elemental, and powerful. High-speed photography with ultimate elemental particles, frozen motion, supreme lighting, 8K, ultimate product.",
+    "prompt": "Product frozen mid-air, ultimate elemental particles and fundamental natural energies from the product scattered in supreme pattern. Product supreme elemental materials radiating outward, never covering the item surface. Elemental particles frozen in ultimate pattern around the object. The background seamlessly matches the ultimate elemental type - supreme earth gets planetary environments, ultimate water gets cosmic ocean settings, ultimate fire gets stellar backgrounds, ultimate air gets atmospheric space environments, ultimate ether gets universal cosmos settings. The background's supreme quality and elemental power complement the ultimate's supreme nature creating cosmic visual continuity. The mood is supreme, elemental, and powerful. High-speed photography with ultimate elemental particles, frozen motion, supreme lighting, seamless ultimate-elemental-background supremacy, 8K, ultimate product.",
     "category": "splashs"
   },
   {
@@ -4012,7 +4284,7 @@
     "en": "Splash - Pure Essence",
     "id": "Splash - Ledakan Pati Tulen",
     "ms": "Splash - Letupan Pati Tulen",
-    "prompt": "Product captured mid-air, pure essence particles and concentrated natural oils from the product scattered in pure pattern. Product pure essence materials floating outward, never in front of the item. Essence particles frozen in pure pattern around the object. The mood is pure, concentrated, and essential. High-speed photography with pure essence particles, frozen motion, pure lighting, 8K, pure product.",
+    "prompt": "Product captured mid-air, pure essence particles and concentrated natural oils from the product scattered in pure pattern. Product pure essence materials floating outward, never in front of the item. Essence particles frozen in pure pattern around the object. The background seamlessly matches the pure essence type - pure botanical gets pristine garden environments, pure mineral gets untouched geological settings, pure water gets spring source backgrounds, pure essential gets extraction facility environments, pure elemental gets laboratory purification settings. The background's pure quality and essential atmosphere complement the essence's concentrated nature creating pristine visual continuity. The mood is pure, concentrated, and essential. High-speed photography with pure essence particles, frozen motion, pure lighting, seamless pure-essence-background purity, 8K, pure product.",
     "category": "splashs"
   },
   {
@@ -4020,7 +4292,7 @@
     "en": "Splash - Primal Force",
     "id": "Splash - Ledakan Daya Primal",
     "ms": "Splash - Letupan Kuasa Primal",
-    "prompt": "Product suspended in mid-air, primal force particles and original natural energies from the product scattered in primal pattern. Product original force materials radiating outward, never obscuring the item details. Force particles frozen in primal pattern around the object. The mood is original, natural, and powerful. High-speed photography with primal force particles, frozen motion, original lighting, 8K, primal product.",
+    "prompt": "Product suspended in mid-air, primal force particles and original natural energies from the product scattered in primal pattern. Product original force materials radiating outward, never obscuring the item details. Force particles frozen in primal pattern around the object. The background seamlessly matches the primal force type - creation force gets origin environments, birth force gets beginning settings, formation force gets emergence backgrounds, emergence force gets genesis environments, dawn force gets primordial settings. The background's primal quality and original power complement the force's fundamental nature creating primordial visual harmony. The mood is original, natural, and powerful. High-speed photography with primal force particles, frozen motion, original lighting, seamless primal-force-background origin, 8K, primal product.",
     "category": "splashs"
   },
   {
@@ -4028,7 +4300,7 @@
     "en": "Splash - Cosmic Essence",
     "id": "Splash - Ledakan Pati Kosmik",
     "ms": "Splash - Letupan Pati Kosmik",
-    "prompt": "Product frozen mid-air, cosmic essence particles and universal elements from the product scattered in universal pattern. Product cosmic materials flying outward, never covering the item surface. Cosmic particles frozen in universal pattern around the object. The mood is universal, cosmic, and infinite. High-speed photography with cosmic essence particles, frozen motion, universal lighting, 8K, cosmic product.",
+    "prompt": "Product frozen mid-air, cosmic essence particles and universal elements from the product scattered in universal pattern. Product cosmic materials flying outward, never covering the item surface. Cosmic particles frozen in universal pattern around the object. The background seamlessly matches the cosmic essence type - stellar essence gets deep space environments, galactic essence gets cosmos settings, nebula essence gets space backgrounds, solar essence gets stellar environments, universal essence gets cosmic infinity settings. The background's cosmic quality and universal atmosphere complement the essence's infinite nature creating cosmic visual continuity. The mood is universal, cosmic, and infinite. High-speed photography with cosmic essence particles, frozen motion, universal lighting, seamless cosmic-essence-background infinity, 8K, cosmic product.",
     "category": "splashs"
   },
   {
@@ -4749,6 +5021,14 @@
     "id": "Studio - Tema Dojo Samurai",
     "ms": "Studio - Tema Dojo Samurai",
     "prompt": "Product with samurai dojo traditional lighting. Disciplined, serene atmosphere with paper lantern effects. Professional studio setup with Japanese props. The mood is disciplined, serene, and traditional. Samurai dojo studio photography with traditional lighting, cultural props, serene composition, 8K, cultural quality.",
+    "category": "studios"
+  },
+  {
+    "key": "studios-studio-wild-west",
+    "en": "Studio - Wild West Theme",
+    "id": "Studio - Tema Wild West",
+    "ms": "Studio - Tema Bar Liar",
+    "prompt": "Product with wild west dramatic sunlight. Rugged, adventurous atmosphere with dusty, warm tones. Professional studio setup with western props. The mood is rugged, adventurous, and frontier-like. Wild west studio photography with dramatic sunlight, western props, adventurous composition, 8K, period quality.",
     "category": "studios"
   },
   {

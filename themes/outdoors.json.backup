@@ -872,7 +872,7 @@
     "en": "Outdoor - Amazon River Jungle",
     "id": "Outdoor - Sungai Amazon Hutan Hujan",
     "ms": "Outdoor - Sungai Amazon Hutan Hujan",
-    "prompt": "Product positioned on Amazon River with surrounding jungle. Dense rainforest vegetation with exotic plant life. Humid tropical atmosphere with dappled sunlight through canopy. The mood is Amazon, exotic, and tropical. Amazon river photography with jungle vegetation, tropical atmosphere, filtered lighting, photorealistic, 8K, Amazon quality."
+    "prompt": "Product positioned on Amazon River with surrounding jungle. Dense rainforest vegetation with exotic wildlife. Humid tropical atmosphere with dappled sunlight through canopy. The mood is Amazon, exotic, and tropical. Amazon river photography with jungle vegetation, tropical atmosphere, filtered lighting, photorealistic, 8K, Amazon quality."
   },
   {
     "key": "outdoor-sahara-desert-oasis",
@@ -914,7 +914,7 @@
     "en": "Outdoor - Florida Everglades Wetlands",
     "id": "Outdoor - Tanah Basah Everglades Florida",
     "ms": "Outdoor - Tanah Lemban Everglades Florida",
-    "prompt": "Product positioned in Florida Everglades wetlands. Unique subtropical wetlands with exotic plants and aquatic vegetation. Mangrove forests and sawgrass prairies. Golden sunset light over wetlands. The mood is Everglades, wetland, and unique. Everglades photography with mangroves, aquatic plants, wetland atmosphere, photorealistic, 8K, wetland quality."
+    "prompt": "Product positioned in Florida Everglades wetlands. Unique subtropical wetlands with alligators and wading birds. Mangrove forests and sawgrass prairies. Golden sunset light over wetlands. The mood is Everglades, wetland, and unique. Everglades photography with mangroves, wildlife, wetland atmosphere, photorealistic, 8K, wetland quality."
   },
   {
     "key": "outdoor-arizona-desert-saguaro",
@@ -949,7 +949,7 @@
     "en": "Outdoor - Oregon Coastal Sea Stacks",
     "id": "Outdoor - Susunan Laut Pesisir Oregon",
     "ms": "Outdoor - Tindukan Laut Pantai Oregon",
-    "prompt": "Product positioned by Oregon coastal sea stacks. Dramatic rock formations rising from Pacific Ocean. Wave-carved sea stacks with bird nests. Stormy Pacific weather with dramatic lighting. The mood is Oregon, coastal, and dramatic. Oregon coast photography with sea stacks, wave formations, dramatic weather, photorealistic, 8K, coastal quality."
+    "prompt": "Product positioned by Oregon coastal sea stacks. Dramatic rock formations rising from Pacific Ocean. Wave-carved sea stacks with seabird colonies. Stormy Pacific weather with dramatic lighting. The mood is Oregon, coastal, and dramatic. Oregon coast photography with sea stacks, wave formations, dramatic weather, photorealistic, 8K, coastal quality."
   },
   {
     "key": "outdoor-vermont-autumn-foliage",
@@ -970,7 +970,7 @@
     "en": "Outdoor - Montana Glacier National Park",
     "id": "Outdoor - Taman Nasional Glasier Montana",
     "ms": "Outdoor - Taman Negara Glasier Montana",
-    "prompt": "Product positioned in Montana Glacier National Park. Pristine alpine lakes with glacial-fed waters. Mountain goats and grizzly bears in natural habitat. Going-to-the-Sun Road with dramatic mountain vistas. The mood is Glacier, pristine, and wild. Glacier Park photography with alpine lakes, plant life, mountain vistas, photorealistic, 8K, national park quality."
+    "prompt": "Product positioned in Montana Glacier National Park. Pristine alpine lakes with glacial-fed waters. Mountain goats and grizzly bears in natural habitat. Going-to-the-Sun Road with dramatic mountain vistas. The mood is Glacier, pristine, and wild. Glacier Park photography with alpine lakes, wildlife, mountain vistas, photorealistic, 8K, national park quality."
   },
   {
     "key": "outdoor-wyoming-yellowstone-grand-prismatic",
@@ -1054,7 +1054,7 @@
     "en": "Outdoor - Louisiana Bayou Cypress",
     "id": "Outdoor - Bayou Louisiana Cypress",
     "ms": "Outdoor - Bayou Louisiana Cypress",
-    "prompt": "Product positioned in Louisiana bayou with cypress trees. Spanish moss draping from ancient cypress trees. Swamp waters with exotic plants and aquatic vegetation. Southern atmosphere with bayou culture. The mood is Louisiana, bayou, and Southern. Louisiana bayou photography with cypress trees, Spanish moss, swamp atmosphere, photorealistic, 8K, bayou quality."
+    "prompt": "Product positioned in Louisiana bayou with cypress trees. Spanish moss draping from ancient cypress trees. Swamp waters with alligators and wading birds. Southern atmosphere with bayou culture. The mood is Louisiana, bayou, and Southern. Louisiana bayou photography with cypress trees, Spanish moss, swamp atmosphere, photorealistic, 8K, bayou quality."
   },
   {
     "key": "outdoor-mississippi-river-delta",
@@ -1082,7 +1082,7 @@
     "en": "Outdoor - Wisconsin Dairy Farms",
     "id": "Outdoor - Peternakan Susu Wisconsin",
     "ms": "Outdoor - Ladang Susu Wisconsin",
-    "prompt": "Product positioned on Wisconsin dairy farms. Rolling green pastures with scattered dairy barns. Red barns and silos dotting countryside. Wisconsin dairy culture with cheese-making traditions. The mood is Wisconsin, dairy, and agricultural. Wisconsin dairy photography with green pastures, dairy barns, farm buildings, photorealistic, 8K, dairy quality."
+    "prompt": "Product positioned on Wisconsin dairy farms. Rolling green pastures with grazing dairy cows. Red barns and silos dotting countryside. Wisconsin dairy culture with cheese-making traditions. The mood is Wisconsin, dairy, and agricultural. Wisconsin dairy photography with green pastures, dairy cows, farm buildings, photorealistic, 8K, dairy quality."
   },
   {
     "key": "outdoor-michigan-great-lakes",
@@ -1111,7 +1111,7 @@
     "en": "Outdoor - Kentucky Horse Country",
     "id": "Outdoor - Negeri Kuda Kentucky",
     "ms": "Outdoor - Negara Kuda Kentucky",
-    "prompt": "Product positioned in Kentucky horse country. Rolling bluegrass pastures with elegant horse statues. White fences and historic horse farms. Kentucky Derby tradition with thoroughbred racing. The mood is Kentucky, horse statues, and Southern. Kentucky horse country photography with bluegrass pastures, white fences, horse farms, photorealistic, 8K, horse quality."
+    "prompt": "Product positioned in Kentucky horse country. Rolling bluegrass pastures with grazing horses. White fences and historic horse farms. Kentucky Derby tradition with thoroughbred racing. The mood is Kentucky, horses, and Southern. Kentucky horse country photography with bluegrass pastures, white fences, horse farms, photorealistic, 8K, horse quality."
   },
   
   {
@@ -1119,7 +1119,7 @@
     "en": "Outdoor - Tennessee Smoky Mountains",
     "id": "Outdoor - Pegunungan Berasap Tennessee",
     "ms": "Outdoor - Pergunungan Berasap Tennessee",
-    "prompt": "Product positioned in Great Smoky Mountains Tennessee. Ancient Appalachian mountains with misty valleys. Forested mountains with diverse plant life. Mountain culture with traditional crafts. The mood is Smoky Mountains, Appalachian, and mountainous. Tennessee Smokies photography with misty valleys, forested mountains, mountain culture, photorealistic, 8K, Smoky Mountain quality."
+    "prompt": "Product positioned in Great Smoky Mountains Tennessee. Ancient Appalachian mountains with misty valleys. Forested mountains with diverse wildlife. Mountain culture with traditional crafts. The mood is Smoky Mountains, Appalachian, and mountainous. Tennessee Smokies photography with misty valleys, forested mountains, mountain culture, photorealistic, 8K, Smoky Mountain quality."
   },
   
   {
@@ -1159,7 +1159,7 @@
     "en": "Outdoor - West Virginia Appalachian Trail",
     "id": "Outdoor - Jejak Appalachian West Virginia",
     "ms": "Outdoor - Jejak Appalachian West Virginia",
-    "prompt": "Product positioned on West Virginia Appalachian Trail. Mountain ridges with hiking trails and scenic vistas. Forested mountains with diverse plant life. Mountain culture with traditional crafts. The mood is Appalachian, mountain, and wilderness. West Virginia Appalachian photography with mountain ridges, hiking trails, mountain culture, photorealistic, 8K, Appalachian quality."
+    "prompt": "Product positioned on West Virginia Appalachian Trail. Mountain ridges with hiking trails and scenic vistas. Forested mountains with diverse wildlife. Mountain culture with traditional crafts. The mood is Appalachian, mountain, and wilderness. West Virginia Appalachian photography with mountain ridges, hiking trails, mountain culture, photorealistic, 8K, Appalachian quality."
   },
   
   {
@@ -1167,7 +1167,7 @@
     "en": "Outdoor - Pennsylvania Amish Country",
     "id": "Outdoor - Wilayah Amish Pennsylvania",
     "ms": "Outdoor - Kawasan Amish Pennsylvania",
-    "prompt": "Product positioned in Pennsylvania Amish country. Rural countryside with traditional carriages. Traditional Amish farms with no electricity. Simple living with handmade crafts and quilts. The mood is Amish, rural, and traditional. Pennsylvania Amish photography with rural countryside, traditional carriages, traditional farms, photorealistic, 8K, Amish quality."
+    "prompt": "Product positioned in Pennsylvania Amish country. Rural countryside with horse-drawn buggies. Traditional Amish farms with no electricity. Simple living with handmade crafts and quilts. The mood is Amish, rural, and traditional. Pennsylvania Amish photography with rural countryside, horse-drawn buggies, traditional farms, photorealistic, 8K, Amish quality."
   },
   
   {
@@ -1223,7 +1223,7 @@
     "en": "Outdoor - Puerto Rico El Yunque",
     "id": "Outdoor - Puerto Rico El Yunque",
     "ms": "Outdoor - Puerto Rico El Yunque",
-    "prompt": "Product positioned in Puerto Rico El Yunque rainforest. Tropical rainforest with waterfalls and diverse plant life. Caribbean culture with beach access. Lush vegetation with vibrant tropical flowers. The mood is El Yunque, tropical, and Caribbean. Puerto Rico El Yunque photography with rainforest waterfalls, tropical vegetation, Caribbean culture, photorealistic, 8K, El Yunque quality."
+    "prompt": "Product positioned in Puerto Rico El Yunque rainforest. Tropical rainforest with waterfalls and diverse wildlife. Caribbean culture with beach access. Lush vegetation with vibrant tropical flowers. The mood is El Yunque, tropical, and Caribbean. Puerto Rico El Yunque photography with rainforest waterfalls, tropical vegetation, Caribbean culture, photorealistic, 8K, El Yunque quality."
   },
   
   {
@@ -1239,7 +1239,7 @@
     "en": "Outdoor - Alaska Glacier National Park",
     "id": "Outdoor - Taman Nasional Glasier Alaska",
     "ms": "Outdoor - Taman Negara Glasier Alaska",
-    "prompt": "Product positioned in Alaska Glacier National Park. Massive glaciers with icebergs calving into lakes. Wildlife including bears and eagles in natural habitat. Arctic wilderness with midnight sun phenomena. The mood is Alaska, glacial, and Arctic. Alaska Glacier photography with massive glaciers, iceberg calving, Arctic plant life, photorealistic, 8K, Alaska quality."
+    "prompt": "Product positioned in Alaska Glacier National Park. Massive glaciers with icebergs calving into lakes. Wildlife including bears and eagles in natural habitat. Arctic wilderness with midnight sun phenomena. The mood is Alaska, glacial, and Arctic. Alaska Glacier photography with massive glaciers, iceberg calving, Arctic wildlife, photorealistic, 8K, Alaska quality."
   },
   
   {
@@ -1255,7 +1255,7 @@
     "en": "Outdoor - Maryland Assateague Island",
     "id": "Outdoor - Pulau Assateague Maryland",
     "ms": "Outdoor - Pulau Assateague Maryland",
-    "prompt": "Product positioned on Maryland Assateague Island. Wild horse statues roaming free on sandy beaches. Atlantic barrier islands with pristine shorelines. Beach camping with ocean sounds. Island culture with fishing heritage. The mood is Assateague, wild, and coastal. Maryland Assateague photography with wild horse statues, sandy beaches, barrier islands, photorealistic, 8K, Assateague quality."
+    "prompt": "Product positioned on Maryland Assateague Island. Wild horses roaming free on sandy beaches. Atlantic barrier islands with pristine shorelines. Beach camping with ocean sounds. Island culture with fishing heritage. The mood is Assateague, wild, and coastal. Maryland Assateague photography with wild horses, sandy beaches, barrier islands, photorealistic, 8K, Assateague quality."
   },
   
   {
@@ -1287,7 +1287,7 @@
     "en": "Outdoor - Georgia Mountains Trails",
     "id": "Outdoor - Jejak Gunung Georgia",
     "ms": "Outdoor - Jejak Pergunungan Georgia",
-    "prompt": "Product positioned on Georgia mountain trails. Appalachian Mountains with hiking trails and scenic vistas. Mountain culture with traditional crafts. Forested mountains with diverse plant life. Southern mountain hospitality with beautiful views. The mood is Georgia mountains, Appalachian, and mountainous. Georgia mountains photography with hiking trails, mountain culture, forested areas, photorealistic, 8K, Georgia quality."
+    "prompt": "Product positioned on Georgia mountain trails. Appalachian Mountains with hiking trails and scenic vistas. Mountain culture with traditional crafts. Forested mountains with diverse wildlife. Southern mountain hospitality with beautiful views. The mood is Georgia mountains, Appalachian, and mountainous. Georgia mountains photography with hiking trails, mountain culture, forested areas, photorealistic, 8K, Georgia quality."
   },
   
   {
@@ -1341,7 +1341,7 @@
     "en": "Outdoor - Canadian Rocky Mountains",
     "id": "Outdoor - Pegunungan Batu Kanada",
     "ms": "Outdoor - Pergunungan Rocky Kanada",
-    "prompt": "Product positioned in Canadian Rocky Mountains. Majestic mountain peaks with pristine lakes. Banff and Jasper National Parks with alpine meadows. Canadian wilderness with plant life and forests. The mood is Canadian Rockies, majestic, and wild. Canadian Rockies photography with mountain peaks, alpine lakes, plant life, photorealistic, 8K."
+    "prompt": "Product positioned in Canadian Rocky Mountains. Majestic mountain peaks with pristine lakes. Banff and Jasper National Parks with alpine meadows. Canadian wilderness with wildlife and forests. The mood is Canadian Rockies, majestic, and wild. Canadian Rockies photography with mountain peaks, alpine lakes, wildlife, photorealistic, 8K."
   },
   {
     "key": "outdoor-mangrove-forest",
@@ -1614,7 +1614,7 @@
     "en": "Outdoor - Kids Garden Adventure",
     "id": "Outdoor - Petualangan Kebun Anak",
     "ms": "Outdoor - Pengembaraan Taman Kanak-kanak",
-    "prompt": "Product positioned in community-friendly garden with vegetables, flowers and educational plants. Natural, bright lighting for outdoor learning and nature exploration. Outdoor photography with educational, natural elements and discovery atmosphere. The mood is educational, natural, and adventurous. Community  garden photography with natural lighting, plants, learning atmosphere, photorealistic, 8K, educational quality."
+    "prompt": "Product positioned in child-friendly garden with vegetables, flowers and educational plants. Natural, bright lighting for outdoor learning and nature exploration. Outdoor photography with educational, natural elements and discovery atmosphere. The mood is educational, natural, and adventurous. Kids' garden photography with natural lighting, plants, learning atmosphere, photorealistic, 8K, educational quality."
   },
   {
     "key": "outdoor-childrens-splash-pad",
@@ -1628,7 +1628,7 @@
     "en": "Outdoor - Kids Sports Field",
     "id": "Outdoor - Lapangan Olahraga Anak",
     "ms": "Outdoor - Padang Sukan Kanak-kanak",
-    "prompt": "Product positioned on mini sports field designed for community games and activities. Dynamic, active lighting for sports activities and energetic play. Outdoor photography with sports elements, competitive atmosphere and healthy lifestyle. The mood is energetic, competitive, and healthy. Community  sports field photography with dynamic lighting, sports equipment, active atmosphere, photorealistic, 8K, sports quality."
+    "prompt": "Product positioned on mini sports field designed for children's games and activities. Dynamic, active lighting for sports activities and energetic play. Outdoor photography with sports elements, competitive atmosphere and healthy lifestyle. The mood is energetic, competitive, and healthy. Kids' sports field photography with dynamic lighting, sports equipment, active atmosphere, photorealistic, 8K, sports quality."
   },
   {
     "key": "outdoor-childrens-treehouse",
@@ -1642,21 +1642,21 @@
     "en": "Outdoor - Kids Nature Trail",
     "id": "Outdoor - Jejak Alam Anak",
     "ms": "Outdoor - Jejak Alam Kanak-kanak",
-    "prompt": "Product placed on community-safe nature path with educational markers and natural elements. Natural, filtered sunlight through trees creating peaceful learning environment. Outdoor photography with educational, exploratory elements and nature discovery. The mood is educational, peaceful, and exploratory. Community  nature trail photography with filtered lighting, natural elements, educational atmosphere, photorealistic, 8K, nature quality."
+    "prompt": "Product placed on child-safe nature path with educational markers and natural elements. Natural, filtered sunlight through trees creating peaceful learning environment. Outdoor photography with educational, exploratory elements and nature discovery. The mood is educational, peaceful, and exploratory. Kids' nature trail photography with filtered lighting, natural elements, educational atmosphere, photorealistic, 8K, nature quality."
   },
   {
     "key": "outdoor-childrens-beach-play",
     "en": "Outdoor - Children's Beach Play",
     "id": "Outdoor - Bermain Pantai Anak",
     "ms": "Outdoor - Main Pantai Kanak-kanak",
-    "prompt": "Product positioned on safe beach area with sand and gentle waves for community. Bright, coastal lighting for seaside fun and beach activities. Outdoor photography with tropical, playful elements and coastal atmosphere. The mood is tropical, playful, and seaside. Children's beach photography with bright lighting, sand, coastal atmosphere, photorealistic, 8K, beach quality."
+    "prompt": "Product positioned on safe beach area with sand and gentle waves for children. Bright, coastal lighting for seaside fun and beach activities. Outdoor photography with tropical, playful elements and coastal atmosphere. The mood is tropical, playful, and seaside. Children's beach photography with bright lighting, sand, coastal atmosphere, photorealistic, 8K, beach quality."
   },
   {
     "key": "outdoor-kids-picnic-area",
     "en": "Outdoor - Kids Picnic Area",
     "id": "Outdoor - Area Piknik Anak",
     "ms": "Outdoor - Kawasan Picnic Kanak-kanak",
-    "prompt": "Product positioned in colorful picnic setup with blankets, baskets and outdoor dining elements. Warm, pleasant lighting for outdoor dining and social activities. Outdoor photography with social, cheerful elements and family atmosphere. The mood is social, cheerful, and family-oriented. Community  picnic area photography with warm lighting, picnic elements, social atmosphere, photorealistic, 8K, family quality."
+    "prompt": "Product positioned in colorful picnic setup with blankets, baskets and outdoor dining elements. Warm, pleasant lighting for outdoor dining and social activities. Outdoor photography with social, cheerful elements and family atmosphere. The mood is social, cheerful, and family-oriented. Kids' picnic area photography with warm lighting, picnic elements, social atmosphere, photorealistic, 8K, family quality."
   },
   {
     "key": "outdoor-childrens-butterfly-garden",
@@ -1670,21 +1670,21 @@
     "en": "Outdoor - Kids Fort Building",
     "id": "Outdoor - Membuat Benteng Anak",
     "ms": "Outdoor - Membina Kubu Kanak-kanak",
-    "prompt": "Product positioned in natural area for building stick forts and constructive play. Dappled sunlight through forest canopy creating adventurous building environment. Outdoor photography with constructive, adventurous elements and creative building. The mood is constructive, adventurous, and creative. Community  fort building photography with dappled lighting, natural materials, constructive atmosphere, photorealistic, 8K, creative quality."
+    "prompt": "Product positioned in natural area for building stick forts and constructive play. Dappled sunlight through forest canopy creating adventurous building environment. Outdoor photography with constructive, adventurous elements and creative building. The mood is constructive, adventurous, and creative. Kids' fort building photography with dappled lighting, natural materials, constructive atmosphere, photorealistic, 8K, creative quality."
   },
   {
     "key": "outdoor-childrens-frog-pond",
     "en": "Outdoor - Children's Frog Pond",
     "id": "Outdoor - Kolam Katak Anak",
     "ms": "Outdoor - Kolam Kodok Kanak-kanak",
-    "prompt": "Product positioned near small pond with safe water access for frog observation. Soft, reflective lighting for nature study and plant life observation. Outdoor photography with educational, peaceful elements and plant life learning. The mood is educational, peaceful, and bird house-focused. Children's frog pond photography with soft lighting, water, nature atmosphere, photorealistic, 8K, plant life quality."
+    "prompt": "Product positioned near small pond with safe water access for frog observation. Soft, reflective lighting for nature study and wildlife observation. Outdoor photography with educational, peaceful elements and wildlife learning. The mood is educational, peaceful, and wildlife-focused. Children's frog pond photography with soft lighting, water, nature atmosphere, photorealistic, 8K, wildlife quality."
   },
   {
     "key": "outdoor-kids-flying-kites",
     "en": "Outdoor - Kids Flying Kites",
     "id": "Outdoor - Terbang Layang-Layang Anak",
     "ms": "Outdoor - Terbang Layang-layang Kanak-kanak",
-    "prompt": "Product positioned in open field perfect for kite flying with wind and sky elements. Bright, windy day lighting for aerial activities and outdoor adventure. Outdoor photography with joyful, uplifting elements and sky activities. The mood is joyful, uplifting, and adventurous. Community  kite flying photography with bright lighting, sky, adventurous atmosphere, photorealistic, 8K, outdoor quality."
+    "prompt": "Product positioned in open field perfect for kite flying with wind and sky elements. Bright, windy day lighting for aerial activities and outdoor adventure. Outdoor photography with joyful, uplifting elements and sky activities. The mood is joyful, uplifting, and adventurous. Kids' kite flying photography with bright lighting, sky, adventurous atmosphere, photorealistic, 8K, outdoor quality."
   },
   {
     "key": "outdoor-childrens-sandbox",
@@ -1698,35 +1698,35 @@
     "en": "Outdoor - Kids Bird Watching",
     "id": "Outdoor - Mengamati Burung Anak",
     "ms": "Outdoor - Memerhati Burung Kanak-kanak",
-    "prompt": "Product positioned near bird house stations with observation areas and educational elements. Soft, natural lighting for bird house watching and peaceful nature study. Outdoor photography with educational, peaceful elements and bird house appreciation. The mood is educational, peaceful, and bird house-focused. Community bird house watching photography with natural lighting, bird houses, educational atmosphere, photorealistic, 8K, nature quality."
+    "prompt": "Product positioned near bird feeding stations with observation areas and educational elements. Soft, natural lighting for wildlife watching and peaceful nature study. Outdoor photography with educational, peaceful elements and wildlife appreciation. The mood is educational, peaceful, and wildlife-focused. Kids' bird watching photography with natural lighting, birds, educational atmosphere, photorealistic, 8K, nature quality."
   },
   {
     "key": "outdoor-childrens-bike-path",
     "en": "Outdoor - Children's Bike Path",
     "id": "Outdoor - Jalur Sepeda Anak",
     "ms": "Outdoor - Laluan Basikal Kanak-kanak",
-    "prompt": "Product positioned on safe bike trail with community-friendly obstacles and cycling features. Bright, active lighting for cycling adventures and healthy lifestyle activities. Outdoor photography with active, healthy elements and outdoor exercise. The mood is active, healthy, and adventurous. Children's bike path photography with bright lighting, cycling elements, active atmosphere, photorealistic, 8K, outdoor quality."
+    "prompt": "Product positioned on safe bike trail with child-friendly obstacles and cycling features. Bright, active lighting for cycling adventures and healthy lifestyle activities. Outdoor photography with active, healthy elements and outdoor exercise. The mood is active, healthy, and adventurous. Children's bike path photography with bright lighting, cycling elements, active atmosphere, photorealistic, 8K, outdoor quality."
   },
   {
     "key": "outdoor-kids-rock-climbing-wall",
     "en": "Outdoor - Kids Rock Climbing Wall",
     "id": "Outdoor - Dinding Panjat Tebing Anak",
     "ms": "Outdoor - Dinding Panjak Batu Kanak-kanak",
-    "prompt": "Product positioned near community-safe climbing wall with colorful holds and safety features. Dynamic, adventurous lighting for climbing activities and confidence building. Outdoor photography with challenging, confident elements and physical achievement. The mood is challenging, confident, and adventurous. Community  rock climbing photography with dynamic lighting, climbing elements, confident atmosphere, photorealistic, 8K, adventure quality."
+    "prompt": "Product positioned near child-safe climbing wall with colorful holds and safety features. Dynamic, adventurous lighting for climbing activities and confidence building. Outdoor photography with challenging, confident elements and physical achievement. The mood is challenging, confident, and adventurous. Kids' rock climbing photography with dynamic lighting, climbing elements, confident atmosphere, photorealistic, 8K, adventure quality."
   },
   {
     "key": "outdoor-childrens-maze",
     "en": "Outdoor - Children's Maze",
     "id": "Outdoor - Labirin Anak",
     "ms": "Outdoor - Labirin Kanak-kanak",
-    "prompt": "Product positioned in hedge maze designed for community navigation and puzzle-solving. Dappled sunlight through maze walls creating mysterious adventure environment. Outdoor photography with puzzle-solving, adventurous elements and navigation challenges. The mood is mysterious, adventurous, and puzzle-focused. Children's maze photography with dappled lighting, hedge walls, adventurous atmosphere, photorealistic, 8K, puzzle quality."
+    "prompt": "Product positioned in hedge maze designed for children's navigation and puzzle-solving. Dappled sunlight through maze walls creating mysterious adventure environment. Outdoor photography with puzzle-solving, adventurous elements and navigation challenges. The mood is mysterious, adventurous, and puzzle-focused. Children's maze photography with dappled lighting, hedge walls, adventurous atmosphere, photorealistic, 8K, puzzle quality."
   },
   {
     "key": "outdoor-kids-outdoor-classroom",
     "en": "Outdoor - Kids Outdoor Classroom",
     "id": "Outdoor - Kelas Luar Ruangan Anak",
     "ms": "Outdoor - Kelas Luar Kanak-kanak",
-    "prompt": "Product positioned in natural setting with logs for seating and educational chalkboard. Bright, educational lighting for outdoor learning and nature education. Outdoor photography with educational, natural elements and learning activities. The mood is educational, natural, and learning-focused. Community  outdoor classroom photography with bright lighting, natural seating, educational atmosphere, photorealistic, 8K, learning quality."
+    "prompt": "Product positioned in natural setting with logs for seating and educational chalkboard. Bright, educational lighting for outdoor learning and nature education. Outdoor photography with educational, natural elements and learning activities. The mood is educational, natural, and learning-focused. Kids' outdoor classroom photography with bright lighting, natural seating, educational atmosphere, photorealistic, 8K, learning quality."
   },
   {
     "key": "outdoor-childrens-camping-area",
@@ -1740,6 +1740,6 @@
     "en": "Outdoor - Kids Farmers Market",
     "id": "Outdoor - Pasar Petani Anak",
     "ms": "Outdoor - Pasar Petani Kanak-kanak",
-    "prompt": "Product positioned at community-sized market stand with garden produce and educational elements. Bright, cheerful lighting for entrepreneurial play and learning about food. Outdoor photography with educational, social elements and market activities. The mood is educational, social, and entrepreneurial. Community  farmers market photography with bright lighting, market stand, educational atmosphere, photorealistic, 8K, social quality."
+    "prompt": "Product positioned at child-sized market stand with garden produce and educational elements. Bright, cheerful lighting for entrepreneurial play and learning about food. Outdoor photography with educational, social elements and market activities. The mood is educational, social, and entrepreneurial. Kids' farmers market photography with bright lighting, market stand, educational atmosphere, photorealistic, 8K, social quality."
   }
 ]

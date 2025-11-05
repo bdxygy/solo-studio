@@ -130,7 +130,7 @@
     "en": "Studio - Loop Lighting Pattern",
     "id": "Studio - Pola Cahaya Loop",
     "ms": "Studio - Pola Cahaya Gelung",
-    "prompt": "Product with loop lighting creating subtle shadow loop. Soft, natural illumination with gentle shadows. Classic product lighting adapted for commercial use. The mood is natural, professional, and clean. Loop lighting studio photography with soft shadows, natural illumination, professional composition, 8K, commercial quality."
+    "prompt": "Product with loop lighting creating subtle shadow loop. Soft, natural illumination with gentle shadows. Classic portrait lighting adapted for products. The mood is natural, professional, and clean. Loop lighting studio photography with soft shadows, natural illumination, professional composition, 8K, commercial quality."
   },
   {
     "key": "studio-beauty-dish",
@@ -690,7 +690,7 @@
     "en": "Studio - Rembrandt Lighting",
     "id": "Studio - Pencahayaan Rembrandt",
     "ms": "Studio - Pencahayaan Rembrandt",
-    "prompt": "Product with Rembrandt lighting pattern. Classic triangle of light on cheek area. Professional studio setup with single key light. The mood is classic, artistic, and dramatic. Rembrandt studio photography with classic lighting, triangle shadow, artistic composition, 8K, product quality."
+    "prompt": "Product with Rembrandt lighting pattern. Classic triangle of light on cheek area. Professional studio setup with single key light. The mood is classic, artistic, and dramatic. Rembrandt studio photography with classic lighting, triangle shadow, artistic composition, 8K, portrait quality."
   },
   {
     "key": "studio-split-lighting",
@@ -711,21 +711,21 @@
     "en": "Studio - Loop Lighting",
     "id": "Studio - Pencahayaan Loop",
     "ms": "Studio - Pencahayaan Gelung",
-    "prompt": "Product with loop lighting pattern. Small loop-shaped shadow under the eye. Professional studio setup with angled key light. The mood is natural, flattering, and professional. Loop studio photography with natural lighting, soft shadows, flattering composition, 8K, product quality."
+    "prompt": "Product with loop lighting pattern. Small loop-shaped shadow under the eye. Professional studio setup with angled key light. The mood is natural, flattering, and professional. Loop studio photography with natural lighting, soft shadows, flattering composition, 8K, portrait quality."
   },
   {
     "key": "studio-broad-lighting",
     "en": "Studio - Broad Lighting",
     "id": "Studio - Pencahayaan Luas",
     "ms": "Studio - Pencahayaan Luas",
-    "prompt": "Product with broad lighting technique. Light illuminates the side of face turned toward camera. Professional studio setup for flattering product shots. The mood is bright, open, and friendly. Broad studio photography with bright lighting, open shadows, friendly composition, 8K, product quality."
+    "prompt": "Product with broad lighting technique. Light illuminates the side of face turned toward camera. Professional studio setup for flattering portraits. The mood is bright, open, and friendly. Broad studio photography with bright lighting, open shadows, friendly composition, 8K, portrait quality."
   },
   {
     "key": "studio-short-lighting",
     "en": "Studio - Short Lighting",
     "id": "Studio - Pencahayaan Pendek",
     "ms": "Studio - Pencahayaan Pendek",
-    "prompt": "Product with short lighting technique. Light illuminates the side of product turned away from camera. Professional studio setup for dramatic product shots. The mood is dramatic, sophisticated, and artistic. Short studio photography with dramatic lighting, artistic shadows, sophisticated composition, 8K, product quality."
+    "prompt": "Product with short lighting technique. Light illuminates the side of face turned away from camera. Professional studio setup for dramatic portraits. The mood is dramatic, sophisticated, and artistic. Short studio photography with dramatic lighting, artistic shadows, sophisticated composition, 8K, portrait quality."
   },
   {
     "key": "studio-rim-lighting",

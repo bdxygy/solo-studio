@@ -99,6 +99,7 @@ function mergeThemeFiles(inputDir, outputFile) {
     try {
         themeFiles = fs.readdirSync(inputDir)
             .filter(file => file.endsWith('.json'))
+            .filter(file => !file.startsWith('_')) // Exclude files starting with underscore
             .sort(); // Sort for consistent ordering
     } catch (error) {
         console.error(`Error reading directory ${inputDir}:`, error.message);

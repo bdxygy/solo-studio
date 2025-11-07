@@ -115,6 +115,13 @@ SoloPhoto/
 - Modify API endpoints if switching to different AI services
 - Maintain consistent payload structure for API calls
 
+**Content Constraints (Sharia Compliance):**
+- All AI-generated content must follow strict Sharia compliance constraints
+- No humans, animals, living creatures, religious symbols, human figures, faces, or bodies
+- No content related to wine, alcohol, bars, gambling, music, discotic venues, home theaters, or other prohibited elements
+- Only furniture, decor items, architectural elements, wall art, plants, and inanimate objects allowed
+- These constraints are automatically added by the merge-prompts.js script during prompt generation
+
 **Styling Updates:**
 - Modify CSS variables in `:root` for theme changes
 - Use Tailwind utility classes for rapid styling

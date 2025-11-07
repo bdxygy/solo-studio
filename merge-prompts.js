@@ -121,15 +121,11 @@ function mergeThemeFiles(inputDir, outputFile) {
             // Add category prefix to each prompt key and add compliance constraints
             const categorizedPrompts = prompts.map(prompt => {
                 const shariaConstraints = " STRICT CONSTRAINTS: No humans, no animals, no living creatures, no religious symbols, no human figures, no faces, no bodies. Only furniture, decor items, architectural elements, wall art, plants, and inanimate objects allowed. Must comply with Sharia law principles.";
-                const compositionConstraints = " PHOTO COMPOSITION: Product must occupy 65% of frame, environment 35% of frame. Product display oriented photography with clear focus on product details. Environment serves as complementary background only. Commercial product catalog composition with dominant product presence.";
 
                 // Add constraints to the prompt if not already present
                 let enhancedPrompt = prompt.prompt;
                 if (!enhancedPrompt.includes("STRICT CONSTRAINTS")) {
                     enhancedPrompt += shariaConstraints;
-                }
-                if (!enhancedPrompt.includes("PHOTO COMPOSITION:")) {
-                    enhancedPrompt += " " + compositionConstraints;
                 }
 
                 return {
